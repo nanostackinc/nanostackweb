@@ -1,0 +1,71 @@
+.navbar-brand {
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #6477E2;
+    font-size: 30px;
+}
+
+.navbar-brand .title {
+    font-family: "Poppins";
+    color: #6BE2D5;
+    font-weight: 500;
+}
+
+nav .logo {
+    width: 50px;
+    height: 50px;
+}
+
+.toggler {
+    display: none;
+    border: none;
+    background-color: white;
+}
+
+.list {
+    display: block;
+    align-items: center;
+}
+
+
+.list ul {
+    display: inline-flex;
+    gap: 64px;
+}
+
+@media (max-width: 991.98px) {
+    .toggler {
+        display: block;
+        align-items: center;
+        border: none;
+        background-color: white;
+    }
+
+    .list ul {
+        gap: 15px;
+    }
+}
+
+/* Media query untuk mobile */
+@media (max-width: 767.98px) {
+    .toggler {
+        display: block;
+        align-items: center;
+        border: none;
+        background-color: white;
+    }
+
+    .list ul {
+        margin-top: 20px;
+        gap: 15px;
+    }
+}
+
+.list ul li {
+    color: rgba(33, 33, 33, 0.90);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
