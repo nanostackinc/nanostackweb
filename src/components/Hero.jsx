@@ -2,7 +2,7 @@ import React from 'react'
 import HeroImage from '../assets/images/hero.png'
 function Hero(){
     return(
-        <div id="hero">
+        <section id="hero">
         <div class="container position-relative my-5">
             <div class="row">
                 <div class="col-md-7">
@@ -22,7 +22,7 @@ function Hero(){
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     )
 }
 export default  Hero

@@ -71,7 +71,55 @@
     letter-spacing: -0.98px;
     text-align: center;
 }
+/* End of Hero Style */
 
+/* Contact Style */
+/* contact section */
+#contact h1{
+    color: var(--black);
+    text-align: center;
+    
+    /* Heading 2 */
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px; /* 150% */
+    letter-spacing: -2.24px;
+    text-transform: capitalize;
+}
+
+#contact h5{
+    color: var(--black, #333);
+
+    /* Body 1 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+}
+#contact p{
+    color: var(--black-80, rgba(51, 51, 51, 0.80));
+
+    /* Body 1 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+}
+
+#contact img{
+    border-radius: 24px;
+}
+
+#contact .card-body{
+    padding: 14px;
+}
+/* End of Contact Style */
 
 .navbar-brand {
     font-family: "Poppins";
@@ -144,3 +192,44 @@ nav .logo {
     font-weight: 400;
     line-height: normal;
 }
+
+/* wa floating style */
+#wa.btn-floating{
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    overflow: hidden;
+    width: 50px;
+    padding-left: 9px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    z-index: 99;
+    color: white;
+    transition: .2s;
+    background-color: #34af23;
+  }
+  
+  #wa.btn-floating:hover{
+    width: auto;
+    padding: 0 15px;
+    cursor: pointer;
+  }
+  
+  #wa.btn-floating:hover img{
+    margin-bottom: -3px;
+  }
+  
+  #wa.btn-floating span{
+    font-family: var(--main-font);
+    font-size: 14px;
+    margin-left: 5px;
+    transition: .8s;
+    line-height: 0px;
+    display: none;
+  }
+  
+  #wa.btn-floating:hover span{
+    display: inline-block;
+  }
+/* end of wabutton style */
