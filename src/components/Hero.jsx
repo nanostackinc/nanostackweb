@@ -1,5 +1,5 @@
 import React from 'react'
-
+import HeroImage from '../assets/images/hero.png'
 function Hero(){
     return(
         <div id="hero">
@@ -18,7 +18,7 @@ function Hero(){
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <img src=".../nanostackweb/src/assets/images/hero.png" class="img-fluid p-4" alt=""/>
+                    <img src={HeroImage} class="img-fluid p-4" alt=""/>
                 </div>
             </div>
         </div>
