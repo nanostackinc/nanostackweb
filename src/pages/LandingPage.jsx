@@ -7,6 +7,7 @@ import Contact from '../parts/Contact'
 import Portofolio from '../parts/Portofolio'
 import landingPageData from '../json/content.json'
 import Testimonial from '../parts/Testimonial'
+import Footer from '../parts/footer'
 
 function LandingPage(){
     return(
@@ -18,6 +19,7 @@ function LandingPage(){
         <Testimonial data={landingPageData.testimonial}/>
         <WhatsAppButton/>
         <Contact/>
+        <Footer/>
         </div>
     )
 }
