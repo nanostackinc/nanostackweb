@@ -15,7 +15,7 @@ function LandingPage(){
         <Hero data={landingPageData.hero}/>
         <About data={landingPageData.about}/>
         <Portofolio data={landingPageData.portfolio}/>
-        <Testimonial/>
+        <Testimonial data={landingPageData.testimonial}/>
         <WhatsAppButton/>
         <Contact/>
         </div>

@@ -28,7 +28,7 @@ function Portofolio({data}) {
                 </div>
                 <div className={colClassText}>
                   <div className="text-card  card-body">
-                    <h5 className="card-title">{item.title}</h5>
+                    <h5 className="card-title mt-4">{item.title}</h5>
                     <p className="card-text">{item.description}</p>
                   </div>
                 </div>

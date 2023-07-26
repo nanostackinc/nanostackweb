@@ -34,19 +34,25 @@
             }
         ]
     },
-    "testimonial": [{
-            "name": "John Doe",
-            "designation": "CEO, ABC Inc.",
-            "testimonial_text": "Amazing work! The team delivered exactly what we needed and more.",
-            "image": "john_doe.jpg"
-        },
-        {
-            "name": "Jane Smith",
-            "designation": "Marketing Manager, XYZ Corp.",
-            "testimonial_text": "Working with this team was a fantastic experience. Highly recommended!",
-            "image": "jane_smith.jpg"
-        }
-    ],
+    "testimonial": {
+        "title": "Customer Love: What People Are Saying",
+        "material": [{
+                "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                "name": "Darya Finger",
+                "job": "CEO & Co-Founder @Dropbox"
+            },
+            {
+                "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                "name": "John Doe",
+                "job": "Software Engineer"
+            },
+            {
+                "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                "name": "Jane Smith",
+                "job": "Marketing Specialist"
+            }
+        ]
+    },
     "contact": {
         "title": "Contact Us",
         "address": "123 Main Street, City, Country",
