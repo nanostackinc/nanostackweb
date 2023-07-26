@@ -1,16 +1,21 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import About from '../components/About'
-import WhatsAppButton from '../components/wabutton'
-import Contact from '../components/Contact'
+import Navbar from '../parts/Navbar'
+import Hero from '../parts/Hero'
+import About from '../parts/About'
+import WhatsAppButton from '../parts/wabutton'
+import Contact from '../parts/Contact'
+import Portofolio from '../parts/Portofolio'
+import landingPageData from '../json/content.json'
+import Testimonial from '../parts/Testimonial'
 
- function LandingPage(){
+function LandingPage(){
     return(
         <div className="container">
         <Navbar/>
-        <Hero/>
-        <About/>
+        <Hero data={landingPageData.hero}/>
+        <About data={landingPageData.about}/>
+        <Portofolio data={landingPageData.portfolio}/>
+        <Testimonial/>
         <WhatsAppButton/>
         <Contact/>
         </div>

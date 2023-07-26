@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactImage from '../assets/images/contactt.jpg'
+import ContactImage from '../assets/images/contact.jpg'
 import Map from '../assets/images/icon/MapPin.svg'
 import Phone from '../assets/images/icon/Phone.svg'
 import Email from '../assets/images/icon/Envelope.svg'

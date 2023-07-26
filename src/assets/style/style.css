@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-:root{
-    --main-color : #4E96E1;
-    --black : var(--black, #333);
+:root {
+    --main-color: #4E96E1;
+    --black: var(--black, #333);
 
     --main-font: Open Sans;
 }
 
-#hero h1, #about h1{
+#hero h1,
+#about h1 {
     color: var(--black, #333);
 
     /* Heading 1 */
@@ -15,13 +16,15 @@
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: 64px; /* 160% */
+    line-height: 64px;
+    /* 160% */
     letter-spacing: -2.8px;
     text-transform: capitalize;
     padding-bottom: 24px;
 }
 
-#hero p, #about p{
+#hero p,
+#about p {
     color: var(--black-80, rgba(51, 51, 51, 0.80));
 
     /* Body 1 */
@@ -33,7 +36,7 @@
     letter-spacing: -1.12px;
 }
 
-.hero-btn1{
+.hero-btn1 {
     display: flex;
     padding: 12px 12px;
     align-items: flex-start;
@@ -52,7 +55,7 @@
     letter-spacing: -0.98px;
 }
 
-.hero-btn2{
+.hero-btn2 {
     display: flex;
     padding: 12px 12px;
     align-items: flex-start;
@@ -71,25 +74,27 @@
     letter-spacing: -0.98px;
     text-align: center;
 }
+
 /* End of Hero Style */
 
 /* Contact Style */
 /* contact section */
-#contact h1{
+#contact h1 {
     color: var(--black);
     text-align: center;
-    
+
     /* Heading 2 */
     font-family: Open Sans;
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
-    line-height: 48px; /* 150% */
+    line-height: 48px;
+    /* 150% */
     letter-spacing: -2.24px;
     text-transform: capitalize;
 }
 
-#contact h5{
+#contact h5 {
     color: var(--black, #333);
 
     /* Body 1 */
@@ -100,7 +105,8 @@
     line-height: normal;
     letter-spacing: -1.12px;
 }
-#contact p{
+
+#contact p {
     color: var(--black-80, rgba(51, 51, 51, 0.80));
 
     /* Body 1 */
@@ -112,31 +118,35 @@
     letter-spacing: -1.12px;
 }
 
-#contact img{
+#contact img {
     border-radius: 24px;
 }
 
-#contact .card-body{
+#contact .card-body {
     padding: 14px;
 }
+
 /* End of Contact Style */
 
-.navbar-brand {
-    font-family: "Poppins";
-    font-weight: 500;
-    color: #6477E2;
-    font-size: 30px;
+/* Start navbar style */
+nav {
+    display: flex;
+    padding: 32px 100px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navbar-brand .title {
-    font-family: "Poppins";
-    color: #6BE2D5;
-    font-weight: 500;
-}
-
-nav .logo {
-    width: 50px;
-    height: 50px;
+nav #logo {
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    color: var(--black, #333);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -1.68px;
 }
 
 .toggler {
@@ -153,7 +163,7 @@ nav .logo {
 
 .list ul {
     display: inline-flex;
-    gap: 64px;
+    gap: 48px;
 }
 
 @media (max-width: 991.98px) {
@@ -185,16 +195,18 @@ nav .logo {
 }
 
 .list ul li {
-    color: rgba(33, 33, 33, 0.90);
-    font-family: Inter;
+    color: var(--black-80, rgba(51, 51, 51, 0.80));
+    font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
+    letter-spacing: -1.12px;
+    text-transform: capitalize;
 }
 
 /* wa floating style */
-#wa.btn-floating{
+#wa.btn-floating {
     position: fixed;
     right: 20px;
     bottom: 25px;
@@ -208,28 +220,141 @@ nav .logo {
     color: white;
     transition: .2s;
     background-color: #34af23;
-  }
-  
-  #wa.btn-floating:hover{
+}
+
+#wa.btn-floating:hover {
     width: auto;
     padding: 0 15px;
     cursor: pointer;
-  }
-  
-  #wa.btn-floating:hover img{
+}
+
+#wa.btn-floating:hover img {
     margin-bottom: -3px;
-  }
-  
-  #wa.btn-floating span{
+}
+
+#wa.btn-floating span {
     font-family: var(--main-font);
     font-size: 14px;
     margin-left: 5px;
     transition: .8s;
     line-height: 0px;
     display: none;
-  }
-  
-  #wa.btn-floating:hover span{
+}
+
+#wa.btn-floating:hover span {
     display: inline-block;
-  }
+}
+
 /* end of wabutton style */
+/* Start portofolio syle */
+#portofolio {
+    display: flex;
+    width: 100%;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+#portofolio .title-port {
+    display: flex;
+    padding-bottom: 0px;
+    align-items: center;
+    gap: 10px;
+    color: var(--black, #333);
+    text-align: center;
+
+    /* Heading 2 */
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    /* 150% */
+    letter-spacing: -2.24px;
+    text-transform: capitalize;
+}
+
+.card-portofolio {
+    display: flex;
+    width: 100%;
+    margin-top: 32px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    background: #FFF;
+    border: #FFFF;
+    box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
+}
+
+.card-title {
+    color: var(--black, #333);
+
+    /* Heading 3 */
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    /* 133.333% */
+    letter-spacing: -1.68px;
+    text-transform: capitalize;
+}
+
+.text-card {
+    display: flex;
+    width: 344px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+}
+
+.car-card {
+    width: 376px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    /* nano Drop Shadow */
+    box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
+}
+
+.card-text {
+    align-self: stretch;
+    color: var(--black-80, rgba(51, 51, 51, 0.80));
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+}
+
+/* End of protofolio style */
+
+/* Start testimonial style */
+#testimonial {
+    display: flex;
+    width: 1240px;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background: #FFF;
+}
+
+.title-testi {
+    color: var(--black, #333);
+    text-align: center;
+
+    /* Heading 2 */
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    /* 150% */
+    letter-spacing: -2.24px;
+    text-transform: capitalize;
+}

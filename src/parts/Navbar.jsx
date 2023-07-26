@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-
+import { Logo } from '../assets'
 function Navbar(){
     const [isShowed,setIsShowed]=useState(false)
     const handleToogle=()=>{
@@ -7,8 +7,9 @@ function Navbar(){
     }
     return(
      <nav className="navbar navbar-expand-lg bg-body-none align-items-center">
-        <a className="navbar-brand" href="#">
-           nano<span className='title'>stack</span>
+        <a className="navbar-brand d-flex" id="logo" href="#">
+          <img src={Logo} className='me-2' alt='logo.png' style={{width:32,height:32}}/> 
+          nanostack 
         </a>
         <button className="toggler" type="button" onClick={handleToogle} data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText">
           <span>
@@ -28,10 +29,10 @@ function Navbar(){
               <a className="nav-link" href="#">Portofolio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
+              <a className="nav-link" href="#">Testimonial</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Testimonial</a>
+              <a className="nav-link" href="#">Contact</a>
             </li>
           </ul>
         

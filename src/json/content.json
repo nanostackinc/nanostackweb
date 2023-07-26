@@ -1,0 +1,56 @@
+{
+    "hero": {
+        "title": "Kickstart Your Ideas Through Digital Product Development",
+        "subtitle": "Our Software Development team is ready to build your Ideas within weeks ⚡️",
+        "background_image": " /images/hero.png",
+        "cta_text": "Chat Us",
+        "cta_link": "See our portfolio"
+    },
+    "about": {
+        "title": "A Dedicated Software Production Company Based In Indonesia",
+        "description_primary": "With our broad knowledge & experience in various Industry, We can help to achieve your goals in fast & efficient manner.",
+        "description_secondary": "We excel in designing and maintaining responsive user interface, crafting dynamic, engaging interfaces with clean and optimized code. Collaborating seamlessly with cross-functional teams, they ensure outstanding web/mobile applications that deliver a smooth user experience. Let's turn your vision into a reality within weeks! 🚀",
+        "image": " /images/about.png"
+    },
+    "portfolio": {
+        "title": "Each Project Is A Unique Piece Of Development",
+        "project": [{
+                "id": 1,
+                "title": "Car Rental 🚗",
+                "description": "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
+                "image": " /images/img_car.png"
+            },
+            {
+                "id": 2,
+                "title": "coindom 🪙",
+                "description": "Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time.",
+                "image": " /images/img_cry.png"
+            },
+            {
+                "id": 3,
+                "title": "Gymate 🏋️",
+                "description": "A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.",
+                "image": " /images/img_fit.png"
+            }
+        ]
+    },
+    "testimonial": [{
+            "name": "John Doe",
+            "designation": "CEO, ABC Inc.",
+            "testimonial_text": "Amazing work! The team delivered exactly what we needed and more.",
+            "image": "john_doe.jpg"
+        },
+        {
+            "name": "Jane Smith",
+            "designation": "Marketing Manager, XYZ Corp.",
+            "testimonial_text": "Working with this team was a fantastic experience. Highly recommended!",
+            "image": "jane_smith.jpg"
+        }
+    ],
+    "contact": {
+        "title": "Contact Us",
+        "address": "123 Main Street, City, Country",
+        "email": "contact@example.com",
+        "phone": "+1 (555) 123-4567"
+    }
+}
