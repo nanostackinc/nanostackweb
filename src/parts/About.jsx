@@ -1,22 +1,48 @@
 import React from 'react';
+import Logo from '../assets/images/icon/logo.svg'
+import Lightning from '../assets/images/icon/Lightning.svg'
+import Dollar from '../assets/images/icon/CurrencyDollar.svg'
+import Trend from '../assets/images/icon/TrendUp.svg'
 
 const About = ({data}) => {
   return (
     <section id="about">
       <div className="container position-relative">
         <div className="row">
-          <div className="col-md-5">
+          <div className="col-12 col-lg-5 d-flex justify-content-center position-relative justify-content-lg-start">
             <img src={data.image} className="img-fluid" alt={data.image}/>
+            <div class="d-flex">
+              <div class="card card-about1 position-absolute border-0">
+                <div class="card-body px-4 py-3">
+                  <p class="m-0"><span><img src={Lightning} class="pe-3" alt=""/></span>Accelerate Growth</p>
+                </div>
+              </div>
+              <div class="card card-about2 position-absolute border-0">
+                <div class="card-body px-4 py-3">
+                  <p class="m-0"><span><img src={Dollar} class="pe-3" alt=""/></span>Boost Profits</p>
+                </div>
+              </div>
+              <div class="card card-about3 position-absolute border-0">
+                <div class="card-body px-4 py-3">
+                  <p class="m-0"><span><img src={Trend} class="pe-3" alt=""/></span>Maximize Impact</p>
+                </div>
+              </div>
+              <div class="card card-logo2 position-absolute border-0 rounded-circle">
+                <div class="card-body px-4 py-3 d-flex justify-content-center ">
+                  <p class="m-0"><span><img src={Logo} class="px-auto" alt=""/></span></p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="col col-md-6 offset-1">
-            <h1>
+          <div className="col-12 col-lg-6 offset-lg-1 justify-content-center justify-content-lg-start">
+            <h1 class="text-center text-lg-start">
               {data.title}{' '}
               <i className="em em-flag-id"></i>
             </h1>
-            <p>
+            <p class="text-center text-lg-start">
               {data.description_primary}
             </p>
-            <p>
+            <p class="text-center text-lg-start">
               {data.description_secondary}
             </p>
           </div>

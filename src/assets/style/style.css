@@ -7,27 +7,25 @@
     --main-font: Open Sans;
 }
 
-#hero h1,
-#about h1 {
-    color: var(--black, #333);
+*{
+    z-index: 2;
+}
 
-    /* Heading 1 */
+/* Hero Section */
+#hero h1, #about h1{
+    color: var(--black, #333);
     font-family: var(--main-font);
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: 64px;
-    /* 160% */
+    line-height: 64px; /* 160% */
     letter-spacing: -2.8px;
     text-transform: capitalize;
     padding-bottom: 24px;
 }
 
-#hero p,
-#about p {
+#hero p, #about p{
     color: var(--black-80, rgba(51, 51, 51, 0.80));
-
-    /* Body 1 */
     font-family: var(--main-font);
     font-size: 16px;
     font-style: normal;
@@ -36,7 +34,7 @@
     letter-spacing: -1.12px;
 }
 
-.hero-btn1 {
+.hero-btn1{
     display: flex;
     padding: 12px 12px;
     align-items: flex-start;
@@ -55,7 +53,7 @@
     letter-spacing: -0.98px;
 }
 
-.hero-btn2 {
+.hero-btn2{
     display: flex;
     padding: 12px 12px;
     align-items: flex-start;
@@ -75,29 +73,159 @@
     text-align: center;
 }
 
-/* End of Hero Style */
 
-/* Contact Style */
-/* contact section */
-#contact h1 {
+.card-website{
+    top: 52px;
+    left: 10px;
+    z-index: 3;
+}
+.card-android{
+    top: 45%;
+    right: -10px;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+.card-product{
+    bottom: 0px;
+    left: 10px;  
+    z-index: 3;
+}
+.card-logo{
+    bottom: 38px;
+    right: 50px;
+    height: 64px;
+    width: 64px;
+    /* border-radius: 20%; */
+}
+#hero .card-body p, #about .card-body p{
+    color: var(--black, #333);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.98px;
+}
+.card{
+    border-radius: 12px;
+}
+/* End of Hero Section */
+
+/* About Section */
+.card-about1{
+    top: -20px;
+    left: 70px;
+    z-index: 3;
+}
+.card-about2{
+    top: 45%;
+    right: -50px;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+.card-about3{
+    bottom: -15px;
+    left: -10px;  
+    z-index: 3;
+}
+.card-logo2{
+    bottom: 15px;
+    right: 30px;
+    height: 64px;
+    width: 64px;
+}
+
+@media screen and (max-width:992px) {
+    .card-about1{
+        top: -20px;
+        left: 180px;
+        z-index: 3;
+    }
+    .card-about2{
+        top: 45%;
+        right: 60px;
+        transform: translateY(-50%);
+        z-index: 3;
+    }
+    .card-about3{
+        bottom: -15px;
+        left: 100px;  
+        z-index: 3;
+    }
+    .card-logo2{
+        bottom: 15px;
+        right: 140px;
+        height: 64px;
+        width: 64px;
+    }
+}
+@media screen and (max-width:768px) {
+    .card-about1{
+        top: -20px;
+        left: 90px;
+        z-index: 3;
+    }
+    .card-about2{
+        top: 45%;
+        right: -30px;
+        transform: translateY(-50%);
+        z-index: 3;
+    }
+    .card-about3{
+        bottom: -15px;
+        left: 10px;  
+        z-index: 3;
+    }
+    .card-logo2{
+        bottom: 15px;
+        right: 50px;
+        height: 64px;
+        width: 64px;
+    }
+}
+@media screen and (max-width:576px) {
+    .card-about1{
+        top: -20px;
+        left: 70px;
+        z-index: 3;
+    }
+    .card-about2{
+        top: 45%;
+        right: 0px;
+        transform: translateY(-50%);
+        z-index: 3;
+    }
+    .card-about3{
+        bottom: -15px;
+        left: 5px;  
+        z-index: 3;
+    }
+    .card-logo2{
+        bottom: 15px;
+        right: 30px;
+        height: 64px;
+        width: 64px;
+    }
+}
+/* End of About Section */
+
+/* Contact Section */
+#contact h1{
     color: var(--black);
     text-align: center;
-
+    
     /* Heading 2 */
     font-family: Open Sans;
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
-    line-height: 48px;
-    /* 150% */
+    line-height: 48px; /* 150% */
     letter-spacing: -2.24px;
     text-transform: capitalize;
 }
 
-#contact h5 {
+#contact h5{
     color: var(--black, #333);
-
-    /* Body 1 */
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
@@ -105,11 +233,8 @@
     line-height: normal;
     letter-spacing: -1.12px;
 }
-
-#contact p {
+#contact p{
     color: var(--black-80, rgba(51, 51, 51, 0.80));
-
-    /* Body 1 */
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
@@ -118,15 +243,14 @@
     letter-spacing: -1.12px;
 }
 
-#contact img {
+#contact img{
     border-radius: 24px;
 }
 
-#contact .card-body {
+#contact .card-body{
     padding: 14px;
 }
-
-/* End of Contact Style */
+/* End of Contact Section */
 
 /* Start navbar style */
 nav {
@@ -246,8 +370,8 @@ nav #logo {
     text-transform: capitalize;
 }
 
-/* wa floating style */
-#wa.btn-floating {
+/* Whatsapp Floating Button */
+#wa.btn-floating{
     position: fixed;
     right: 20px;
     bottom: 25px;
@@ -263,30 +387,30 @@ nav #logo {
     background-color: #34af23;
 }
 
-#wa.btn-floating:hover {
-    width: auto;
-    padding: 0 15px;
-    cursor: pointer;
+#wa.btn-floating:hover{
+width: auto;
+padding: 0 15px;
+cursor: pointer;
 }
 
-#wa.btn-floating:hover img {
-    margin-bottom: -3px;
+#wa.btn-floating:hover img{
+margin-bottom: -3px;
 }
 
-#wa.btn-floating span {
-    font-family: var(--main-font);
-    font-size: 14px;
-    margin-left: 5px;
-    transition: .8s;
-    line-height: 0px;
-    display: none;
+#wa.btn-floating span{
+font-family: var(--main-font);
+font-size: 14px;
+margin-left: 5px;
+transition: .8s;
+line-height: 0px;
+display: none;
 }
 
-#wa.btn-floating:hover span {
-    display: inline-block;
+#wa.btn-floating:hover span{
+display: inline-block;
 }
+/* End of Whatsapp Floating Button */
 
-/* end of wabutton style */
 /* Start portofolio syle */
 #portofolio {
     display: flex;
@@ -463,3 +587,38 @@ nav #logo {
     line-height: normal;
     letter-spacing: -1.12px;
 }
+
+/* Footer Section*/
+#footer p{
+    color: var(--black-80, rgba(51, 51, 51, 0.80));
+
+    /* Body 1 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+    margin-bottom: 32px;
+}
+
+#footer a{
+    color: var(--black-80, rgba(51, 51, 51, 0.80));
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+/* End of Footer Section */
+
+/* Responsive Section */
+@media screen and (max-width:992px) {
+    #hero p, #about p, #contact p, #contact h5{
+        font-size: 20px;
+    }
+}
+/* End of Responsive Section */
