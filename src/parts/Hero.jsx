@@ -9,12 +9,16 @@ export default function Hero({data}) {
             <h1>{data.title}</h1>
             <p>{data.subtitle}</p>
             <div className="d-flex justify-content-start">
-              <Button className='btn-primary '>{data.cta_text}</Button>
+            <a href="https://api.whatsapp.com/send?phone=08993845802" style={{textDecoration:"none"}}>
+              <Button className='btn-primary 'href="https://api.whatsapp.com/send?phone=08993845802">{data.cta_text}</Button>
+             </a>
+             <a href='#portofolio'>
               <Button
                 className='btn-light'
                 style={{
-                marginLeft: 16
-              }}>{data.cta_link}</Button>
+                  marginLeft: 16
+                }} href>{data.cta_link}</Button>
+                </a>
             </div>
           </div>
           <div className="col-md-5">
