@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../assets/images/icon/logo.svg'
 
-const Footer = () => {
+const Footer = ({data}) => {
   return (
     <section id="footer">
       <div className="container position-relative">
@@ -13,7 +13,7 @@ const Footer = () => {
               </span>
               nanostack
             </h5>
-            <p>Welcome to nanostack, where innovation meets excellence in software development! </p>
+            <p>{data.desc}</p>
           </div>
           <div className="col-12 col-md-3">
             <p><a href="#" className="fw-bolder">Menu</a></p>

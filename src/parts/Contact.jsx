@@ -10,14 +10,14 @@ const Contact = () => {
     <section id="contact">
       <div className="container position-relative my-5">
         <div className="row">
-          <div className="col col-md-6">
+          <div className="col-12 col-lg-6 my-3 my-lg-0">
             <img src={ContactImage} className="img-fluid" alt="" />
           </div>
-          <div className="col col-md-6">
+          <div className="col-12 col-lg-6 my-3 my-lg-0">
             <div className="row justify-content-center">
               <h1 className="text-center mb-3">Get in Touch: Reach Out Today</h1>
               <div className="row my-3">
-                <div className="col col-md-6 d-flex align-items-stretch">
+                <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
                   <div className="card d-flex flex-fill border-0">
                     <div className="card-body">
                       <h5 className="card-tagline">
@@ -30,7 +30,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col col-md-6 d-flex align-items-stretch">
+                <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
                   <div className="card d-flex flex-fill border-0">
                     <div className="card-body">
                       <h5 className="card-tagline">
@@ -45,7 +45,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="row ">
-                <div className="col col-md-6 d-flex align-items-stretch">
+                <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
                   <div className="card d-flex flex-fill border-0">
                     <div className="card-body">
                       <h5 className="card-tagline">
@@ -58,7 +58,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-12 col-sm-6 px-3 pb-3 pb-md-0 align-items-stretch">
+                <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
                   <div className="card d-flex flex-fill border-0">
                     <div className="card-body">
                       <h5 className="card-tagline">
