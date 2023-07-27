@@ -5,7 +5,7 @@ import Phone from '../assets/images/icon/Phone.svg'
 import Email from '../assets/images/icon/Envelope.svg'
 import Clock from '../assets/images/icon/Clock.svg'
 
-const Contact = () => {
+const Contact = ({data}) => {
   return (
     <section id="contact">
       <div className="container position-relative my-5">
@@ -15,7 +15,7 @@ const Contact = () => {
           </div>
           <div className="col col-md-6">
             <div className="row justify-content-center">
-              <h1 className="text-center mb-3">Get in Touch: Reach Out Today</h1>
+              <h1 className="text-center mb-3">{data.title}</h1>
               <div className="row my-3">
                 <div className="col col-md-6 d-flex align-items-stretch">
                   <div className="card d-flex flex-fill border-0">
@@ -26,7 +26,7 @@ const Contact = () => {
                         </span>
                         Address
                       </h5>
-                      <p>Jombang Kota, Jombang, East Java, Indonesia</p>
+                      <p>{data.address}</p>
                     </div>
                   </div>
                 </div>
@@ -39,7 +39,7 @@ const Contact = () => {
                         </span>
                         Phone
                       </h5>
-                      <p>+62 899-3845-802 (Dicky)</p>
+                      <p>{data.phone}</p>
                     </div>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                         </span>
                         Email
                       </h5>
-                      <p>nanostackindustries@gmail.com</p>
+                      <p>{data.email}</p>
                     </div>
                   </div>
                 </div>
@@ -68,8 +68,8 @@ const Contact = () => {
                         Opening Hour
                       </h5>
                       <div className="pe-3"></div>
-                      <p className="m-0">Monday to Friday</p>
-                      <p>09:00 AM - 05:00 PM</p>
+                      <p className="m-0">{data.start_day} to {data.end_day}</p>
+                      <p>{data.start_time}- {data.end_time}</p>
                     </div>
                   </div>
                 </div>

@@ -20,19 +20,19 @@ function Navbar(){
         <div className="list">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              <a className="nav-link active" aria-current="page" href="#hero">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About Us</a>
+              <a className="nav-link" href="#about">About Us</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Portofolio</a>
+              <a className="nav-link" href="#portofolio">Portofolio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Testimonial</a>
+              <a className="nav-link" href="#testimonial">Testimonial</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
+              <a className="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         

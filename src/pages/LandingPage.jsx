@@ -17,7 +17,7 @@ function LandingPage(){
         <Portofolio data={landingPageData.portfolio}/>
         <Testimonial data={landingPageData.testimonial}/>
         <WhatsAppButton/>
-        <Contact/>
+        <Contact data={landingPageData.contact}/>
         </div>
     )
 }
