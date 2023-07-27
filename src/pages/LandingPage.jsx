@@ -7,7 +7,7 @@ import Contact from '../parts/Contact';
 import Portofolio from '../parts/Portofolio';
 import landingPageData from '../json/content.json';
 import Testimonial from '../parts/Testimonial';
-import Footer from '../parts/footer';
+import Footer from '../parts/Footer';
 
 function LandingPage() {
   return (
@@ -19,7 +19,7 @@ function LandingPage() {
       <Testimonial data={landingPageData.testimonial} />
       <WhatsAppButton />
       <Contact data={landingPageData.contact} />
-      <Footer />
+      <Footer data={landingPageData.footer}/>
     </div>
   );
 }

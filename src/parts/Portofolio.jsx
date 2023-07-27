@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Portofolio({data}) {
-  console.log(data.project)
+  // console.log(data.project)
   return (
     <section id="portofolio" style={{
       marginTop: 64
@@ -27,7 +27,7 @@ function Portofolio({data}) {
                     alt="image.png"/>
                 </div>
                 <div className={colClassText}>
-                  <div className="text-card card-body">
+                  <div className="text-card">
                     <h5 className="card-title mt-4">{item.title}</h5>
                     <p className="card-text">{item.description}</p>
                   </div>
