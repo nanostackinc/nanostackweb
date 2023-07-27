@@ -5,7 +5,7 @@ function Testimonial({data}) {
     <section id='testimonial'>
       <h4 className='title-testi'>{data.title}</h4>
       <div className="card-group justify-content-center">
-        {data.material.map((item)=>{
+        {data.material.map((item,index)=>{
             return(
                 <div className="card-testi ms-4 me-4 mt-4">
                 <p className="card-text">
