@@ -7,7 +7,7 @@ function Testimonial({data}) {
       <div className="card-group justify-content-center">
         {data.material.map((item)=>{
             return(
-                <div className="card-testi ms-4 me-4 mt-2">
+                <div className="card-testi ms-4 me-4 mt-4">
                 <p className="card-text">
                  {item.content}
                 </p>

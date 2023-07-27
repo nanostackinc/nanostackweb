@@ -298,6 +298,33 @@ nav #logo {
         background-color: white;
     }
 
+    .card-testi {
+        display: flex;
+        width: 286px;
+        padding: 16px;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        align-self: stretch;
+        border-radius: 25px;
+        background: #FFF;
+
+        /* nano Drop Shadow */
+        box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
+    }
+
+    .text-card {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        flex-shrink: 0;
+    }
+
+
     .list ul {
         gap: 15px;
     }
@@ -310,6 +337,20 @@ nav #logo {
         align-items: center;
         border: none;
         background-color: white;
+    }
+
+    .card-testi {
+        display: flex;
+        width: 286px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        border-radius: 25px;
+        background: #FFF;
+        padding-top: 20px;
+        /* nano Drop Shadow */
+        box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
     }
 
     .list ul {
@@ -406,6 +447,7 @@ display: inline-block;
     padding: 16px;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     border-radius: 24px;
     background: #FFF;
     border: #FFFF;
@@ -425,6 +467,7 @@ display: inline-block;
     letter-spacing: -1.68px;
     text-transform: capitalize;
 }
+
 
 .text-card {
     display: flex;
