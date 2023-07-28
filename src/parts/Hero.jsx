@@ -7,8 +7,7 @@ import Selection from '../assets/images/icon/SelectionAll.svg';
 
 export default function Hero({ data }) {
   return (
-    <section id="hero">
-      <div className="container my-5">
+    <section id="hero" style={{marginTop:63}}>
         <div className="row">
           <div className="col-md-7">
             <h1>{data.title}</h1>
@@ -46,7 +45,6 @@ export default function Hero({ data }) {
             <img src={data.background_image} className="img-hero img-fluid p-4" alt="" />
           </div>
         </div>
-      </div>
     </section>
   );
 }

@@ -5,11 +5,7 @@ import './button.css'
 export default function Button(props) {
   const className = [props.className];
   if (props.isPrimary) className.push("btn-primary");
-  if (props.isLight) className.push("btn-secondary");
-  if (props.isLarge) className.push("btn-light");
-  if (props.isSmall) className.push("btn-light-second");
-  if (props.isBlock) className.push("btn-block");
-  if (props.hasShadow) className.push("btn-light-primary");
+  if (props.isLight) className.push("btn-light");
 
   const onClick = () => {
     if (props.onClick) props.onClick();

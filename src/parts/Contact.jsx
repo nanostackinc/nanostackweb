@@ -7,8 +7,7 @@ import Clock from '../assets/images/icon/Clock.svg'
 
 const Contact = ({data}) => {
   return (
-    <section id="contact">
-      <div className="container position-relative my-5">
+    <section id="contact"   style={{marginTop:64}}>
         <div className="row">
           <div className="col-12 col-lg-6 my-3 my-lg-0">
             <img src={ContactImage} className="img-fluid" alt="" />
@@ -77,7 +76,6 @@ const Contact = ({data}) => {
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 };

@@ -11,8 +11,9 @@ import Footer from '../parts/Footer';
 
 function LandingPage() {
   return (
-    <div className="container" style={{marginRight:100,marginLeft:100}}>
+    <>
       <Navbar />
+    <div className="container">
       <Hero data={landingPageData.hero} />
       <About data={landingPageData.about} />
       <Portofolio data={landingPageData.portfolio} />
@@ -21,7 +22,8 @@ function LandingPage() {
       <Contact data={landingPageData.contact} />
       <Footer data={landingPageData.footer}/>
     </div>
-  );
+    </>
+    );
 }
 
 export default LandingPage;

@@ -16,7 +16,7 @@
     letter-spacing: -0.98px;
 }
 
-.btn-secondary {
+.btn-primary:hover {
     display: flex;
     padding: 12px 24px;
     align-items: flex-start;
@@ -34,7 +34,7 @@
     /* letter-spacing: -0.98px; */
 }
 
-.btn-block {
+.btn-primary:active {
     display: inline-flex;
     padding: 12px 24px;
     align-items: flex-start;
@@ -68,7 +68,7 @@
     letter-spacing: -0.98px;
 }
 
-.btn-light-second {
+.btn-light:hover {
     display: inline-flex;
     padding: 12px 24px;
     align-items: flex-start;
@@ -85,7 +85,7 @@
     letter-spacing: -0.98px;
 }
 
-.btn-light-primary {
+.btn-light:active {
     display: inline-flex;
     padding: 12px 24px;
     align-items: flex-start;
