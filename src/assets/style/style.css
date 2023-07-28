@@ -31,6 +31,11 @@
     padding-bottom: 24px;
 }
 
+.card-cta {
+    display: flex;
+    justify-content: start;
+}
+
 #hero p,
 #about p {
     color: var(--black-80, rgba(51, 51, 51, 0.80));
@@ -480,6 +485,11 @@ nav #logo {
     text-transform: capitalize;
 }
 
+.column-cta {
+    display: flex;
+    justify-content: start;
+}
+
 .card-portofolio {
     display: flex;
     width: 100%;
@@ -603,6 +613,8 @@ nav #logo {
     letter-spacing: -1.12px;
 }
 
+
+
 .name-testi {
     color: var(--black, #333);
     text-align: center;
@@ -669,6 +681,53 @@ nav #logo {
 /* End of Footer Section */
 
 /* Responsive Section */
+@media screen and (max-width:900px) {
+
+    #hero p,
+    #about p,
+    #contact p,
+    #contact h5 {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .hero-title {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-subtitle {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card-cta {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-card {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 32px;
+        flex-shrink: 0;
+    }
+
+    .navbar {
+        padding: 32px;
+    }
+}
+
 @media screen and (max-width:1030px) {
 
     #hero p,
@@ -681,6 +740,7 @@ nav #logo {
     .container {
         margin-left: 0px;
         margin-right: 0px;
+        /* justify-content: center; */
     }
 
     .text-card {

@@ -16,7 +16,7 @@ function Portofolio({data}) {
               ? "col-md-5 order-md-2"
               : "col-md-5 ";
             const colClassText = isEvenId
-              ? "col-md-2 order-md-1 "
+              ? "col-md-5 order-md-1 "
               : "col-md-6 ";
             return (
               <div className="card-portofolio row g-0" key={item.id}>

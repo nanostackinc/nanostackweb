@@ -9,10 +9,10 @@ export default function Hero({ data }) {
   return (
     <section id="hero" style={{marginTop:63}}>
         <div className="row">
-          <div className="col-md-7">
-            <h1>{data.title}</h1>
-            <p>{data.subtitle}</p>
-            <div className="d-flex justify-content-start">
+          <div className="col-lg-7 col-md-12  justify-content-center">
+            <h1 className='hero-title'>{data.title}</h1>
+            <p className='hero-subtitle'>{data.subtitle}</p>
+            <div className="card-cta">
               <a href="https://api.whatsapp.com/send?phone=08993845802" style={{ textDecoration: "none" }}>
                 <Button className='btn-primary'>Contact Us</Button>
               </a>
