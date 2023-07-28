@@ -11,7 +11,7 @@ import Footer from '../parts/Footer';
 
 function LandingPage() {
   return (
-    <div className="container">
+    <div className="container" style={{marginRight:100,marginLeft:100}}>
       <Navbar />
       <Hero data={landingPageData.hero} />
       <About data={landingPageData.about} />

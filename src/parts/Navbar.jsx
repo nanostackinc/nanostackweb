@@ -13,7 +13,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-none align-items-center">
+    <nav className="navbar navbar-expand-md bg-body-none align-items-center">
       <a className="navbar-brand d-flex" id="logo" href="#">
         <img src={Logo} className="me-2" alt="logo.png" style={{ width: 32, height: 32 }} />
         nanostack
