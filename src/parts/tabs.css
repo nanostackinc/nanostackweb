@@ -1,0 +1,38 @@
+.tabs {
+  display: flex;
+}
+
+.tab {
+  cursor: pointer;
+  /* padding: 10px 20px; */
+  width: 100%;
+  /* border: 1px solid #ccc; */
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+
+}
+
+.tab-active {
+  display: block;
+  justify-content: center;
+}
+
+.image {
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #FFF;
+
+  /* nano Drop Shadow */
+  box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
+}
+
+.tab-content {
+  /* border: 1px solid #ccc; */
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+}
