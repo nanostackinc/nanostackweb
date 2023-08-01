@@ -65,6 +65,42 @@
     line-height: normal;
     letter-spacing: -0.98px;
 }
+.hero-btn1:hover{
+    display: inline-flex;
+    padding: 12px 12px;
+    align-items: flex-start;
+    gap: 8px;
+
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    background: var(--blue-170, rgba(78, 150, 225, 0.70));
+
+    color: #FFF;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.98px;
+}
+.hero-btn1:active{
+    display: inline-flex;
+    padding: 12px 12px;
+    align-items: flex-start;
+    gap: 8px;
+
+    border-radius: 12px;
+    border: 2px solid var(--blue-1, rgba(78, 150, 225, 0.90));
+    background: var(--blue-1100, #4E96E1);
+
+    color: #FFF;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.98px;
+}
 
 .hero-btn2 {
     display: flex;
@@ -75,6 +111,44 @@
     border-radius: 12px;
     border: 2px solid var(--blue-1, rgba(78, 150, 225, 0.90));
     background: rgba(255, 255, 255, 0.90);
+
+    color: var(--blue-1, rgba(78, 150, 225, 0.90));
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.98px;
+    text-align: center;
+}
+.hero-btn2:hover{
+    display: flex;
+    padding: 12px 12px;
+    align-items: flex-start;
+    gap: 8px;
+
+    border-radius: 12px;
+    border: 2px solid var(--blue-1, rgba(78, 150, 225, 0.90));
+    background: var(--blue-120, rgba(78, 150, 225, 0.20));
+
+    color: var(--blue-1, rgba(78, 150, 225, 0.90));
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.98px;
+    text-align: center;
+}
+.hero-btn2:active{
+    display: flex;
+    padding: 12px 12px;
+    align-items: flex-start;
+    gap: 8px;
+
+    border-radius: 12px;
+    border: 2px solid var(--blue-1, rgba(78, 150, 225, 0.90));
+    background: var(--blue-140, rgba(78, 150, 225, 0.40));
 
     color: var(--blue-1, rgba(78, 150, 225, 0.90));
     font-family: var(--main-font);
