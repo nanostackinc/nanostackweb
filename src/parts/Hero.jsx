@@ -16,7 +16,7 @@ export default function Hero({ data }) {
               <a href="https://api.whatsapp.com/send?phone=08993845802" style={{ textDecoration: "none" }}>
                 <Button className='hero-btn1'>Contact Us</Button>
               </a>
-              <a href='#portofolio'>
+              <a href='#portofolio' style={{textDecoration:"none"}}>
                 <Button className='hero-btn2' style={{ marginLeft: 16 }}>{data.cta_link}</Button>
               </a>
             </div>
