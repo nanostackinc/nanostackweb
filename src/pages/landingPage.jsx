@@ -16,9 +16,11 @@ function LandingPage() {
     <div className="container">
       <Hero data={landingPageData.hero} />
       <About data={landingPageData.about} />
+    </div>
       <Portofolio data={landingPageData.portfolio} />
       <Testimonial data={landingPageData.testimonial} />
       <WhatsAppButton />
+    <div className='container'>
       <Contact data={landingPageData.contact} />
       <Footer data={landingPageData.footer}/>
     </div>

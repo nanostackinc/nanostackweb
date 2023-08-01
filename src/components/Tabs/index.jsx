@@ -18,9 +18,8 @@ const Tabs=({tabsData})=>{
                 </div>
             ))}
             </div>
-        <div className='tab-content'>
             {tabsData[activeTabs].content}
-        </div>
+       
         </div>
     )
 }
