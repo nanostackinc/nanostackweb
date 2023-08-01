@@ -1,5 +1,6 @@
 import React from 'react';
-import Logo from '../assets/images/icon/logo.svg'
+import { Logo } from '../assets';
+
 
 const Footer = ({data}) => {
   return (
@@ -13,7 +14,7 @@ const Footer = ({data}) => {
               <span>
                 <img src={Logo} className="pe-2" alt=""/>
               </span>
-              nanostack
+              
             </h5>
             <p>{data.desc}</p>
           </div>

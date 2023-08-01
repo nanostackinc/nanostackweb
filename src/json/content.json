@@ -16,21 +16,39 @@
         "title": "Each Project Is A Unique Piece Of Development",
         "website": [{
                 "id": 1,
-                "title": "Car Rental 🚗",
-                "description": "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-                "image": " /images/img_car.png"
+                "title": "Movie Streaming 🍿️",
+                "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
+                "image": " /images/image_3.png"
             },
             {
                 "id": 2,
-                "title": "coindom 🪙",
-                "description": "Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time.",
-                "image": " /images/img_cry.png"
+                "title": "Shoes E-Commerce 🥾",
+                "description": "Shop stylish shoes on our app with a creative interface. Get fashion advice and real-time assistance through our live chat service.",
+                "image": " /images/image_6.png"
             },
             {
                 "id": 3,
-                "title": "Gymate 🏋️",
-                "description": "A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.",
-                "image": " /images/img_fit.png"
+                "title": "Hiking Booking 🌋",
+                "description": "Enjoy the convenience of climbing! Through effective climbing registration with QR Code-based tickets and tracking climbing status.",
+                "image": " /images/image_1.png"
+            },
+            {
+                "id": 4,
+                "title": "Online Class ✏️",
+                "description": "Access interactive online classes on any device. Enroll hassle-free with Midtrans payment integration, ensuring secure transactions and learning.",
+                "image": " /images/image_4.png"
+            },
+            {
+                "id": 5,
+                "title": "Car Rent 🚗",
+                "description": "Rent a car effortlessly on our responsive website with a creative touch. Explore a wide range of vehicles and book your ride instantly.",
+                "image": " /images/image_5.png"
+            },
+            {
+                "id": 6,
+                "title": "Bootcamp Purchase 📚",
+                "description": "Join our online bootcamps for in-demand skills. Seamlessly enroll with Midtrans integration, guaranteeing secure payments on any device.",
+                "image": " /images/image_2.png"
             }
         ],
         "android": [{}],
@@ -39,19 +57,14 @@
     "testimonial": {
         "title": "Customer Love: What People Are Saying",
         "material": [{
-                "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-                "name": "Darya Finger",
-                "job": "CEO & Co-Founder @Dropbox"
+                "content": "“ Very cool of anything has been done, exceeded my expectations. Has a fast progress in delivering the APIs, and until now the result is still safe when the API is consumed.“",
+                "name": "Moch. Iskandar Zulqornaen",
+                "job": "Product Owner of Hyponic"
             },
             {
-                "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-                "name": "John Doe",
-                "job": "Software Engineer"
-            },
-            {
-                "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-                "name": "Jane Smith",
-                "job": "Marketing Specialist"
+                "content": "“He worked incredibly fast and professionally! The results were amazing, and they also helped fix my web hosting issues. I'm very satisfied with their service! Highly recommended! “",
+                "name": "Ayu Nurrahima Firdausi",
+                "job": "Student"
             }
         ]
     },
