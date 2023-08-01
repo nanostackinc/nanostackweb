@@ -15,7 +15,7 @@ const Portofolio = ({data}) => {
       content: (
         <>
         {/* <h3 className='title-port justify-content-center'>{data.title}</h3> */}
-      <div class="card-body">
+      <div class="porto-body card-body">
         {data
           .website
           .map((item) => {
@@ -31,7 +31,7 @@ const Portofolio = ({data}) => {
                 <div className={colClassImg} id='card-col'>
                   <img
                     src={item.image}
-                    className="car-card img-fluid rounded-start"
+                    className="card-image"
                     alt="image.png"/>
                 </div>
                 <div className={colClassText}>
@@ -74,7 +74,7 @@ const Portofolio = ({data}) => {
                 <div className={colClassImg} id='card-col'>
                   <img
                     src={item.image}
-                    className="car-card img-fluid rounded-start"
+                    className="car-card"
                     alt="image.png"/>
                 </div>
                 <div className={colClassText}>
@@ -117,7 +117,7 @@ const Portofolio = ({data}) => {
                 <div className={colClassImg} id='card-col'>
                   <img
                     src={item.image}
-                    className="car-card img-fluid rounded-start"
+                    className="car-card"
                     alt="image.png"/>
                 </div>
                 <div className={colClassText}>
