@@ -11,7 +11,7 @@ import Footer from '../parts/footer';
 
 function LandingPage() {
   return (
-    <div className="container">
+    <div className="container mx-auto">
       <Navbar />
       <Hero data={landingPageData.hero} />
       <About data={landingPageData.about} />
