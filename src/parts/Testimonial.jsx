@@ -11,7 +11,7 @@ function Testimonial({data}) {
           .material
           .map((item, index) => {
             return (
-              <div className="card-testi ms-4 me-4 mt-4">
+              <div className="card-testi ms-4 me-4 mt-4 ">
                 <p className="card-text">
                   {item.content}
                 </p>
