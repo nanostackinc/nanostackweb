@@ -7,7 +7,7 @@ import Selection from '../assets/images/icon/SelectionAll.svg';
 
 export default function Hero({ data }) {
   return (
-    <section id="hero" style={{marginTop:63}}>
+    <section id="hero" class="mt-0 mt-md-5">
         <div className="row">
           <div className="col-lg-7 col-md-12  justify-content-center">
             <h1 className='hero-title'>{data.title}</h1>
