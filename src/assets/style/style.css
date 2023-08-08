@@ -11,14 +11,14 @@
     z-index: 2;
 }
 
-<<<<<<< HEAD
-.fw-700{
+
+.fw-700 {
     font-weight: 700 !important;
-=======
+}
+
 .container {
     margin-left: 100px;
     margin-right: 100px;
->>>>>>> main
 }
 
 /* Hero Section */
@@ -367,12 +367,12 @@
     border-radius: 24px;
 }
 
-<<<<<<< HEAD
-#contact .card-body{
+
+#contact .card-body {
     padding: 0px;
 }
 
-#contact .card{
+#contact .card {
     display: flex;
     padding: 16px 32px;
     flex-direction: column;
@@ -383,30 +383,31 @@
     border-radius: 24px;
     background: #FFF;
     margin-bottom: 16px;
-    
-    
+
+
     /* nano Drop Shadow */
     box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
 }
+
 @media screen and (max-width:768px) {
-    #contact .card{
+    #contact .card {
         align-items: center;
     }
-=======
-#contact .card-body {
-    padding: 14px;
->>>>>>> main
+
+    #contact .card-body {
+        padding: 14px;
+
+    }
 }
 
 /* End of Contact Section */
 
-<<<<<<< HEAD
+
 /* Start navbar style + footer style*/
-nav {
-=======
+
 /* Start navbar style */
 .navbar {
->>>>>>> main
+
     display: flex;
     width: 100%;
     padding: 32px 100px;
@@ -517,7 +518,9 @@ nav #logo {
     }
 }
 
-.list ul li, #footer a, #footer p {
+.list ul li,
+#footer a,
+#footer p {
     color: var(--black-80, rgba(51, 51, 51, 0.80));
     font-family: Open Sans;
     font-size: 16px;
@@ -755,16 +758,17 @@ nav #logo {
 }
 
 /* Footer Section*/
-<<<<<<< HEAD
-#footer p{
+
+#footer p {
     margin-bottom: 32px;
 }
 
 @media screen and (max-width: 768px) {
-    #footer p{
+    #footer p {
         margin-bottom: 16px;
     }
-=======
+}
+
 #footer p {
     color: var(--black-80, rgba(51, 51, 51, 0.80));
 
@@ -788,7 +792,7 @@ nav #logo {
     letter-spacing: -1.12px;
     text-transform: capitalize;
     text-decoration: none;
->>>>>>> main
+
 }
 
 .title-footer {
@@ -804,21 +808,30 @@ nav #logo {
 /* End of Footer Section */
 
 /* Responsive Section */
-<<<<<<< HEAD
+
 @media screen and (max-width:992px) {
-        #about h1, #contact h1{
+
+    #about h1,
+    #contact h1 {
         padding: 24px 0px;
         margin: 8px 0px;
     }
-    #hero p, #about p, #contact p, #contact h5{
-=======
+
+    #hero p,
+    #about p,
+    #contact p,
+    #contact h5 {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width:900px) {
 
     #hero p,
     #about p,
     #contact p,
     #contact h5 {
->>>>>>> main
+
         font-size: 20px;
     }
 
