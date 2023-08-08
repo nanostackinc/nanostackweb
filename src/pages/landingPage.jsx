@@ -7,25 +7,21 @@ import Contact from '../parts/Contact';
 import Portofolio from '../parts/Portofolio';
 import landingPageData from '../json/content.json';
 import Testimonial from '../parts/Testimonial';
-import Footer from '../parts/Footer';
+import Footer from '../parts/footer';
 
 function LandingPage() {
   return (
-    <>
+    <div className="container">
       <Navbar />
-    <div className="container mx-auto">
       <Hero data={landingPageData.hero} />
       <About data={landingPageData.about} />
-    </div>
       <Portofolio data={landingPageData.portfolio} />
-      <WhatsAppButton />
-    <div className='container mx-auto'>
       <Testimonial data={landingPageData.testimonial} />
+      <WhatsAppButton />
       <Contact data={landingPageData.contact} />
-      <Footer data={landingPageData.footer}/>
+      <Footer />
     </div>
-    </>
-    );
+  );
 }
 
 export default LandingPage;
