@@ -7,17 +7,16 @@ import Selection from '../assets/images/icon/SelectionAll.svg';
 
 export default function Hero({ data }) {
   return (
-    <section id="hero">
-      <div className="container my-5">
+    <section id="hero" style={{marginTop:63}}>
         <div className="row">
-          <div className="col-md-7">
-            <h1>{data.title}</h1>
-            <p>{data.subtitle}</p>
-            <div className="d-flex justify-content-start">
+          <div className="col-lg-7 col-md-12  justify-content-center">
+            <h1 className='hero-title'>{data.title}</h1>
+            <p className='hero-subtitle'>{data.subtitle}</p>
+            <div className="card-cta">
               <a href="https://api.whatsapp.com/send?phone=08993845802" style={{ textDecoration: "none" }}>
                 <Button className='hero-btn1'>Contact Us</Button>
               </a>
-              <a href='#portofolio'>
+              <a href='#portofolio' style={{textDecoration:"none"}}>
                 <Button className='hero-btn2' style={{ marginLeft: 16 }}>{data.cta_link}</Button>
               </a>
             </div>
@@ -46,7 +45,6 @@ export default function Hero({ data }) {
             <img src={data.background_image} className="img-hero img-fluid" alt="" />
           </div>
         </div>
-      </div>
     </section>
   );
 }

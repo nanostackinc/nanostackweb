@@ -6,8 +6,7 @@ import Trend from '../assets/images/icon/TrendUp.svg'
 
 const About = ({data}) => {
   return (
-    <section id="about">
-      <div className="container position-relative">
+    <section id="about"  style={{marginTop:64}}>
         <div className="row">
           <div className="col-12 col-lg-5 d-flex justify-content-center position-relative justify-content-lg-start">
             <img src={data.image} className="img-fluid" alt={data.image}/>
@@ -47,7 +46,6 @@ const About = ({data}) => {
             </p>
           </div>
         </div>
-      </div>
     </section>
   );
 };
