@@ -8,10 +8,12 @@ import Portofolio from '../parts/Portofolio';
 import landingPageData from '../json/content.json';
 import Testimonial from '../parts/Testimonial';
 import Footer from '../parts/Footer';
+import Meta from "../parts/Meta.jsx";
 
 function LandingPage() {
   return (
     <>
+      <Meta />
       <Navbar />
     <div className="container mx-auto">
       <Hero data={landingPageData.hero} />
