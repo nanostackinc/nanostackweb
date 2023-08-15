@@ -19,7 +19,7 @@ function LandingPage() {
       <Testimonial data={landingPageData.testimonial} />
       <WhatsAppButton />
       <Contact data={landingPageData.contact} />
-      <Footer />
+      <Footer data={landingPageData.footer}/>
     </div>
   );
 }

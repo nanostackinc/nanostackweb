@@ -805,6 +805,12 @@ nav #logo {
     letter-spacing: -1.68px;
 }
 
+@media screen and (max-width: 768px){
+    #footer p {
+        margin-bottom: 16px;
+    }
+}   
+
 /* End of Footer Section */
 
 /* Responsive Section */
