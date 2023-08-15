@@ -15,7 +15,7 @@ const Contact = ({data}) => {
           <div className="col-12 col-lg-6 my-3 my-lg-0">
             <div className="row justify-content-center">
               <h1 className="text-center mb-3">{data.title}</h1>
-              <div className="row my-3">
+              <div className="row">
                 <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
                   <div className="card d-flex flex-fill border-0">
                     <div className="card-body">
