@@ -671,6 +671,12 @@ nav #logo {
     letter-spacing: -1.12px;
 }
 
+@media screen and (max-width:992px) {
+    .title-port{
+    margin: 16px 0px 16px 0px;
+    }
+}
+
 /* End of protofolio style */
 
 /* Start testimonial style */
