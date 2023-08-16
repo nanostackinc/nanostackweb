@@ -16,7 +16,7 @@
     font-weight: 700 !important;
 }
 
-.container {
+.content {
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -672,8 +672,8 @@ nav #logo {
 }
 
 @media screen and (max-width:992px) {
-    .title-port{
-    margin: 16px 0px 16px 0px;
+    .title-port {
+        margin: 16px 0px 16px 0px;
     }
 }
 
@@ -811,11 +811,11 @@ nav #logo {
     letter-spacing: -1.68px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     #footer p {
         margin-bottom: 16px;
     }
-}   
+}
 
 /* End of Footer Section */
 
@@ -847,7 +847,7 @@ nav #logo {
         font-size: 20px;
     }
 
-    .container {
+    .content {
         width: 100%;
         padding: 20px;
         margin-left: 0px;
@@ -894,7 +894,7 @@ nav #logo {
         font-size: 20px;
     }
 
-    .container {
+    .content {
         margin-left: 0px;
         margin-right: 0px;
         /* justify-content: center; */

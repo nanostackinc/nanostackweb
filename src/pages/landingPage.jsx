@@ -13,12 +13,12 @@ function LandingPage() {
   return (
     <>
       <Navbar />
-    <div className="container mx-auto">
+    <div className="container mx-auto" id='content'>
       <Hero data={landingPageData.hero} />
       <About data={landingPageData.about} />
     </div>
       <Portofolio data={landingPageData.portfolio} />
-    <div className="container mx-auto">
+    <div className="container mx-auto" id='content'>
       <Testimonial data={landingPageData.testimonial} />
       <WhatsAppButton />
       <Contact data={landingPageData.contact} />

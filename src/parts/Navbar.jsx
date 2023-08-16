@@ -13,9 +13,10 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-none align-items-center">
+    <nav className="navbar navbar-expand-lg">
+      <div className='container'>
       <a className="navbar-brand d-flex" id="logo" href="/">
-        <img src={Logo} className="me-2" alt="logo.png"/>
+        <img src={Logo} className="me-2" alt="Nanostack Logo" style={{width:157,height:33}}/>
       </a>
       <button
         className="toggler"
@@ -64,6 +65,7 @@ function Navbar() {
           </ul>
         </div>
       </div>
+    </div>
     </nav>
   );
 }
