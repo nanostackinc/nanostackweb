@@ -75,8 +75,11 @@
     },
     "contact": {
         "title": "Get in Touch: Reach Out Today",
+        "addresshref": "https://goo.gl/maps/G1FhcqDpNbZMAyq66",
         "address": "Jombang Kota, Jombang, East Java, Indonesia",
+        "phonehref":"https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya",
         "phone": "+62 895-3664-23269",
+        "emailhref": "mailto:nanostackindustries@gmail.com?subject=[Web Services/Mobile App Services(pilih salah satu)]?body:Saya tertarik memesan layanan web/mobile app dengan spesifikasi ...",
         "email": "nanostackindustries@gmail.com",
         "start_day": "Monday",
         "end_day": "Friday",
