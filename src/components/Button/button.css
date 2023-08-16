@@ -10,11 +10,13 @@
     font-family: Open Sans;
     font-size: 14px;
     font-style: normal;
-    /* width: 100%; */
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.98px;
+    transform: scale(1);
+    transition: transform 0.2s ease-out;
 }
+
 
 .btn-primary:hover {
     display: flex;
@@ -31,7 +33,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    /* letter-spacing: -0.98px; */
+    letter-spacing: -0.98px;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in;
 }
 
 .btn-primary:active {
@@ -49,6 +53,8 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.98px;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
 }
 
 .btn-light {
@@ -65,6 +71,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
     letter-spacing: -0.98px;
 }
 
@@ -81,6 +89,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
     line-height: normal;
     letter-spacing: -0.98px;
 }
@@ -89,6 +99,8 @@
     display: inline-flex;
     padding: 12px 24px;
     align-items: flex-start;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
     gap: 8px;
     border-radius: 12px;
     border: 2px solid var(--blue-1, rgba(78, 150, 225, 0.90));

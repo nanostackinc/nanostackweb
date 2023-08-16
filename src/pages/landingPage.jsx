@@ -11,16 +11,20 @@ import Footer from '../parts/Footer';
 
 function LandingPage() {
   return (
-    <div className="container">
+    <>
       <Navbar />
+    <div className="container mx-auto" id='content'>
       <Hero data={landingPageData.hero} />
       <About data={landingPageData.about} />
+    </div>
       <Portofolio data={landingPageData.portfolio} />
+    <div className="container mx-auto" id='content'>
       <Testimonial data={landingPageData.testimonial} />
       <WhatsAppButton />
       <Contact data={landingPageData.contact} />
       <Footer data={landingPageData.footer}/>
     </div>
+    </>
   );
 }
 

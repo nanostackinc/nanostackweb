@@ -11,9 +11,8 @@ const Footer = ({data}) => {
         <div className="col-12 col-md-3">
           <h5 className='title-footer align-items-center'>
             <span>
-              <img src={Logo} className="pe-2" alt=""/>
+              <img src={Logo} className="pe-2" alt="Nanostack Logo" style={{width:157,height:33}}/>
             </span>
-
           </h5>
           <p>{data.desc}</p>
         </div>
@@ -40,7 +39,7 @@ const Footer = ({data}) => {
           </p>
           <p>
             <a
-              href="https://fastwork.id/user/ivanar6542/web-development-64971353?utm_source=app_sharing"
+              href={data.fastwork}
               target="_blank">Fastwork</a>
           </p>
           <p>
@@ -52,39 +51,7 @@ const Footer = ({data}) => {
           <p>
             <a href="#">Facebook</a>
           </p>
-          <p>
-            <a href="#" className="fw-bolder">Menu</a>
-          </p>
-          <p>
-            <a href="#about">About Us</a>
-          </p>
-          <p>
-            <a href="#portofolio">Portfolio</a>
-          </p>
-          <p>
-            <a href="#testimonial">Testimonial</a>
-          </p>
-          <p>
-            <a href="#contact">Contact</a>
-          </p>
-        </div>
-        <div className="col-12 col-md-3">
-          <p>
-            <a href="#" className="fw-bolder">Community</a>
-          </p>
-          <p>
-            <a href={data.instagram}>Instagram</a>
-          </p>
-          <p>
-            <a href={data.linkedin}>LinkedIn</a>
-          </p>
-          <p>
-            <a href={data.facebook}>Facebook</a>
-          </p>
-          <p>
-            <a href={data.youtube}>Youtube</a>
-          </p>
-        </div>
+         </div>
       </div>
 
     </section>

@@ -1,4 +1,4 @@
-import Logo from './images/nanostack-image.png'
+import Logo from './images/icon/Logo_nanostack.webp'
 import Car from './images/img_car.png'
 import Android from './images/icon/AndroidIcon.svg'
 import Website from './images/icon/WebsiteIcon.png'
