@@ -16,7 +16,7 @@
     font-weight: 700 !important;
 }
 
-.text-mainblack{
+.text-mainblack {
     color: var(--black);
 }
 
@@ -1107,6 +1107,12 @@ svg .icon {
     #contact p,
     #contact h5 {
         font-size: 20px;
+    }
+
+    #card-standard,
+    #card-header,
+    #card-basic {
+        margin-top: 20px;
     }
 }
 

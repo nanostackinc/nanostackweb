@@ -14,7 +14,7 @@ const Pricelist = ({data}) => {
         <h3 className='title-price'>{data.title}</h3>
         <p className='sub-price'>{data.subtitle}</p>
       </div>
-      <div  className='card-group justify-content-center mx-auto' style={{gap:16}}>
+      <div  className='card-group justify-content-space-between mx-auto' style={{gap:16}}>
         <div id="card-basic"  >
           <div class="card-body">
             <h5 class="card-title-price">Basic</h5>
@@ -125,9 +125,11 @@ const Pricelist = ({data}) => {
                 </svg>
                 <p className='subtext-price ms-2'>{value.time}</p>
               </div>   
+              <a href="https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website%20untuk%20bisnis%20saya%20dengan%20paket%20basic" style={{width:"100%"}} target="_blank">
               <Button className='btn-light justify-content-center' style={{width:"100%"}}>
                 Take this plan
                 </Button>           
+      </a>
             </div>
                 )
               })
@@ -317,9 +319,11 @@ const Pricelist = ({data}) => {
                 </svg>
                 <p className='subtext-price ms-2'>{value.time}</p>
               </div>      
+              <a href="https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website%20untuk%20bisnis%20saya%20dengan%20paket%20standard" style={{width:"100%"}} target="_blank">
               <Button className='btn-light justify-content-center' style={{width:"100%"}}>
                 Take this plan
                 </Button>           
+      </a>      
             </div>
                 )
               })
@@ -415,9 +419,11 @@ const Pricelist = ({data}) => {
               </svg>
                 <p className='subtext-price-premium ms-2'>{value.time}</p>
               </div>        
+              <a href="https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website%20untuk%20bisnis%20saya%20dengan%20paket%20premium" style={{width:"100%"}} target="_blank">
               <Button className='btn-primary justify-content-center' style={{width:"100%"}}>
                 Take this plan
-                </Button>         
+                </Button>           
+      </a>        
             </div>
                 )
               })
