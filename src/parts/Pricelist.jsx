@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../components/Button'
 
 const Pricelist = ({data}) => {
   // (data.basic.map((item) => {
@@ -123,7 +124,10 @@ const Pricelist = ({data}) => {
                     stroke-linejoin="round"/>
                 </svg>
                 <p className='subtext-price ms-2'>{value.time}</p>
-              </div>              
+              </div>   
+              <Button className='btn-light justify-content-center' style={{width:"100%"}}>
+                Take this plan
+                </Button>           
             </div>
                 )
               })
@@ -312,7 +316,10 @@ const Pricelist = ({data}) => {
                     stroke-linejoin="round"/>
                 </svg>
                 <p className='subtext-price ms-2'>{value.time}</p>
-              </div>              
+              </div>      
+              <Button className='btn-light justify-content-center' style={{width:"100%"}}>
+                Take this plan
+                </Button>           
             </div>
                 )
               })
@@ -407,7 +414,10 @@ const Pricelist = ({data}) => {
               <path d="M5.83325 10L8.46483 12.5L14.1666 7.5" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
                 <p className='subtext-price-premium ms-2'>{value.time}</p>
-              </div>              
+              </div>        
+              <Button className='btn-primary justify-content-center' style={{width:"100%"}}>
+                Take this plan
+                </Button>         
             </div>
                 )
               })
