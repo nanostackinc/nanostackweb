@@ -8,21 +8,28 @@ import Portofolio from '../parts/Portofolio';
 import landingPageData from '../json/content.json';
 import Testimonial from '../parts/Testimonial';
 import Footer from '../parts/Footer';
-import Pricelist from '../parts/Pricelist';
+import Pricelist from '../parts/Pricelist';  // Make sure to import this component
+import Meta from '../parts/Meta';  // Make sure to import this component
 
 function LandingPage() {
-  return ( <> <Navbar/> < div className = "container mx-auto" id = 'content' > <Hero data={landingPageData.hero}/> < About data = {
-    landingPageData.about
-  } /> </div> < Portofolio data = {
-    landingPageData.portfolio
-  } /> <div className="container mx-auto" id='content'>
-    <Pricelist data={landingPageData.pricelist}/>
-    <Testimonial data={landingPageData.testimonial}/>
-    <WhatsAppButton/>
-    <Contact data={landingPageData.contact}/>
-    <Footer data={landingPageData.footer}/>
-  </div>
-   </>
+  return (
+    <>
+      <Meta />
+      <Navbar />
+      <div className="container mx-auto">
+        <Hero data={landingPageData.hero} />
+        <About data={landingPageData.about} />
+      </div>
+      <Portofolio data={landingPageData.portfolio} />
+      <div className="container mx-auto" id="content">
+        {/* Include the Pricelist component */}
+        <Pricelist data={landingPageData.pricelist} />
+        <Testimonial data={landingPageData.testimonial} />
+        <WhatsAppButton />
+        <Contact data={landingPageData.contact} />
+        <Footer data={landingPageData.footer} />
+      </div>
+    </>
   );
 }
 
