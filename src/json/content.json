@@ -54,6 +54,51 @@
         "android": [{}],
         "product": [{}]
     },
+    "pricelist": {
+        "title": "Choose the best plan for you",
+        "subtitle": "includes creative and responsive design, free domain (1 yr), SSL, and hosting, SEO friendly, and accessible from any devices",
+        "basic": [{
+            "fake_price": "1,649,000,-",
+            "real_price": "1,499,000,-",
+            "benefit": [{
+                "usability": "Suitable for landing page, company profile",
+                "tech": "HTML, CSS, & JS",
+                "pages": "5 pages",
+                "design": "Default design templates",
+                "time": "1 week work duration estimation"
+            }]
+        }],
+        "standard": [{
+            "fake_price": "5,499,000,-",
+            "real_price": "4,999,000,-",
+            "benefit": [{
+                "usability": "Suitable for landing page, company profile, e-commerce, online course",
+                "tech": "HTML, CSS, & JS",
+                "pages": "5 pages",
+                "design": "Custom design templates",
+                "hosting": "Dedicated hosting",
+                "email": "Email",
+                "book": "Manual Book",
+                "admin": "Admin dashboard",
+                "time": "2 weeks work duration estimation"
+            }]
+        }],
+        "premium": [{
+            "fake_price": "8,799,000,-",
+            "real_price": "7,999,000,-",
+            "benefit": [{
+                "usability": "Suitable for HRIS, POS, MIS",
+                "tech": "JS Framework (faster development)",
+                "pages": "5 pages",
+                "design": "Custom design templates",
+                "hosting": "Dedicated hosting",
+                "email": "Email",
+                "book": "Manual Book",
+                "admin": "Admin dashboard",
+                "time": "4 weeks work duration estimation"
+            }]
+        }]
+    },
     "testimonial": {
         "title": "Customer Love: What People Are Saying",
         "material": [{

@@ -4,7 +4,7 @@ import Button from '../components/Button';
 
 export default function Hero({ data }) {
   return (
-    <section id="hero" class="mt-0 mt-md-5">
+    <section id="hero" className="mt-0 mt-md-5">
         <div className="row">
           <div className="col-lg-7 col-md-12  justify-content-center">
             <h1 className='hero-title'>{data.title}</h1>
