@@ -11,9 +11,8 @@ const Footer = ({data}) => {
         <div className="col-12 col-md-3">
           <h5 className='title-footer align-items-center'>
             <span>
-              <img src={Logo} className="pe-2" alt=""/>
+              <img src={Logo} className="pe-2" alt="Nanostack Logo" style={{width:157,height:33}}/>
             </span>
-
           </h5>
           <p>{data.desc}</p>
         </div>

@@ -15,46 +15,52 @@ const Contact = ({data}) => {
           <div className="col-12 col-lg-6 my-3 my-lg-0">
             <div className="row justify-content-center">
               <h1 className="text-center mb-3">{data.title}</h1>
-              <div className="row my-3">
+              <div className="row">
                 <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
-                  <div className="card d-flex flex-fill border-0">
-                    <div className="card-body">
-                      <h5 className="card-tagline">
-                        <span>
-                          <img src={Map} className="pe-2" alt="MapPin" />
-                        </span>
-                        Address
-                      </h5>
-                      <p>{data.address}</p>
+                  <a href={data.addresshref} class="d-flex flex-fill border-0 text-decoration-none text-mainblack" target="_blank">
+                    <div className="card d-flex flex-fill border-0">
+                        <div className="card-body">
+                          <h5 className="card-tagline">
+                            <span>
+                              <img src={Map} className="pe-2" alt="MapPin" />
+                            </span>
+                            Address
+                          </h5>
+                          <p>{data.address}</p>
+                        </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
                 <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
-                  <div className="card d-flex flex-fill border-0">
-                    <div className="card-body">
-                      <h5 className="card-tagline">
-                        <span>
-                          <img src={Phone} className="pe-2" alt="Phone" />
-                        </span>
-                        Phone
-                      </h5>
-                      <p>{data.phone}</p>
+                  <a href={data.phonehref} class="d-flex flex-fill border-0 text-decoration-none text-mainblack" target="_blank">
+                    <div className="card d-flex flex-fill border-0">
+                        <div className="card-body">
+                          <h5 className="card-tagline">
+                            <span>
+                              <img src={Phone} className="pe-2" alt="Phone" />
+                            </span>
+                            Phone
+                          </h5>
+                          <p>{data.phone}</p>
+                        </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
               <div className="row ">
                 <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
                   <div className="card d-flex flex-fill border-0">
-                    <div className="card-body">
-                      <h5 className="card-tagline">
-                        <span>
-                          <img src={Email} className="pe-2" alt="Envelope" />
-                        </span>
-                        Email
-                      </h5>
-                      <p>{data.email}</p>
-                    </div>
+                    <a href={data.emailhref} class="text-decoration-none text-mainblack" target="_blank">
+                      <div className="card-body">
+                        <h5 className="card-tagline">
+                          <span>
+                            <img src={Email} className="pe-2" alt="Envelope" />
+                          </span>
+                          Email
+                        </h5>
+                        <p>{data.email}</p>
+                      </div>
+                    </a>
                   </div>
                 </div>
                 <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">

@@ -16,7 +16,11 @@
     font-weight: 700 !important;
 }
 
-.container {
+.text-mainblack {
+    color: var(--black);
+}
+
+.content {
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -671,7 +675,282 @@ nav #logo {
     letter-spacing: -1.12px;
 }
 
+@media screen and (max-width:992px) {
+    .title-port {
+        margin: 16px 0px 16px 0px;
+    }
+}
+
 /* End of protofolio style */
+
+/* Start pricelist style */
+#pricelist {
+    display: flex;
+    width: 100%;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.title-pricelist {
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.title-price {
+    color: var(--black, #333);
+    text-align: center;
+
+    /* Heading 2 */
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    /* 150% */
+    letter-spacing: -2.24px;
+    text-transform: capitalize;
+}
+
+.sub-price {
+    color: var(--black-80, rgba(51, 51, 51, 0.80));
+    text-align: center;
+
+    /* Body 1 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+}
+
+#card-basic {
+    display: flex;
+    padding: 24px 20px;
+    margin-top: 54px;
+    /* width: 100%; */
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border: none;
+    border-radius: 24px;
+    background-color: white;
+    /* nano Drop Shadow */
+    box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
+}
+
+#card-standard {
+    display: flex;
+    border: none;
+    padding: 24px 20px;
+    margin-top: 54px;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 310px; */
+    height: 100%;
+    gap: 16px;
+    border-radius: 24px;
+    background: #FFF;
+
+    /* nano Drop Shadow */
+    box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
+}
+
+#card-premium {
+    display: flex;
+    padding: 24px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 310px; */
+    /* height: 100%; */
+    gap: 16px;
+    border-radius: 0px 0px 24px 24px;
+    background: #333333;
+
+    /* nano Drop Shadow */
+    box-shadow: 0px 0px 0px 0px rgba(51, 51, 51, 0.06);
+    /* box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06); */
+}
+
+.card-title-price {
+    color: var(--blue-1, rgba(78, 150, 225, 0.90));
+    text-align: center;
+
+    /* Heading 3 */
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    /* 133.333% */
+    letter-spacing: -1.68px;
+    text-transform: capitalize;
+}
+
+.card-text-premium {
+    color: var(--blue-140, rgba(78, 150, 225, 0.40));
+    text-align: center;
+
+    /* Body 1 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+}
+
+.card-text-price {
+    color: var(--blue-140, rgba(78, 150, 225, 0.40));
+    text-align: center;
+
+    /* Body 1 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+}
+
+.fake-price {
+    color: var(--black-80, rgba(51, 51, 51, 0.80));
+    text-align: center;
+    width: 270px;
+    /* Heading 3 */
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    /* 133.333% */
+    letter-spacing: -1.68px;
+    text-transform: capitalize;
+    text-decoration: line-through 3px var(--black-80, rgba(51, 51, 51, 0.80));
+}
+
+.price-original {
+    color: var(--black, #333);
+    text-align: center;
+
+    /* Heading 2 */
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    /* 150% */
+    letter-spacing: -2.24px;
+    text-transform: capitalize;
+}
+
+.fake-price-premium {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    width: 270px;
+    /* Heading 3 */
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    /* 133.333% */
+    letter-spacing: -1.68px;
+    text-transform: capitalize;
+    text-decoration: line-through 3px var(--black-80, rgba(255, 255, 255, 0.8));
+}
+
+.price-original-premium {
+    color: var(--blue-1, rgba(78, 150, 225, 0.90));
+    text-align: center;
+
+    /* Heading 2 */
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    /* 150% */
+    letter-spacing: -2.24px;
+    text-transform: capitalize;
+}
+
+.subtext-price {
+    color: var(--black, #333);
+    width: 242px;
+    /* float: right; */
+    /* Body 1 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+}
+
+#card-header {
+    display: flex;
+    /* padding: 10px; */
+    /* align-items: center; */
+    gap: 10px;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 24px 24px 0px 0px;
+    background: var(--blue-1, rgba(78, 150, 225, 0.90));
+}
+
+#card-header p {
+    color: #FFF;
+    text-align: center;
+    flex: 1 0 0;
+    margin-top: 16px;
+    /* Body 1 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+}
+
+.subtext-price-premium {
+    color: #FFF;
+    width: 242px;
+    /* float: right; */
+    /* Body 1 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+}
+
+.collect-benefit {
+    display: flex;
+    margin-top: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+#benefit {
+    display: flex;
+    align-items: flex-start;
+}
+
+svg .icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    /* margin-top: 10px; */
+}
 
 /* Start testimonial style */
 #testimonial {
@@ -805,6 +1084,12 @@ nav #logo {
     letter-spacing: -1.68px;
 }
 
+@media screen and (max-width: 768px) {
+    #footer p {
+        margin-bottom: 16px;
+    }
+}
+
 /* End of Footer Section */
 
 /* Responsive Section */
@@ -823,6 +1108,12 @@ nav #logo {
     #contact h5 {
         font-size: 20px;
     }
+
+    #card-standard,
+    #card-header,
+    #card-basic {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -835,7 +1126,7 @@ nav #logo {
         font-size: 20px;
     }
 
-    .container {
+    .content {
         width: 100%;
         padding: 20px;
         margin-left: 0px;
@@ -882,7 +1173,7 @@ nav #logo {
         font-size: 20px;
     }
 
-    .container {
+    .content {
         margin-left: 0px;
         margin-right: 0px;
         /* justify-content: center; */

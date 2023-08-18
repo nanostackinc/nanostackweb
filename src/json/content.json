@@ -54,6 +54,51 @@
         "android": [{}],
         "product": [{}]
     },
+    "pricelist": {
+        "title": "Choose the best plan for you",
+        "subtitle": "includes creative and responsive design, free domain (1 yr), SSL, and hosting, SEO friendly, and accessible from any devices",
+        "basic": [{
+            "fake_price": "1,649,000,-",
+            "real_price": "1,499,000,-",
+            "benefit": [{
+                "usability": "Suitable for landing page, company profile",
+                "tech": "HTML, CSS, & JS",
+                "pages": "5 pages",
+                "design": "Default design templates",
+                "time": "1 week work duration estimation"
+            }]
+        }],
+        "standard": [{
+            "fake_price": "5,499,000,-",
+            "real_price": "4,999,000,-",
+            "benefit": [{
+                "usability": "Suitable for landing page, company profile, e-commerce, online course",
+                "tech": "HTML, CSS, & JS",
+                "pages": "5 pages",
+                "design": "Custom design templates",
+                "hosting": "Dedicated hosting",
+                "email": "Email",
+                "book": "Manual Book",
+                "admin": "Admin dashboard",
+                "time": "2 weeks work duration estimation"
+            }]
+        }],
+        "premium": [{
+            "fake_price": "8,799,000,-",
+            "real_price": "7,999,000,-",
+            "benefit": [{
+                "usability": "Suitable for HRIS, POS, MIS",
+                "tech": "JS Framework (faster development)",
+                "pages": "5 pages",
+                "design": "Custom design templates",
+                "hosting": "Dedicated hosting",
+                "email": "Email",
+                "book": "Manual Book",
+                "admin": "Admin dashboard",
+                "time": "4 weeks work duration estimation"
+            }]
+        }]
+    },
     "testimonial": {
         "title": "Customer Love: What People Are Saying",
         "material": [{
@@ -75,8 +120,11 @@
     },
     "contact": {
         "title": "Get in Touch: Reach Out Today",
+        "addresshref": "https://goo.gl/maps/G1FhcqDpNbZMAyq66",
         "address": "Jombang Kota, Jombang, East Java, Indonesia",
+        "phonehref":"https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya",
         "phone": "+62 895-3664-23269",
+        "emailhref": "mailto:nanostackindustries@gmail.com?subject=[Web Services/Mobile App Services(pilih salah satu)]?body:Saya tertarik memesan layanan web/mobile app dengan spesifikasi ...",
         "email": "nanostackindustries@gmail.com",
         "start_day": "Monday",
         "end_day": "Friday",
