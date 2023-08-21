@@ -21,16 +21,17 @@ const Footer = ({data}) => {
             <a href="#" className="fw-700">Menu</a>
           </p>
           <p>
-            <a href="#">About Us</a>
+            <a href="#about">About Us</a>
           </p>
           <p>
-            <a href="#">Portfolio</a>
+            <a href="#portofolio">Portfolio</a>
           </p>
           <p>
-            <a href="#">Testimonial</a>
+            <a href="#testimonial">Testimonial</a>
           </p>
           <p>
-            <a href="#">Contact</a>
+            <a href={data.whatsapp} 
+            target='__blank'>Contact</a>
           </p>
         </div>
         <div className="col-12 col-md-3">
@@ -49,7 +50,8 @@ const Footer = ({data}) => {
             <a href="#">LinkedIn</a>
           </p>
           <p>
-            <a href="#">Facebook</a>
+            <a href={data.facebook}
+            target='__blank'>Facebook</a>
           </p>
          </div>
       </div>

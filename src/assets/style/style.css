@@ -678,6 +678,10 @@ nav #logo {
 @media screen and (max-width:992px) {
     .title-port {
         margin: 16px 0px 16px 0px;
+        line-height: 36px;
+    }
+    #testimonial .title-testi, #contact h1{
+        line-height: 36px;
     }
 }
 
@@ -1096,10 +1100,9 @@ svg .icon {
 
 @media screen and (max-width:992px) {
 
-    #about h1,
-    #contact h1 {
-        padding: 24px 0px;
-        margin: 8px 0px;
+    #hero h1,
+    #about h1{
+        line-height: 52px;
     }
 
     #hero p,
