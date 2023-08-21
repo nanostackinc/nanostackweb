@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import { Logo } from '../assets';
 
-function Navbar() {
+
+function Navbar({onStatusChange,data }) {
   const [isShowed, setIsShowed] = useState(false);
+  const [lng,setLng]=useState(false)
+
+
 
   const handleToggle = () => {
     setIsShowed(!isShowed);
@@ -10,6 +14,11 @@ function Navbar() {
 
   const handleLinkClick = () => {
     setIsShowed(false); // Set isShowed state to false when any link is clicked
+  };
+  const handleStatus = () => {
+    // Your logic to determine status
+    setLng(!lng)
+    onStatusChange(lng); // Call the prop function with the new status
   };
 
   return (
@@ -39,29 +48,35 @@ function Navbar() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#hero" onClick={handleLinkClick}>
-                Home
+                {data.link}
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#about" onClick={handleLinkClick}>
-                About Us
+              {data.link1}
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#portofolio" onClick={handleLinkClick}>
-                Portofolio
+              {data.link2}
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#testimonial" onClick={handleLinkClick}>
-                Testimonial
+              {data.link3}
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact" onClick={handleLinkClick}>
-                Contact
+              {data.link4}
               </a>
             </li>
+            {/* <li className="nav-item">
+              <a className="nav-link"  onClick={handleStatus}>
+                EN
+              </a>
+            </li> */}
+
           </ul>
         </div>
       </div>

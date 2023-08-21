@@ -1,0 +1,151 @@
+{
+    "navbar": {
+        "link": "Beranda",
+        "link1": "Tentang Kami",
+        "link2": "Portfolio",
+        "link3": "Ulasan",
+        "link4": "Kontak"
+    },
+    "hero": {
+        "title": "Mulai Ide Anda Melalui Pengembangan Produk Digital",
+        "subtitle": "Tim Pengembangan Perangkat Lunak kami siap membangun Ide Anda dalam beberapa minggu ⚡️",
+        "background_image": " /images/hero.png",
+        "cta_text": "Hubungi Kami",
+        "cta_link": "Lihat portofolio kami"
+    },
+    "about": {
+        "title": "Perusahaan Produksi Perangkat Lunak yang Berdedikasi Berbasis di Indonesia",
+        "description_primary": "Dengan pengetahuan dan pengalaman luas kami di berbagai Industri, kami dapat membantu mencapai tujuan Anda dengan cepat dan efisien.",
+        "description_secondary": "Kami unggul dalam merancang dan menjaga antarmuka pengguna responsif, membuat antarmuka yang dinamis dan menarik dengan kode yang bersih dan dioptimalkan. Berkolaborasi dengan tim lintas fungsional dengan lancar, mereka memastikan aplikasi web/mobile yang luar biasa dan memberikan pengalaman pengguna yang lancar. Mari ubah visi Anda menjadi kenyataan dalam beberapa minggu! 🚀",
+        "image": " /images/about.png"
+    },
+    "portfolio": {
+        "title": "Setiap Proyek Adalah Potongan Pengembangan yang Unik",
+        "website": [{
+                "id": 1,
+                "title": "Streaming Film 🍿️",
+                "description": "Tonton film favorit Anda di platform kami dengan perpustakaan yang luas. Nikmati pembayaran tanpa hambatan melalui Midtrans, menjamin kenyamanan dan keamanan.",
+                "image": " /images/image_3.png"
+            },
+            {
+                "id": 2,
+                "title": "E-Commerce Sepatu 🥾",
+                "description": "Belanja sepatu stylish di aplikasi kami dengan antarmuka kreatif. Dapatkan saran fashion dan bantuan waktu nyata melalui layanan obrolan langsung kami.",
+                "image": " /images/image_6.png"
+            },
+            {
+                "id": 3,
+                "title": "Pemesanan Pendakian 🌋",
+                "description": "Nikmati kemudahan mendaki! Melalui registrasi pendakian yang efektif dengan tiket berbasis QR Code dan pelacakan status pendakian.",
+                "image": " /images/image_1.png"
+            },
+            {
+                "id": 4,
+                "title": "Kelas Online ✏️",
+                "description": "Akses kelas online interaktif di berbagai perangkat. Daftar dengan mudah tanpa masalah dengan integrasi pembayaran Midtrans, memastikan transaksi dan pembelajaran yang aman.",
+                "image": " /images/image_4.png"
+            },
+            {
+                "id": 5,
+                "title": "Sewa Mobil 🚗",
+                "description": "Sewa mobil dengan mudah di situs web responsif kami dengan sentuhan kreatif. Jelajahi berbagai jenis kendaraan dan pesan perjalanan Anda secara instan.",
+                "image": " /images/image_5.png"
+            },
+            {
+                "id": 6,
+                "title": "Pembelian Bootcamp 📚",
+                "description": "Ikuti bootcamp online kami untuk keterampilan yang banyak diminati. Daftar dengan lancar dengan integrasi Midtrans, menjamin pembayaran yang aman di berbagai perangkat.",
+                "image": " /images/image_2.png"
+            }
+        ],
+        "android": [{}],
+        "product": [{}]
+    },
+    "pricelist": {
+        "title": "Pilih rencana terbaik untuk Anda",
+        "subtitle": "termasuk desain kreatif dan responsif, domain gratis (1 tahun), SSL, dan hosting, ramah SEO, dan dapat diakses dari berbagai perangkat",
+        "basic": [{
+            "fake_price": "1.649.000,-",
+            "real_price": "1.499.000,-",
+            "benefit": [{
+                "usability": "Cocok untuk landing page, profil perusahaan",
+                "tech": "HTML, CSS, & JS",
+                "pages": "5 halaman",
+                "design": "Template desain default",
+                "time": "Estimasi durasi kerja 1 minggu"
+            }]
+        }],
+        "standard": [{
+            "fake_price": "5.499.000,-",
+            "real_price": "4.999.000,-",
+            "benefit": [{
+                "usability": "Cocok untuk landing page, profil perusahaan, e-commerce, kursus online",
+                "tech": "HTML, CSS, & JS",
+                "pages": "5 halaman",
+                "design": "Template desain kustom",
+                "hosting": "Hosting terdedikasi",
+                "email": "Email",
+                "book": "Buku Manual",
+                "admin": "Dashboard Admin",
+                "time": "Estimasi durasi kerja 2 minggu"
+            }]
+        }],
+        "premium": [{
+            "fake_price": "8.799.000,-",
+            "real_price": "7.999.000,-",
+            "benefit": [{
+                "usability": "Cocok untuk HRIS, POS, MIS",
+                "tech": "JS Framework (pengembangan lebih cepat)",
+                "pages": "5 halaman",
+                "design": "Template desain kustom",
+                "hosting": "Hosting terdedikasi",
+                "email": "Email",
+                "book": "Buku Manual",
+                "admin": "Dashboard Admin",
+                "time": "Estimasi durasi kerja 4 minggu"
+            }]
+        }]
+    },
+    "testimonial": {
+        "title": "Cinta Pelanggan: Apa yang Dikatakan Orang",
+        "material": [{
+                "content": "“ Sangat keren segala sesuatu yang telah dilakukan, melebihi harapan saya. Memiliki kemajuan cepat dalam penyampaian API, dan sampai sekarang hasilnya masih aman saat API dikonsumsi.“",
+                "name": "Moch. Iskandar Zulqornaen",
+                "job": "Product Owner of Hyponic"
+            },
+            {
+                "content": "“Dia bekerja dengan sangat cepat dan profesional! Hasilnya luar biasa, dan mereka juga membantu memperbaiki masalah hosting web saya. Saya sangat puas dengan layanan mereka! Sangat direkomendasikan!“",
+                "name": "Ayu Nurrahima Firdausi",
+                "job": "Mahasiswa"
+            },
+            {
+                "content": "“Dicky adalah seorang pengembang frontend yang mengesankan, berkolaborasi dengan baik dengan desainer. Dia unggul dalam presisi, mereplikasi desain di berbagai perangkat. Terpercaya dan berorientasi pada detail, saya merekomendasikannya untuk mengubah desain menjadi produk fungsional.“",
+                "name": "Victor",
+                "job": "Desainer UI/UX"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Hubungi Kami: Hubungi Kami Hari Ini",
+        "addresshref": "https://goo.gl/maps/G1FhcqDpNbZMAyq66",
+        "address": "Jombang Kota, Jombang, Jawa Timur, Indonesia",
+        "phonehref": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya",
+        "phone": "+62 895-3664-23269",
+        "emailhref": "mailto:nanostackindustries@gmail.com?subject=[Layanan Web/Layanan Aplikasi Mobile (pilih salah satu)]?body=Saya tertarik memesan layanan web/aplikasi mobile dengan spesifikasi ...",
+        "email": "nanostackindustries@gmail.com",
+        "start_day": "Senin",
+        "end_day": "Jumat",
+        "start_time": "09:00 WIB",
+        "end_time": "17:00 WIB"
+    },
+    "footer": {
+        "forum": "komunitas",
+        "title": "nanostack",
+        "desc": "Selamat datang di nanostack, tempat inovasi bertemu keunggulan dalam pengembangan perangkat lunak!",
+        "instagram": "https://www.instagram.com/",
+        "linkedin": "https://www.linkedin.com/",
+        "fastwork": "https://fastwork.id/user/ivanar6542/web-development-64971353?utm_source=app_sharing",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+    }
+}

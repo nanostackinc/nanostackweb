@@ -1,11 +1,17 @@
 {
+    "navbar": {
+        "link": "Home",
+        "link1": "About Us",
+        "link2": "Portofolio",
+        "link3": "Testimonial",
+        "link4": "Contact"
+    },
     "hero": {
         "title": "Kickstart Your Ideas Through Digital Product Development",
         "subtitle": "Our Software Development team is ready to build your Ideas within weeks ⚡️",
         "background_image": " /images/hero.png",
         "cta_text": "Chat Us",
-        "cta_link": "See our portfolio",
-        "whatsapp": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya"
+        "cta_link": "See our portfolio"
     },
     "about": {
         "title": "A Dedicated Software Production Company Based In Indonesia",
@@ -123,7 +129,7 @@
         "title": "Get in Touch: Reach Out Today",
         "addresshref": "https://goo.gl/maps/G1FhcqDpNbZMAyq66",
         "address": "Jombang Kota, Jombang, East Java, Indonesia",
-        "phonehref":"https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya",
+        "phonehref": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya",
         "phone": "+62 895-3664-23269",
         "emailhref": "mailto:nanostackindustries@gmail.com?subject=[Web Services/Mobile App Services(pilih salah satu)]?body:Saya tertarik memesan layanan web/mobile app dengan spesifikasi ...",
         "email": "nanostackindustries@gmail.com",
@@ -133,13 +139,13 @@
         "end_time": "05:00 PM"
     },
     "footer": {
+        "forum": "Community",
         "title": "nanostack",
         "desc": "Welcome to nanostack, where innovation meets excellence in software development!",
         "instagram": "https://www.instagram.com/",
         "linkedin": "https://www.linkedin.com/",
         "fastwork": "https://fastwork.id/user/ivanar6542/web-development-64971353?utm_source=app_sharing",
-        "facebook": "https://www.facebook.com/profile.php?id=100095441051576",
-        "youtube": "https://www.youtube.com/",
-        "whatsapp": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya"
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
     }
 }

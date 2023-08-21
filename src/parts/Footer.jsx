@@ -1,7 +1,7 @@
 import React from 'react';
 import {Logo} from '../assets';
 
-const Footer = ({data}) => {
+const Footer = ({data,value}) => {
   return (
     <section id="footer" style={{
       marginTop: 64
@@ -21,22 +21,21 @@ const Footer = ({data}) => {
             <a href="#" className="fw-700">Menu</a>
           </p>
           <p>
-            <a href="#about">About Us</a>
+            <a href="#">{value.link1}</a>
           </p>
           <p>
-            <a href="#portofolio">Portfolio</a>
+            <a href="#">{value.link2}</a>
           </p>
           <p>
-            <a href="#testimonial">Testimonial</a>
+            <a href="#">{value.link3}</a>
           </p>
           <p>
-            <a href={data.whatsapp} 
-            target='__blank'>Contact</a>
+            <a href="#">{value.link4}</a>
           </p>
         </div>
         <div className="col-12 col-md-3">
           <p>
-            <a href="#" className="fw-700">Community</a>
+            <a href="#" className="fw-700">{data.forum}</a>
           </p>
           <p>
             <a
@@ -50,8 +49,7 @@ const Footer = ({data}) => {
             <a href="#">LinkedIn</a>
           </p>
           <p>
-            <a href={data.facebook}
-            target='__blank'>Facebook</a>
+            <a href="#">Facebook</a>
           </p>
          </div>
       </div>
