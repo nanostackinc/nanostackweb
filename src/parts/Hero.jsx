@@ -7,10 +7,10 @@ export default function Hero({ data }) {
     <section id="hero" class="mt-0 mt-md-5">
         <div className="row">
           <div className="col-lg-7 col-md-12  justify-content-center">
-            <h1 className='hero-title'>{data.title}</h1>
+            <h1 className='hero-title my-2 py-4'>{data.title}</h1>
             <p className='hero-subtitle'>{data.subtitle}</p>
             <div className="card-cta mx-auto">
-              <a href="https://api.whatsapp.com/send?phone=08993845802" style={{ textDecoration: "none" }}>
+              <a href={data.whatsapp} target='__blank' style={{ textDecoration: "none" }}>
                 <Button className='btn-primary'>{data.cta_text}</Button>
               </a>
               <a href='#portofolio' style={{textDecoration:"none"}}>
