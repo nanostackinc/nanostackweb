@@ -2,12 +2,6 @@ import React from 'react'
 import Button from '../components/Button'
 
 const Pricelist = ({data}) => {
-  // (data.basic.map((item) => {
-  //   // console.log(item.fake_price)
-  //   item.benefit.map((value)=>{
-  //     // console.log(value.usability)
-  //   })
-  // }))
   return (
     <section id='pricelist'>
       <div className="title-pricelist">
