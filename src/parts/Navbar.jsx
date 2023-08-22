@@ -68,8 +68,8 @@ function Navbar({onStatusChange, data}) {
           ? 'show'
           : ''}`}
           id="navbarText">
-          <div className="btn-group me-5">
-            <button type="button" id='btn-toggle' className="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">
+          <div className="btn-group me-5 d-none d-lg-block">
+            <button type="button" id='btn-toggle' className="btn order-6 order-md-1 dropdown-toggle" data-bs-toggle="dropdown">
               {language}
             </button>
             <ul
@@ -142,10 +142,58 @@ function Navbar({onStatusChange, data}) {
                   {data.link3}
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item order-5 order-md-6">
                 <a className="nav-link" href="#contact" onClick={handleLinkClick}>
                   {data.link4}
                 </a>
+              </li>
+            </ul>
+          </div>
+          <div className="btn-group mt-4 me-5 d-sm-block d-md-block d-lg-none" id='btn-toggle'>
+            <button type="button"  className="btn order-6 order-md-1 dropdown-toggle" data-bs-toggle="dropdown">
+              {language}
+            </button>
+            <ul
+              className="dropdown-menu"
+              style={{
+              border: "none",
+              width: '192px',
+              padding: '8px 0px',
+              flexDirection: 'column',
+              alignItems: 'flex-start',
+              gap: '8px',
+              borderRadius: '8px',
+              background: '#FFF',
+              boxShadow: '0px 6px 60px 0px rgba(51, 51, 51, 0.06)'
+            }}>
+              <li>
+                <button
+                  className="dropdown-item d-flex justify-content-between"
+                  value="English"
+                  id='dropdown-select'
+                  type="button"
+                  onClick={handleStatus}>
+                  English {language === 'English' && <span><img src={Click} alt="Click"/></span>}
+                </button>
+              </li>
+              <li>
+                <button
+                  className="dropdown-item"
+                  id='dropdown-select'
+                  type="button"
+                  value="Bahasa Indonesia"
+                  onClick={handleStatus}
+                  style={{
+                  fontFamily: 'Open Sans',
+                  fontSize: '16px',
+                  fontStyle: 'normal',
+                  marginTop: 8,
+                  fontWeight: 600,
+                  lineHeight: 'normal',
+                  letterSpacing: '-1.12px'
+                }}>
+                  Bahasa Indonesia {language === 'Bahasa Indonesia' && <span><img src={Click} alt="Click"/></span>}
+                </button>
               </li>
             </ul>
           </div>

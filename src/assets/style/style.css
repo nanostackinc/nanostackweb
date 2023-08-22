@@ -404,12 +404,6 @@
     }
 }
 
-/* End of Contact Section */
-
-
-/* Start navbar style + footer style*/
-
-/* Start navbar style */
 .navbar {
 
     display: flex;
@@ -438,7 +432,6 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: -1.12px;
-    /* background-color: #3498db; */
     color: var(--black-80, rgba(51, 51, 51, 0.80));
     border: none;
     cursor: pointer;
