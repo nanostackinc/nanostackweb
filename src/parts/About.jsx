@@ -1,8 +1,5 @@
 import React from 'react';
-import Logo from '../assets/images/icon/logo.svg'
-import Lightning from '../assets/images/icon/Lightning.svg'
-import Dollar from '../assets/images/icon/CurrencyDollar.svg'
-import Trend from '../assets/images/icon/TrendUp.svg'
+
 
 const About = ({data}) => {
   return (
@@ -10,7 +7,7 @@ const About = ({data}) => {
         <div className="row">
           <div className="col-12 col-lg-5 d-flex justify-content-center position-relative justify-content-lg-start">
             <img src={data.image} className="img-fluid" alt={data.image}/>
-            <div class="d-flex">
+            {/* <div class="d-flex">
               <div class="card card-about1 position-absolute border-0">
                 <div class="card-body px-4 py-3">
                   <p class="m-0"><span><img src={Lightning} class="pe-3" alt=""/></span>Accelerate Growth</p>
@@ -31,7 +28,7 @@ const About = ({data}) => {
                   <p class="m-0"><span><img src={Logo} class="px-auto" alt=""/></span></p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="col-12 col-lg-6 offset-lg-1 justify-content-center justify-content-lg-start">
             <h1 class="text-center text-lg-start">

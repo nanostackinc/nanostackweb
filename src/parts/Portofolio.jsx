@@ -137,7 +137,7 @@ const Portofolio = ({data}) => {
 
   return (
     <>
-    <h3 className='title-port'>{data.title}</h3>
+    <h3 className='title-port' id="title-porto">{data.title}</h3>
       <section id="portofolio">
       <Tabs tabsData={tabsData}/>
       </section>
