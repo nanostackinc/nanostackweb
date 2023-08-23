@@ -13,18 +13,19 @@ import Pricelist from '../parts/Pricelist';
 import Meta from '../parts/Meta';
 
 function LandingPage() {
-  const [status, setStatus] = useState(false); // Initialize status state
+  const [language, setLanguage] = useState(localStorage.getItem('language') || 'English'); // Initialize language state
 
-  const handleStatusChange = (newStatus) => {
-    setStatus(newStatus);
+  const handleLanguageChange = (newLanguage) => {
+    setLanguage(newLanguage);
+    localStorage.setItem('language', newLanguage); // Update language in local storage
   };
 
-  const landingPageData = status ? landingPageDataIdn : landingPageDataEn;
+  const landingPageData = language === 'Bahasa Indonesia' ? landingPageDataIdn : landingPageDataEn;
 
   return (
     <>
       <Meta />
-      <Navbar data={landingPageData.navbar}  onStatusChange={handleStatusChange} />
+      <Navbar data={landingPageData.navbar} onLanguageChange={handleLanguageChange} />
       <div className="container mx-auto">
         <Hero data={landingPageData.hero} />
         <About data={landingPageData.about} />

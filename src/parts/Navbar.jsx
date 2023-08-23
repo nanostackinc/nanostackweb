@@ -1,15 +1,10 @@
 import React, {useState} from 'react';
 import {Logo, Click} from '../assets';
 
-function Navbar({onStatusChange, data}) {
-  const [isShowed,
-    setIsShowed] = useState(false);
-  const [lng,
-    setLng] = useState(false);
-  const [language,
-    setLanguage] = useState(lng
-    ? 'Bahasa Indonesia'
-    : 'English');
+function Navbar({onLanguageChange, data}) {
+  const [isShowed, setIsShowed] = useState(false);
+  const [lng, setLng] = useState(false);
+  const [language, setLanguage] = useState(lng ? 'Bahasa Indonesia' : 'English');
 
   const handleToggle = () => {
     setIsShowed(!isShowed);
@@ -20,18 +15,11 @@ function Navbar({onStatusChange, data}) {
   };
 
   const handleStatus = (e) => {
-    const data = e.target.value
-    setLng(!lng);
-    if (!lng) {
-      setLanguage(data);
-      onStatusChange(lng);
-      console.log(language)
-    } else {
-      setLanguage(data);
-      onStatusChange(lng);
-      console.log(language)
-    }
+    const newLanguage = e.target.value;
+    setLanguage(newLanguage);
+    onLanguageChange(newLanguage); // Call the provided callback to update language
   };
+
 
   return (
     <nav className="navbar navbar-expand-lg">
@@ -97,21 +85,13 @@ function Navbar({onStatusChange, data}) {
               </li>
               <li>
                 <button
-                  className="dropdown-item"
-                  id='dropdown-select'
-                  type="button"
+                 className="dropdown-item d-flex justify-content-between"
+                 id='dropdown-select'
+                 type="button"
                   value="Bahasa Indonesia"
                   onClick={handleStatus}
-                  style={{
-                  fontFamily: 'Open Sans',
-                  fontSize: '16px',
-                  fontStyle: 'normal',
-                  marginTop: 8,
-                  fontWeight: 600,
-                  lineHeight: 'normal',
-                  letterSpacing: '-1.12px'
-                }}>
-                  Bahasa Indonesia {language === 'Bahasa Indonesia' && <span><img src={Click} alt="Click"/></span>}
+                  >
+                  Indonesia {language === 'Bahasa Indonesia' && <span><img src={Click} alt="Click"/></span>}
                 </button>
               </li>
             </ul>
@@ -178,7 +158,7 @@ function Navbar({onStatusChange, data}) {
               </li>
               <li>
                 <button
-                  className="dropdown-item"
+                  className="dropdown-item d-flex justify-content-between"
                   id='dropdown-select'
                   type="button"
                   value="Bahasa Indonesia"
@@ -192,7 +172,7 @@ function Navbar({onStatusChange, data}) {
                   lineHeight: 'normal',
                   letterSpacing: '-1.12px'
                 }}>
-                  Bahasa Indonesia {language === 'Bahasa Indonesia' && <span><img src={Click} alt="Click"/></span>}
+                 Bahasa Indonesia {language === 'Bahasa Indonesia' && <span><img src={Click} alt="Click"/></span>}
                 </button>
               </li>
             </ul>
