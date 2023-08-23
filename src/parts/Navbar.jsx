@@ -65,7 +65,7 @@ function Navbar({onLanguageChange, data}) {
               className="dropdown-menu dropdown-menu-end"
               style={{
               border: "none",
-              width: '192px',
+              width: '100%',
               padding: '8px 0px',
               flexDirection: 'column',
               alignItems: 'flex-start',
