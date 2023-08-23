@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Logo, Click} from '../assets';
-
+import IconFlag from '../assets/images/icon/flag-gb.svg'
+import IconFlagID from '../assets/images/icon/flag-id.svg'
 function Navbar({onLanguageChange, data}) {
   const [isShowed, setIsShowed] = useState(false);
   const [lng, setLng] = useState(false);
@@ -19,7 +20,7 @@ function Navbar({onLanguageChange, data}) {
     setLanguage(newLanguage);
     onLanguageChange(newLanguage); // Call the provided callback to update language
   };
-
+  const dataLanguage=localStorage.getItem('language')
 
   return (
     <nav className="navbar navbar-expand-lg">
@@ -58,7 +59,7 @@ function Navbar({onLanguageChange, data}) {
           id="navbarText">
           <div className="btn-group me-5 d-none d-lg-block">
             <button type="button" id='btn-toggle' className="btn order-6 order-md-1 dropdown-toggle" data-bs-toggle="dropdown">
-              {language}
+              {dataLanguage==="Bahasa Indonesia"?<img src={IconFlagID}/>:dataLanguage==="English"?<img src={IconFlagID}/>:""}
             </button>
             <ul
               className="dropdown-menu dropdown-menu-end"
@@ -80,7 +81,7 @@ function Navbar({onLanguageChange, data}) {
                   id='dropdown-select'
                   type="button"
                   onClick={handleStatus}>
-                  English {language === 'English' && <span><img src={Click} alt="Click"/></span>}
+                  <img src={IconFlag}/> {language === 'English' && <span><img src={Click} alt="Click"/></span>}
                 </button>
               </li>
               <li>
@@ -91,7 +92,7 @@ function Navbar({onLanguageChange, data}) {
                   value="Bahasa Indonesia"
                   onClick={handleStatus}
                   >
-                  Indonesia {language === 'Bahasa Indonesia' && <span><img src={Click} alt="Click"/></span>}
+                  <img src={IconFlagID}/> {language === 'Bahasa Indonesia' && <span><img src={Click} alt="Click"/></span>}
                 </button>
               </li>
             </ul>
@@ -131,7 +132,7 @@ function Navbar({onLanguageChange, data}) {
           </div>
           <div className="btn-group mt-4 me-5 d-sm-block d-md-block d-lg-none" id='btn-toggle'>
             <button type="button"  className="btn order-6 order-md-1 dropdown-toggle" data-bs-toggle="dropdown">
-              {language}
+              {dataLanguage}
             </button>
             <ul
               className="dropdown-menu"
