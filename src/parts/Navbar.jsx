@@ -59,7 +59,7 @@ function Navbar({onLanguageChange, data}) {
           id="navbarText">
           <div className="btn-group me-5 d-none d-lg-block">
             <button type="button" id='btn-toggle' className="btn order-6 order-md-1 dropdown-toggle" data-bs-toggle="dropdown">
-              {dataLanguage==="Bahasa Indonesia"?<img src={IconFlagID}/>:dataLanguage==="English"?<img src={IconFlagID}/>:""}
+              {dataLanguage==="Bahasa Indonesia"?<img src={IconFlagID}/>:dataLanguage==="English"?<img src={IconFlag}/>:""}
             </button>
             <ul
               className="dropdown-menu dropdown-menu-end"
