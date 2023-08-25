@@ -173,7 +173,7 @@ function Navbar({onLanguageChange, data}) {
                   lineHeight: 'normal',
                   letterSpacing: '-1.12px'
                 }}>
-                 <img src={IconFlagID}/> {language === 'English' && <span><img src={Click} alt="Click"/></span>}
+                 <img src={IconFlagID}/> {language === 'Bahasa Indonesia' && <span><img src={Click} alt="Click"/></span>}
                 </button>
               </li>
             </ul>
