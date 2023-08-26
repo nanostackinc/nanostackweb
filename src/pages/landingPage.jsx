@@ -13,14 +13,14 @@ import Pricelist from '../parts/Pricelist';
 import Meta from '../parts/Meta';
 
 function LandingPage() {
-  const [language, setLanguage] = useState(localStorage.getItem('language') || 'English'); // Initialize language state
+  const [language, setLanguage] = useState(localStorage.getItem('language')); // Initialize language state
 
   const handleLanguageChange = (newLanguage) => {
     setLanguage(newLanguage);
     localStorage.setItem('language', newLanguage); // Update language in local storage
   };
-
-  const landingPageData = language === 'Bahasa Indonesia' ? landingPageDataIdn : landingPageDataEn;
+  console.log(language)
+  const landingPageData = language === 'Bahasa Indonesia' ? landingPageDataIdn : language === 'English'?landingPageDataEn:language===null?landingPageDataEn:"";
 
   return (
     <>
