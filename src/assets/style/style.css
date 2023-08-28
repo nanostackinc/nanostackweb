@@ -40,6 +40,15 @@
     padding-bottom: 24px;
 }
 
+.hero-image {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .card-cta {
     display: flex;
     justify-content: start;
