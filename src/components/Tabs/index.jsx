@@ -6,7 +6,7 @@ const Tabs=({tabsData})=>{
         setActiveTabs(index)
     }
     return(
-        <div>
+        <div className='container'>
             <div className="tabs">
             {tabsData.map((item,index)=>(
                 <div
