@@ -10,7 +10,7 @@ const About = ({data}) => {
         <div className="row">
           <div className="col-12 col-lg-5 d-flex justify-content-center position-relative justify-content-lg-start">
             <picture class="d-flex align-items-center">
-            <img src={data.image} className="img-fluid" alt={data.image}/>
+              <img src={data.image} className="img-fluid" alt={data.image}/>
             </picture>
             {/* <div class="d-flex">
               <div class="card card-about1 position-absolute border-0">
