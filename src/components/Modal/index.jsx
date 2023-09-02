@@ -3,14 +3,14 @@ import './style.css'
 
 const Modal = ({ data, status, onCloseModal }) => {
  
-
+  // console.log(data)
   const closeModal = () => {
     onCloseModal(false)
   };
-
+  // console.log(status)
   return (
     <>
-      {status ? (
+      {status && Object.keys(data).length > 0 ? (
         <div className="main-container" onClick={closeModal}>
           <div className="modal-container">
             <h3 className="title-heading text-left">{data.title}</h3>

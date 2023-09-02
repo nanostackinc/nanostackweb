@@ -28,11 +28,11 @@ function LandingPage() {
   const handleModal=(item,modalStatus)=>{
       setItem(item)
       setStatus(modalStatus)
-      console.log(modalStatus)
+      // console.log(modalStatus)
     
   }
-  const handleCloseModal =(stats)=>{
-    setStatus(stats)
+  const handleCloseModal =()=>{
+    setStatus(false)
 
   }
 
@@ -55,21 +55,21 @@ function LandingPage() {
        
       <Meta />
       <Navbar data={landingPageData.navbar} onLanguageChange={handleLanguageChange} />
-      <div  onClick={handleCloseModal}>
+    
 
-      <div className="container d-flex flex-column  mx-auto">
+      <div className="container d-flex flex-column  mx-auto"  onClick={handleCloseModal}>
         <Hero data={landingPageData.hero} />
         <About data={landingPageData.about} />
       </div>
       <Portofolio data={landingPageData.portfolio} onChangeModal={handleModal} />
-      <div className="container d-flex flex-column  mx-auto" id="content">
+      <div className="container d-flex flex-column  mx-auto" id="content"  onClick={handleCloseModal}>
         <Pricelist data={landingPageData.pricelist} />
         <Testimonial data={landingPageData.testimonial} />
         <Contact data={landingPageData.contact} />
         <Footer data={landingPageData.footer} value={landingPageData.navbar} />
       </div>
     </div>
-      </div>
+    
         <WhatsAppButton />
       <Modal data={itemData} status={status} onCloseModal={handleCloseModal}/>
       </>
