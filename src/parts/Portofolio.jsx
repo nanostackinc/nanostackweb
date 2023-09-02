@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Tabs from "../components/Tabs";
 import './tabs.css'
-const Portofolio = ({data}) => {
+
+const Portofolio = ({onChangeModal,data}) => {
+  const[modal,setModal]=useState(false)
+  const[dataItem,setData]=useState({})
+
+  const handleModal=(target)=>{
+    setModal(true)
+    const itemData = data.website.find(item => item.id === target);
+    setData(itemData)
+    onChangeModal(itemData,true)
+  }
   const tabsData = [
     {
       title: (
@@ -27,7 +37,7 @@ const Portofolio = ({data}) => {
             ? "col-md-5 order-md-1 "
             : "col-md-6 ";
             return (
-              <div className="card-portofolio row g-0" key={item.id}>
+              <div className="card-portofolio row g-0" onClick={()=>handleModal(item.id)} key={item.id}>
                 <div className={colClassImg} id='card-col'>
                   <img
                     src={item.image}
@@ -140,8 +150,9 @@ const Portofolio = ({data}) => {
     <h3 className='title-port' id="title-porto">{data.title}</h3>
       <section id="portofolio">
       <Tabs tabsData={tabsData}/>
+      
       </section>
-    </>
+    </> 
   );
 };
 

@@ -5,7 +5,7 @@ import Button from '../components/Button';
 export default function Hero({ data }) {
   return (
     <section id="hero" className="mt-0 mt-md-5">
-        <div className="row">
+        <div className="row d-flex justify-content-between">
           <div className="col-lg-6 col-md-12  justify-content-center" id='hero-image'>
             <h1 className='hero-title'>{data.title}</h1>
             <p className='hero-subtitle'>{data.subtitle}</p>
@@ -19,7 +19,7 @@ export default function Hero({ data }) {
             </div>
           </div>
           <div className="col-12 col-lg-5 d-none d-lg-block position-relative">
-            <img src={data.background_image} className="img-hero img-fluid" alt="" />
+            <img src={data.background_image} className="img-hero" alt="" />
           </div>
         </div>
     </section>

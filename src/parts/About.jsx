@@ -3,10 +3,10 @@ import React from 'react';
 
 const About = ({data}) => {
   return (
-    <section id="about"  class="my-5">
-        <div className="row">
-          <div className="col-12 col-lg-5 d-flex justify-content-center position-relative justify-content-lg-start">
-            <img src={data.image} className="img-fluid" alt={data.image}/>
+    <section id="about"  className="d-flex flex-column my-5">
+        <div className="row  d-flex justify-content-between">
+        <div className="col-12 col-lg-5 d-none d-lg-block position-relative">
+            <img src={data.image} className="img-about" alt={data.image}/>
             {/* <div class="d-flex">
               <div class="card card-about1 position-absolute border-0">
                 <div class="card-body px-4 py-3">

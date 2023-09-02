@@ -11,34 +11,69 @@ import Testimonial from '../parts/Testimonial';
 import Footer from '../parts/Footer';
 import Pricelist from '../parts/Pricelist';
 import Meta from '../parts/Meta';
+import Modal from '../components/Modal';
 
 function LandingPage() {
   const [language, setLanguage] = useState(localStorage.getItem('language')); // Initialize language state
-
+  const [itemData,setItem]=useState({})
+  const [status,setStatus]=useState("")
+  const [closeModal,setCloseModal]=("")
   const handleLanguageChange = (newLanguage) => {
     setLanguage(newLanguage);
     localStorage.setItem('language', newLanguage); // Update language in local storage
   };
-  console.log(language)
+  // console.log(language)
   const landingPageData = language === 'Bahasa Indonesia' ? landingPageDataIdn : language === 'English'?landingPageDataEn:language===null?landingPageDataEn:"";
+
+  const handleModal=(item,modalStatus)=>{
+      setItem(item)
+      setStatus(modalStatus)
+      console.log(modalStatus)
+    
+  }
+  const handleCloseModal =(stats)=>{
+    setStatus(stats)
+
+  }
 
   return (
     <>
+   <div
+  className='d-flex flex-column'
+  style={{
+    position: 'fixed',
+    top: 0,
+    backdropFilter: 'blur(10px)',
+    right: 0,
+    bottom: 0,
+    left: 0,
+    overflowY: 'auto',
+  }}
+ 
+ 
+>
+       
       <Meta />
       <Navbar data={landingPageData.navbar} onLanguageChange={handleLanguageChange} />
-      <div className="container mx-auto">
+      <div  onClick={handleCloseModal}>
+
+      <div className="container d-flex flex-column  mx-auto">
         <Hero data={landingPageData.hero} />
         <About data={landingPageData.about} />
       </div>
-      <Portofolio data={landingPageData.portfolio} />
-      <div className="container mx-auto" id="content">
+      <Portofolio data={landingPageData.portfolio} onChangeModal={handleModal} />
+      <div className="container d-flex flex-column  mx-auto" id="content">
         <Pricelist data={landingPageData.pricelist} />
         <Testimonial data={landingPageData.testimonial} />
-        <WhatsAppButton />
         <Contact data={landingPageData.contact} />
         <Footer data={landingPageData.footer} value={landingPageData.navbar} />
       </div>
-    </>
+    </div>
+      </div>
+        <WhatsAppButton />
+      <Modal data={itemData} status={status} onCloseModal={handleCloseModal}/>
+      </>
+    
   );
 }
 
