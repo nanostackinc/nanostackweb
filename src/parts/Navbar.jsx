@@ -21,9 +21,6 @@ function Navbar({onLanguageChange, data}) {
     onLanguageChange(newLanguage); // Call the provided callback to update language
   };
   const dataLanguage=localStorage.getItem('language')
-  if(dataLanguage===null){
-    console.log(true)
-  }
 
   return (
     <nav className="navbar navbar-expand-lg">

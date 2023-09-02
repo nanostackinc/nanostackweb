@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+
+
+
 :root {
     --main-color: #4E96E1;
     --black: var(--black, #333);
@@ -63,6 +66,18 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: -1.12px;
+}
+
+.img-hero {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-about {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-btn1 {
@@ -253,6 +268,54 @@
     height: 64px;
     width: 64px;
 }
+
+/* modal */
+/* CSS for the modal container */
+.modal-show {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    /* Ensure the modal appears above other content */
+}
+
+/* CSS for the modal dialog */
+.modal-dialog {
+    max-width: 500px;
+    /* Adjust the width as needed */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Rest of your existing CSS styles for modal content, header, body, and footer */
+
+/* Additional styles for buttons */
+.btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    /* Gray button */
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    /* Blue button */
+    color: white;
+}
+
 
 @media screen and (max-width:992px) {
     .card-about1 {
@@ -622,6 +685,7 @@ nav #logo {
 #portofolio {
     display: flex;
     padding: 32px 0px;
+    cursor: pointer;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -629,6 +693,9 @@ nav #logo {
     align-self: stretch;
     background: var(--blue-120, rgba(78, 150, 225, 0.20));
 }
+
+
+
 
 .title-port {
     color: var(--black, #333);
