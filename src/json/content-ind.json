@@ -23,40 +23,58 @@
     "portfolio": {
         "title": "Setiap Project Merupakan Sebuah Karya Tangan yang Unik di Setiap Development",
         "website": [{
-            "id": 1,
-            "title": "Movie Streaming 🍿️",
-            "description": "Tonton film-film favorit Anda di platform kami. Nikmati sistem pembayaran terotomasi melalui Midtrans yang dapat menjamin keamanan dan kenyamanan.",
-            "image": " /images/image_3.png"
-        },
+                "id": 1,
+                "title": "Movie Streaming 🍿️",
+                "description": "Tonton film-film favorit Anda di platform kami. Nikmati sistem pembayaran terotomasi melalui Midtrans yang dapat menjamin keamanan dan kenyamanan.",
+                "image": " /images/image_3.png",
+                "long_desc": "Tonton film-film favorit Anda di platform Movie Streaming. Nikmati sistem pembayaran terotomasi melalui Midtrans yang dapat menjamin keamanan dan kenyamanan.",
+                "problem": "Hambatan akses dan kerepotan download film dengan solusi streaming kami. Film tidak resmi yang tidak memberikan royalti pada studio film. ",
+                "solusi": "Pembuatan website Movie streaming sebagai layanan menonton film secara resmi dengan aman dan nyaman. Movie streaming menyediakan layanan pembayaran dari tiap film yang ingin anda tonton"
+            },
             {
                 "id": 2,
                 "title": "Shoes E-Commerce 🥾",
                 "description": "Sesuaikan pilihan belanja sepatu dengan lifestyle Anda di aplikasi kami yang mengusung tampilanyang kreatif. Dapatkan saran dan bantuan secara real-time melalui layanan chat dari kami.",
-                "image": " /images/image_6.png"
+                "image": " /images/image_6.png",
+                "long_desc": "Langkah gayamu dengan gaya sepatu yang sempurna. Temukan koleksi kami yang trendi dan berkualitas tinggi untuk melangkah dengan percaya diri. Langsung ke situs kami dan jelajahi gaya yang tak bisa diabaikan hari ini!",
+                "problem": "Hambatan dalam transaksi jual beli sepatu secara konvensional. Media jual beli sepatu yang tidak menjamin originalitas dari sepatu yang akan dibeli",
+                "solution": "Pembuatan website jual beli sepatu yang kualitasnya aman dan terjamin baik bagi penjual maupun pembeli."
             },
             {
                 "id": 3,
                 "title": "Hiking Booking 🌋",
                 "description": "Nikmati kenyamanan dalam melakukan pendakian, melalui booking pendakian yang efekti dengan tiket berbasis QR Code dan tracking status pendakian.",
-                "image": " /images/image_1.png"
+                "image": " /images/image_1.png",
+                "long_desc": "Taklukkan puncak-puncak terjal dengan pemesanan pendakian yang mudah. Temukan petualangan alam yang menantimu dan jadikan setiap langkah sebagai cerita tak terlupakan. Mulai rencanakan petualanganmu hari ini!",
+                "problem": "Belum adanya sistem registrasi pendakian secara online dan terintegrasi. Susahnya dalam melakukan tracking pendaki gunung.",
+                "solution": "Website registrasi pendakian secara online dan terintegrasi. Tracking pendakian secara real-time dan tiket pendakian menggunakan QR."
             },
             {
                 "id": 4,
                 "title": "Online Class ✏️",
                 "description": "Akses kelas online yang interaktif dari berbagai perangkat. Lakukan pendaftaran dengan mudah dengan integrasi pembayaran menggunakan Midtrans, yang dapat menjamin keamanan transaksi untuk kenyamanan belajar.",
-                "image": " /images/image_4.png"
+                "image": " /images/image_4.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
+                "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja."
             },
             {
                 "id": 5,
                 "title": "Car Rent 🚗",
                 "description": "Sewa mobil pilihan Anda dengan mudah di web kami yang responsif dan kreatif. Pendaftaran yang mudah dengan integrasi Midtrans sebagai pembayaran, menjamin pembayaran yang aman di berbagai perangkat.",
-                "image": " /images/image_5.png"
+                "image": " /images/image_5.png",
+                "long_desc": "Kemudahan mobil sewaan ada di ujung jari Anda. Temukan beragam pilihan mobil berkualitas untuk perjalanan tanpa repot. Mulai petualangan Anda sekarang dengan pemesanan mudah dan cepat!",
+                "problem": "Persewaan mobil yang masih kesusahan dalam menyampaikan informasi berupa kondisi mobil secara detail kepada pelanggan secara online",
+                "solution": "Website persewaaan mobil secara online dilengkapi kondisi detail dari kendaraan yang akan disewakan."
             },
             {
                 "id": 6,
                 "title": "Bootcamp Purchase 📚",
                 "description": "Bergabunglah dengan online bootcamp dari kami untuk mempelajari skill-skill yang banyak diminati. Proses pendaftaran yang mudah dengan integrasi Midtrans, dengan jaminan pembayaran yang aman di berbagai perangkat.",
-                "image": " /images/image_2.png"
+                "image": " /images/image_2.png",
+                "long_desc": "Transformasi kariermu melalui bootcamp online kami. Dapatkan pelatihan intensif dari para ahli industri, semua dari kenyamanan rumahmu. Siap untuk mengejar kesuksesan? Bergabunglah dengan bootcamp kami sekarang!",
+                "problem": "Bootcamp online yang kebanyakan masih dilaksanakan melalui zoom saja, mengakibatkan belum adanya sistem terintegrasi bootcamp yang juga menyediakan platform pembelajaran lengkap dengan resource bootcamp yang terintegrasi.",
+                "solution": "Website bootcamp yang terintegrasi dan menyediakan pelatihan secara intensif dari para pelaku dan ahli industri."
             }
         ],
         "android": [{}],
@@ -110,10 +128,10 @@
     "testimonial": {
         "title": "Apa yang Mereka Katakan",
         "material": [{
-            "content": "“Sangat baik apa yang telah dikerjakan, melebihi ekspektasi saya. Pengembangan API yang sangat cepat dan dapat diandalkan.“",
-            "name": "Moch. Iskandar Zulqornaen",
-            "job": "Product Owner of Hyponic"
-        },
+                "content": "“Sangat baik apa yang telah dikerjakan, melebihi ekspektasi saya. Pengembangan API yang sangat cepat dan dapat diandalkan.“",
+                "name": "Moch. Iskandar Zulqornaen",
+                "job": "Product Owner of Hyponic"
+            },
             {
                 "content": "“Bekerja dengan cepat dan profesional, mampu memperbaiki masalah di web hosting saya. Saya merekomendasikan layanan disini karena hasilnya sangat memuaskan!“",
                 "name": "Ayu Nurrahima Firdausi",
@@ -130,7 +148,7 @@
         "title": "Hubungi Kami",
         "addresshref": "https://goo.gl/maps/G1FhcqDpNbZMAyq66",
         "address": "Jombang Kota, Jombang, East Java, Indonesia",
-        "phonehref":"https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya",
+        "phonehref": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya",
         "phone": "+62 895-3664-23269",
         "emailhref": "mailto:nanostackindustries@gmail.com?subject=[Web Services/Mobile App Services(pilih salah satu)]?body:Saya tertarik memesan layanan web/mobile app dengan spesifikasi ...",
         "email": "nanostackindustries@gmail.com",
