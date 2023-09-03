@@ -130,6 +130,7 @@ const Pricelist = ({data}) => {
             )})}
           </div>
         </div>
+        
         <div id="card-standard" >
           <div class="card-body">
             <h5 class="card-title-price">Standard</h5>
