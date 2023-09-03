@@ -68,7 +68,7 @@
     max-height: 80vh;
     overflow-y: scroll;
     pointer-events: auto;
-    position: relative;
+    position: absolute;
     background-color: #ffffff;
     box-sizing: border-box;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

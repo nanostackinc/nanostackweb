@@ -148,7 +148,7 @@ const Portofolio = ({onChangeModal,data}) => {
   return (
     <>
     <h3 className='title-port' id="title-porto">{data.title}</h3>
-      <section id="portofolio">
+      <section className="portofolio" id={data.id} >
       <Tabs tabsData={tabsData}/>
       
       </section>

@@ -11,7 +11,7 @@ const Modal = ({ data, status, onCloseModal }) => {
   return (
     <>
       {status && Object.keys(data).length > 0 ? (
-        <div className="main-container" onClick={closeModal}>
+        <div className="main-container" onClick={closeModal} >
           <div className="modal-container">
             <h3 className="title-heading text-left">{data.title}</h3>
             <p className='desc'>{data.description}</p>
