@@ -10,7 +10,7 @@ export default function Hero({ data }) {
             <h1 className='hero-title'>{data.title}</h1>
             <p className='hero-subtitle'>{data.subtitle}</p>
             <div className="card-cta mx-auto">
-              <a href="https://api.whatsapp.com/send?phone=08993845802" style={{ textDecoration: "none" }}>
+              <a href={data.whatsapp} target='_blank' style={{ textDecoration: "none" }}>
                 <Button className='btn-primary'>{data.cta_text}</Button>
               </a>
               <a href='#portofolio' style={{textDecoration:"none"}}>
