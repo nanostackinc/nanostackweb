@@ -94,48 +94,60 @@
     },
     "pricelist": {
         "title": "Choose the best plan for you",
-        "subtitle": "includes creative and responsive design, free domain (1 yr), SSL, and hosting, SEO friendly, and accessible from any devices",
-        "basic": [{
+        "top_text": "Impact The Most",
+        "text_start": "start from",
+        "mention": "*you can get benefits from higher price categories at an additional cost",
+        "subtitle_website": "includes business solution consultation, database and admin panel (if needed), domain + SSL (1 yr), creative and responsive design,  SEO friendly, and accessible from any devices",
+        "subtitle_android": "includes business solution consultation, database and admin panel (if needed), dedicated VPS hosting (1yr), domain + SSL  (1 yr) app icon, splash screen, creative and responsive design",
+        "website_basic": [{
             "fake_price": "1,649,000,-",
             "real_price": "1,499,000,-",
             "benefit": [{
-                "usability": "Suitable for landing page, company profile",
-                "tech": "HTML, CSS, & JS",
-                "pages": "5 pages",
-                "design": "Default design templates",
-                "time": "1 week work duration estimation"
+                "usability": "1 yr web hosting",
+                "tech": "~7 days work duration estimation",
+                "pages": "For landing page, company profile, personal page"
             }]
         }],
-        "standard": [{
+        "website_standard": [{
             "fake_price": "5,499,000,-",
-            "real_price": "4,999,000,-",
+            "real_price": "4,999,000,-  ",
             "benefit": [{
-                "usability": "Suitable for landing page, company profile, e-commerce, online course",
-                "tech": "HTML, CSS, & JS",
-                "pages": "5 pages",
-                "design": "Custom design templates",
-                "hosting": "Dedicated hosting",
-                "email": "Email",
-                "book": "Manual Book",
-                "admin": "Admin dashboard",
-                "time": "2 weeks work duration estimation"
+                "usability": "1 yr dedicated VPS hosting",
+                "tech": "~14 days work duration estimation",
+                "pages": "For company profile, e-commerce (online shop), LMS, MIS, POS"
             }]
         }],
-        "premium": [{
-            "fake_price": "8,799,000,-",
-            "real_price": "7,999,000,-",
+        "website_premium": [{
+            "fake_price": "10,999,000,-",
+            "real_price": "9,999,000,-",
             "benefit": [{
-                "usability": "Suitable for HRIS, POS, MIS",
-                "tech": "JS Framework (faster development)",
-                "pages": "5 pages",
-                "design": "Custom design templates",
-                "hosting": "Dedicated hosting",
-                "email": "Email",
-                "book": "Manual Book",
-                "admin": "Admin dashboard",
-                "time": "4 weeks work duration estimation"
+                "usability": "1 yr dedicated VPS hosting",
+                "tech": "Manual book",
+                "pages": "Source code",
+                "design": "~28 days work duration estimation",
+                "hosting": "For e-commerce (online shop), LMS, MIS, POS, HRIS, logistic tracking"
+            }]
+        }],
+        "android_standard": [{
+            "fake_price": "6,599,000,-",
+            "real_price": "5,999,000,-",
+            "benefit": [{
+                "usability": "~14 days work duration estimation",
+                "tech": "For attendance, e-commerce (online shop), LMS, MIS, POS, online service order"
+            }]
+        }],
+        "android_premium": [{
+            "fake_price": "13,199,000,-",
+            "real_price": "11,999,000,-",
+            "benefit": [{
+                "usability": "Manual book",
+                "tech": "Source code",
+                "pages": "Deploy to Play Store",
+                "time": "~28 days work duration estimation",
+                "recommend": "For e-commerce (online shop), LMS, MIS, POS, HRIS, online service order, ERP, hotel/travel booking"
             }]
         }]
+
     },
     "testimonial": {
         "title": "Customer Love: What People Are Saying",

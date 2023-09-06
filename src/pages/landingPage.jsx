@@ -22,13 +22,12 @@ function LandingPage() {
     setLanguage(newLanguage);
     localStorage.setItem('language', newLanguage); // Update language in local storage
   };
-  // console.log(language)
-  const landingPageData = language === 'Bahasa Indonesia' ? landingPageDataIdn : language === 'English'?landingPageDataEn:language===null?landingPageDataEn:"";
+  console.log(language)
+  const landingPageData = language === 'Bahasa Indonesia' ? landingPageDataIdn : language === 'English'?landingPageDataEn:language==="undefined"?landingPageDataEn:"";
 
   const handleModal=(item,modalStatus)=>{
       setItem(item)
       setStatus(modalStatus)
-      // console.log(modalStatus)
     
   }
   const handleCloseModal =()=>{

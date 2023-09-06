@@ -1,13 +1,18 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
-const Tabs=({tabsData})=>{
+const Tabs=({tabsData,display,handleActive})=>{
     const[activeTabs,setActiveTabs]=useState(0)
     const handleClick=(index)=>{
         setActiveTabs(index)
-    }
+        handleActive(activeTabs)
+    }    
+    useEffect(() => {
+        // Inisialisasi nilai activeTabs ke 0 saat komponen pertama kali dimuat
+        setActiveTabs(0);
+    }, []);
     return(
         <div className='container'>
-            <div className="tabs">
+            <div className={`tabs ${display}`}>
             {tabsData.map((item,index)=>(
                 <div
                 key={index}
