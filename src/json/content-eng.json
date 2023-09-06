@@ -94,6 +94,9 @@
     },
     "pricelist": {
         "title": "Choose the best plan for you",
+        "top_text": "Impact The Most",
+        "text_start": "start from",
+        "mention": "*you can get benefits from higher price categories at an additional cost",
         "subtitle_website": "includes business solution consultation, database and admin panel (if needed), domain + SSL (1 yr), creative and responsive design,  SEO friendly, and accessible from any devices",
         "subtitle_android": "includes business solution consultation, database and admin panel (if needed), dedicated VPS hosting (1yr), domain + SSL  (1 yr) app icon, splash screen, creative and responsive design",
         "website_basic": [{

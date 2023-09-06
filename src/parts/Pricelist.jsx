@@ -31,7 +31,7 @@ const Pricelist = ({data}) => {
         <div id="card-basic"  >
           <div class="card-body">
             <h5 class="card-title-price">Basic</h5>
-            <p class="card-text-price">start from</p>
+            <p class="card-text-price">{data.text_start}</p>
             {data
               .website_basic
               .map((item) => {
@@ -119,7 +119,7 @@ const Pricelist = ({data}) => {
         <div id="card-standard" >
           <div class="card-body">
             <h5 class="card-title-price">Standard</h5>
-            <p class="card-text-price">start from</p>
+            <p class="card-text-price">{data.text_start}</p>
             {data.website_standard.map((item)=>{
               return(
                 <>
@@ -204,13 +204,13 @@ const Pricelist = ({data}) => {
         </div>
         <div>
         <div id="card-header">
-          <p className='tagline'>All round your Business Needs</p>
+          <p className='tagline'>{data.top_text}</p>
         </div>
         <div id="card-premium">
           <div class="card-body">
         
             <h5 class="card-title-price">Premium</h5>
-            <p class="card-text-premium">start from</p>
+            <p class="card-text-premium">{data.text_start}</p>
              {data.website_premium.map((item)=>{
               return(
                 <>
@@ -276,7 +276,7 @@ const Pricelist = ({data}) => {
           </div>
         </div>
       </div>
-      <p className='mention'>*you can get benefits from higher price categories at an additional cost</p>
+      <p className='mention'>{data.mention}</p>
         </>
       )
     },{
@@ -306,7 +306,7 @@ const Pricelist = ({data}) => {
         <div id="card-standard" >
           <div class="card-body">
             <h5 class="card-title-price">Standard</h5>
-            <p class="card-text-price">start from</p>
+            <p class="card-text-price">{data.text_start}</p>
             {data.android_standard.map((item)=>{
               return(
                 <>
@@ -374,13 +374,13 @@ const Pricelist = ({data}) => {
         </div>
         <div>
         <div id="card-header">
-          <p className='tagline'>All round your Business Needs</p>
+          <p className='tagline'>{data.top_text}</p>
         </div>
         <div id="card-premium">
           <div class="card-body">
         
             <h5 class="card-title-price">Premium</h5>
-            <p class="card-text-premium">start from</p>
+            <p class="card-text-premium">{data.text_start}</p>
              {data.android_premium.map((item)=>{
               return(
                 <>
@@ -446,7 +446,7 @@ const Pricelist = ({data}) => {
           </div>            
         </div>
       </div>
-      <p className='mention'>*you can get benefits from higher price categories at an additional cost</p>
+      <p className='mention'>{data.mention}</p>
           </>
         )
     }

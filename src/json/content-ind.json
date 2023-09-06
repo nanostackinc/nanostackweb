@@ -94,6 +94,9 @@
     },
     "pricelist": {
         "title": "Pilih yang terbaik untukmu",
+        "mention": "*anda bisa mendapatkan benefit dari kategori harga yang lebih tinggi dengan biaya tambahan",
+        "top_text": "Paling Banyak Berdampak",
+        "text_start": "mulai dari",
         "subtitle_website": "termasuk konsultasi solusi bisnis, database dan admin panel (jika dibutuhkan), domain dan SSL (1 th), desain yang kreatif dan responsif, ramah SEO, dan dapat diakses dari perangkat apa saja",
         "subtitle_android": "termasuk konsultasi solusi bisnis, database dan admin panel (jika dibutuhkan), dedicated VPS hosting (1 th), domain + SSL  (1 th), ikon aplikasi, splash screen, desain yang kreatif dan responsif",
         "website_basic": [{
