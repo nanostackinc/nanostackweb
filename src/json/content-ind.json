@@ -30,7 +30,8 @@
                 "image_modal": " /images/image_3_modal.png",
                 "long_desc": "Tonton film-film favorit Anda di platform Movie Streaming. Nikmati sistem pembayaran terotomasi melalui Midtrans yang dapat menjamin keamanan dan kenyamanan.",
                 "problem": "Hambatan akses dan kerepotan download film dengan solusi streaming kami. Film tidak resmi yang tidak memberikan royalti pada studio film. ",
-                "solusi": "Pembuatan website Movie streaming sebagai layanan menonton film secara resmi dengan aman dan nyaman. Movie streaming menyediakan layanan pembayaran dari tiap film yang ingin anda tonton"
+                "solution": "Pembuatan website Movie streaming sebagai layanan menonton film secara resmi dengan aman dan nyaman. Movie streaming menyediakan layanan pembayaran dari tiap film yang ingin anda tonton",
+                "tech_stack": "Laravel, Postman API, PHP, midtrans"
             },
             {
                 "id": 2,
@@ -40,7 +41,8 @@
                 "image_modal": " /images/image_6_modal.png",
                 "long_desc": "Langkah gayamu dengan gaya sepatu yang sempurna. Temukan koleksi kami yang trendi dan berkualitas tinggi untuk melangkah dengan percaya diri. Langsung ke situs kami dan jelajahi gaya yang tak bisa diabaikan hari ini!",
                 "problem": "Hambatan dalam transaksi jual beli sepatu secara konvensional. Media jual beli sepatu yang tidak menjamin originalitas dari sepatu yang akan dibeli",
-                "solution": "Pembuatan website jual beli sepatu yang kualitasnya aman dan terjamin baik bagi penjual maupun pembeli."
+                "solution": "Pembuatan website jual beli sepatu yang kualitasnya aman dan terjamin baik bagi penjual maupun pembeli.",
+                "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
             },
             {
                 "id": 3,
@@ -50,7 +52,8 @@
                 "image_modal": " /images/image_1_modal.png",
                 "long_desc": "Taklukkan puncak-puncak terjal dengan pemesanan pendakian yang mudah. Temukan petualangan alam yang menantimu dan jadikan setiap langkah sebagai cerita tak terlupakan. Mulai rencanakan petualanganmu hari ini!",
                 "problem": "Belum adanya sistem registrasi pendakian secara online dan terintegrasi. Susahnya dalam melakukan tracking pendaki gunung.",
-                "solution": "Website registrasi pendakian secara online dan terintegrasi. Tracking pendakian secara real-time dan tiket pendakian menggunakan QR."
+                "solution": "Website registrasi pendakian secara online dan terintegrasi. Tracking pendakian secara real-time dan tiket pendakian menggunakan QR.",
+                "tech_stack": "React, Bootstrap, Vercel, MongoDB, Express Js, Postman"
             },
             {
                 "id": 4,
@@ -60,7 +63,8 @@
                 "image_modal": " /images/image_4_modal.png",
                 "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
                 "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
-                "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja."
+                "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             },
             {
                 "id": 5,
@@ -70,7 +74,8 @@
                 "image_modal": " /images/image_5_modal.png",
                 "long_desc": "Kemudahan mobil sewaan ada di ujung jari Anda. Temukan beragam pilihan mobil berkualitas untuk perjalanan tanpa repot. Mulai petualangan Anda sekarang dengan pemesanan mudah dan cepat!",
                 "problem": "Persewaan mobil yang masih kesusahan dalam menyampaikan informasi berupa kondisi mobil secara detail kepada pelanggan secara online",
-                "solution": "Website persewaaan mobil secara online dilengkapi kondisi detail dari kendaraan yang akan disewakan."
+                "solution": "Website persewaaan mobil secara online dilengkapi kondisi detail dari kendaraan yang akan disewakan.",
+                "tech_stack": "Laravel, tailwind, mysql, nodeJS"
             },
             {
                 "id": 6,
@@ -80,7 +85,8 @@
                 "image_modal": " /images/image_2_modal.png",
                 "long_desc": "Transformasi kariermu melalui bootcamp online kami. Dapatkan pelatihan intensif dari para ahli industri, semua dari kenyamanan rumahmu. Siap untuk mengejar kesuksesan? Bergabunglah dengan bootcamp kami sekarang!",
                 "problem": "Bootcamp online yang kebanyakan masih dilaksanakan melalui zoom saja, mengakibatkan belum adanya sistem terintegrasi bootcamp yang juga menyediakan platform pembelajaran lengkap dengan resource bootcamp yang terintegrasi.",
-                "solution": "Website bootcamp yang terintegrasi dan menyediakan pelatihan secara intensif dari para pelaku dan ahli industri."
+                "solution": "Website bootcamp yang terintegrasi dan menyediakan pelatihan secara intensif dari para pelaku dan ahli industri.",
+                "tech_stack": "Laravel, PHP, mysql, ngrok"
             }
         ],
         "android": [{}],
