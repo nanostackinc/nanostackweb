@@ -28,7 +28,6 @@ function LandingPage() {
   const handleModal=(item,modalStatus)=>{
       setItem(item)
       setStatus(modalStatus)
-      // console.log(modalStatus)
     
   }
   const handleCloseModal =()=>{

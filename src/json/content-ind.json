@@ -93,49 +93,58 @@
         "product": [{}]
     },
     "pricelist": {
-        "title": "Pilih paket terbaik untukmu",
-        "subtitle": "termasuk desain yang responsif dan kreatif, gratis domain (1 th), SSL, dan hosting, SEO, dan dapat diakses dari perangkat apa saja",
-        "basic": [{
+        "title": "Pilih yang terbaik untukmu",
+        "subtitle_website": "termasuk konsultasi solusi bisnis, database dan admin panel (jika dibutuhkan), domain dan SSL (1 th), desain yang kreatif dan responsif, ramah SEO, dan dapat diakses dari perangkat apa saja",
+        "subtitle_android": "termasuk konsultasi solusi bisnis, database dan admin panel (jika dibutuhkan), dedicated VPS hosting (1 th), domain + SSL  (1 th), ikon aplikasi, splash screen, desain yang kreatif dan responsif",
+        "website_basic": [{
             "fake_price": "1,649,000,-",
             "real_price": "1,499,000,-",
             "benefit": [{
-                "usability": "Cocok untuk landing page, company profile",
-                "tech": "HTML, CSS, & JS",
-                "pages": "5 halaman",
-                "design": "Default design template",
-                "time": "1 minggu estimasi durasi pengerjaan"
+                "usability": "Web hosting 1 th",
+                "tech": "~7 hari estimasi durasi pengerjaan",
+                "pages": "Untuk landing page, company profile, personal page"
             }]
         }],
-        "standard": [{
+        "website_standard": [{
             "fake_price": "5,499,000,-",
-            "real_price": "4,999,000,-",
+            "real_price": "4,999,000,-  ",
             "benefit": [{
-                "usability": "Cocok untuk landing page, company profile, e-commerce, online course",
-                "tech": "HTML, CSS, & JS",
-                "pages": "5 halaman",
-                "design": "Custom design template",
-                "hosting": "Dedicated hosting",
-                "email": "Email",
-                "book": "Manual Book",
-                "admin": "Admin dashboard",
-                "time": "2 minggu estimasi durasi pengerjaan"
+                "usability": "Dedicated VPS hosting 1 th    ",
+                "tech": "~14 hari estimasi durasi pengerjaan",
+                "pages": "Untuk company profile, e-commerce (toko online), LMS, MIS, POS"
             }]
         }],
-        "premium": [{
-            "fake_price": "8,799,000,-",
-            "real_price": "7,999,000,-",
+        "website_premium": [{
+            "fake_price": "10,999,000,-",
+            "real_price": "9,999,000,-",
             "benefit": [{
-                "usability": "Cocok untuk HRIS, POS, MIS",
-                "tech": "JS Framework (development yang lebih cepat)",
-                "pages": "5 halaman",
-                "design": "Custom design template",
-                "hosting": "Dedicated hosting",
-                "email": "Email",
-                "book": "Manual Book",
-                "admin": "Admin dashboard",
-                "time": "4 minggu estimasi durasi pengerjaan"
+                "usability": "Dedicated VPS hosting 1 th",
+                "tech": "Manual book",
+                "pages": "Source code",
+                "design": "~28 hari estimasi durasi pengerjaan",
+                "hosting": "Untuk e-commerce (toko online), LMS, MIS, POS, HRIS, logistic tracking"
+            }]
+        }],
+        "android_standard": [{
+            "fake_price": "6,599,000,-",
+            "real_price": "5,999,000,-",
+            "benefit": [{
+                "usability": "~14 hari estimasi durasi pengerjaan",
+                "tech": "Untuk presensi, e-commerce (toko online), LMS, MIS, POS, pemesanan layanan online"
+            }]
+        }],
+        "android_premium": [{
+            "fake_price": "13,199,000,-",
+            "real_price": "11,999,000,-",
+            "benefit": [{
+                "usability": "Manual book",
+                "tech": "Source code",
+                "pages": "Deploy ke Play Store",
+                "time": "~28 hari estimasi durasi pengerjaan",
+                "recommend": "Untuk e-commerce (toko online), LMS, MIS, POS, HRIS, pemesanan layanan online, ERP, pemesanan hotel/travel"
             }]
         }]
+
     },
     "testimonial": {
         "title": "Apa yang Mereka Katakan",
