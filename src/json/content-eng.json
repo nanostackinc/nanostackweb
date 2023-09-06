@@ -30,7 +30,8 @@
                 "image_modal": " /images/image_3_modal.png",
                 "long_desc": "Watch your favorite films on the Movie Streaming platform. Enjoy an automated payment system through Midtrans that guarantees security and convenience.",
                 "problem": "Overcome access barriers and the hassle of downloading films with our streaming solution. Avoid unofficial films that do not provide royalties to film studios.",
-                "solution": "The creation of the Movie Streaming website serves as an official service for watching films securely and comfortably. Movie Streaming provides payment services for each film you want to watch."
+                "solution": "The creation of the Movie Streaming website serves as an official service for watching films securely and comfortably. Movie Streaming provides payment services for each film you want to watch.",
+                "tech_stack": "Laravel, Postman API, PHP, midtrans"
             },
             {
                 "id": 2,
@@ -40,7 +41,8 @@
                 "image_modal": " /images/image_6_modal.png",
                 "long_desc": "Take your stride with the perfect shoe style. Discover our trendy and high-quality collection to walk with confidence. Head straight to our website and explore the unforgettable styles today!",
                 "problem": "Barriers in conventional shoe transactions. Buying and selling shoes through channels that don't guarantee the authenticity of the products.",
-                "solution": "Creating a shoe marketplace website that ensures quality and security for both sellers and buyers."
+                "solution": "Creating a shoe marketplace website that ensures quality and security for both sellers and buyers.",
+                "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
             },
             {
                 "id": 3,
@@ -50,7 +52,8 @@
                 "image_modal": " /images/image_1_modal.png",
                 "long_desc": "Introducing seamless online and integrated mountain trek registration. Say goodbye to the struggles of tracking mountain hikers.",
                 "problem": "Introducing seamless online and integrated mountain trek registration. Say goodbye to the struggles of tracking mountain hikers.",
-                "solution": "An integrated online mountain trek registration platform. Real-time hiking tracking and QR-based trekking tickets for a seamless experience."
+                "solution": "An integrated online mountain trek registration platform. Real-time hiking tracking and QR-based trekking tickets for a seamless experience.",
+                "tech_stack": "React, Bootstrap, Vercel, MongoDB, Express Js, Postman"
             },
             {
                 "id": 4,
@@ -60,7 +63,8 @@
                 "image_modal": " /images/image_4_modal.png",
                 "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
                 "problem": "The increasing demand for remote learning is on the rise.",
-                "solution": "An online class website that enables learning to take place anytime, anywhere."
+                "solution": "An online class website that enables learning to take place anytime, anywhere.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             },
             {
                 "id": 5,
@@ -70,7 +74,8 @@
                 "image_modal": " /images/image_5_modal.png",
                 "long_desc": "Car rental convenience is at your fingertips. Discover a variety of quality cars for hassle-free travel. Begin your adventure now with easy and quick booking!",
                 "problem": "Car rental services struggling to provide detailed vehicle condition information to customers online.",
-                "solution": "An online car rental website equipped with detailed vehicle conditions for seamless bookings."
+                "solution": "An online car rental website equipped with detailed vehicle conditions for seamless bookings.",
+                "tech_stack": "Laravel, tailwind, mysql, nodeJS"
             },
             {
                 "id": 6,
@@ -80,7 +85,8 @@
                 "image_modal": " /images/image_2_modal.png",
                 "long_desc": "Transform your career through our online bootcamp. Gain intensive training from industry experts, all from the comfort of your home. Ready to pursue success? Join our bootcamp now!",
                 "problem": "Many online bootcamps still rely solely on Zoom, resulting in a lack of integrated systems that offer a comprehensive learning platform with integrated bootcamp resources.",
-                "solution": "An integrated bootcamp website offering intensive training from industry practitioners and experts."
+                "solution": "An integrated bootcamp website offering intensive training from industry practitioners and experts.",
+                "tech_stack": "Laravel, PHP, mysql, ngrok"
             }
         ],
         "android": [{}],

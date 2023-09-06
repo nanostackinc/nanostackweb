@@ -31,6 +31,10 @@ const Modal = ({ data, status, onCloseModal }) => {
             <h3 className='title-desc'>Solution</h3>
             <p className='modal-text'>{data.solution}</p>
             </div>
+            <div className='content-modal'>
+            <h3 className='title-desc'>Tech Stack</h3>
+            <p className='modal-text'>{data.tech_stack}</p>
+            </div>
           </div>
           </div>
         </div>
