@@ -27,6 +27,7 @@
     /* 150% */
     letter-spacing: -2.24px;
     text-transform: capitalize;
+    align-self: stretch;
 }
 
 .desc {
@@ -62,13 +63,11 @@
 
     display: flex;
     width: 60%;
-    padding: 32px 24px;
     flex-direction: column;
-    gap: 32px;
     max-height: 80vh;
     overflow-y: scroll;
     pointer-events: auto;
-    position: absolute;
+    position: fixed;
     background-color: #ffffff;
     box-sizing: border-box;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -76,13 +75,32 @@
     background: #FFF;
     border-radius: 4px;
     outline: 0;
-    margin-top: 60px;
-
+    margin: 0px auto;
     scrollbar-width: thin;
-    /* Lebar scrollbar */
     scrollbar-color: #555 #ddd;
     scroll-behavior: smooth;
 
+}
+
+.modal-body {
+    display: flex;
+    padding: 32px 24px;
+    width: 800px;
+    margin: 0px auto;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    /* Memastikan elemen tetap di tengah */
+}
+
+.content-modal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
 }
 
 .modal-container::-webkit-scrollbar {
@@ -106,17 +124,65 @@
     align-self: stretch;
     color: var(--Black-80, rgba(51, 51, 51, 0.80));
 
-    /* Body 1 */
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: -1.12px;
+
 }
 
 .modal-image {
-    width: 100%;
+    width: 752px;
     height: 560px;
     border-radius: 48px;
+    display: flex;
+    margin: 0px auto;
+}
+
+/* mobile responsive */
+@media (min-width: 100px) and (max-width:768px) {
+    .modal-container {
+        width: 90%;
+        /* Ubah lebar modal menjadi lebih kecil */
+    }
+
+    .modal-body {
+        width: 100%;
+        gap: 10px;
+        /* Gunakan lebar penuh pada layar kecil */
+    }
+
+    .title-heading,
+    .title-desc {
+        font-size: 24px;
+    }
+
+    .modal-image {
+        width: 290px;
+        height: 270px;
+        /* Gunakan lebar penuh pada gambar */
+        max-width: none;
+    }
+}
+
+/* tab responsive */
+@media (min-width: 768px) and (max-width:968px) {
+    .modal-container {
+        width: 90%;
+        /* Ubah lebar modal menjadi lebih kecil */
+    }
+
+    .modal-body {
+        width: 100%;
+        gap: 10px;
+        /* Gunakan lebar penuh pada layar kecil */
+    }
+
+    .modal-image {
+        width: 600px;
+        height: 510px;
+        max-width: none;
+    }
 }

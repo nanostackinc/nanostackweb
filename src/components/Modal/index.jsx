@@ -13,9 +13,12 @@ const Modal = ({ data, status, onCloseModal }) => {
       {status && Object.keys(data).length > 0 ? (
         <div className="main-container" onClick={closeModal} >
           <div className="modal-container">
+            <div className='modal-body'>
+            <div className='content-modal'>
             <h3 className="title-heading text-left">{data.title}</h3>
             <p className='desc'>{data.description}</p>
-            <img className="modal-image" src={data.image} />
+              </div>                        
+            <img className="modal-image" src={data.image_modal} />
             <div className='content-modal'>
             <h3 className='title-desc'>Description</h3>
             <p className='modal-text'>{data.long_desc}</p>
@@ -27,6 +30,7 @@ const Modal = ({ data, status, onCloseModal }) => {
             <div className='content-modal'>
             <h3 className='title-desc'>Solution</h3>
             <p className='modal-text'>{data.solution}</p>
+            </div>
           </div>
           </div>
         </div>
