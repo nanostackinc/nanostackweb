@@ -59,7 +59,7 @@ function Navbar({onLanguageChange, data}) {
           id="navbarText">
           <div className="btn-group me-5 d-none d-lg-block">
             <button type="button" id='btn-toggle' className="btn order-6 order-md-1 dropdown-toggle" data-bs-toggle="dropdown">
-              {dataLanguage==="Bahasa Indonesia"?<img src={IconFlagID}/>:dataLanguage==="English"?<img src={IconFlag}/>:dataLanguage==="undefined"?<img src={IconFlag}/>:""}
+              {dataLanguage==="Bahasa Indonesia"?<img src={IconFlagID}/>:dataLanguage==="English"?<img src={IconFlag}/>:dataLanguage==="undefined"?<img src={IconFlag}/>:dataLanguage===null?<img src={IconFlag}/>:""}
             </button>
             <ul
               className="dropdown-menu dropdown-menu-end"
@@ -81,7 +81,7 @@ function Navbar({onLanguageChange, data}) {
                   id='dropdown-select'
                   type="button"
                   onClick={handleStatus}>
-                  <img src={IconFlag}/> {dataLanguage === 'English' ? <span><img style={{display:"block"}} src={Click} alt="Click"/></span>:dataLanguage==="Bahasa Indonesia"?<span><img src={Click} style={{display:"none"}} alt="Click"/></span>:dataLanguage==="undefined"?<span><img src={Click} style={{display:"block"}} alt="Click"/></span>:""}
+                  <img src={IconFlag}/> {dataLanguage === 'English' ? <span><img style={{display:"block"}} src={Click} alt="Click"/></span>:dataLanguage==="Bahasa Indonesia"?<span><img src={Click} style={{display:"none"}} alt="Click"/></span>:dataLanguage==="undefined"?<span><img src={Click} style={{display:"block"}} alt="Click"/></span>:dataLanguage===null?<span><img src={Click} style={{display:"block"}} alt="Click"/></span>:""}
                 </button>
               </li>
               <li>
