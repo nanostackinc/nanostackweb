@@ -23,7 +23,7 @@ function LandingPage() {
     localStorage.setItem('language', newLanguage); // Update language in local storage
   };
   console.log(language)
-  const landingPageData = language === 'Bahasa Indonesia' ? landingPageDataIdn : language === 'English'?landingPageDataEn:language==="undefined"?landingPageDataEn:"";
+  const landingPageData = language === 'Bahasa Indonesia' ? landingPageDataIdn : language === 'English'?landingPageDataEn:language==="undefined"?landingPageDataEn:language===null?landingPageDataEn:"";
 
   const handleModal=(item,modalStatus)=>{
       setItem(item)
