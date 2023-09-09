@@ -62,7 +62,6 @@
 .modal-container {
 
     display: flex;
-    width: 60%;
     flex-direction: column;
     max-height: 80vh;
     overflow-y: scroll;
@@ -73,10 +72,10 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 24px;
     background: #FFF;
-    border-radius: 4px;
     outline: 0;
     margin: 0px auto;
     scrollbar-width: thin;
+    scrollbar-gutter: 20px;
     scrollbar-color: #555 #ddd;
     scroll-behavior: smooth;
 
