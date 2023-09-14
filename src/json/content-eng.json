@@ -168,6 +168,43 @@
             }
         ]
     },
+    "team": {
+        "title": "Meet Our Team",
+        "sub_title": "Our expert team is made up of dedicated people with great experiences who committed to supporting both both you and your business",
+        "data_member": [{
+                "name": "Ivan Aulia Rahman",
+                "position": "Software Engineer",
+                "images": "/images/team/ivan.png",
+                "sertifikat": [{
+                    "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert",
+                    "sertif_2": "✅ Dicoding Menjadi Back-End Developer Expert"
+                }],
+                "linkedin": "https://www.linkedin.com/"
+            },
+            {
+                "name": "Ivan Aulia Rahman",
+                "position": "Software Engineer",
+                "images": "/images/team/ivan.png",
+                "sertifikat": [{
+                    "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert",
+                    "sertif_2": "✅ Dicoding Menjadi Back-End Developer Expert",
+                    "sertif_3": "✅ Dicoding Menjadi Back-End Developer Expert",
+                    "sertif_4": "✅ Dicoding Menjadi Back-End Developer Expert"
+                }],
+                "linkedin": "https://www.linkedin.com/"
+            },
+            {
+                "name": "Ivan Aulia Rahman",
+                "position": "Software Engineer",
+                "images": "/images/team/ivan.png",
+                "sertifikat": [{
+                    "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert",
+                    "sertif_2": "✅ Dicoding Menjadi Back-End Developer Expert"
+                }],
+                "linkedin": "https://www.linkedin.com/"
+            }
+        ]
+    },
     "contact": {
         "title": "Get in Touch: Reach Out Today",
         "addresshref": "https://goo.gl/maps/G1FhcqDpNbZMAyq66",
