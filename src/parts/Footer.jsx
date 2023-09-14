@@ -3,22 +3,20 @@ import {Logo} from '../assets';
 
 const Footer = ({data,value}) => {
   return (
-    <section id="footer" style={{
-      marginTop: 64
-    }}>
+    <section id="footer" className='my-32'>
 
-      <div className="row d-flex justify-content-between">
+      <div className="row d-flex justify-content-between gap-32">
         <div className="col-12 col-md-3">
           <h5 className='title-footer align-items-center'>
             <span>
               <img src={Logo} className="pe-2" alt="Nanostack Logo" style={{width:157,height:33}}/>
             </span>
           </h5>
-          <p>{data.desc}</p>
+          <p className='m-0'>{data.desc}</p>
         </div>
         <div className="col-12 col-md-3">
           <p>
-            <a href="#" className="fw-700">Menu</a>
+            <a href="#" className="fw-700 text-black">Menu</a>
           </p>
           <p>
             <a href="#">{value.link1}</a>
@@ -29,13 +27,13 @@ const Footer = ({data,value}) => {
           <p>
             <a href="#">{value.link3}</a>
           </p>
-          <p>
+          <p className='m-0'>
             <a href="#">{value.link4}</a>
           </p>
         </div>
         <div className="col-12 col-md-3">
           <p>
-            <a href="#" className="fw-700">{data.forum}</a>
+            <a href="#" className="fw-700 text-black">{data.forum}</a>
           </p>
           <p>
             <a
@@ -48,7 +46,7 @@ const Footer = ({data,value}) => {
           <p>
             <a href="#">LinkedIn</a>
           </p>
-          <p>
+          <p className='m-0'>
             <a href="#">Facebook</a>
           </p>
          </div>

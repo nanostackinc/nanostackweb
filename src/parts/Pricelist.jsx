@@ -456,7 +456,7 @@ const Pricelist = ({data}) => {
   return (
     <section id='pricelist'>
       <div className="title-pricelist">
-        <h3 className='title-price'>{data.title}</h3>
+        <h3 className='title-price my-0'>{data.title}</h3>
       </div>
       <Tabs tabsData={tabsData} display={display} handleActive={handleStatus}/>
     </section>
