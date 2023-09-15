@@ -7,15 +7,15 @@ import Clock from '../assets/images/icon/Clock.svg'
 
 const Contact = ({data}) => {
   return (
-    <section id="contact"   style={{marginTop:64}}>
+    <section id="contact" className='my-32'>
         <div className="row">
-          <div className="col-12 col-lg-6 my-3 my-lg-0">
+          <div className="col-12 col-lg-6 my-3 my-lg-0 d-none d-md-block">
             <img src={ContactImage} className="img-fluid" alt="" />
           </div>
-          <div className="col-12 col-lg-6 my-3 my-lg-0">
-            <div className="row justify-content-center">
+          <div className="col-12 col-lg-6 mt-3 my-lg-0">
+            <div className="row justify-content-center contact-card">
               <h1 className="text-center mb-3">{data.title}</h1>
-              <div className="row">
+              <div className="row px-0">
                 <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
                   <a href={data.addresshref} class="d-flex flex-fill border-0 text-decoration-none text-mainblack" target="_blank">
                     <div className="card d-flex flex-fill border-0">
@@ -47,7 +47,7 @@ const Contact = ({data}) => {
                   </a>
                 </div>
               </div>
-              <div className="row ">
+              <div className="row px-0">
                 <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
                   <div className="card d-flex flex-fill border-0">
                     <a href={data.emailhref} class="text-decoration-none text-mainblack" target="_blank">
@@ -64,7 +64,7 @@ const Contact = ({data}) => {
                   </div>
                 </div>
                 <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
-                  <div className="card d-flex flex-fill border-0">
+                  <div className="card d-flex flex-fill border-0 mb-0">
                     <div className="card-body">
                       <h5 className="card-tagline">
                         <span>

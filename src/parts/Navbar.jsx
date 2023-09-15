@@ -24,16 +24,13 @@ function Navbar({onLanguageChange, data}) {
 
   return (
     <nav className="navbar navbar-expand-lg">
-      <div className="container">
+      <div className="container px-0">
         <a className="navbar-brand d-flex" id="logo" href="/">
           <img
             src={Logo}
-            className="me-2"
+            className="me-2 logo-navbar"
             alt="Nanostack Logo"
-            style={{
-            width: 157,
-            height: 33
-          }}/>
+          />
         </a>
         <button
           className="toggler"

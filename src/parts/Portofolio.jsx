@@ -25,7 +25,7 @@ const Portofolio = ({onChangeModal,data}) => {
       content: (
         <>
         {/* <h3 className='title-port justify-content-center'>{data.title}</h3> */}
-      <div class="porto-body card-body">
+      <div class="porto-body card-body py-0 py-md-4 my-md-2">
         {data
           .website
           .map((item) => {
@@ -46,7 +46,7 @@ const Portofolio = ({onChangeModal,data}) => {
                 </div>
                 <div className={colClassText}>
                   <div className="text-card">
-                    <h5 className="card-title mt-4">{item.title}</h5>
+                    <h5 className="card-title mt-2 mt-md-4">{item.title}</h5>
                     <p className="card-text">{item.description}</p>
                   </div>
                 </div>
@@ -147,7 +147,7 @@ const Portofolio = ({onChangeModal,data}) => {
 
   return (
     <>
-    <h3 className='title-port' id="title-porto">{data.title}</h3>
+    <h3 className='title-port px-30 py-4 my-2 py-md-0 my-md-0' id="title-porto">{data.title}</h3>
       <section className="portofolio" id={data.id} >
       <Tabs tabsData={tabsData} display={display}/>
       
