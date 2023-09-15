@@ -1475,3 +1475,22 @@ svg .icon {
     border: 2px solid var(--Blue-1, rgba(78, 150, 225, 0.90));
     background: rgba(255, 255, 255, 0.90);
 }
+
+.btn-linkedin:hover {
+
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    color: var(--Blue-1, rgba(78, 150, 225, 0.90));
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.98px;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 2px solid var(--Blue-1, rgba(78, 150, 225, 0.90));
+    background: var(--Blue-1-20, rgba(78, 150, 225, 0.20));
+}

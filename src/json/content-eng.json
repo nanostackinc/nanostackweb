@@ -172,34 +172,36 @@
         "title": "Meet Our Team",
         "sub_title": "Our expert team is made up of dedicated people with great experiences who committed to supporting both both you and your business",
         "data_member": [{
-                "name": "Ivan Aulia Rahman",
-                "position": "Software Engineer",
-                "images": "/images/team/ivan.png",
+                "name": "Muhammad Dicky Athalla",
+                "position": "Content Management",
+                "images": "/images/team/dicky.png",
                 "sertifikat": [{
                     "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert",
-                    "sertif_2": "✅ Dicoding Menjadi Back-End Developer Expert"
+                    "sertif_2": "✅ Dicoding Menjadi Back-End Developer Expert",
+                    "sertif_3": "✅ Dicoding Menjadi Back-End Developer Expert"
                 }],
                 "linkedin": "https://www.linkedin.com/"
             },
             {
                 "name": "Ivan Aulia Rahman",
-                "position": "Software Engineer",
+                "position": "Project Management",
                 "images": "/images/team/ivan.png",
                 "sertifikat": [{
                     "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert",
                     "sertif_2": "✅ Dicoding Menjadi Back-End Developer Expert",
-                    "sertif_3": "✅ Dicoding Menjadi Back-End Developer Expert",
-                    "sertif_4": "✅ Dicoding Menjadi Back-End Developer Expert"
+                    "sertif_3": "✅ Dicoding Menjadi Back-End Developer Expert"
+
                 }],
                 "linkedin": "https://www.linkedin.com/"
             },
             {
-                "name": "Ivan Aulia Rahman",
-                "position": "Software Engineer",
-                "images": "/images/team/ivan.png",
+                "name": "Rafi Dimas Ariyanto",
+                "position": "Product Development Management",
+                "images": "/images/team/rafi.png",
                 "sertifikat": [{
-                    "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert",
-                    "sertif_2": "✅ Dicoding Menjadi Back-End Developer Expert"
+                    "sertif_1": "✅ BuildWithAngga Full-Stack JavaScript Developer",
+                    "sertif_2": "✅ BuildWithAngga Complete Beginner QA Engineer",
+                    "sertif_3": "✅ Coursera Introduction to Software Engineering"
                 }],
                 "linkedin": "https://www.linkedin.com/"
             }
