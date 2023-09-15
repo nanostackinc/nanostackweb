@@ -12,6 +12,7 @@ const Team = ({ data }) => {
         }}
       >
         {data.data_member.map((item, index) => {
+    
           return (
             <div
               className="card"
@@ -37,7 +38,7 @@ const Team = ({ data }) => {
                       );
                     })}
               {/* <div className='d-block p-2 bg-primary' style={{ width: '100%', display: 'flex', justifyContent: 'center' }}> */}
-          <a href="#" className='btn-linkedin d-flex' style={{ width: '100%', textDecoration:"none" }}>
+          <a href={item.linkedin} target='_blank' className='btn-linkedin d-flex' style={{ width: '100%', textDecoration:"none" }}>
                 {/* <button className="btn-linkedin"> */}
                   <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
                     <rect x="0.5" width="20" height="20" rx="1.6" fill="#006699" />
