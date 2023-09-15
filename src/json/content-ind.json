@@ -168,6 +168,41 @@
             }
         ]
     },
+    "team": {
+        "title": "Meet Our Team",
+        "sub_title": "Our expert team is made up of dedicated people with great experiences who committed to supporting both both you and your business",
+        "data_member": [{
+                "name": "Muhammad Dicky Athalla",
+                "position": "Frontend Developer",
+                "images": "/images/team/dicky.png",
+                "sertifikat": [{
+                    "sertif_1": "✅ Badan Nasional Sertifikasi Profesi Junior Web Developer"
+
+                }],
+                "linkedin": "https://www.linkedin.com/in/dickyathalla/"
+            },
+            {
+                "name": "Ivan Aulia Rahman",
+                "position": "Fullstack Developer",
+                "images": "/images/team/ivan.png",
+                "sertifikat": [{
+                    "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert"
+
+
+                }],
+                "linkedin": "https://www.linkedin.com/in/ivanauliaa/"
+            },
+            {
+                "name": "Rafi Dimas Ariyanto",
+                "position": "Fullstack Developer",
+                "images": "/images/team/rafi.png",
+                "sertifikat": [{
+                    "sertif_1": "✅ BuildWithAngga Full-Stack JavaScript Developer"
+                }],
+                "linkedin": "https://www.linkedin.com/in/rafi-dimas-ariyanto-8932531b8/"
+            }
+        ]
+    },
     "contact": {
         "title": "Hubungi Kami",
         "addresshref": "https://goo.gl/maps/G1FhcqDpNbZMAyq66",

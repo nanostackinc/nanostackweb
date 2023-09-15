@@ -173,35 +173,31 @@
         "sub_title": "Our expert team is made up of dedicated people with great experiences who committed to supporting both both you and your business",
         "data_member": [{
                 "name": "Muhammad Dicky Athalla",
-                "position": "Content Management",
+                "position": "Frontend Developer",
                 "images": "/images/team/dicky.png",
                 "sertifikat": [{
-                    "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert",
-                    "sertif_2": "✅ Dicoding Menjadi Back-End Developer Expert",
-                    "sertif_3": "✅ Dicoding Menjadi Back-End Developer Expert"
+                    "sertif_1": "✅ Badan Nasional Sertifikasi Profesi Junior Web Developer"
+
                 }],
                 "linkedin": "https://www.linkedin.com/in/dickyathalla/"
             },
             {
                 "name": "Ivan Aulia Rahman",
-                "position": "Project Management",
+                "position": "Fullstack Developer",
                 "images": "/images/team/ivan.png",
                 "sertifikat": [{
-                    "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert",
-                    "sertif_2": "✅ Dicoding Menjadi Back-End Developer Expert",
-                    "sertif_3": "✅ Dicoding Menjadi Back-End Developer Expert"
+                    "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert"
+
 
                 }],
                 "linkedin": "https://www.linkedin.com/in/ivanauliaa/"
             },
             {
                 "name": "Rafi Dimas Ariyanto",
-                "position": "Product Development Management",
+                "position": "Fullstack Developer",
                 "images": "/images/team/rafi.png",
                 "sertifikat": [{
-                    "sertif_1": "✅ BuildWithAngga Full-Stack JavaScript Developer",
-                    "sertif_2": "✅ BuildWithAngga Complete Beginner QA Engineer",
-                    "sertif_3": "✅ Coursera Introduction to Software Engineering"
+                    "sertif_1": "✅ BuildWithAngga Full-Stack JavaScript Developer"
                 }],
                 "linkedin": "https://www.linkedin.com/in/rafi-dimas-ariyanto-8932531b8/"
             }

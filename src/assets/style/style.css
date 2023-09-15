@@ -1423,6 +1423,7 @@ svg .icon {
     align-items: flex-start;
     gap: 32px;
     flex: 1 0 0;
+    justify-content: space-between;
     border-radius: 24px;
     background: #FFF;
     border: none;

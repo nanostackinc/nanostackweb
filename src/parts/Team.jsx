@@ -3,8 +3,10 @@ import React from 'react';
 const Team = ({ data }) => {
   return (
     <section id="our-team">
+      <div style={{gap:16}}>
       <h3 id="title-team">{data.title}</h3>
       <p className="sub-title-team">{data.sub_title}</p>
+      </div>
       <div
         className="card-group mx-auto"
         style={{
@@ -20,7 +22,7 @@ const Team = ({ data }) => {
               key={index}
               
             >
-              <img className="card-img-top" src={item.images} alt="Card image cap" />
+              <img className="card-img-top" style={{borderRadius:30}} src={item.images} alt="Card image cap" />
             
                 <div className='d-absolute'>
                 <h5 className="card-title">{item.name}</h5>
