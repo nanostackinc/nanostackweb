@@ -169,15 +169,14 @@
         ]
     },
     "team": {
-        "title": "Meet Our Team",
-        "sub_title": "Our expert team is made up of dedicated people with great experiences who committed to supporting both both you and your business",
+        "title": "Perkenalkan Tim Kami",
+        "sub_title": "Tim ahli kami berisi orang-orang berdedikasi dengan segudang pengalaman yang siap berkomitmen untuk membantu anda dan bisnis anda",
         "data_member": [{
                 "name": "Muhammad Dicky Athalla",
                 "position": "Frontend Developer",
                 "images": "/images/team/dicky.png",
                 "sertifikat": [{
                     "sertif_1": "✅ Badan Nasional Sertifikasi Profesi Junior Web Developer"
-
                 }],
                 "linkedin": "https://www.linkedin.com/in/dickyathalla/"
             },
@@ -187,8 +186,6 @@
                 "images": "/images/team/ivan.png",
                 "sertifikat": [{
                     "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert"
-
-
                 }],
                 "linkedin": "https://www.linkedin.com/in/ivanauliaa/"
             },
