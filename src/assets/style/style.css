@@ -1519,7 +1519,7 @@ svg .icon {
     border-radius: 12px;
     border: 2px solid var(--Blue-1, rgba(78, 150, 225, 0.90));
     background: var(--Blue-1-20, rgba(78, 150, 225, 0.20));
-
+}
 /* mobile responsive */
 @media screen and (max-width:576px) {
     .navbar{
