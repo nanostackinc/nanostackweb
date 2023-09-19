@@ -169,8 +169,9 @@
         ]
     },
     "team": {
-        "title": "Meet Our Team",
+        "title": "Perkenalkan Tim Kami",
         "sub_title": "Our expert team is made up of dedicated people with great experiences who committed to supporting both both you and your business",
+        "sub_title": "Tim ahli kami berisi orang-orang berdedikasi dengan segudang pengalaman yang siap berkomitmen untuk membantu anda dan bisnis anda",
         "data_member": [{
                 "name": "Muhammad Dicky Athalla",
                 "position": "Frontend Developer",
