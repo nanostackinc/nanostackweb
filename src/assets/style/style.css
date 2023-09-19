@@ -1394,6 +1394,132 @@ svg .icon {
 
 /* End of Responsive Section */
 
+
+/* Start our team section */
+#our-team {
+    display: flex;
+    width: 100%;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+#title-team {
+    color: var(--Black, #333);
+    text-align: center;
+
+    /* Heading 2 */
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    /* 150% */
+    letter-spacing: -2.24px;
+    text-transform: capitalize;
+}
+
+.sub-title-team {
+    color: var(--Black-80, rgba(51, 51, 51, 0.80));
+    text-align: center;
+
+    /* Body 1 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+}
+
+#group-team {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+#card-team {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    justify-content: space-between;
+    border-radius: 24px;
+    background: #FFF;
+    border: none;
+    /* nano Drop Shadow */
+    box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
+
+}
+
+.text-position {
+    color: var(--Black-80, rgba(51, 51, 51, 0.80));
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+    align-self: stretch;
+    opacity: 0.75;
+}
+
+.text-sertif {
+    color: var(--Black, #333);
+    /* Body 1 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.12px;
+    align-self: stretch;
+    opacity: 0.75;
+}
+
+.btn-linkedin {
+
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    color: var(--Blue-1, rgba(78, 150, 225, 0.90));
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.98px;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 2px solid var(--Blue-1, rgba(78, 150, 225, 0.90));
+    background: rgba(255, 255, 255, 0.90);
+}
+
+.btn-linkedin:hover {
+
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    color: var(--Blue-1, rgba(78, 150, 225, 0.90));
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.98px;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 2px solid var(--Blue-1, rgba(78, 150, 225, 0.90));
+    background: var(--Blue-1-20, rgba(78, 150, 225, 0.20));
+
 /* mobile responsive */
 @media screen and (max-width:576px) {
     .navbar{
@@ -1629,4 +1755,5 @@ svg .icon {
         letter-spacing: -0.98px;
         text-transform: capitalize;
     }
+
 }
