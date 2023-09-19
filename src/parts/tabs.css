@@ -112,7 +112,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.98px;
-
+}
 @media screen and (max-width:576px) {
     .tab-active{
       display: flex;
