@@ -58,12 +58,12 @@ function LandingPage() {
       <Navbar data={landingPageData.navbar} onLanguageChange={handleLanguageChange} />
     
 
-      <div className="container d-flex flex-column  mx-auto"  onClick={handleCloseModal}>
+      <div className="container d-flex flex-column  mx-auto px-30"  onClick={handleCloseModal}>
         <Hero data={landingPageData.hero} />
         <About data={landingPageData.about} />
       </div>
       <Portofolio data={landingPageData.portfolio} onChangeModal={handleModal} />
-      <div className="container d-flex flex-column  mx-auto" id="content"  onClick={handleCloseModal}>
+      <div className="container d-flex flex-column  mx-auto px-30" id="content"  onClick={handleCloseModal}>
         <Pricelist data={landingPageData.pricelist} />
         <Team data={landingPageData.team}/>
         <Testimonial data={landingPageData.testimonial} />
