@@ -149,6 +149,36 @@
         }]
 
     },
+    "services": {
+        "title": "Our Services",
+        "subtitle_website": "We accept discussions for any type of your projects.",
+        "website": [{
+                "id": 1,
+                "title": "Landing Page",
+                "timeline": "1 week",
+                "images": "/images/landing-page.png",
+                "price_text": "Price: start from Rp",
+                "price": "1,000,000,-"
+            }, {
+                "id": 2,
+                "title": "Landing Page",
+                "timeline": "1 week",
+                "images": "/images/landing-page.png",
+                "price_text": "Price: start from Rp",
+                "price": "1,000,000,-"
+            },
+            {
+                "id": 3,
+                "title": "Landing Page",
+                "images": "/images/landing-page.png",
+                "timeline": "1 week",
+                "price_text": "Price: start from Rp",
+                "price": "1,000,000,-"
+            }
+        ]
+
+
+    },
     "testimonial": {
         "title": "Customer Love: What People Are Saying",
         "material": [{

@@ -13,6 +13,8 @@ import Pricelist from '../parts/Pricelist';
 import Meta from '../parts/Meta';
 import Modal from '../components/Modal';
 import Team from '../parts/Team';
+import Services from '../parts/Services';
+
 
 function LandingPage() {
   const [language, setLanguage] = useState(localStorage.getItem('language')); // Initialize language state
@@ -65,6 +67,7 @@ function LandingPage() {
       <Portofolio data={landingPageData.portfolio} onChangeModal={handleModal} />
       <div className="container d-flex flex-column  mx-auto" id="content"  onClick={handleCloseModal}>
         <Pricelist data={landingPageData.pricelist} />
+        <Services data={landingPageData.services}/>
         <Team data={landingPageData.team}/>
         <Testimonial data={landingPageData.testimonial} />
         <Contact data={landingPageData.contact} />

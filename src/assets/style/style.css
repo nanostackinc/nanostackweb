@@ -746,7 +746,7 @@ nav #logo {
 
 .card-title {
     color: var(--black, #333);
-
+    text-align: center;
     /* Heading 3 */
     font-family: Open Sans;
     font-size: 24px;
@@ -842,6 +842,7 @@ nav #logo {
 .title-price {
     color: var(--black, #333);
     text-align: center;
+    display: block;
 
     /* Heading 2 */
     font-family: Open Sans;
