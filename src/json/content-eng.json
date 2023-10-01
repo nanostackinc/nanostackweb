@@ -158,10 +158,16 @@
                 "timeline": "1 week",
                 "images": "/images/landing-page.png",
                 "price_text": "Price: start from Rp",
-                "price": "1,000,000,-"
+                "price": "1,000,000,-",
+                "description": "Akses kelas online yang interaktif dari berbagai perangkat. Lakukan pendaftaran dengan mudah dengan integrasi pembayaran menggunakan Midtrans, yang dapat menjamin keamanan transaksi untuk kenyamanan belajar.",
+                "image_modal": " /images/image_4_modal.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
+                "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             }, {
                 "id": 2,
-                "title": "Landing Page",
+                "title": "Company Profile",
                 "timeline": "1 week",
                 "images": "/images/landing-page.png",
                 "price_text": "Price: start from Rp",
@@ -169,11 +175,131 @@
             },
             {
                 "id": 3,
-                "title": "Landing Page",
+                "title": "Personal Page",
                 "images": "/images/landing-page.png",
                 "timeline": "1 week",
                 "price_text": "Price: start from Rp",
                 "price": "1,000,000,-"
+            },
+            {
+                "id": 4,
+                "title": "E-Commerce",
+                "images": "/images/landing-page.png",
+                "timeline": "1 month",
+                "price_text": "Price: start from Rp",
+                "price": "3,000,000,-"
+            },
+            {
+                "id": 5,
+                "title": "Learning Management System",
+                "images": "/images/landing-page.png",
+                "timeline": "1 month",
+                "price_text": "Price: start from Rp",
+                "price": "3,000,000,-"
+            },
+            {
+                "id": 6,
+                "title": "Management Information System",
+                "images": "/images/landing-page.png",
+                "timeline": "1 month",
+                "price_text": "Price: start from Rp",
+                "price": "3,000,000,-"
+            },
+            {
+                "id": 7,
+                "title": "Point of Sales",
+                "images": "/images/landing-page.png",
+                "timeline": "1 month",
+                "price_text": "Price: start from Rp",
+                "price": "5,000,000,-"
+            },
+            {
+                "id": 8,
+                "title": "Human Resources Information System",
+                "images": "/images/landing-page.png",
+                "timeline": "1.5 month",
+                "price_text": "Price: start from Rp",
+                "price": "7,000,000,-"
+            },
+            {
+                "id": 9,
+                "title": "Logistic Tracking",
+                "images": "/images/landing-page.png",
+                "timeline": "1.5 month",
+                "price_text": "Price: start from Rp",
+                "price": "7,000,000,-"
+            }
+        ],
+        "android": [{
+                "id": 1,
+                "title": "Landing Page",
+                "timeline": "1 week",
+                "images": "/images/landing-page.png",
+                "price_text": "Price: start from Rp",
+                "price": "1,000,000,-"
+            }, {
+                "id": 2,
+                "title": "Company Profile",
+                "timeline": "1 week",
+                "images": "/images/landing-page.png",
+                "price_text": "Price: start from Rp",
+                "price": "1,000,000,-"
+            },
+            {
+                "id": 3,
+                "title": "Personal Page",
+                "images": "/images/landing-page.png",
+                "timeline": "1 week",
+                "price_text": "Price: start from Rp",
+                "price": "1,000,000,-"
+            },
+            {
+                "id": 4,
+                "title": "E-Commerce",
+                "images": "/images/landing-page.png",
+                "timeline": "1 month",
+                "price_text": "Price: start from Rp",
+                "price": "3,000,000,-"
+            },
+            {
+                "id": 5,
+                "title": "Learning Management System",
+                "images": "/images/landing-page.png",
+                "timeline": "1 month",
+                "price_text": "Price: start from Rp",
+                "price": "3,000,000,-"
+            },
+            {
+                "id": 6,
+                "title": "Management Information System",
+                "images": "/images/landing-page.png",
+                "timeline": "1 month",
+                "price_text": "Price: start from Rp",
+                "price": "3,000,000,-"
+            },
+            {
+                "id": 7,
+                "title": "Point of Sales",
+                "images": "/images/landing-page.png",
+                "timeline": "1 month",
+                "price_text": "Price: start from Rp",
+                "price": "5,000,000,-"
+            },
+            {
+                "id": 8,
+                "title": "Human Resources Information System",
+                "images": "/images/landing-page.png",
+                "timeline": "1.5 month",
+                "price_text": "Price: start from Rp",
+                "price": "7,000,000,-"
+            },
+            {
+                "id": 9,
+                "title": "Logistic Tracking",
+                "images": "/images/landing-page.png",
+                "timeline": "1.5 month",
+                "price_text": "Price: start from Rp",
+                "price": "7,000,000,-"
             }
         ]
 

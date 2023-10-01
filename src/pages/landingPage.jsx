@@ -25,17 +25,17 @@ function LandingPage() {
     setLanguage(newLanguage);
     localStorage.setItem('language', newLanguage); // Update language in local storage
   };
-  console.log(language)
+  // console.log(language)
   const landingPageData = language === 'Bahasa Indonesia' ? landingPageDataIdn : language === 'English'?landingPageDataEn:language==="undefined"?landingPageDataEn:language===null?landingPageDataEn:"";
 
   const handleModal=(item,modalStatus)=>{
       setItem(item)
+      console.log(modalStatus)
       setStatus(modalStatus)
     
   }
   const handleCloseModal =()=>{
     setStatus(false)
-
   }
 
   return (
@@ -64,10 +64,10 @@ function LandingPage() {
         <Hero data={landingPageData.hero} />
         <About data={landingPageData.about} />
       </div>
-      <Portofolio data={landingPageData.portfolio} onChangeModal={handleModal} />
+        <Services data={landingPageData.services} onChangeModal={handleModal}/>
+      {/* <Portofolio data={landingPageData.portfolio} onChangeModal={handleModal} /> */}
       <div className="container d-flex flex-column  mx-auto" id="content"  onClick={handleCloseModal}>
-        <Pricelist data={landingPageData.pricelist} />
-        <Services data={landingPageData.services}/>
+        {/* <Pricelist data={landingPageData.pricelist} /> */}
         <Team data={landingPageData.team}/>
         <Testimonial data={landingPageData.testimonial} />
         <Contact data={landingPageData.contact} />
