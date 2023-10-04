@@ -274,12 +274,12 @@
                 "images": "/images/landing-page.png",
                 "price_text": "Price: start from Rp",
                 "price": "1,000,000,-",
-                "description": "This application is the perfect travel companion, allowing users to easily search, compare, and book ideal accommodations.",
+                "description": "A mobile application for employee attendance management, making work time tracking easier.",
                 "image_modal": " /images/image_4_modal.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "long_desc": "This application is the perfect travel companion, allowing users to easily search, compare, and book ideal accommodations.",
                 "problem": "Users often struggle to find and book accommodations conveniently and reliably while traveling.",
                 "solution": "This application provides a solution by offering various accommodation options, exclusive deals, and hassle-free booking for unforgettable journeys.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+                "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
             }, {
                 "id": 2,
                 "title": "E-Commerce",
