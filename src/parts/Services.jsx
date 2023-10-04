@@ -12,12 +12,17 @@ const Services = ({onChangeModal,data}) => {
   }
   const[modal,setModal]=useState(false)
   const[dataItem,setData]=useState({})
-  const handleModal=(target)=>{
+  const handleModalWebsite=(target)=>{
     setModal(true)
     const itemData = data.website.find(item => item.id === target);
     setData(itemData)
     onChangeModal(itemData,true)
-    // console.log(itemData)
+  }
+  const handleModalAndroid=(target)=>{
+    setModal(true)
+    const itemData = data.android.find(item => item.id === target);
+    setData(itemData)
+    onChangeModal(itemData,true)
   }
   const tabsData=[
     {
@@ -34,7 +39,7 @@ const Services = ({onChangeModal,data}) => {
       return (
       <>
       <div className="col">
-      <div class="card" id='card-standard' onClick={()=>handleModal(item.id)} key={item.id}>
+      <div class="card" id='card-standard' onClick={()=>handleModalWebsite(item.id)} key={item.id}>
       <img src={item.images} class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">{item.title}</h5>
@@ -103,9 +108,9 @@ const Services = ({onChangeModal,data}) => {
         <div className="row row-cols-1 row-cols-md-3 g-4">     
         {data.android.map((item)=>{
         return (
-        <>
+
         <div className="col">
-        <div class="card" id='card-standard' onClick={()=>handleModal(item.id)} key={item.id}>
+        <div class="card" id='card-standard' onClick={()=>handleModalAndroid(item.id)} key={item.id}>
         <img src={item.images} class="card-img-top" alt="..."/>
         <div class="card-body">
           <h5 class="card-title">{item.title}</h5>
@@ -154,7 +159,6 @@ const Services = ({onChangeModal,data}) => {
         </div>
         </div>
         </div>
-        </>
         )})}
         </div>    
         </>

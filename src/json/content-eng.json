@@ -156,11 +156,11 @@
                 "id": 1,
                 "title": "Landing Page",
                 "timeline": "1 week",
-                "images": "/images/landing-page.png",
+                "images": "/images/team/landing.png",
                 "price_text": "Price: start from Rp",
                 "price": "1,000,000,-",
                 "description": "Akses kelas online yang interaktif dari berbagai perangkat. Lakukan pendaftaran dengan mudah dengan integrasi pembayaran menggunakan Midtrans, yang dapat menjamin keamanan transaksi untuk kenyamanan belajar.",
-                "image_modal": " /images/image_4_modal.png",
+                "image_modal": "/images/team/landing.png",
                 "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
                 "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
                 "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja.",
@@ -169,54 +169,90 @@
                 "id": 2,
                 "title": "Company Profile",
                 "timeline": "1 week",
-                "images": "/images/landing-page.png",
+                "images": "/images/team/company.png",
                 "price_text": "Price: start from Rp",
-                "price": "1,000,000,-"
+                "price": "1,000,000,-",
+                "description": "Akses kelas online yang interaktif dari berbagai perangkat. Lakukan pendaftaran dengan mudah dengan integrasi pembayaran menggunakan Midtrans, yang dapat menjamin keamanan transaksi untuk kenyamanan belajar.",
+                "image_modal": "/images/team/company.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
+                "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             },
             {
                 "id": 3,
                 "title": "Personal Page",
-                "images": "/images/landing-page.png",
+                "images": "/images/team/personal-page.png",
                 "timeline": "1 week",
                 "price_text": "Price: start from Rp",
-                "price": "1,000,000,-"
+                "price": "1,000,000,-",
+                "description": "Akses kelas online yang interaktif dari berbagai perangkat. Lakukan pendaftaran dengan mudah dengan integrasi pembayaran menggunakan Midtrans, yang dapat menjamin keamanan transaksi untuk kenyamanan belajar.",
+                "image_modal": "/images/team/personal-page.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
+                "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             },
             {
                 "id": 4,
                 "title": "E-Commerce",
-                "images": "/images/landing-page.png",
+                "images": "/images/team/commerce.png",
                 "timeline": "1 month",
                 "price_text": "Price: start from Rp",
-                "price": "3,000,000,-"
+                "price": "3,000,000,-",
+                "description": "Take your stride with the perfect shoe style. Discover our trendy and high-quality collection to walk with confidence. Head straight to our website and explore the unforgettable styles today!",
+                "image_modal": "/images/team/commerce.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Barriers in conventional shoe transactions. Buying and selling shoes through channels that don't guarantee the authenticity of the products.",
+                "solution": "Creating a shoe marketplace website that ensures quality and security for both sellers and buyers.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             },
             {
                 "id": 5,
                 "title": "Learning Management System",
-                "images": "/images/landing-page.png",
+                "images": "/images/team/lms.png",
                 "timeline": "1 month",
                 "price_text": "Price: start from Rp",
-                "price": "3,000,000,-"
+                "price": "3,000,000,-",
+                "description": "This application is a digital learning platform that enables users to easily access and utilize learning resources.",
+                "image_modal": "/images/team/lms.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Many individuals and organizations face challenges in accessing and managing learning materials.",
+                "solution": "This application provides a solution by offering easy access to learning materials, enabling flexible and efficient learning.",
+                "tech_stack": "Laravel, PHP, mysql, ngrok"
             },
             {
                 "id": 6,
                 "title": "Management Information System",
-                "images": "/images/landing-page.png",
+                "images": "/images/team/mis.png",
                 "timeline": "1 month",
                 "price_text": "Price: start from Rp",
-                "price": "3,000,000,-"
+                "price": "3,000,000,-",
+                "description": "Watch your favorite films on the Movie Streaming platform. Enjoy an automated payment system through Midtrans that guarantees security and convenience.",
+                "image_modal": "/images/team/mis.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Overcome access barriers and the hassle of downloading films with our streaming solution. Avoid unofficial films that do not provide royalties to film studios.",
+                "solution": "The creation of the Movie Streaming website serves as an official service for watching films securely and comfortably. Movie Streaming provides payment services for each film you want to watch.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             },
             {
                 "id": 7,
                 "title": "Point of Sales",
-                "images": "/images/landing-page.png",
+                "images": "/images/team/pos.png",
                 "timeline": "1 month",
                 "price_text": "Price: start from Rp",
-                "price": "5,000,000,-"
+                "price": "5,000,000,-",
+                "description": "This application is an innovative solution for smoothly managing sales and inventory, providing a sophisticated transaction experience.",
+                "image_modal": "/images/team/pos.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Businesses often face challenges in efficiently tracking sales and managing inventory.",
+                "solution": "This application provides a solution by simplifying sales and inventory management, enhancing operational efficiency for businesses.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             },
             {
                 "id": 8,
                 "title": "Human Resources Information System",
-                "images": "/images/landing-page.png",
+                "images": "/images/team/hris.png",
                 "timeline": "1.5 month",
                 "price_text": "Price: start from Rp",
                 "price": "7,000,000,-"
@@ -224,82 +260,137 @@
             {
                 "id": 9,
                 "title": "Logistic Tracking",
-                "images": "/images/landing-page.png",
+                "images": "/images/team/logistic.png",
                 "timeline": "1.5 month",
                 "price_text": "Price: start from Rp",
                 "price": "7,000,000,-"
+
             }
         ],
         "android": [{
                 "id": 1,
-                "title": "Landing Page",
+                "title": "Attendance",
                 "timeline": "1 week",
                 "images": "/images/landing-page.png",
                 "price_text": "Price: start from Rp",
-                "price": "1,000,000,-"
+                "price": "1,000,000,-",
+                "description": "This application is the perfect travel companion, allowing users to easily search, compare, and book ideal accommodations.",
+                "image_modal": " /images/image_4_modal.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Users often struggle to find and book accommodations conveniently and reliably while traveling.",
+                "solution": "This application provides a solution by offering various accommodation options, exclusive deals, and hassle-free booking for unforgettable journeys.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             }, {
                 "id": 2,
-                "title": "Company Profile",
+                "title": "E-Commerce",
                 "timeline": "1 week",
                 "images": "/images/landing-page.png",
                 "price_text": "Price: start from Rp",
-                "price": "1,000,000,-"
+                "price": "1,000,000,-",
+                "description": "Take your stride with the perfect shoe style. Discover our trendy and high-quality collection to walk with confidence. Head straight to our website and explore the unforgettable styles today!",
+                "image_modal": " /images/image_4_modal.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Barriers in conventional shoe transactions. Buying and selling shoes through channels that don't guarantee the authenticity of the products.",
+                "solution": "Creating a shoe marketplace website that ensures quality and security for both sellers and buyers.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             },
             {
                 "id": 3,
-                "title": "Personal Page",
+                "title": "Learning Management System ",
                 "images": "/images/landing-page.png",
                 "timeline": "1 week",
                 "price_text": "Price: start from Rp",
-                "price": "1,000,000,-"
+                "price": "1,000,000,-",
+                "description": "This application is a digital learning platform that enables users to easily access and utilize learning resources.",
+                "image_modal": " /images/image_4_modal.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Many individuals and organizations face challenges in accessing and managing learning materials.",
+                "solution": "This application provides a solution by offering easy access to learning materials, enabling flexible and efficient learning.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             },
             {
                 "id": 4,
-                "title": "E-Commerce",
-                "images": "/images/landing-page.png",
-                "timeline": "1 month",
-                "price_text": "Price: start from Rp",
-                "price": "3,000,000,-"
-            },
-            {
-                "id": 5,
-                "title": "Learning Management System",
-                "images": "/images/landing-page.png",
-                "timeline": "1 month",
-                "price_text": "Price: start from Rp",
-                "price": "3,000,000,-"
-            },
-            {
-                "id": 6,
                 "title": "Management Information System",
                 "images": "/images/landing-page.png",
                 "timeline": "1 month",
                 "price_text": "Price: start from Rp",
-                "price": "3,000,000,-"
+                "price": "3,000,000,-",
+                "description": "This application is a digital learning platform that enables users to easily access and utilize learning resources.",
+                "image_modal": " /images/image_4_modal.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Many individuals and organizations face challenges in accessing and managing learning materials.",
+                "solution": "This application provides a solution by offering easy access to learning materials, enabling flexible and efficient learning.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             },
             {
-                "id": 7,
+                "id": 5,
                 "title": "Point of Sales",
                 "images": "/images/landing-page.png",
                 "timeline": "1 month",
                 "price_text": "Price: start from Rp",
-                "price": "5,000,000,-"
+                "price": "3,000,000,-",
+                "description": "This application is an innovative solution for smoothly managing sales and inventory, providing a sophisticated transaction experience",
+                "image_modal": " /images/image_4_modal.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Businesses often face challenges in efficiently tracking sales and managing inventory.",
+                "solution": "This application provides a solution by simplifying sales and inventory management, enhancing operational efficiency for businesses.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+            },
+            {
+                "id": 6,
+                "title": "Online Service Order",
+                "images": "/images/landing-page.png",
+                "timeline": "1 month",
+                "price_text": "Price: start from Rp",
+                "price": "3,000,000,-",
+                "description": "This application is a convenient platform for booking various online services, making it easy for users to access the services they need.",
+                "image_modal": " /images/image_4_modal.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Users often struggle to find and book online services quickly and efficiently.",
+                "solution": "This application provides a solution by offering a variety of services at their fingertips, allowing users to easily search for and book the services they require.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+            },
+            {
+                "id": 7,
+                "title": "Human Resources Information System",
+                "images": "/images/landing-page.png",
+                "timeline": "1 month",
+                "price_text": "Price: start from Rp",
+                "price": "5,000,000,-",
+                "description": "This application is a modern tool for human resource management, simplifying user efficiency in handling employee data",
+                "image_modal": " /images/image_4_modal.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Many organizations face challenges in managing complex and intricate HR data.",
+                "solution": "This application provides a solution by offering practical tools for employee data management, enhancing productivity and accuracy in HR processes.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             },
             {
                 "id": 8,
-                "title": "Human Resources Information System",
+                "title": "Enterprise Resource Planning",
                 "images": "/images/landing-page.png",
                 "timeline": "1.5 month",
                 "price_text": "Price: start from Rp",
-                "price": "7,000,000,-"
+                "price": "7,000,000,-",
+                "description": "This application is an integrated platform that allows companies to efficiently manage their business processes through mobile devices",
+                "image_modal": " /images/image_4_modal.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Businesses often struggle to coordinate their operations and require a more efficient approach.",
+                "solution": "This application provides a solution by enabling easy access to ERP systems, allowing companies to manage their business processes more efficiently and effectively.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             },
             {
                 "id": 9,
-                "title": "Logistic Tracking",
+                "title": "Hotel/Travel Booking",
                 "images": "/images/landing-page.png",
                 "timeline": "1.5 month",
                 "price_text": "Price: start from Rp",
-                "price": "7,000,000,-"
+                "price": "7,000,000,-",
+                "description": "This application is a digital learning platform that enables users to easily access and utilize learning resources.",
+                "image_modal": " /images/image_4_modal.png",
+                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "problem": "Many individuals and organizations face challenges in accessing and managing learning materials.",
+                "solution": "This application provides a solution by offering easy access to learning materials, enabling flexible and efficient learning.",
+                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             }
         ]
 
