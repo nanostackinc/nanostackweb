@@ -159,11 +159,11 @@
                 "images": "/images/team/landing.png",
                 "price_text": "Price: start from Rp",
                 "price": "1,000,000,-",
-                "description": "Akses kelas online yang interaktif dari berbagai perangkat. Lakukan pendaftaran dengan mudah dengan integrasi pembayaran menggunakan Midtrans, yang dapat menjamin keamanan transaksi untuk kenyamanan belajar.",
+                "description": "Unlock your full potential with our online courses, guided by experts in the field.",
                 "image_modal": "/images/team/landing.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
-                "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja.",
+                "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
+                "problem": "The increasing demand for remote learning is on the rise.",
+                "solution": "An online class website that enables learning to take place anytime, anywhere.",
                 "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
             }, {
                 "id": 2,
@@ -172,12 +172,12 @@
                 "images": "/images/team/company.png",
                 "price_text": "Price: start from Rp",
                 "price": "1,000,000,-",
-                "description": "Akses kelas online yang interaktif dari berbagai perangkat. Lakukan pendaftaran dengan mudah dengan integrasi pembayaran menggunakan Midtrans, yang dapat menjamin keamanan transaksi untuk kenyamanan belajar.",
+                "description": "Explore our company profile with creative design and engaging content, revealing our values, achievements, and expertise.",
                 "image_modal": "/images/team/company.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
-                "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+                "long_desc": "PThe website showcases a comprehensive company profile, providing insights into the company's values, achievements, and expertise through creative design and engaging content.",
+                "problem": "Many businesses struggle to effectively communicate their identity and accomplishments to their target audience.",
+                "solution": "The solution is a professionally designed company profile website that effectively conveys the company's essence and achievements in a concise manner.",
+                "tech_stack": "Laravel, PHP, mysql, ngrok"
             },
             {
                 "id": 3,
@@ -186,12 +186,12 @@
                 "timeline": "1 week",
                 "price_text": "Price: start from Rp",
                 "price": "1,000,000,-",
-                "description": "Akses kelas online yang interaktif dari berbagai perangkat. Lakukan pendaftaran dengan mudah dengan integrasi pembayaran menggunakan Midtrans, yang dapat menjamin keamanan transaksi untuk kenyamanan belajar.",
+                "description": "Explore our inspiring platform filled with unique stories and individual achievements   ",
                 "image_modal": "/images/team/personal-page.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
-                "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+                "long_desc": "This website is a comprehensive portal for efficient logistics solutions, offering a wide range of highly reliable delivery services",
+                "problem": "Clients face challenges in finding reliable and efficient logistics delivery services.",
+                "solution": "Our solution comes in the form of a website that simplifies the selection and tracking of logistics deliveries efficiently",
+                "tech_stack": "Laravel, PHP, mysql, ngrok"
             },
             {
                 "id": 4,
@@ -200,12 +200,12 @@
                 "timeline": "1 month",
                 "price_text": "Price: start from Rp",
                 "price": "3,000,000,-",
-                "description": "Take your stride with the perfect shoe style. Discover our trendy and high-quality collection to walk with confidence. Head straight to our website and explore the unforgettable styles today!",
+                "description": "Find quality rental cars at your fingertips and embark on your adventure with easy and fast bookings.",
                 "image_modal": "/images/team/commerce.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Barriers in conventional shoe transactions. Buying and selling shoes through channels that don't guarantee the authenticity of the products.",
-                "solution": "Creating a shoe marketplace website that ensures quality and security for both sellers and buyers.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+                "long_desc": "Car rental convenience is at your fingertips. Discover a variety of quality cars for hassle-free travel. Begin your adventure now with easy and quick booking!",
+                "problem": "Car rental services struggling to provide detailed vehicle condition information to customers online",
+                "solution": "An online car rental website equipped with detailed vehicle conditions for seamless bookings.",
+                "tech_stack": "Laravel, tailwind, mysql, nodeJS"
             },
             {
                 "id": 5,
@@ -214,11 +214,11 @@
                 "timeline": "1 month",
                 "price_text": "Price: start from Rp",
                 "price": "3,000,000,-",
-                "description": "This application is a digital learning platform that enables users to easily access and utilize learning resources.",
+                "description": "Transform your career with online bootcamps from the comfort of your home; join now!",
                 "image_modal": "/images/team/lms.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Many individuals and organizations face challenges in accessing and managing learning materials.",
-                "solution": "This application provides a solution by offering easy access to learning materials, enabling flexible and efficient learning.",
+                "long_desc": "Transform your career through our online bootcamp. Gain intensive training from industry experts, all from the comfort of your home. Ready to pursue success? Join our bootcamp now!",
+                "problem": "Many online bootcamps still rely solely on Zoom, resulting in a lack of integrated systems that offer a comprehensive learning platform with integrated bootcamp resources",
+                "solution": "An integrated bootcamp website offering intensive training from industry practitioners and experts.",
                 "tech_stack": "Laravel, PHP, mysql, ngrok"
             },
             {
@@ -228,12 +228,12 @@
                 "timeline": "1 month",
                 "price_text": "Price: start from Rp",
                 "price": "3,000,000,-",
-                "description": "Watch your favorite films on the Movie Streaming platform. Enjoy an automated payment system through Midtrans that guarantees security and convenience.",
+                "description": "Enjoy your favorite movies securely on Movie Streaming with Midtrans automated payments",
                 "image_modal": "/images/team/mis.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+                "long_desc": "Watch your favorite films on the Movie Streaming platform. Enjoy an automated payment system through Midtrans that guarantees security and convenience.",
                 "problem": "Overcome access barriers and the hassle of downloading films with our streaming solution. Avoid unofficial films that do not provide royalties to film studios.",
                 "solution": "The creation of the Movie Streaming website serves as an official service for watching films securely and comfortably. Movie Streaming provides payment services for each film you want to watch.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+                "tech_stack": "Laravel, Postman API, PHP, midtrans, React Js"
             },
             {
                 "id": 7,
@@ -242,12 +242,12 @@
                 "timeline": "1 month",
                 "price_text": "Price: start from Rp",
                 "price": "5,000,000,-",
-                "description": "This application is an innovative solution for smoothly managing sales and inventory, providing a sophisticated transaction experience.",
+                "description": "A modern solution for efficient sales and inventory management, with a sophisticated transaction experience.",
                 "image_modal": "/images/team/pos.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Businesses often face challenges in efficiently tracking sales and managing inventory.",
-                "solution": "This application provides a solution by simplifying sales and inventory management, enhancing operational efficiency for businesses.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+                "long_desc": "This website is a modern solution for easily managing sales and inventory, providing a sophisticated and efficient transaction experience",
+                "problem": "Business owners struggle to efficiently track sales and manage inventory.",
+                "solution": "We provide a solution through an intuitive POS website, helping businesses optimize their sales and inventory management processes.",
+                "tech_stack": "Laravel, Postman API, PHP, midtrans"
             },
             {
                 "id": 8,
@@ -255,7 +255,13 @@
                 "images": "/images/team/hris.png",
                 "timeline": "1.5 month",
                 "price_text": "Price: start from Rp",
-                "price": "7,000,000,-"
+                "price": "7,000,000,-",
+                "description": "An advanced HRIS platform that simplifies human resource management.",
+                "image_modal": "/images/team/hris.png",
+                "long_desc": "This HRIS website is a comprehensive platform for managing human resources, simplifying HR processes with cutting-edge technology.",
+                "problem": "Companies face challenges in managing HR data and need a more efficient way",
+                "solution": "We provide a solution in the form of an HRIS website that streamlines HR management, enhancing productivity and data accuracy.",
+                "tech_stack": "Laravel, PHP, mysql, ngrok"
             },
             {
                 "id": 9,
@@ -263,7 +269,13 @@
                 "images": "/images/team/logistic.png",
                 "timeline": "1.5 month",
                 "price_text": "Price: start from Rp",
-                "price": "7,000,000,-"
+                "price": "7,000,000,-",
+                "description": "A comprehensive portal for efficient logistic solutions, offering reliable delivery services.",
+                "image_modal": "/images/team/logistic.png",
+                "long_desc": "This website is a comprehensive portal for efficient logistics solutions, offering a wide range of highly reliable delivery services.",
+                "problem": "Clients face challenges in finding reliable and efficient logistics delivery services.",
+                "solution": "Our solution comes in the form of a website that simplifies the selection and tracking of logistics deliveries efficiently.",
+                "tech_stack": "Laravel, Postman API, PHP, midtrans"
 
             }
         ],
