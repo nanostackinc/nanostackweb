@@ -157,6 +157,7 @@
                 "id": 1,
                 "title": "Landing Page",
                 "title_project":"Landing Page Nanostack",
+                "title_second": "Laracamp",  
                 "subtitle_second":"Look at What we’ve done",
                 "timeline": "1 week",
                 "images": "/images/team/landing.png",
@@ -173,6 +174,7 @@
                 "title": "Company Profile",
                 "title_project":"Landing Page Nanostack",
                 "timeline": "1 week",
+                "title_second": "Atinity solutions", 
                 "subtitle_second":"Look at What we’ve done",
                 "images": "/images/team/company.png",
                 "price_text": "Price: start from Rp",
@@ -191,6 +193,7 @@
                 "title_project":"Landing Page Nanostack",
                 "subtitle_second":"Look at What we’ve done",
                 "timeline": "1 week",
+                "title_second": "Kafela",
                 "price_text": "Price: start from Rp",
                 "price": "1,000,000,-",
                 "description": "Explore our inspiring platform filled with unique stories and individual achievements   ",
@@ -203,6 +206,7 @@
             {
                 "id": 4,
                 "title": "E-Commerce",
+                "title_second":"VROM",
                 "title_project":"Landing Page Nanostack",
                 "images": "/images/team/commerce.png",
                 "subtitle_second":"Look at What we’ve done",
@@ -219,6 +223,7 @@
             {
                 "id": 5,
                 "title": "Learning Management System",
+                "title_second":"Micro",
                 "title_project":"Landing Page Nanostack",
                 "images": "/images/team/lms.png",
                 "subtitle_second":"Look at What we’ve done",
@@ -235,6 +240,7 @@
             {
                 "id": 6,
                 "title": "Management Information System",
+                "title_second":"Moonton",
                 "title_project":"Landing Page Nanostack",
                 "subtitle_second":"Look at What we’ve done",
                 "images": "/images/team/mis.png",
@@ -252,6 +258,7 @@
                 "id": 7,
                 "title": "Point of Sales",
                 "images": "/images/team/pos.png",
+                "title_second": "Jaegar resto",
                 "subtitle_second":"Look at What we’ve done",
                 "title_project":"Landing Page Nanostack",
                 "timeline": "1 month",
@@ -267,6 +274,7 @@
             {
                 "id": 8,
                 "title": "Human Resources Information System",
+                "title_second":"Starhub",
                 "subtitle_second":"Look at What we’ve done",
                 "title_project":"Landing Page Nanostack",
                 "images": "/images/team/hris.png",
@@ -283,6 +291,7 @@
             {
                 "id": 9,
                 "title": "Logistic Tracking",
+                "title_second":"Transitflow",
                 "images": "/images/team/logistic.png",
                 "subtitle_second":"Look at What we’ve done",
                 "title_project":"Landing Page Nanostack",

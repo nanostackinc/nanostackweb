@@ -35,7 +35,7 @@ const Modal = ({ data, status, onCloseModal }) => {
                       stroke-linecap="round"
                       stroke-linejoin="round"/>
                   </svg>
-                  <p className='subtext-price ms-2'> {data.timeline_text} {data.timeline}</p>
+                  <p className='subtext-price ms-2'>Timeline: {data.timeline_text} {data.timeline}</p>
                 </div>
                 <div id='benefit'>
                   <svg
@@ -62,7 +62,7 @@ const Modal = ({ data, status, onCloseModal }) => {
               </div>
               <h3 className="title-heading text-start">{data.subtitle_second}</h3>
             <div className="content-spec">
-            <h3 className="title-heading text-start">{data.title}</h3>
+            <h3 className="title-heading text-start">{data.title_second}</h3>
             <p className='desc'>{data.description}</p>
             <img src={data.images} class="card-img-top" alt="..." />
             <div className='content-modal'>

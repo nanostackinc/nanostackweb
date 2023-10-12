@@ -85,7 +85,7 @@ const Services = ({ onChangeModal, data }) => {
                               />
                             </svg>
                             <p className="subtext-price ms-2">
-                              {item.timeline}
+                             Timeline: {item.timeline_text} {item.timeline}
                             </p>
                           </div>
                           <div id="benefit">
