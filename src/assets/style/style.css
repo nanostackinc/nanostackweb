@@ -1099,8 +1099,8 @@ nav #logo {
 #benefit {
     display: flex;
     align-items: flex-start;
-    /* background-color: #007bff; */
     border-bottom: 1px solid var(--Blue-1-20, rgba(78, 150, 225, 0.20));
+    width: 100%;
 }
 
 svg .icon {
