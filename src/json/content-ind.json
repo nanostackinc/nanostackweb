@@ -1,516 +1,553 @@
 {
-    "navbar": {
-        "link": "Beranda",
-        "link1": "Tentang Kami",
-        "link2": "Portfolio",
-        "link3": "Testimoni",
-        "link4": "Kontak"
-    },
-    "hero": {
-        "title": "Ambil Langkah Untuk Mencapai Tujuan Bisnis dengan Digital Product Development",
-        "subtitle": "Tim Software Development kami siap mengaplikasikan ide Anda dalam hitungan minggu ⚡️",
-        "background_image": " /images/hero.png",
-        "cta_text": "Hubungi kami",
-        "cta_link": "Lihat portfolio kami",
-        "whatsapp": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya"
-    },
-    "about": {
-        "title": "Sebuah Dedicated Software Production Company yang Berbasis di Indonesia",
-        "description_primary": "Dengan modal pengetahuan dan pengalaman kami di berbagai industri, kami dapat membantu mencapai tujuan Anda dengan cepat dan efisien.",
-        "description_secondary": "Kami memiliki kelebihan dalam merancang user interface yang dinamis dan kreatif dengan mengandalkan clean and optimized code. Berkolaborasi dengan baik untuk memastikan aplikasi web/mobile yang bisa memberikan user experience terbaik. Mari segera wujudkan tujuan bisnis Anda  🚀",
-        "image": " /images/about.png"
-    },
-    "portfolio": {
-        "title": "Setiap Project Merupakan Sebuah Karya Tangan yang Unik di Setiap Development",
-        "website": [{
-                "id": 1,
-                "title": "Movie Streaming 🍿️",
-                "description": "Tonton film-film favorit Anda di platform kami. Nikmati sistem pembayaran terotomasi melalui Midtrans yang dapat menjamin keamanan dan kenyamanan.",
-                "image": " /images/image_3.png",
-                "image_modal": " /images/image_3_modal.png",
-                "long_desc": "Tonton film-film favorit Anda di platform Movie Streaming. Nikmati sistem pembayaran terotomasi melalui Midtrans yang dapat menjamin keamanan dan kenyamanan.",
-                "problem": "Hambatan akses dan kerepotan download film dengan solusi streaming kami. Film tidak resmi yang tidak memberikan royalti pada studio film. ",
-                "solution": "Pembuatan website Movie streaming sebagai layanan menonton film secara resmi dengan aman dan nyaman. Movie streaming menyediakan layanan pembayaran dari tiap film yang ingin anda tonton",
-                "tech_stack": "Laravel, Postman API, PHP, midtrans"
-            },
-            {
-                "id": 2,
-                "title": "Shoes E-Commerce 🥾",
-                "description": "Sesuaikan pilihan belanja sepatu dengan lifestyle Anda di aplikasi kami yang mengusung tampilanyang kreatif. Dapatkan saran dan bantuan secara real-time melalui layanan chat dari kami.",
-                "image": " /images/image_6.png",
-                "image_modal": " /images/image_6_modal.png",
-                "long_desc": "Langkah gayamu dengan gaya sepatu yang sempurna. Temukan koleksi kami yang trendi dan berkualitas tinggi untuk melangkah dengan percaya diri. Langsung ke situs kami dan jelajahi gaya yang tak bisa diabaikan hari ini!",
-                "problem": "Hambatan dalam transaksi jual beli sepatu secara konvensional. Media jual beli sepatu yang tidak menjamin originalitas dari sepatu yang akan dibeli",
-                "solution": "Pembuatan website jual beli sepatu yang kualitasnya aman dan terjamin baik bagi penjual maupun pembeli.",
-                "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
-            },
-            {
-                "id": 3,
-                "title": "Hiking Booking 🌋",
-                "description": "Nikmati kenyamanan dalam melakukan pendakian, melalui booking pendakian yang efekti dengan tiket berbasis QR Code dan tracking status pendakian.",
-                "image": " /images/image_1.png",
-                "image_modal": " /images/image_1_modal.png",
-                "long_desc": "Taklukkan puncak-puncak terjal dengan pemesanan pendakian yang mudah. Temukan petualangan alam yang menantimu dan jadikan setiap langkah sebagai cerita tak terlupakan. Mulai rencanakan petualanganmu hari ini!",
-                "problem": "Belum adanya sistem registrasi pendakian secara online dan terintegrasi. Susahnya dalam melakukan tracking pendaki gunung.",
-                "solution": "Website registrasi pendakian secara online dan terintegrasi. Tracking pendakian secara real-time dan tiket pendakian menggunakan QR.",
-                "tech_stack": "React, Bootstrap, Vercel, MongoDB, Express Js, Postman"
-            },
-            {
-                "id": 4,
-                "title": "Online Class ✏️",
-                "description": "Akses kelas online yang interaktif dari berbagai perangkat. Lakukan pendaftaran dengan mudah dengan integrasi pembayaran menggunakan Midtrans, yang dapat menjamin keamanan transaksi untuk kenyamanan belajar.",
-                "image": " /images/image_4.png",
-                "image_modal": " /images/image_4_modal.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
-                "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
-            },
-            {
-                "id": 5,
-                "title": "Car Rent 🚗",
-                "description": "Sewa mobil pilihan Anda dengan mudah di web kami yang responsif dan kreatif. Pendaftaran yang mudah dengan integrasi Midtrans sebagai pembayaran, menjamin pembayaran yang aman di berbagai perangkat.",
-                "image": " /images/image_5.png",
-                "image_modal": " /images/image_5_modal.png",
-                "long_desc": "Kemudahan mobil sewaan ada di ujung jari Anda. Temukan beragam pilihan mobil berkualitas untuk perjalanan tanpa repot. Mulai petualangan Anda sekarang dengan pemesanan mudah dan cepat!",
-                "problem": "Persewaan mobil yang masih kesusahan dalam menyampaikan informasi berupa kondisi mobil secara detail kepada pelanggan secara online",
-                "solution": "Website persewaaan mobil secara online dilengkapi kondisi detail dari kendaraan yang akan disewakan.",
-                "tech_stack": "Laravel, tailwind, mysql, nodeJS"
-            },
-            {
-                "id": 6,
-                "title": "Bootcamp Purchase 📚",
-                "description": "Bergabunglah dengan online bootcamp dari kami untuk mempelajari skill-skill yang banyak diminati. Proses pendaftaran yang mudah dengan integrasi Midtrans, dengan jaminan pembayaran yang aman di berbagai perangkat.",
-                "image": " /images/image_2.png",
-                "image_modal": " /images/image_2_modal.png",
-                "long_desc": "Transformasi kariermu melalui bootcamp online kami. Dapatkan pelatihan intensif dari para ahli industri, semua dari kenyamanan rumahmu. Siap untuk mengejar kesuksesan? Bergabunglah dengan bootcamp kami sekarang!",
-                "problem": "Bootcamp online yang kebanyakan masih dilaksanakan melalui zoom saja, mengakibatkan belum adanya sistem terintegrasi bootcamp yang juga menyediakan platform pembelajaran lengkap dengan resource bootcamp yang terintegrasi.",
-                "solution": "Website bootcamp yang terintegrasi dan menyediakan pelatihan secara intensif dari para pelaku dan ahli industri.",
-                "tech_stack": "Laravel, PHP, mysql, ngrok"
-            }
+  "navbar": {
+    "link": "Beranda",
+    "link1": "Tentang Kami",
+    "link2": "Portfolio",
+    "link3": "Testimoni",
+    "link4": "Kontak"
+  },
+  "hero": {
+    "title": "Ambil Langkah Untuk Mencapai Tujuan Bisnis dengan Digital Product Development",
+    "subtitle": "Tim Software Development kami siap mengaplikasikan ide Anda dalam hitungan minggu ⚡️",
+    "background_image": " /images/hero.png",
+    "cta_text": "Hubungi kami",
+    "cta_link": "Lihat portfolio kami",
+    "whatsapp": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya"
+  },
+  "about": {
+    "title": "Sebuah Dedicated Software Production Company yang Berbasis di Indonesia",
+    "description_primary": "Dengan modal pengetahuan dan pengalaman kami di berbagai industri, kami dapat membantu mencapai tujuan Anda dengan cepat dan efisien.",
+    "description_secondary": "Kami memiliki kelebihan dalam merancang user interface yang dinamis dan kreatif dengan mengandalkan clean and optimized code. Berkolaborasi dengan baik untuk memastikan aplikasi web/mobile yang bisa memberikan user experience terbaik. Mari segera wujudkan tujuan bisnis Anda  🚀",
+    "image": " /images/about.png"
+  },
+  "portfolio": {
+    "title": "Setiap Project Merupakan Sebuah Karya Tangan yang Unik di Setiap Development",
+    "website": [
+      {
+        "id": 1,
+        "title": "Movie Streaming 🍿️",
+        "description": "Tonton film-film favorit Anda di platform kami. Nikmati sistem pembayaran terotomasi melalui Midtrans yang dapat menjamin keamanan dan kenyamanan.",
+        "image": " /images/image_3.png",
+        "image_modal": " /images/image_3_modal.png",
+        "long_desc": "Tonton film-film favorit Anda di platform Movie Streaming. Nikmati sistem pembayaran terotomasi melalui Midtrans yang dapat menjamin keamanan dan kenyamanan.",
+        "problem": "Hambatan akses dan kerepotan download film dengan solusi streaming kami. Film tidak resmi yang tidak memberikan royalti pada studio film. ",
+        "solution": "Pembuatan website Movie streaming sebagai layanan menonton film secara resmi dengan aman dan nyaman. Movie streaming menyediakan layanan pembayaran dari tiap film yang ingin anda tonton",
+        "tech_stack": "Laravel, Postman API, PHP, midtrans"
+      },
+      {
+        "id": 2,
+        "title": "Shoes E-Commerce 🥾",
+        "description": "Sesuaikan pilihan belanja sepatu dengan lifestyle Anda di aplikasi kami yang mengusung tampilanyang kreatif. Dapatkan saran dan bantuan secara real-time melalui layanan chat dari kami.",
+        "image": " /images/image_6.png",
+        "image_modal": " /images/image_6_modal.png",
+        "long_desc": "Langkah gayamu dengan gaya sepatu yang sempurna. Temukan koleksi kami yang trendi dan berkualitas tinggi untuk melangkah dengan percaya diri. Langsung ke situs kami dan jelajahi gaya yang tak bisa diabaikan hari ini!",
+        "problem": "Hambatan dalam transaksi jual beli sepatu secara konvensional. Media jual beli sepatu yang tidak menjamin originalitas dari sepatu yang akan dibeli",
+        "solution": "Pembuatan website jual beli sepatu yang kualitasnya aman dan terjamin baik bagi penjual maupun pembeli.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 3,
+        "title": "Hiking Booking 🌋",
+        "description": "Nikmati kenyamanan dalam melakukan pendakian, melalui booking pendakian yang efekti dengan tiket berbasis QR Code dan tracking status pendakian.",
+        "image": " /images/image_1.png",
+        "image_modal": " /images/image_1_modal.png",
+        "long_desc": "Taklukkan puncak-puncak terjal dengan pemesanan pendakian yang mudah. Temukan petualangan alam yang menantimu dan jadikan setiap langkah sebagai cerita tak terlupakan. Mulai rencanakan petualanganmu hari ini!",
+        "problem": "Belum adanya sistem registrasi pendakian secara online dan terintegrasi. Susahnya dalam melakukan tracking pendaki gunung.",
+        "solution": "Website registrasi pendakian secara online dan terintegrasi. Tracking pendakian secara real-time dan tiket pendakian menggunakan QR.",
+        "tech_stack": "React, Bootstrap, Vercel, MongoDB, Express Js, Postman"
+      },
+      {
+        "id": 4,
+        "title": "Online Class ✏️",
+        "description": "Akses kelas online yang interaktif dari berbagai perangkat. Lakukan pendaftaran dengan mudah dengan integrasi pembayaran menggunakan Midtrans, yang dapat menjamin keamanan transaksi untuk kenyamanan belajar.",
+        "image": " /images/image_4.png",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+        "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
+        "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja.",
+        "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+      },
+      {
+        "id": 5,
+        "title": "Car Rent 🚗",
+        "description": "Sewa mobil pilihan Anda dengan mudah di web kami yang responsif dan kreatif. Pendaftaran yang mudah dengan integrasi Midtrans sebagai pembayaran, menjamin pembayaran yang aman di berbagai perangkat.",
+        "image": " /images/image_5.png",
+        "image_modal": " /images/image_5_modal.png",
+        "long_desc": "Kemudahan mobil sewaan ada di ujung jari Anda. Temukan beragam pilihan mobil berkualitas untuk perjalanan tanpa repot. Mulai petualangan Anda sekarang dengan pemesanan mudah dan cepat!",
+        "problem": "Persewaan mobil yang masih kesusahan dalam menyampaikan informasi berupa kondisi mobil secara detail kepada pelanggan secara online",
+        "solution": "Website persewaaan mobil secara online dilengkapi kondisi detail dari kendaraan yang akan disewakan.",
+        "tech_stack": "Laravel, tailwind, mysql, nodeJS"
+      },
+      {
+        "id": 6,
+        "title": "Bootcamp Purchase 📚",
+        "description": "Bergabunglah dengan online bootcamp dari kami untuk mempelajari skill-skill yang banyak diminati. Proses pendaftaran yang mudah dengan integrasi Midtrans, dengan jaminan pembayaran yang aman di berbagai perangkat.",
+        "image": " /images/image_2.png",
+        "image_modal": " /images/image_2_modal.png",
+        "long_desc": "Transformasi kariermu melalui bootcamp online kami. Dapatkan pelatihan intensif dari para ahli industri, semua dari kenyamanan rumahmu. Siap untuk mengejar kesuksesan? Bergabunglah dengan bootcamp kami sekarang!",
+        "problem": "Bootcamp online yang kebanyakan masih dilaksanakan melalui zoom saja, mengakibatkan belum adanya sistem terintegrasi bootcamp yang juga menyediakan platform pembelajaran lengkap dengan resource bootcamp yang terintegrasi.",
+        "solution": "Website bootcamp yang terintegrasi dan menyediakan pelatihan secara intensif dari para pelaku dan ahli industri.",
+        "tech_stack": "Laravel, PHP, mysql, ngrok"
+      }
+    ],
+    "android": [{}],
+    "product": [{}]
+  },
+  "pricelist": {
+    "title": "Pilih yang terbaik untukmu",
+    "mention": "*anda bisa mendapatkan benefit dari kategori harga yang lebih tinggi dengan biaya tambahan",
+    "top_text": "Paling Banyak Berdampak",
+    "text_start": "mulai dari",
+    "subtitle_website": "termasuk konsultasi solusi bisnis, database dan admin panel (jika dibutuhkan), domain dan SSL (1 th), desain yang kreatif dan responsif, ramah SEO, dan dapat diakses dari perangkat apa saja",
+    "subtitle_android": "termasuk konsultasi solusi bisnis, database dan admin panel (jika dibutuhkan), dedicated VPS hosting (1 th), domain + SSL  (1 th), ikon aplikasi, splash screen, desain yang kreatif dan responsif",
+    "website_basic": [
+      {
+        "fake_price": "1,649,000,-",
+        "real_price": "1,499,000,-",
+        "benefit": [
+          {
+            "usability": "Web hosting 1 th",
+            "tech": "~7 hari estimasi durasi pengerjaan",
+            "pages": "Untuk landing page, company profile, personal page"
+          }
+        ]
+      }
+    ],
+    "website_standard": [
+      {
+        "fake_price": "5,499,000,-",
+        "real_price": "4,999,000,-  ",
+        "benefit": [
+          {
+            "usability": "Dedicated VPS hosting 1 th    ",
+            "tech": "~14 hari estimasi durasi pengerjaan",
+            "pages": "Untuk company profile, e-commerce (toko online), LMS, MIS, POS"
+          }
+        ]
+      }
+    ],
+    "website_premium": [
+      {
+        "fake_price": "10,999,000,-",
+        "real_price": "9,999,000,-",
+        "benefit": [
+          {
+            "usability": "Dedicated VPS hosting 1 th",
+            "tech": "Manual book",
+            "pages": "Source code",
+            "design": "~28 hari estimasi durasi pengerjaan",
+            "hosting": "Untuk e-commerce (toko online), LMS, MIS, POS, HRIS, logistic tracking"
+          }
+        ]
+      }
+    ],
+    "android_standard": [
+      {
+        "fake_price": "6,599,000,-",
+        "real_price": "5,999,000,-",
+        "benefit": [
+          {
+            "usability": "~14 hari estimasi durasi pengerjaan",
+            "tech": "Untuk presensi, e-commerce (toko online), LMS, MIS, POS, pemesanan layanan online"
+          }
+        ]
+      }
+    ],
+    "android_premium": [
+      {
+        "fake_price": "13,199,000,-",
+        "real_price": "11,999,000,-",
+        "benefit": [
+          {
+            "usability": "Manual book",
+            "tech": "Source code",
+            "pages": "Deploy ke Play Store",
+            "time": "~28 hari estimasi durasi pengerjaan",
+            "recommend": "Untuk e-commerce (toko online), LMS, MIS, POS, HRIS, pemesanan layanan online, ERP, pemesanan hotel/travel"
+          }
+        ]
+      }
+    ]
+  },
+  "services": {
+    "title": "Layanan Kami",
+    "subtitle_website": "Kami menerima diskusi untuk segala jenis proyek anda.",
+    "subtitle_second": "Lihat apa yang telah kita lakukan.",
+    "website": [
+      {
+        "id": 1,
+        "title": "Landing Page",
+        "title_second": "Laracamp",
+        "timeline_text": "Mulai dari",
+        "subtitle_second": "Lihat apa yang telah kita lakukan.",
+        "timeline": "1 minggu",
+        "images": "/images/team/landing.png",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "1,000,000,-",
+        "description": "Raih potensi penuh Anda dengan kursus online kami, dipandu oleh ahli di bidangnya",
+        "image_modal": "/images/team/landing.png",
+        "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+        "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
+        "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja.",
+        "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+      },
+      {
+        "id": 2,
+        "title": "Company Profile",
+        "title_second": "Atinity solutions",
+        "images": "/images/team/company.png",
+        "timeline_text": "Mulai dari",
+        "timeline": "1 minggu",
+        "subtitle_second": "Lihat apa yang telah kita lakukan.",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "1,000,000,-",
+        "description": "Temukan profil perusahaan kami dengan desain kreatif dan konten menarik, ungkap nilai, prestasi, dan keahlian kami.",
+        "image_modal": "/images/team/company.png",
+        "long_desc": "Website ini memperlihatkan profil perusahaan yang komprehensif, memberikan wawasan tentang nilai-nilai, prestasi, dan keahlian perusahaan melalui desain kreatif dan konten yang menarik",
+        "problem": "Banyak bisnis kesulitan dalam berkomunikasi secara efektif mengenai identitas dan prestasi mereka kepada audiens target.",
+        "solution": "Solusinya adalah website profil perusahaan yang dirancang secara profesional untuk menyampaikan esensi dan prestasi perusahaan secara ringkas.",
+        "tech_stack": "Laravel, PHP, mysql, ngrok"
+      },
+      {
+        "id": 3,
+        "title": "Personal Page",
+        "title_second": "Kafela",
+        "images": "/images/team/personal-page.png",
+        "title_project": "Landing Page Nanostack",
+        "timeline": "1 minggu",
+        "timeline_text": "Mulai dari",
+        "subtitle_second": "Lihat apa yang telah kita lakukan.",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "1,000,000,-",
+        "description": "Jelajahi platform kami yang penuh inspirasi dengan kisah-kisah unik dan prestasi individu",
+        "image_modal": "/images/team/personal-page.png",
+        "long_desc": "Website ini adalah platform yang merangkul keunikan dan perjalanan hidup individu, memamerkan kisah inspiratif dan prestasi mereka",
+        "problem": "Pemilik merasa butuh ruang untuk berbagi kisah dan pencapaian pribadi secara lebih terorganisir.",
+        "solution": "Kami memberikan solusi melalui pembuatan personal page yang memukau dan informatif.",
+        "tech_stack": "Laravel, PHP, mysql, ngrok"
+      },
+      {
+        "id": 4,
+        "title": "E-Commerce",
+        "title_second": "VROM",
+        "images": "/images/team/commerce.png",
+        "timeline_text": "Mulai dari",
+        "price_text": "Harga: mulai dari Rp",
+        "timeline": "1 bulan",
+        "subtitle_second": "Lihat apa yang telah kita lakukan.",
+        "price": "3,000,000,-",
+        "description": "Solusi modern untuk manajemen penjualan dan inventaris yang efisien, dengan pengalaman bertransaksi canggih.",
+        "image_modal": "/images/team/commerce.png",
+        "long_desc": "Website ini adalah solusi modern untuk mengelola penjualan dan inventaris dengan mudah, memberikan pengalaman bertransaksi yang canggih dan efisien.",
+        "problem": "Pemilik bisnis kesulitan dalam melacak penjualan dan mengelola inventaris secara efisien",
+        "solution": "Kami memberikan solusi melalui website POS yang intuitif, membantu bisnis mengoptimalkan proses penjualan dan manajemen inventaris.",
+        "tech_stack": "Laravel, Postman API, PHP, midtrans"
+      },
+      {
+        "id": 5,
+        "title": "Learning Management System",
+        "title_second": "Micro",
+        "subtitle_second": "Lihat apa yang telah kita lakukan.",
+        "images": "/images/team/lms.png",
+        "timeline": "1 bulan",
+        "timeline_text": "Mulai dari",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "3,000,000,-",
+        "description": "Transformasikan kariermu dengan bootcamp online dari kenyamanan rumahmu, bergabunglah sekarang!",
+        "image_modal": "/images/team/lms.png",
+        "long_desc": "Transformasi kariermu melalui bootcamp online kami. Dapatkan pelatihan intensif dari para ahli industri, semua dari kenyamanan rumahmu. Siap untuk mengejar kesuksesan? Bergabunglah dengan bootcamp kami sekarang!",
+        "problem": "Bootcamp online yang kebanyakan masih dilaksanakan melalui zoom saja, mengakibatkan belum adanya sistem terintegrasi bootcamp yang juga menyediakan platform pembelajaran lengkap dengan resource bootcamp yang terintegrasi.",
+        "solution": "Website bootcamp yang terintegrasi dan menyediakan pelatihan secara intensif dari para pelaku dan ahli industri.",
+        "tech_stack": "Laravel, PHP, mysql, ngrok"
+      },
+      {
+        "id": 6,
+        "title": "Management Information System",
+        "title_second": "Moonton",
+        "images": "/images/team/mis.png",
+        "subtitle_second": "Lihat apa yang telah kita lakukan.",
+        "timeline": "1 bulan",
+        "timeline_text": "Mulai dari",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "3,000,000,-",
+        "description": "Tonton film-film favorit Anda dengan aman dan nyaman di platform Movie Streaming dengan sistem pembayaran terotomasi Midtrans.",
+        "image_modal": "/images/team/mis.png",
+        "long_desc": "Tonton film-film favorit Anda di platform Movie Streaming. Nikmati sistem pembayaran terotomasi melalui Midtrans yang dapat menjamin keamanan dan kenyamanan.",
+        "problem": "Hambatan akses dan kerepotan download film dengan solusi streaming kami. Film tidak resmi yang tidak memberikan royalti pada studio film",
+        "solution": "Pembuatan website Movie streaming sebagai layanan menonton film secara resmi dengan aman dan nyaman. Movie streaming menyediakan layanan pembayaran dari tiap film yang ingin anda tonton",
+        "tech_stack": "Laravel, Postman API, PHP, midtrans"
+      },
+      {
+        "id": 7,
+        "title": "Point of Sales",
+        "title_second": "Jaegar resto",
+        "images": "/images/team/pos.png",
+        "title_project": "Landing Page Nanostack",
+        "subtitle_second": "Lihat apa yang telah kita lakukan.",
+        "timeline": "1 bulan",
+        "timeline_text": "Mulai dari",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "5,000,000,-",
+        "description": "Solusi modern untuk manajemen penjualan dan inventaris yang efisien, dengan pengalaman bertransaksi canggih",
+        "image_modal": "/images/team/pos.png",
+        "long_desc": "Website ini adalah solusi modern untuk mengelola penjualan dan inventaris dengan mudah, memberikan pengalaman bertransaksi yang canggih dan efisien",
+        "problem": "Pemilik bisnis kesulitan dalam melacak penjualan dan mengelola inventaris secara efisien.",
+        "solution": "Kami memberikan solusi melalui website POS yang intuitif, membantu bisnis mengoptimalkan proses penjualan dan manajemen inventaris",
+        "tech_stack": "Laravel, Postman API, PHP, midtrans"
+      },
+      {
+        "id": 8,
+        "title": "Human Resources Information System",
+        "title_second": "Starhub",
+        "images": "/images/team/hris.png",
+        "timeline": "1.5 bulan",
+        "timeline_text": "Mulai dari",
+        "subtitle_second": "Lihat apa yang telah kita lakukan.",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "7,000,000,-",
+        "description": "Platform HRIS mutakhir yang menyederhanakan manajemen sumber daya manusia.",
+        "image_modal": "/images/team/hris.png",
+        "long_desc": "Website HRIS ini adalah platform komprehensif untuk mengelola sumber daya manusia, menyederhanakan proses HR dengan teknologi mutakhir.",
+        "problem": "Perusahaan memiliki tantangan dalam mengelola data SDM dan membutuhkan cara yang lebih efisien.",
+        "solution": "Kami memberikan solusi berupa website HRIS yang memudahkan manajemen SDM, meningkatkan produktivitas, dan akurasi data",
+        "tech_stack": "Laravel, PHP, mysql, ngrok"
+      },
+      {
+        "id": 9,
+        "title": "Logistic Tracking",
+        "images": "/images/team/logistic.png",
+        "title_second": "Transitflow",
+        "timeline": "1.5 bulan",
+        "timeline_text": "Mulai dari",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "7,000,000,-",
+        "subtitle_second": "Lihat apa yang telah kita lakukan.",
+        "description": "Portal lengkap solusi pengiriman logistik yang efisien, dengan layanan pengiriman andal.",
+        "image_modal": "/images/team/logistic.png",
+        "long_desc": "Website ini merupakan portal lengkap untuk solusi pengiriman logistik yang efisien, menawarkan berbagai layanan pengiriman dengan kehandalan tinggi.",
+        "problem": "Klien mengalami kesulitan dalam menemukan layanan pengiriman logistik yang andal dan efisien.",
+        "solution": "Solusi kami hadir dalam bentuk website yang menyederhanakan pemilihan dan pelacakan pengiriman logistik secara efisien.",
+        "tech_stack": "Laravel, Postman API, PHP, midtrans"
+      }
+    ],
+    "android": [
+      {
+        "id": 1,
+        "title": "Attendance",
+        "title_second": "Attendity",
+        "subtitle_second": "Look at What we’ve done",
+        "timeline": "1 bulan",
+        "images": "/images/landing-page.png",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "3,000,000,-",
+        "description": "Aplikasi mobile untuk manajemen kehadiran karyawan yang memudahkan pelacakan waktu kerja.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Aplikasi ini adalah alat modern yang memudahkan pengelolaan kehadiran karyawan, memberikan kemudahan dalam pelacakan waktu kerja.",
+        "problem": "Perusahaan sering kesulitan dalam mencatat dan mengelola kehadiran karyawan secara efisien.",
+        "solution": "Aplikasi ini memberikan solusi dengan memungkinkan pengelolaan kehadiran yang lebih akurat, praktis, dan efisien, meningkatkan produktivitas perusahaan.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 2,
+        "title": "E-Commerce",
+        "title_second": "Shoestore",
+        "timeline": "1 bulan",
+        "images": "/images/landing-page.png",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "4,000,000,-",
+        "description": "Temukan gayamu dalam koleksi sepatu berkualitas tinggi kami, dan melangkahlah dengan percaya diri setiap hari.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Langkah gayamu dengan gaya sepatu yang sempurna. Temukan koleksi kami yang trendi dan berkualitas tinggi untuk melangkah dengan percaya diri. Langsung ke situs kami dan jelajahi gaya yang tak bisa diabaikan hari ini!",
+        "problem": "Hambatan dalam transaksi jual beli sepatu secara konvensional. Media jual beli sepatu yang tidak menjamin originalitas dari sepatu yang akan dibeli",
+        "solution": "Pembuatan website jual beli sepatu yang kualitasnya aman dan terjamin baik bagi penjual maupun pembeli.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 3,
+        "title": "Learning Management System",
+        "title_second": "Garudaku",
+        "timeline": "1 bulan",
+        "images": "/images/landing-page.png",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "4,000,000,-",
+        "description": "Platform pembelajaran digital yang mempermudah akses dan pemanfaatan sumber daya pembelajaran",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Aplikasi ini adalah platform pembelajaran digital yang memungkinkan pengguna untuk mengakses dan memanfaatkan sumber daya pembelajaran dengan mudah.",
+        "problem": "Banyak individu dan organisasi menghadapi tantangan dalam mengakses dan mengelola materi pembelajaran.",
+        "solution": "Aplikasi ini memberikan solusi dengan menyediakan akses mudah ke materi pembelajaran, memungkinkan pembelajaran yang fleksibel dan efisien.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 4,
+        "title": "Management Information System",
+        "title_second": "Shoestore",
+        "timeline": "1 bulan",
+        "images": "/images/landing-page.png",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "4,000,000,-",
+        "description": "Temukan gayamu dalam koleksi sepatu berkualitas tinggi kami, dan melangkahlah dengan percaya diri setiap hari.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Langkah gayamu dengan gaya sepatu yang sempurna. Temukan koleksi kami yang trendi dan berkualitas tinggi untuk melangkah dengan percaya diri. Langsung ke situs kami dan jelajahi gaya yang tak bisa diabaikan hari ini!",
+        "problem": "Hambatan dalam transaksi jual beli sepatu secara konvensional. Media jual beli sepatu yang tidak menjamin originalitas dari sepatu yang akan dibeli",
+        "solution": "Pembuatan website jual beli sepatu yang kualitasnya aman dan terjamin baik bagi penjual maupun pembeli.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 5,
+        "title": "Point of Sales",
+        "title_second": "Cibernautica",
+        "images": "/images/landing-page.png",
+        "timeline": "1 bulan",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "5,000,000,-",
+        "description": "Inovasi dalam mengelola penjualan dan inventaris dengan pengalaman bertransaksi yang canggih.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Aplikasi ini adalah solusi inovatif untuk mengelola penjualan dan inventaris dengan lancar, memberikan pengalaman bertransaksi yang canggih.",
+        "problem": "Bisnis sering menghadapi kesulitan dalam melacak penjualan dan mengelola inventaris secara efisien.",
+        "solution": "Aplikasi ini memberikan solusi dengan memudahkan manajemen penjualan dan inventaris, meningkatkan efisiensi operasional bisnis",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 6,
+        "title": "Online Service Order",
+        "title_second": "Cleany",
+        "images": "/images/landing-page.png",
+        "timeline": "1 bulan",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "4,000,000,-",
+        "description": "Wadah praktis untuk memesan berbagai layanan online, menjadikan pemesanan layanan lebih mudah.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Aplikasi ini adalah wadah praktis untuk memesan berbagai layanan online, memudahkan pengguna dalam mendapatkan layanan yang mereka butuhkan.",
+        "problem": "Pengguna seringkali kesulitan dalam menemukan dan memesan layanan online dengan cepat dan efisien.",
+        "solution": "Aplikasi ini memberikan solusi dengan menyajikan beragam layanan dalam genggaman, memungkinkan pengguna untuk dengan mudah mencari dan memesan layanan yang mereka butuhkan.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 7,
+        "title": "Human Resources Information System",
+        "title_second": "Starhub",
+        "images": "/images/landing-page.png",
+        "timeline": "1.5 bulan",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "7,000,000,-",
+        "description": "Alat modern untuk manajemen sumber daya manusia yang memudahkan pengelolaan data karyawan dengan efisien.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Aplikasi ini adalah alat modern untuk manajemen sumber daya manusia, mempermudah pengguna dalam mengelola data karyawan dengan efisien.",
+        "problem": "Banyak organisasi menghadapi tantangan dalam pengelolaan data SDM yang kompleks dan rumit.",
+        "solution": "Aplikasi ini memberikan solusi dengan menyediakan alat yang praktis untuk manajemen data karyawan, meningkatkan produktivitas dan akurasi dalam proses SDM.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 8,
+        "title": "Enterprise Resource Planning",
+        "title_second": "Informa",
+        "images": "/images/landing-page.png",
+        "timeline": "2 bulan",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "10,000,000,-",
+        "description": "Platform terintegrasi untuk pengelolaan efisien proses bisnis perusahaan melalui perangkat mobile.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Aplikasi ini adalah platform terintegrasi yang memungkinkan perusahaan mengelola proses bisnis secara efisien melalui perangkat mobile.",
+        "problem": "Bisnis sering menghadapi kesulitan dalam mengkoordinasikan operasi mereka dan membutuhkan cara yang lebih efisien.",
+        "solution": "Aplikasi ini memberikan solusi dengan memungkinkan akses mudah ke sistem ERP, memungkinkan perusahaan untuk mengelola proses bisnis dengan lebih efisien dan efektif.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 9,
+        "title": "Hotel/Travel Booking",
+        "title_second": "Bookers",
+        "images": "/images/landing-page.png",
+        "timeline": "1.5 bulan",
+        "price_text": "Harga: mulai dari Rp",
+        "price": "4,000,000,-",
+        "description": "Temukan teman perjalanan Anda untuk mencari, membandingkan, dan memesan akomodasi yang sempurna.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Aplikasi ini adalah teman perjalanan yang sempurna, memungkinkan pengguna untuk dengan mudah mencari, membandingkan, dan memesan akomodasi yang ideal.",
+        "problem": "Pengguna sering kali kesulitan mencari dan memesan akomodasi secara praktis dan terpercaya saat bepergian.",
+        "solution": "Aplikasi ini memberikan solusi dengan menyajikan berbagai pilihan akomodasi, penawaran eksklusif, dan kemudahan pemesanan untuk perjalanan yang tak terlupakan.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      }
+    ]
+  },
+  "testimonial": {
+    "title": "Apa yang Mereka Katakan",
+    "material": [
+      {
+        "content": "“Sangat baik apa yang telah dikerjakan, melebihi ekspektasi saya. Pengembangan API yang sangat cepat dan dapat diandalkan.“",
+        "name": "Moch. Iskandar Zulqornaen",
+        "job": "Product Owner of Hyponic"
+      },
+      {
+        "content": "“Bekerja dengan cepat dan profesional, mampu memperbaiki masalah di web hosting saya. Saya merekomendasikan layanan disini karena hasilnya sangat memuaskan!“",
+        "name": "Ayu Nurrahima Firdausi",
+        "job": "Student"
+      },
+      {
+        "content": "“Dicky adalah seorang frontend developer yang sangat baik. Mampu bekerja sama dengan desainer dan sangat teliti terhadap detail, sehingga mampu menciptakan kualitas kode yang baik.“",
+        "name": "Victor",
+        "job": "UI/UX Designer"
+      }
+    ]
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "sub_title": "Our expert team is made up of dedicated people with great experiences who committed to supporting both both you and your business",
+    "data_member": [
+      {
+        "name": "Muhammad Dicky Athalla",
+        "position": "Frontend Developer",
+        "images": "/images/team/dicky.png",
+        "sertifikat": [
+          {
+            "sertif_1": "✅ Badan Nasional Sertifikasi Profesi Junior Web Developer"
+          }
         ],
-        "android": [{}],
-        "product": [{}]
-    },
-    "pricelist": {
-        "title": "Pilih yang terbaik untukmu",
-        "mention": "*anda bisa mendapatkan benefit dari kategori harga yang lebih tinggi dengan biaya tambahan",
-        "top_text": "Paling Banyak Berdampak",
-        "text_start": "mulai dari",
-        "subtitle_website": "termasuk konsultasi solusi bisnis, database dan admin panel (jika dibutuhkan), domain dan SSL (1 th), desain yang kreatif dan responsif, ramah SEO, dan dapat diakses dari perangkat apa saja",
-        "subtitle_android": "termasuk konsultasi solusi bisnis, database dan admin panel (jika dibutuhkan), dedicated VPS hosting (1 th), domain + SSL  (1 th), ikon aplikasi, splash screen, desain yang kreatif dan responsif",
-        "website_basic": [{
-            "fake_price": "1,649,000,-",
-            "real_price": "1,499,000,-",
-            "benefit": [{
-                "usability": "Web hosting 1 th",
-                "tech": "~7 hari estimasi durasi pengerjaan",
-                "pages": "Untuk landing page, company profile, personal page"
-            }]
-        }],
-        "website_standard": [{
-            "fake_price": "5,499,000,-",
-            "real_price": "4,999,000,-  ",
-            "benefit": [{
-                "usability": "Dedicated VPS hosting 1 th    ",
-                "tech": "~14 hari estimasi durasi pengerjaan",
-                "pages": "Untuk company profile, e-commerce (toko online), LMS, MIS, POS"
-            }]
-        }],
-        "website_premium": [{
-            "fake_price": "10,999,000,-",
-            "real_price": "9,999,000,-",
-            "benefit": [{
-                "usability": "Dedicated VPS hosting 1 th",
-                "tech": "Manual book",
-                "pages": "Source code",
-                "design": "~28 hari estimasi durasi pengerjaan",
-                "hosting": "Untuk e-commerce (toko online), LMS, MIS, POS, HRIS, logistic tracking"
-            }]
-        }],
-        "android_standard": [{
-            "fake_price": "6,599,000,-",
-            "real_price": "5,999,000,-",
-            "benefit": [{
-                "usability": "~14 hari estimasi durasi pengerjaan",
-                "tech": "Untuk presensi, e-commerce (toko online), LMS, MIS, POS, pemesanan layanan online"
-            }]
-        }],
-        "android_premium": [{
-            "fake_price": "13,199,000,-",
-            "real_price": "11,999,000,-",
-            "benefit": [{
-                "usability": "Manual book",
-                "tech": "Source code",
-                "pages": "Deploy ke Play Store",
-                "time": "~28 hari estimasi durasi pengerjaan",
-                "recommend": "Untuk e-commerce (toko online), LMS, MIS, POS, HRIS, pemesanan layanan online, ERP, pemesanan hotel/travel"
-            }]
-        }]
-
-    },
-    "services": {
-        "title": "Layanan Kami",    
-        "subtitle_website": "Kami menerima diskusi untuk segala jenis proyek anda.",
-        "subtitle_second":"Lihat apa yang telah kita lakukan.",
-        "website": [{
-                "id": 1,
-                "title": "Landing Page",
-                "title_second": "Laracamp",                
-                "timeline_text": "Mulai dari",
-                "subtitle_second":"Lihat apa yang telah kita lakukan.",
-                "timeline": "1 minggu",
-                "images": "/images/team/landing.png",
-                "price_text": "Harga: mulai dari Rp",
-                "price": "1,000,000,-",
-                "description": "Raih potensi penuh Anda dengan kursus online kami, dipandu oleh ahli di bidangnya",
-                "image_modal": "/images/team/landing.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Meningkatnya permintaan dalam pembelajaran dengan metode jarak jauh.",
-                "solution": "Webiste online class yang dapat membuat belajar dapat dilakukan dimana saja dan kapan saja.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
-            }, {
-                "id": 2,
-                "title": "Company Profile",
-                "title_second": "Atinity solutions",                
-                "images": "/images/team/company.png",
-                "timeline_text": "Mulai dari",                
-                "timeline": "1 minggu",
-                "subtitle_second":"Lihat apa yang telah kita lakukan.",
-                "price_text": "Harga: mulai dari Rp",
-                "price": "1,000,000,-",
-                "description": "Temukan profil perusahaan kami dengan desain kreatif dan konten menarik, ungkap nilai, prestasi, dan keahlian kami.",
-                "image_modal": "/images/team/company.png",
-                "long_desc": "Website ini memperlihatkan profil perusahaan yang komprehensif, memberikan wawasan tentang nilai-nilai, prestasi, dan keahlian perusahaan melalui desain kreatif dan konten yang menarik",
-                "problem": "Banyak bisnis kesulitan dalam berkomunikasi secara efektif mengenai identitas dan prestasi mereka kepada audiens target.",
-                "solution": "Solusinya adalah website profil perusahaan yang dirancang secara profesional untuk menyampaikan esensi dan prestasi perusahaan secara ringkas.",
-                "tech_stack": "Laravel, PHP, mysql, ngrok"
-            },
-            {
-                "id": 3,
-                "title": "Personal Page",
-                "title_second": "Kafela",
-                "images": "/images/team/personal-page.png",
-                "title_project":"Landing Page Nanostack",
-                "timeline": "1 minggu",
-                "timeline_text": "Mulai dari", 
-                "subtitle_second":"Lihat apa yang telah kita lakukan.",
-                "price_text": "Harga: mulai dari Rp",
-                "price": "1,000,000,-",
-                "description": "Jelajahi platform kami yang penuh inspirasi dengan kisah-kisah unik dan prestasi individu",
-                "image_modal": "/images/team/personal-page.png",
-                "long_desc": "Website ini adalah platform yang merangkul keunikan dan perjalanan hidup individu, memamerkan kisah inspiratif dan prestasi mereka",
-                "problem": "Pemilik merasa butuh ruang untuk berbagi kisah dan pencapaian pribadi secara lebih terorganisir.",
-                "solution": "Kami memberikan solusi melalui pembuatan personal page yang memukau dan informatif.",
-                "tech_stack": "Laravel, PHP, mysql, ngrok"
-            },
-            {
-                "id": 4,
-                "title": "E-Commerce",
-                "title_second":"VROM",
-                "images": "/images/team/commerce.png",
-                "timeline_text": "Mulai dari", 
-                "price_text": "Harga: mulai dari Rp",
-                "timeline": "1 bulan",                
-                "subtitle_second":"Lihat apa yang telah kita lakukan.",
-                "price": "3,000,000,-",
-                "description": "Solusi modern untuk manajemen penjualan dan inventaris yang efisien, dengan pengalaman bertransaksi canggih.",
-                "image_modal": "/images/team/commerce.png",
-                "long_desc": "Website ini adalah solusi modern untuk mengelola penjualan dan inventaris dengan mudah, memberikan pengalaman bertransaksi yang canggih dan efisien.",
-                "problem": "Pemilik bisnis kesulitan dalam melacak penjualan dan mengelola inventaris secara efisien",
-                "solution": "Kami memberikan solusi melalui website POS yang intuitif, membantu bisnis mengoptimalkan proses penjualan dan manajemen inventaris.",
-                "tech_stack": "Laravel, Postman API, PHP, midtrans"
-            },
-            {
-                "id": 5,
-                "title": "Learning Management System",
-                "title_second":"Micro",
-                "subtitle_second":"Lihat apa yang telah kita lakukan.",
-                "images": "/images/team/lms.png",
-                "timeline": "1 bulan",
-                "timeline_text": "Mulai dari",
-                "price_text": "Harga: mulai dari Rp",
-                "price": "3,000,000,-",
-                "description": "Transformasikan kariermu dengan bootcamp online dari kenyamanan rumahmu, bergabunglah sekarang!",
-                "image_modal": "/images/team/lms.png",
-                "long_desc": "Transformasi kariermu melalui bootcamp online kami. Dapatkan pelatihan intensif dari para ahli industri, semua dari kenyamanan rumahmu. Siap untuk mengejar kesuksesan? Bergabunglah dengan bootcamp kami sekarang!",
-                "problem": "Bootcamp online yang kebanyakan masih dilaksanakan melalui zoom saja, mengakibatkan belum adanya sistem terintegrasi bootcamp yang juga menyediakan platform pembelajaran lengkap dengan resource bootcamp yang terintegrasi.",
-                "solution": "Website bootcamp yang terintegrasi dan menyediakan pelatihan secara intensif dari para pelaku dan ahli industri.",
-                "tech_stack": "Laravel, PHP, mysql, ngrok"
-            },
-            {
-                "id": 6,
-                "title": "Management Information System",
-                "title_second":"Moonton",
-                "images": "/images/team/mis.png",
-                "subtitle_second":"Lihat apa yang telah kita lakukan.",
-                "timeline": "1 bulan",
-                "timeline_text": "Mulai dari",
-                "price_text": "Harga: mulai dari Rp",
-                "price": "3,000,000,-",
-                "description": "Tonton film-film favorit Anda dengan aman dan nyaman di platform Movie Streaming dengan sistem pembayaran terotomasi Midtrans.",
-                "image_modal": "/images/team/mis.png",
-                "long_desc": "Tonton film-film favorit Anda di platform Movie Streaming. Nikmati sistem pembayaran terotomasi melalui Midtrans yang dapat menjamin keamanan dan kenyamanan.",
-                "problem": "Hambatan akses dan kerepotan download film dengan solusi streaming kami. Film tidak resmi yang tidak memberikan royalti pada studio film",
-                "solution": "Pembuatan website Movie streaming sebagai layanan menonton film secara resmi dengan aman dan nyaman. Movie streaming menyediakan layanan pembayaran dari tiap film yang ingin anda tonton",
-                "tech_stack": "Laravel, Postman API, PHP, midtrans"
-            },
-            {
-                "id": 7,
-                "title": "Point of Sales",
-                "title_second": "Jaegar resto",
-                "images": "/images/team/pos.png",
-                "title_project":"Landing Page Nanostack",
-                "subtitle_second":"Lihat apa yang telah kita lakukan.",
-                "timeline": "1 bulan",
-                "timeline_text": "Mulai dari",
-                "price_text": "Harga: mulai dari Rp",
-                "price": "5,000,000,-",
-                "description": "Solusi modern untuk manajemen penjualan dan inventaris yang efisien, dengan pengalaman bertransaksi canggih",
-                "image_modal": "/images/team/pos.png",
-                "long_desc": "Website ini adalah solusi modern untuk mengelola penjualan dan inventaris dengan mudah, memberikan pengalaman bertransaksi yang canggih dan efisien",
-                "problem": "Pemilik bisnis kesulitan dalam melacak penjualan dan mengelola inventaris secara efisien.",
-                "solution": "Kami memberikan solusi melalui website POS yang intuitif, membantu bisnis mengoptimalkan proses penjualan dan manajemen inventaris",
-                "tech_stack": "Laravel, Postman API, PHP, midtrans"
-            },
-            {
-                "id": 8,
-                "title": "Human Resources Information System",
-                "title_second":"Starhub",
-                "images": "/images/team/hris.png",
-                "timeline": "1.5 bulan",
-                "timeline_text": "Mulai dari",
-                "subtitle_second":"Lihat apa yang telah kita lakukan.",
-                "price_text": "Harga: mulai dari Rp",
-                "price": "7,000,000,-",
-                "description": "Platform HRIS mutakhir yang menyederhanakan manajemen sumber daya manusia.",
-                "image_modal": "/images/team/hris.png",
-                "long_desc": "Website HRIS ini adalah platform komprehensif untuk mengelola sumber daya manusia, menyederhanakan proses HR dengan teknologi mutakhir.",
-                "problem": "Perusahaan memiliki tantangan dalam mengelola data SDM dan membutuhkan cara yang lebih efisien.",
-                "solution": "Kami memberikan solusi berupa website HRIS yang memudahkan manajemen SDM, meningkatkan produktivitas, dan akurasi data",
-                "tech_stack": "Laravel, PHP, mysql, ngrok"
-            },
-            {
-                "id": 9,
-                "title": "Logistic Tracking",
-                "images": "/images/team/logistic.png",
-                "title_second":"Transitflow",
-                "timeline": "1.5 bulan",
-                "timeline_text": "Mulai dari",
-                "price_text": "Harga: mulai dari Rp",
-                "price": "7,000,000,-",
-                "subtitle_second":"Lihat apa yang telah kita lakukan.",
-                "description": "Portal lengkap solusi pengiriman logistik yang efisien, dengan layanan pengiriman andal.",
-                "image_modal": "/images/team/logistic.png",
-                "long_desc": "Website ini merupakan portal lengkap untuk solusi pengiriman logistik yang efisien, menawarkan berbagai layanan pengiriman dengan kehandalan tinggi.",
-                "problem": "Klien mengalami kesulitan dalam menemukan layanan pengiriman logistik yang andal dan efisien.",
-                "solution": "Solusi kami hadir dalam bentuk website yang menyederhanakan pemilihan dan pelacakan pengiriman logistik secara efisien.",
-                "tech_stack": "Laravel, Postman API, PHP, midtrans"
-            }
+        "linkedin": "https://www.linkedin.com/in/dickyathalla/"
+      },
+      {
+        "name": "Ivan Aulia Rahman",
+        "position": "Fullstack Developer",
+        "images": "/images/team/ivan.png",
+        "sertifikat": [
+          {
+            "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert"
+          }
         ],
-        "android": [{
-                "id": 1,
-                "title": "Attendance",
-                "timeline": "1 week",
-                "images": "/images/landing-page.png",
-                "price_text": "Price: start from Rp",
-                "price": "1,000,000,-",
-                "description": "A mobile application for employee attendance management, making work time tracking easier.",
-                "image_modal": " /images/image_4_modal.png",
-                "long_desc": "This application is the perfect travel companion, allowing users to easily search, compare, and book ideal accommodations.",
-                "problem": "Users often struggle to find and book accommodations conveniently and reliably while traveling.",
-                "solution": "This application provides a solution by offering various accommodation options, exclusive deals, and hassle-free booking for unforgettable journeys.",
-                "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
-            }, {
-                "id": 2,
-                "title": "E-Commerce",
-                "timeline": "1 week",
-                "images": "/images/landing-page.png",
-                "price_text": "Price: start from Rp",
-                "price": "1,000,000,-",
-                "description": "Take your stride with the perfect shoe style. Discover our trendy and high-quality collection to walk with confidence. Head straight to our website and explore the unforgettable styles today!",
-                "image_modal": " /images/image_4_modal.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Barriers in conventional shoe transactions. Buying and selling shoes through channels that don't guarantee the authenticity of the products.",
-                "solution": "Creating a shoe marketplace website that ensures quality and security for both sellers and buyers.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
-            },
-            {
-                "id": 3,
-                "title": "Learning Management System ",
-                "images": "/images/landing-page.png",
-                "timeline": "1 week",
-                "price_text": "Price: start from Rp",
-                "price": "1,000,000,-",
-                "description": "This application is a digital learning platform that enables users to easily access and utilize learning resources.",
-                "image_modal": " /images/image_4_modal.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Many individuals and organizations face challenges in accessing and managing learning materials.",
-                "solution": "This application provides a solution by offering easy access to learning materials, enabling flexible and efficient learning.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
-            },
-            {
-                "id": 4,
-                "title": "Management Information System",
-                "images": "/images/landing-page.png",
-                "timeline": "1 month",
-                "price_text": "Price: start from Rp",
-                "price": "3,000,000,-",
-                "description": "This application is a digital learning platform that enables users to easily access and utilize learning resources.",
-                "image_modal": " /images/image_4_modal.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Many individuals and organizations face challenges in accessing and managing learning materials.",
-                "solution": "This application provides a solution by offering easy access to learning materials, enabling flexible and efficient learning.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
-            },
-            {
-                "id": 5,
-                "title": "Point of Sales",
-                "images": "/images/landing-page.png",
-                "timeline": "1 month",
-                "price_text": "Price: start from Rp",
-                "price": "3,000,000,-",
-                "description": "This application is an innovative solution for smoothly managing sales and inventory, providing a sophisticated transaction experience",
-                "image_modal": " /images/image_4_modal.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Businesses often face challenges in efficiently tracking sales and managing inventory.",
-                "solution": "This application provides a solution by simplifying sales and inventory management, enhancing operational efficiency for businesses.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
-            },
-            {
-                "id": 6,
-                "title": "Online Service Order",
-                "images": "/images/landing-page.png",
-                "timeline": "1 month",
-                "price_text": "Price: start from Rp",
-                "price": "3,000,000,-",
-                "description": "This application is a convenient platform for booking various online services, making it easy for users to access the services they need.",
-                "image_modal": " /images/image_4_modal.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Users often struggle to find and book online services quickly and efficiently.",
-                "solution": "This application provides a solution by offering a variety of services at their fingertips, allowing users to easily search for and book the services they require.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
-            },
-            {
-                "id": 7,
-                "title": "Human Resources Information System",
-                "images": "/images/landing-page.png",
-                "timeline": "1 month",
-                "price_text": "Price: start from Rp",
-                "price": "5,000,000,-",
-                "description": "This application is a modern tool for human resource management, simplifying user efficiency in handling employee data",
-                "image_modal": " /images/image_4_modal.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Many organizations face challenges in managing complex and intricate HR data.",
-                "solution": "This application provides a solution by offering practical tools for employee data management, enhancing productivity and accuracy in HR processes.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
-            },
-            {
-                "id": 8,
-                "title": "Enterprise Resource Planning",
-                "images": "/images/landing-page.png",
-                "timeline": "1.5 month",
-                "price_text": "Price: start from Rp",
-                "price": "7,000,000,-",
-                "description": "This application is an integrated platform that allows companies to efficiently manage their business processes through mobile devices",
-                "image_modal": " /images/image_4_modal.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Businesses often struggle to coordinate their operations and require a more efficient approach.",
-                "solution": "This application provides a solution by enabling easy access to ERP systems, allowing companies to manage their business processes more efficiently and effectively.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
-            },
-            {
-                "id": 9,
-                "title": "Hotel/Travel Booking",
-                "images": "/images/landing-page.png",
-                "timeline": "1.5 month",
-                "price_text": "Price: start from Rp",
-                "price": "7,000,000,-",
-                "description": "This application is a digital learning platform that enables users to easily access and utilize learning resources.",
-                "image_modal": " /images/image_4_modal.png",
-                "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
-                "problem": "Many individuals and organizations face challenges in accessing and managing learning materials.",
-                "solution": "This application provides a solution by offering easy access to learning materials, enabling flexible and efficient learning.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
-            }
-        ]
-
-
-    },
-    "testimonial": {
-        "title": "Apa yang Mereka Katakan",
-        "material": [{
-                "content": "“Sangat baik apa yang telah dikerjakan, melebihi ekspektasi saya. Pengembangan API yang sangat cepat dan dapat diandalkan.“",
-                "name": "Moch. Iskandar Zulqornaen",
-                "job": "Product Owner of Hyponic"
-            },
-            {
-                "content": "“Bekerja dengan cepat dan profesional, mampu memperbaiki masalah di web hosting saya. Saya merekomendasikan layanan disini karena hasilnya sangat memuaskan!“",
-                "name": "Ayu Nurrahima Firdausi",
-                "job": "Student"
-            },
-            {
-                "content": "“Dicky adalah seorang frontend developer yang sangat baik. Mampu bekerja sama dengan desainer dan sangat teliti terhadap detail, sehingga mampu menciptakan kualitas kode yang baik.“",
-                "name": "Victor",
-                "job": "UI/UX Designer"
-            }
-        ]
-    },
-    "team": {
-        "title": "Meet Our Team",
-        "sub_title": "Our expert team is made up of dedicated people with great experiences who committed to supporting both both you and your business",
-        "data_member": [{
-                "name": "Muhammad Dicky Athalla",
-                "position": "Frontend Developer",
-                "images": "/images/team/dicky.png",
-                "sertifikat": [{
-                    "sertif_1": "✅ Badan Nasional Sertifikasi Profesi Junior Web Developer"
-
-                }],
-                "linkedin": "https://www.linkedin.com/in/dickyathalla/"
-            },
-            {
-                "name": "Ivan Aulia Rahman",
-                "position": "Fullstack Developer",
-                "images": "/images/team/ivan.png",
-                "sertifikat": [{
-                    "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert"
-
-
-                }],
-                "linkedin": "https://www.linkedin.com/in/ivanauliaa/"
-            },
-            {
-                "name": "Rafi Dimas Ariyanto",
-                "position": "Fullstack Developer",
-                "images": "/images/team/rafi.png",
-                "sertifikat": [{
-                    "sertif_1": "✅ BuildWithAngga Full-Stack JavaScript Developer"
-                }],
-                "linkedin": "https://www.linkedin.com/in/rafi-dimas-ariyanto-8932531b8/"
-            }
-        ]
-    },
-    "contact": {
-        "title": "Hubungi Kami",
-        "addresshref": "https://goo.gl/maps/G1FhcqDpNbZMAyq66",
-        "address": "Jombang Kota, Jombang, East Java, Indonesia",
-        "phonehref": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya",
-        "phone": "+62 895-3664-23269",
-        "emailhref": "mailto:nanostackindustries@gmail.com?subject=[Web Services/Mobile App Services(pilih salah satu)]?body:Saya tertarik memesan layanan web/mobile app dengan spesifikasi ...",
-        "email": "nanostackindustries@gmail.com",
-        "start_day": "Senin",
-        "end_day": "Jum'at",
-        "start_time": "09:00 AM",
-        "end_time": "05:00 PM"
-    },
-    "footer": {
-        "forum": "komunitas",
-        "desc": "Selamat datang di nanostack, dimana inovasi dan kualitas dipertemukan dalam software development",
-        "instagram": "https://www.instagram.com/",
-        "linkedin": "https://www.linkedin.com/",
-        "fastwork": "https://fastwork.id/user/ivanar6542/web-development-64971353?utm_source=app_sharing",
-        "facebook": "https://www.facebook.com/",
-        "youtube": "https://www.youtube.com/"
-    }
+        "linkedin": "https://www.linkedin.com/in/ivanauliaa/"
+      },
+      {
+        "name": "Rafi Dimas Ariyanto",
+        "position": "Fullstack Developer",
+        "images": "/images/team/rafi.png",
+        "sertifikat": [
+          {
+            "sertif_1": "✅ BuildWithAngga Full-Stack JavaScript Developer"
+          }
+        ],
+        "linkedin": "https://www.linkedin.com/in/rafi-dimas-ariyanto-8932531b8/"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "addresshref": "https://goo.gl/maps/G1FhcqDpNbZMAyq66",
+    "address": "Jombang Kota, Jombang, East Java, Indonesia",
+    "phonehref": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya",
+    "phone": "+62 895-3664-23269",
+    "emailhref": "mailto:nanostackindustries@gmail.com?subject=[Web Services/Mobile App Services(pilih salah satu)]?body:Saya tertarik memesan layanan web/mobile app dengan spesifikasi ...",
+    "email": "nanostackindustries@gmail.com",
+    "start_day": "Senin",
+    "end_day": "Jum'at",
+    "start_time": "09:00 AM",
+    "end_time": "05:00 PM"
+  },
+  "footer": {
+    "forum": "komunitas",
+    "desc": "Selamat datang di nanostack, dimana inovasi dan kualitas dipertemukan dalam software development",
+    "instagram": "https://www.instagram.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "fastwork": "https://fastwork.id/user/ivanar6542/web-development-64971353?utm_source=app_sharing",
+    "facebook": "https://www.facebook.com/",
+    "youtube": "https://www.youtube.com/"
+  }
 }

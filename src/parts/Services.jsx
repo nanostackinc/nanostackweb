@@ -193,7 +193,7 @@ const Services = ({ onChangeModal, data }) => {
                               stroke-linejoin="round"
                             />
                           </svg>
-                          <p className="subtext-price ms-2">{item.timeline}</p>
+                          <p className="subtext-price ms-2">Timeline: {item.timeline}</p>
                         </div>
                         <div id="benefit">
                           <svg
