@@ -191,10 +191,11 @@
     }
 
     .modal-image {
-        width: 290px;
-        height: 270px;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
         /* Gunakan lebar penuh pada gambar */
-        max-width: none;
+        /* max-width: none; */
     }
 }
 
@@ -207,12 +208,12 @@
 
     .modal-body {
         width: 100%;
-        gap: 10px;
+        gap: 40px;
         /* Gunakan lebar penuh pada layar kecil */
     }
 
     .modal-image {
-        width: 600px;
+        width: 100%;
         height: 510px;
         max-width: none;
     }

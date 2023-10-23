@@ -47,11 +47,11 @@ const Services = ({ onChangeModal, data }) => {
       ),
       content: (
         <>
-          <div className="row row-cols-1 row-cols-md-3 g-4">
+          <div className="row  g-4">
             {data.website.map((item) => {
               return (
                 <>
-                  <div className="col">
+                  <div className="d-flex flex-column  col-lg-4 col-md-12 col-sm-12">
                     <div
                       class="card"
                       id="card-standard"

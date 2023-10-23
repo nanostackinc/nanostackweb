@@ -840,7 +840,9 @@ nav #logo {
 }
 
 .card-service {
-    height: 211px;
+    display: flex;
+    flex-direction: column;
+    height: 249px;
 
 }
 
@@ -896,7 +898,6 @@ nav #logo {
     padding: 24px 20px;
     margin-top: 54px;
     flex-direction: column;
-    /* align-items: flex-start; */
     height: 100%;
     gap: 16px;
     cursor: pointer;
@@ -912,6 +913,14 @@ nav #logo {
         height: auto;
         /* Atur tinggi ke otomatis untuk tampilan mobile */
     }
+
+    .card-service {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+
 }
 
 /* Media Query untuk tampilan tab (tablet) */
@@ -922,8 +931,15 @@ nav #logo {
 
     }
 
+    .card-service {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+
     #card-standard {
-        height: 48%;
+        height: auto;
         /* Atur tinggi ke otomatis untuk tampilan tab (tablet) */
     }
 }
