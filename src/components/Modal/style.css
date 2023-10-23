@@ -132,6 +132,7 @@
 
 .modal-image {
     width: 100%;
+    object-fit: cover;
 }
 
 .modal-container::-webkit-scrollbar {
@@ -166,9 +167,10 @@
 
 .modal-image {
     width: 100%;
-    height: 560px;
+    height: auto;
     border-radius: 48px;
     display: flex;
+    object-fit: cover;
     margin: 0px auto;
 }
 
@@ -194,6 +196,7 @@
         width: 100%;
         height: auto;
         border-radius: 8px;
+        object-fit: cover;
         /* Gunakan lebar penuh pada gambar */
         /* max-width: none; */
     }
@@ -214,7 +217,8 @@
 
     .modal-image {
         width: 100%;
-        height: 510px;
+        height: auto;
+        object-fit: cover;
         max-width: none;
     }
 }

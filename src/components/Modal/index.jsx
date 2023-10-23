@@ -68,9 +68,9 @@ const Modal = ({data, status, onCloseModal}) => {
                 <div className="content-spec">
                   <h3 className="title-heading text-start">{data.title_second}</h3>
                   <p className='desc'>{data.description}</p>
-                  <div className="d-flex flex-column justify-content-center" style={{ width:"100%" }}>
+                  {/* <div className="d-flex flex-column justify-content-center" style={{ width:"100%" }}> */}
                   <img src={data.images} className="modal-image" alt="..."/>
-                  </div>
+                  {/* </div> */}
                   <div className='content-project'>
                     <h3 className='title-desc'>Description</h3>
                     <p className='modal-text'>{data.long_desc}</p>
