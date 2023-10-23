@@ -11,8 +11,8 @@ const Tabs=({tabsData,display,handleActive})=>{
         setActiveTabs(0);
     }, []);
     return(
-        <div className='container'>
-            <div className={`tabs ${display}`}>
+        <div className='container px-0'>
+            <div className={`tabs ${display} py-3`}>
             {tabsData.map((item,index)=>(
                 <div
                 key={index}

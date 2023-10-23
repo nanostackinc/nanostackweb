@@ -732,7 +732,7 @@ const Pricelist = ({ data }) => {
     },
   ];
 
-  return (
+ return (
     <section id="pricelist">
       <div className="title-pricelist">
         <h3 className="title-price">{data.title}</h3>
