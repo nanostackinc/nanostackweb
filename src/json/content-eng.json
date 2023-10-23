@@ -1,229 +1,560 @@
 {
-    "navbar": {
-        "link": "Home",
-        "link1": "About Us",
-        "link2": "Portofolio",
-        "link3": "Testimonial",
-        "link4": "Contact"
-    },
-    "hero": {
-        "title": "Kickstart Your Ideas Through Digital Product Development",
-        "subtitle": "Our Software Development team is ready to build your Ideas within weeks ⚡️",
-        "background_image": " /images/hero.png",
-        "cta_text": "Chat Us",
-        "cta_link": "See our portfolio",
-        "whatsapp": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya"
-    },
-    "about": {
-        "title": "A Dedicated Software Production Company Based In Indonesia",
-        "description_primary": "With our broad knowledge & experience in various Industry, We can help to achieve your goals in fast & efficient manner.",
-        "description_secondary": "We excel in designing and maintaining responsive user interface, crafting dynamic, engaging interfaces with clean and optimized code. Collaborating seamlessly with cross-functional teams, they ensure outstanding web/mobile applications that deliver a smooth user experience. Let's turn your vision into a reality within weeks! 🚀",
-        "image": " /images/about.png"
-    },
-    "portfolio": {
-        "title": "Each Project Is A Unique Piece Of Development",
-        "website": [{
-                "id": 1,
-                "title": "Movie Streaming 🍿️",
-                "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
-                "image": " /images/image_3.png",
-                "image_modal": " /images/image_3_modal.png",
-                "long_desc": "Watch your favorite films on the Movie Streaming platform. Enjoy an automated payment system through Midtrans that guarantees security and convenience.",
-                "problem": "Overcome access barriers and the hassle of downloading films with our streaming solution. Avoid unofficial films that do not provide royalties to film studios.",
-                "solution": "The creation of the Movie Streaming website serves as an official service for watching films securely and comfortably. Movie Streaming provides payment services for each film you want to watch.",
-                "tech_stack": "Laravel, Postman API, PHP, midtrans"
-            },
-            {
-                "id": 2,
-                "title": "Shoes E-Commerce 🥾",
-                "description": "Shop stylish shoes on our app with a creative interface. Get fashion advice and real-time assistance through our live chat service.",
-                "image": " /images/image_6.png",
-                "image_modal": " /images/image_6_modal.png",
-                "long_desc": "Take your stride with the perfect shoe style. Discover our trendy and high-quality collection to walk with confidence. Head straight to our website and explore the unforgettable styles today!",
-                "problem": "Barriers in conventional shoe transactions. Buying and selling shoes through channels that don't guarantee the authenticity of the products.",
-                "solution": "Creating a shoe marketplace website that ensures quality and security for both sellers and buyers.",
-                "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
-            },
-            {
-                "id": 3,
-                "title": "Hiking Booking 🌋",
-                "description": "Enjoy the convenience of climbing! Through effective climbing registration with QR Code-based tickets and tracking climbing status.",
-                "image": " /images/image_1.png",
-                "image_modal": " /images/image_1_modal.png",
-                "long_desc": "Introducing seamless online and integrated mountain trek registration. Say goodbye to the struggles of tracking mountain hikers.",
-                "problem": "Introducing seamless online and integrated mountain trek registration. Say goodbye to the struggles of tracking mountain hikers.",
-                "solution": "An integrated online mountain trek registration platform. Real-time hiking tracking and QR-based trekking tickets for a seamless experience.",
-                "tech_stack": "React, Bootstrap, Vercel, MongoDB, Express Js, Postman"
-            },
-            {
-                "id": 4,
-                "title": "Online Class ✏️",
-                "description": "Access interactive online classes on any device. Enroll hassle-free with Midtrans payment integration, ensuring secure transactions and learning.",
-                "image": " /images/image_4.png",
-                "image_modal": " /images/image_4_modal.png",
-                "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
-                "problem": "The increasing demand for remote learning is on the rise.",
-                "solution": "An online class website that enables learning to take place anytime, anywhere.",
-                "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
-            },
-            {
-                "id": 5,
-                "title": "Car Rent 🚗",
-                "description": "Rent a car effortlessly on our responsive website with a creative touch. Explore a wide range of vehicles and book your ride instantly.",
-                "image": " /images/image_5.png",
-                "image_modal": " /images/image_5_modal.png",
-                "long_desc": "Car rental convenience is at your fingertips. Discover a variety of quality cars for hassle-free travel. Begin your adventure now with easy and quick booking!",
-                "problem": "Car rental services struggling to provide detailed vehicle condition information to customers online.",
-                "solution": "An online car rental website equipped with detailed vehicle conditions for seamless bookings.",
-                "tech_stack": "Laravel, tailwind, mysql, nodeJS"
-            },
-            {
-                "id": 6,
-                "title": "Bootcamp Purchase 📚",
-                "description": "Join our online bootcamps for in-demand skills. Seamlessly enroll with Midtrans integration, guaranteeing secure payments on any device.",
-                "image": " /images/image_2.png",
-                "image_modal": " /images/image_2_modal.png",
-                "long_desc": "Transform your career through our online bootcamp. Gain intensive training from industry experts, all from the comfort of your home. Ready to pursue success? Join our bootcamp now!",
-                "problem": "Many online bootcamps still rely solely on Zoom, resulting in a lack of integrated systems that offer a comprehensive learning platform with integrated bootcamp resources.",
-                "solution": "An integrated bootcamp website offering intensive training from industry practitioners and experts.",
-                "tech_stack": "Laravel, PHP, mysql, ngrok"
-            }
+  "navbar": {
+    "link": "Home",
+    "link1": "About Us",
+    "link2": "Portofolio",
+    "link3": "Testimonial",
+    "link4": "Contact"
+  },
+  "hero": {
+    "title": "Kickstart Your Ideas Through Digital Product Development",
+    "subtitle": "Our Software Development team is ready to build your Ideas within weeks ⚡️",
+    "background_image": " /images/hero.png",
+    "cta_text": "Chat Us",
+    "cta_link": "See our portfolio",
+    "whatsapp": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya"
+  },
+  "about": {
+    "title": "A Dedicated Software Production Company Based In Indonesia",
+    "description_primary": "With our broad knowledge & experience in various Industry, We can help to achieve your goals in fast & efficient manner.",
+    "description_secondary": "We excel in designing and maintaining responsive user interface, crafting dynamic, engaging interfaces with clean and optimized code. Collaborating seamlessly with cross-functional teams, they ensure outstanding web/mobile applications that deliver a smooth user experience. Let's turn your vision into a reality within weeks! 🚀",
+    "image": " /images/about.png"
+  },
+  "portfolio": {
+    "title": "Each Project Is A Unique Piece Of Development",
+    "website": [
+      {
+        "id": 1,
+        "title": "Movie Streaming 🍿️",
+        "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
+        "image": " /images/image_3.png",
+        "image_modal": " /images/image_3_modal.png",
+        "long_desc": "Watch your favorite films on the Movie Streaming platform. Enjoy an automated payment system through Midtrans that guarantees security and convenience.",
+        "problem": "Overcome access barriers and the hassle of downloading films with our streaming solution. Avoid unofficial films that do not provide royalties to film studios.",
+        "solution": "The creation of the Movie Streaming website serves as an official service for watching films securely and comfortably. Movie Streaming provides payment services for each film you want to watch.",
+        "tech_stack": "Laravel, Postman API, PHP, midtrans"
+      },
+      {
+        "id": 2,
+        "title": "Shoes E-Commerce 🥾",
+        "description": "Shop stylish shoes on our app with a creative interface. Get fashion advice and real-time assistance through our live chat service.",
+        "image": " /images/image_6.png",
+        "image_modal": " /images/image_6_modal.png",
+        "long_desc": "Take your stride with the perfect shoe style. Discover our trendy and high-quality collection to walk with confidence. Head straight to our website and explore the unforgettable styles today!",
+        "problem": "Barriers in conventional shoe transactions. Buying and selling shoes through channels that don't guarantee the authenticity of the products.",
+        "solution": "Creating a shoe marketplace website that ensures quality and security for both sellers and buyers.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 3,
+        "title": "Hiking Booking 🌋",
+        "description": "Enjoy the convenience of climbing! Through effective climbing registration with QR Code-based tickets and tracking climbing status.",
+        "image": " /images/image_1.png",
+        "image_modal": " /images/image_1_modal.png",
+        "long_desc": "Introducing seamless online and integrated mountain trek registration. Say goodbye to the struggles of tracking mountain hikers.",
+        "problem": "Introducing seamless online and integrated mountain trek registration. Say goodbye to the struggles of tracking mountain hikers.",
+        "solution": "An integrated online mountain trek registration platform. Real-time hiking tracking and QR-based trekking tickets for a seamless experience.",
+        "tech_stack": "React, Bootstrap, Vercel, MongoDB, Express Js, Postman"
+      },
+      {
+        "id": 4,
+        "title": "Online Class ✏️",
+        "description": "Access interactive online classes on any device. Enroll hassle-free with Midtrans payment integration, ensuring secure transactions and learning.",
+        "image": " /images/image_4.png",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
+        "problem": "The increasing demand for remote learning is on the rise.",
+        "solution": "An online class website that enables learning to take place anytime, anywhere.",
+        "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+      },
+      {
+        "id": 5,
+        "title": "Car Rent 🚗",
+        "description": "Rent a car effortlessly on our responsive website with a creative touch. Explore a wide range of vehicles and book your ride instantly.",
+        "image": " /images/image_5.png",
+        "image_modal": " /images/image_5_modal.png",
+        "long_desc": "Car rental convenience is at your fingertips. Discover a variety of quality cars for hassle-free travel. Begin your adventure now with easy and quick booking!",
+        "problem": "Car rental services struggling to provide detailed vehicle condition information to customers online.",
+        "solution": "An online car rental website equipped with detailed vehicle conditions for seamless bookings.",
+        "tech_stack": "Laravel, tailwind, mysql, nodeJS"
+      },
+      {
+        "id": 6,
+        "title": "Bootcamp Purchase 📚",
+        "description": "Join our online bootcamps for in-demand skills. Seamlessly enroll with Midtrans integration, guaranteeing secure payments on any device.",
+        "image": " /images/image_2.png",
+        "image_modal": " /images/image_2_modal.png",
+        "long_desc": "Transform your career through our online bootcamp. Gain intensive training from industry experts, all from the comfort of your home. Ready to pursue success? Join our bootcamp now!",
+        "problem": "Many online bootcamps still rely solely on Zoom, resulting in a lack of integrated systems that offer a comprehensive learning platform with integrated bootcamp resources.",
+        "solution": "An integrated bootcamp website offering intensive training from industry practitioners and experts.",
+        "tech_stack": "Laravel, PHP, mysql, ngrok"
+      }
+    ],
+    "android": [{}],
+    "product": [{}]
+  },
+  "pricelist": {
+    "title": "Choose the best plan for you",
+    "top_text": "Impact The Most",
+    "text_start": "start from",
+    "mention": "*you can get benefits from higher price categories at an additional cost",
+    "subtitle_website": "includes business solution consultation, database and admin panel (if needed), domain + SSL (1 yr), creative and responsive design,  SEO friendly, and accessible from any devices",
+    "subtitle_android": "includes business solution consultation, database and admin panel (if needed), dedicated VPS hosting (1yr), domain + SSL  (1 yr) app icon, splash screen, creative and responsive design",
+    "website_basic": [
+      {
+        "fake_price": "1,649,000,-",
+        "real_price": "1,499,000,-",
+        "benefit": [
+          {
+            "usability": "1 yr web hosting",
+            "tech": "~7 days work duration estimation",
+            "pages": "For landing page, company profile, personal page"
+          }
+        ]
+      }
+    ],
+    "website_standard": [
+      {
+        "fake_price": "5,499,000,-",
+        "real_price": "4,999,000,-  ",
+        "benefit": [
+          {
+            "usability": "1 yr dedicated VPS hosting",
+            "tech": "~14 days work duration estimation",
+            "pages": "For company profile, e-commerce (online shop), LMS, MIS, POS"
+          }
+        ]
+      }
+    ],
+    "website_premium": [
+      {
+        "fake_price": "10,999,000,-",
+        "real_price": "9,999,000,-",
+        "benefit": [
+          {
+            "usability": "1 yr dedicated VPS hosting",
+            "tech": "Manual book",
+            "pages": "Source code",
+            "design": "~28 days work duration estimation",
+            "hosting": "For e-commerce (online shop), LMS, MIS, POS, HRIS, logistic tracking"
+          }
+        ]
+      }
+    ],
+    "android_standard": [
+      {
+        "fake_price": "6,599,000,-",
+        "real_price": "5,999,000,-",
+        "benefit": [
+          {
+            "usability": "~14 days work duration estimation",
+            "tech": "For attendance, e-commerce (online shop), LMS, MIS, POS, online service order"
+          }
+        ]
+      }
+    ],
+    "android_premium": [
+      {
+        "fake_price": "13,199,000,-",
+        "real_price": "11,999,000,-",
+        "benefit": [
+          {
+            "usability": "Manual book",
+            "tech": "Source code",
+            "pages": "Deploy to Play Store",
+            "time": "~28 days work duration estimation",
+            "recommend": "For e-commerce (online shop), LMS, MIS, POS, HRIS, online service order, ERP, hotel/travel booking"
+          }
+        ]
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle_website": "We accept discussions for any type of your projects.",
+    "subtitle_second": "Look at What we’ve done",
+    "website": [
+      {
+        "id": 1,
+        "title": "Landing Page",
+        "title_project": "Landing Page Nanostack",
+        "title_second": "Laracamp",
+        "subtitle_second": "Our Portfolios",
+        "timeline": "1 week",
+        "images": "/images/lp_web.png",
+        "price_text": "Price: start from Rp",
+        "price": "1,000,000,-",
+        "description": "Unlock your full potential with our online courses, guided by experts in the field.",
+        "image_modal": "/images/lp_web.png",
+        "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
+        "problem": "The increasing demand for remote learning is on the rise.",
+        "solution": "An online class website that enables learning to take place anytime, anywhere.",
+        "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+      },
+      {
+        "id": 2,
+        "title": "Company Profile",
+        "title_project": "Landing Page Nanostack",
+        "timeline": "1 week",
+        "title_second": "Atinity solutions",
+        "subtitle_second": "Our Portfolios",
+        "images": "/images/cp_web.png",
+        "price_text": "Price: start from Rp",
+        "price": "1,000,000,-",
+        "description": "Explore our company profile with creative design and engaging content, revealing our values, achievements, and expertise.",
+        "image_modal": "/images/cp_web.png",
+        "long_desc": "PThe website showcases a comprehensive company profile, providing insights into the company's values, achievements, and expertise through creative design and engaging content.",
+        "problem": "Many businesses struggle to effectively communicate their identity and accomplishments to their target audience.",
+        "solution": "The solution is a professionally designed company profile website that effectively conveys the company's essence and achievements in a concise manner.",
+        "tech_stack": "Laravel, PHP, mysql, ngrok"
+      },
+      {
+        "id": 3,
+        "title": "Personal Page",
+        "images": "/images/pp_web.png",
+        "title_project": "Landing Page Nanostack",
+        "subtitle_second": "Our Portfolios",
+        "timeline": "1 week",
+        "title_second": "Kafela",
+        "price_text": "Price: start from Rp",
+        "price": "1,000,000,-",
+        "description": "Explore our inspiring platform filled with unique stories and individual achievements   ",
+        "image_modal": "/images/pp_web.png",
+        "long_desc": "This website is a comprehensive portal for efficient logistics solutions, offering a wide range of highly reliable delivery services",
+        "problem": "Clients face challenges in finding reliable and efficient logistics delivery services.",
+        "solution": "Our solution comes in the form of a website that simplifies the selection and tracking of logistics deliveries efficiently",
+        "tech_stack": "Laravel, PHP, mysql, ngrok"
+      },
+      {
+        "id": 4,
+        "title": "E-Commerce",
+        "title_second": "VROM",
+        "title_project": "Landing Page Nanostack",
+        "images": "/images/ec_web.png",
+        "subtitle_second": "Our Portfolios",
+        "timeline": "1 month",
+        "price_text": "Price: start from Rp",
+        "price": "3,000,000,-",
+        "description": "Find quality rental cars at your fingertips and embark on your adventure with easy and fast bookings.",
+        "image_modal": "/images/ec_web.png",
+        "long_desc": "Car rental convenience is at your fingertips. Discover a variety of quality cars for hassle-free travel. Begin your adventure now with easy and quick booking!",
+        "problem": "Car rental services struggling to provide detailed vehicle condition information to customers online",
+        "solution": "An online car rental website equipped with detailed vehicle conditions for seamless bookings.",
+        "tech_stack": "Laravel, tailwind, mysql, nodeJS"
+      },
+      {
+        "id": 5,
+        "title": "Learning Management System",
+        "title_second": "Micro",
+        "title_project": "Landing Page Nanostack",
+        "images": "/images/lms_web.png",
+        "subtitle_second": "Our Portfolios",
+        "timeline": "1 month",
+        "price_text": "Price: start from Rp",
+        "price": "3,000,000,-",
+        "description": "Transform your career with online bootcamps from the comfort of your home; join now!",
+        "image_modal": "/images/lms_web.png",
+        "long_desc": "Transform your career through our online bootcamp. Gain intensive training from industry experts, all from the comfort of your home. Ready to pursue success? Join our bootcamp now!",
+        "problem": "Many online bootcamps still rely solely on Zoom, resulting in a lack of integrated systems that offer a comprehensive learning platform with integrated bootcamp resources",
+        "solution": "An integrated bootcamp website offering intensive training from industry practitioners and experts.",
+        "tech_stack": "Laravel, PHP, mysql, ngrok"
+      },
+      {
+        "id": 6,
+        "title": "Management Information System",
+        "title_second": "Moonton",
+        "title_project": "Landing Page Nanostack",
+        "subtitle_second": "Our Portfolios",
+        "images": "/images/mis_web.png",
+        "timeline": "1 month",
+        "price_text": "Price: start from Rp",
+        "price": "3,000,000,-",
+        "description": "Enjoy your favorite movies securely on Movie Streaming with Midtrans automated payments",
+        "image_modal": "/images/mis_web.png",
+        "long_desc": "Watch your favorite films on the Movie Streaming platform. Enjoy an automated payment system through Midtrans that guarantees security and convenience.",
+        "problem": "Overcome access barriers and the hassle of downloading films with our streaming solution. Avoid unofficial films that do not provide royalties to film studios.",
+        "solution": "The creation of the Movie Streaming website serves as an official service for watching films securely and comfortably. Movie Streaming provides payment services for each film you want to watch.",
+        "tech_stack": "Laravel, Postman API, PHP, midtrans, React Js"
+      },
+      {
+        "id": 7,
+        "title": "Point of Sales",
+        "images": "/images/pos_web.png",
+        "title_second": "Jaegar resto",
+        "subtitle_second": "Our Portfolios",
+        "title_project": "Landing Page Nanostack",
+        "timeline": "1 month",
+        "price_text": "Price: start from Rp",
+        "price": "5,000,000,-",
+        "description": "A modern solution for efficient sales and inventory management, with a sophisticated transaction experience.",
+        "image_modal": "/images/pos_web.png",
+        "long_desc": "This website is a modern solution for easily managing sales and inventory, providing a sophisticated and efficient transaction experience",
+        "problem": "Business owners struggle to efficiently track sales and manage inventory.",
+        "solution": "We provide a solution through an intuitive POS website, helping businesses optimize their sales and inventory management processes.",
+        "tech_stack": "Laravel, Postman API, PHP, midtrans"
+      },
+      {
+        "id": 8,
+        "title": "Human Resources Information System",
+        "title_second": "Starhub",
+        "subtitle_second": "Our Portfolios",
+        "title_project": "Landing Page Nanostack",
+        "images": "/images/hris_web.png",
+        "timeline": "1.5 month",
+        "price_text": "Price: start from Rp",
+        "price": "7,000,000,-",
+        "description": "An advanced HRIS platform that simplifies human resource management.",
+        "image_modal": "/images/hris_web.png",
+        "long_desc": "This HRIS website is a comprehensive platform for managing human resources, simplifying HR processes with cutting-edge technology.",
+        "problem": "Companies face challenges in managing HR data and need a more efficient way",
+        "solution": "We provide a solution in the form of an HRIS website that streamlines HR management, enhancing productivity and data accuracy.",
+        "tech_stack": "Laravel, PHP, mysql, ngrok"
+      },
+      {
+        "id": 9,
+        "title": "Logistic Tracking",
+        "title_second": "Transitflow",
+        "images": "/images/logistic_web.png",
+        "subtitle_second": "Our Portfolios",
+        "title_project": "Landing Page Nanostack",
+        "timeline": "1.5 month",
+        "price_text": "Price: start from Rp",
+        "price": "7,000,000,-",
+        "description": "A comprehensive portal for efficient logistic solutions, offering reliable delivery services.",
+        "image_modal": "/images/logistic_web.png",
+        "long_desc": "This website is a comprehensive portal for efficient logistics solutions, offering a wide range of highly reliable delivery services.",
+        "problem": "Clients face challenges in finding reliable and efficient logistics delivery services.",
+        "solution": "Our solution comes in the form of a website that simplifies the selection and tracking of logistics deliveries efficiently.",
+        "tech_stack": "Laravel, Postman API, PHP, midtrans"
+      }
+    ],
+    "android": [
+      {
+        "id": 1,
+        "title": "Attendance",
+        "title_second": "Attendity",
+        "subtitle_second": "Our Portfolios",
+        "timeline": "1 month",
+        "images": "/images/at.png",
+        "price_text": "Price: start from Rp",
+        "price": "3,000,000,-",
+        "description": "A mobile application for employee attendance management, making work time tracking easier.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "This application is the perfect travel companion, allowing users to easily search, compare, and book ideal accommodations.",
+        "problem": "Users often struggle to find and book accommodations conveniently and reliably while traveling.",
+        "solution": "This application provides a solution by offering various accommodation options, exclusive deals, and hassle-free booking for unforgettable journeys.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 2,
+        "title": "E-Commerce",
+        "title_second": "Shoestore",
+        "timeline": "1 month",
+        "subtitle_second": "Our Portfolios",
+        "images": "/images/ec.png",
+        "price_text": "Price: start from Rp",
+        "price": "4,000,000,-",
+        "description": "Discover your style in our collection of high-quality shoes and step confidently every day.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Take your stride with the perfect shoe style. Discover our trendy and high-quality collection to walk with confidence. Head straight to our website and explore the unforgettable styles today!",
+        "problem": "Barriers in conventional shoe transactions. Buying and selling shoes through channels that don't guarantee the authenticity of the products.",
+        "solution": "Creating a shoe marketplace website that ensures quality and security for both sellers and buyers.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 3,
+        "title": "Learning Management System",
+        "title_second": "Garudaku",
+        "timeline": "1 month",
+        "subtitle_second": "Our Portfolios",
+        "images": "/images/lms.png",
+        "price_text": "Price: start from Rp",
+        "price": "4,000,000,-",
+        "description": "A digital learning platform that facilitates access to and utilization of learning resources.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "This application is a digital learning platform that enables users to easily access and utilize learning resources.",
+        "problem": "Many individuals and organizations face challenges in accessing and managing learning materials.",
+        "solution": "This application provides a solution by offering easy access to learning materials, enabling flexible and efficient learning.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 4,
+        "title": "Management Information System",
+        "title_second": "Shoestore",
+        "images": "/images/ec.png",
+        "subtitle_second": "Our Portfolios",
+        "timeline": "1 month",
+        "price_text": "Price: start from Rp",
+        "price": "4,000,000,-",
+        "description": "Discover your style in our collection of high-quality shoes and step confidently every day.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Take your stride with the perfect shoe style. Discover our trendy and high-quality collection to walk with confidence. Head straight to our website and explore the unforgettable styles today!",
+        "problem": "Barriers in conventional shoe transactions. Buying and selling shoes through channels that don't guarantee the authenticity of the products",
+        "solution": "Creating a shoe marketplace website that ensures quality and security for both sellers and buyers.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 5,
+        "title": "Point of Sales",
+        "title_second": "Cibernautica",
+        "images": "/images/pos.png",
+        "subtitle_second": "Our Portfolios",
+        "timeline": "1 month",
+        "price_text": "Price: start from Rp",
+        "price": "5,000,000,-",
+        "description": "This application is an innovative solution for smoothly managing sales and inventory, providing a sophisticated transaction experience",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "Permulaan baru menuju pembelajaran yang lebih baik. Tingkatkan pengetahuan Anda dengan kursus online kami, dipandu oleh ahli di bidangnya. Bergabunglah hari ini dan raih potensi penuh Anda secara virtual!",
+        "problem": "Businesses often face challenges in efficiently tracking sales and managing inventory.",
+        "solution": "This application provides a solution by simplifying sales and inventory management, enhancing operational efficiency for businesses.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 6,
+        "title": "Online Service Order",
+        "title_second": "Cleany",
+        "images": "/images/oso.png",
+        "subtitle_second": "Our Portfolios",
+        "timeline": "1 month",
+        "price_text": "Price: start from Rp",
+        "price": "4,000,000,-",
+        "description": "A convenient platform to book various online services, making service reservations easier.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "This application is a convenient platform for booking various online services, making it easy for users to access the services they need.",
+        "problem": "Users often struggle to find and book online services quickly and efficiently",
+        "solution": "This application provides a solution by offering a variety of services at their fingertips, allowing users to easily search for and book the services they require.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 7,
+        "title": "Human Resources Information System",
+        "title_second": "Starhub",
+        "images": "/images/hris.png",
+        "timeline": "1.5 month",
+        "price_text": "Price: start from Rp",
+        "subtitle_second": "Our Portfolios",
+        "price": "7,000,000,-",
+        "description": "A modern tool for human resource management that streamlines employee data management efficiently",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "This application is a modern tool for human resource management, simplifying user efficiency in handling employee data.",
+        "problem": "Many organizations face challenges in managing complex and intricate HR data",
+        "solution": "This application provides a solution by offering practical tools for employee data management, enhancing productivity and accuracy in HR processes.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 8,
+        "title": "Enterprise Resource Planning",
+        "title_second": "Informa",
+        "images": "/images/erp.png",
+        "timeline": "2 month",
+        "subtitle_second": "Our Portfolios",
+        "price_text": "Price: start from Rp",
+        "price": "10,000,000,-",
+        "description": "An integrated platform for efficient business process management via mobile devices.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "This application is an integrated platform that allows companies to efficiently manage their business processes through mobile devices.",
+        "problem": "Businesses often struggle to coordinate their operations and require a more efficient approach.",
+        "solution": "This application provides a solution by enabling easy access to ERP systems, allowing companies to manage their business processes more efficiently and effectively.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      },
+      {
+        "id": 9,
+        "title": "Hotel/Travel Booking",
+        "title_second": "Bookers",
+        "subtitle_second": "Our Portfolios",
+        "images": "/images/htb.png",
+        "timeline": "1.5 month",
+        "price_text": "Price: start from Rp",
+        "price": "4,000,000,-",
+        "description": "Find your travel companion to search, compare, and book perfect accommodations.",
+        "image_modal": " /images/image_4_modal.png",
+        "long_desc": "The app is the perfect travel companion, allowing users to easily search, compare and book ideal accommodation.",
+        "problem": "Users often have difficulty finding and booking accommodation practically and reliably when traveling.",
+        "solution": "This application provides a solution by presenting various accommodation options, exclusive offers, and easy booking for an unforgettable trip.",
+        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
+      }
+    ]
+  },
+  "testimonial": {
+    "title": "Customer Love: What People Are Saying",
+    "material": [
+      {
+        "content": "“ Very cool of anything has been done, exceeded my expectations. Has a fast progress in delivering the APIs, and until now the result is still safe when the API is consumed.“",
+        "name": "Moch. Iskandar Zulqornaen",
+        "job": "Product Owner of Hyponic"
+      },
+      {
+        "content": "“He worked incredibly fast and professionally! The results were amazing, and they also helped fix my web hosting issues. I'm very satisfied with their service! Highly recommended! “",
+        "name": "Ayu Nurrahima Firdausi",
+        "job": "Student"
+      },
+      {
+        "content": "“Dicky is an impressive frontend developer, collaborating well with designers. He excels in precision, replicating designs across devices. Reliable and detail-oriented, I recommend him for transforming designs into functional products.“",
+        "name": "Victor",
+        "job": "UI/UX Designer"
+      }
+    ]
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "sub_title": "Our expert team is made up of dedicated people with great experiences who committed to supporting both both you and your business",
+    "data_member": [
+      {
+        "name": "Muhammad Dicky Athalla",
+        "position": "Frontend Developer",
+        "images": "/images/team/dicky.png",
+        "sertifikat": [
+          {
+            "sertif_1": "✅ Badan Nasional Sertifikasi Profesi Junior Web Developer"
+          }
         ],
-        "android": [{}],
-        "product": [{}]
-    },
-    "pricelist": {
-        "title": "Choose the best plan for you",
-        "top_text": "Impact The Most",
-        "text_start": "start from",
-        "mention": "*you can get benefits from higher price categories at an additional cost",
-        "subtitle_website": "includes business solution consultation, database and admin panel (if needed), domain + SSL (1 yr), creative and responsive design,  SEO friendly, and accessible from any devices",
-        "subtitle_android": "includes business solution consultation, database and admin panel (if needed), dedicated VPS hosting (1yr), domain + SSL  (1 yr) app icon, splash screen, creative and responsive design",
-        "website_basic": [{
-            "fake_price": "1,649,000,-",
-            "real_price": "1,499,000,-",
-            "benefit": [{
-                "usability": "1 yr web hosting",
-                "tech": "~7 days work duration estimation",
-                "pages": "For landing page, company profile, personal page"
-            }]
-        }],
-        "website_standard": [{
-            "fake_price": "5,499,000,-",
-            "real_price": "4,999,000,-  ",
-            "benefit": [{
-                "usability": "1 yr dedicated VPS hosting",
-                "tech": "~14 days work duration estimation",
-                "pages": "For company profile, e-commerce (online shop), LMS, MIS, POS"
-            }]
-        }],
-        "website_premium": [{
-            "fake_price": "10,999,000,-",
-            "real_price": "9,999,000,-",
-            "benefit": [{
-                "usability": "1 yr dedicated VPS hosting",
-                "tech": "Manual book",
-                "pages": "Source code",
-                "design": "~28 days work duration estimation",
-                "hosting": "For e-commerce (online shop), LMS, MIS, POS, HRIS, logistic tracking"
-            }]
-        }],
-        "android_standard": [{
-            "fake_price": "6,599,000,-",
-            "real_price": "5,999,000,-",
-            "benefit": [{
-                "usability": "~14 days work duration estimation",
-                "tech": "For attendance, e-commerce (online shop), LMS, MIS, POS, online service order"
-            }]
-        }],
-        "android_premium": [{
-            "fake_price": "13,199,000,-",
-            "real_price": "11,999,000,-",
-            "benefit": [{
-                "usability": "Manual book",
-                "tech": "Source code",
-                "pages": "Deploy to Play Store",
-                "time": "~28 days work duration estimation",
-                "recommend": "For e-commerce (online shop), LMS, MIS, POS, HRIS, online service order, ERP, hotel/travel booking"
-            }]
-        }]
-
-    },
-    "testimonial": {
-        "title": "Customer Love: What People Are Saying",
-        "material": [{
-                "content": "“ Very cool of anything has been done, exceeded my expectations. Has a fast progress in delivering the APIs, and until now the result is still safe when the API is consumed.“",
-                "name": "Moch. Iskandar Zulqornaen",
-                "job": "Product Owner of Hyponic"
-            },
-            {
-                "content": "“He worked incredibly fast and professionally! The results were amazing, and they also helped fix my web hosting issues. I'm very satisfied with their service! Highly recommended! “",
-                "name": "Ayu Nurrahima Firdausi",
-                "job": "Student"
-            },
-            {
-                "content": "“Dicky is an impressive frontend developer, collaborating well with designers. He excels in precision, replicating designs across devices. Reliable and detail-oriented, I recommend him for transforming designs into functional products.“",
-                "name": "Victor",
-                "job": "UI/UX Designer"
-            }
-        ]
-    },
-    "team": {
-        "title": "Meet Our Team",
-        "sub_title": "Our expert team is made up of dedicated people with great experiences who committed to supporting both both you and your business",
-        "data_member": [{
-                "name": "Muhammad Dicky Athalla",
-                "position": "Frontend Developer",
-                "images": "/images/team/dicky.png",
-                "sertifikat": [{
-                    "sertif_1": "✅ Badan Nasional Sertifikasi Profesi Junior Web Developer"
-
-                }],
-                "linkedin": "https://www.linkedin.com/in/dickyathalla/"
-            },
-            {
-                "name": "Ivan Aulia Rahman",
-                "position": "Fullstack Developer",
-                "images": "/images/team/ivan.png",
-                "sertifikat": [{
-                    "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert"
-
-
-                }],
-                "linkedin": "https://www.linkedin.com/in/ivanauliaa/"
-            },
-            {
-                "name": "Rafi Dimas Ariyanto",
-                "position": "Fullstack Developer",
-                "images": "/images/team/rafi.png",
-                "sertifikat": [{
-                    "sertif_1": "✅ BuildWithAngga Full-Stack JavaScript Developer"
-                }],
-                "linkedin": "https://www.linkedin.com/in/rafi-dimas-ariyanto-8932531b8/"
-            }
-        ]
-    },
-    "contact": {
-        "title": "Get in Touch: Reach Out Today",
-        "addresshref": "https://goo.gl/maps/G1FhcqDpNbZMAyq66",
-        "address": "Jombang Kota, Jombang, East Java, Indonesia",
-        "phonehref": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya",
-        "phone": "+62 895-3664-23269",
-        "emailhref": "mailto:nanostackindustries@gmail.com?subject=[Web Services/Mobile App Services(pilih salah satu)]?body:Saya tertarik memesan layanan web/mobile app dengan spesifikasi ...",
-        "email": "nanostackindustries@gmail.com",
-        "start_day": "Monday",
-        "end_day": "Friday",
-        "start_time": "09:00 AM",
-        "end_time": "05:00 PM"
-    },
-    "footer": {
-        "forum": "Community",
-        "title": "nanostack",
-        "desc": "Welcome to nanostack, where innovation meets excellence in software development!",
-        "instagram": "https://www.instagram.com/",
-        "linkedin": "https://www.linkedin.com/",
-        "fastwork": "https://fastwork.id/user/ivanar6542/web-development-64971353?utm_source=app_sharing",
-        "facebook": "https://www.facebook.com/",
-        "youtube": "https://www.youtube.com/"
-    }
+        "linkedin": "https://www.linkedin.com/in/dickyathalla/"
+      },
+      {
+        "name": "Ivan Aulia Rahman",
+        "position": "Fullstack Developer",
+        "images": "/images/team/ivan.png",
+        "sertifikat": [
+          {
+            "sertif_1": "✅ Dicoding Menjadi Back-End Developer Expert"
+          }
+        ],
+        "linkedin": "https://www.linkedin.com/in/ivanauliaa/"
+      },
+      {
+        "name": "Rafi Dimas Ariyanto",
+        "position": "Fullstack Developer",
+        "images": "/images/team/rafi.png",
+        "sertifikat": [
+          {
+            "sertif_1": "✅ BuildWithAngga Full-Stack JavaScript Developer"
+          }
+        ],
+        "linkedin": "https://www.linkedin.com/in/rafi-dimas-ariyanto-8932531b8/"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch: Reach Out Today",
+    "addresshref": "https://goo.gl/maps/G1FhcqDpNbZMAyq66",
+    "address": "Jombang Kota, Jombang, East Java, Indonesia",
+    "phonehref": "https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website/mobile%20apps%20untuk%20bisnis%20saya",
+    "phone": "+62 895-3664-23269",
+    "emailhref": "mailto:nanostackindustries@gmail.com?subject=[Web Services/Mobile App Services(pilih salah satu)]?body:Saya tertarik memesan layanan web/mobile app dengan spesifikasi ...",
+    "email": "nanostackindustries@gmail.com",
+    "start_day": "Monday",
+    "end_day": "Friday",
+    "start_time": "09:00 AM",
+    "end_time": "05:00 PM"
+  },
+  "footer": {
+    "forum": "Community",
+    "title": "nanostack",
+    "desc": "Welcome to nanostack, where innovation meets excellence in software development!",
+    "instagram": "https://www.instagram.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "fastwork": "https://fastwork.id/user/ivanar6542/web-development-64971353?utm_source=app_sharing",
+    "facebook": "https://www.facebook.com/",
+    "youtube": "https://www.youtube.com/"
+  }
 }

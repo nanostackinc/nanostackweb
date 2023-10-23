@@ -764,7 +764,7 @@ nav #logo {
 
 .card-title {
     color: var(--black, #333);
-
+    text-align: center;
     /* Heading 3 */
     font-family: Open Sans;
     font-size: 24px;
@@ -858,9 +858,18 @@ nav #logo {
     gap: 8px;
 }
 
+.card-service {
+    display: flex;
+    flex-direction: column;
+    height: 249px;
+
+}
+
+
 .title-price {
     color: var(--black, #333);
     text-align: center;
+    display: block;
 
     /* Heading 2 */
     font-family: Open Sans;
@@ -911,9 +920,9 @@ nav #logo {
     padding: 24px 20px;
     margin-top: 54px;
     flex-direction: column;
-    align-items: flex-start;
     height: 100%;
     gap: 16px;
+    cursor: pointer;
     border-radius: 24px;
     background: #FFF;
     box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
@@ -926,6 +935,14 @@ nav #logo {
         height: auto;
         /* Atur tinggi ke otomatis untuk tampilan mobile */
     }
+
+    .card-service {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+
 }
 
 /* Media Query untuk tampilan tab (tablet) */
@@ -936,8 +953,15 @@ nav #logo {
 
     }
 
+    .card-service {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+
     #card-standard {
-        height: 48%;
+        height: auto;
         /* Atur tinggi ke otomatis untuk tampilan tab (tablet) */
     }
 }
@@ -1109,6 +1133,7 @@ nav #logo {
 
 .collect-benefit {
     display: flex;
+    justify-content: flex-start;
     margin-top: 16px;
     flex-direction: column;
     align-items: flex-start;
@@ -1118,8 +1143,8 @@ nav #logo {
 #benefit {
     display: flex;
     align-items: flex-start;
-    /* background-color: #007bff; */
     border-bottom: 1px solid var(--Blue-1-20, rgba(78, 150, 225, 0.20));
+    width: 100%;
 }
 
 svg .icon {
