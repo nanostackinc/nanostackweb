@@ -28,9 +28,22 @@
     margin-right: 100px;
 }
 
+.my-32{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.gap-32{
+    gap: 32px;
+}
+
+.text-black{
+    color: var(--black);
+}
+
 /* Hero Section */
 #hero h1,
-#about h1 {
+#about h2 {
     color: var(--black, #333);
     font-family: var(--main-font);
     font-size: 40px;
@@ -493,6 +506,11 @@
     box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
 }
 
+.logo-navbar{
+    width: 157px;
+    height: 33px;
+}
+
 #dropdown-select {
     padding: 8px 16px;
     justify-content: space-between;
@@ -815,20 +833,21 @@ nav #logo {
     padding: 32px 0px;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
+    /* gap: 32px; */
     position: relative;
 }
 
 .mention {
     color: var(--Black-80, rgba(51, 51, 51, 0.80));
     text-align: center;
-    margin-top: 32px;
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: -1.12px;
+    margin-bottom: 0px;
+    padding-top: 16px;
 }
 
 .title-pricelist {
@@ -872,6 +891,9 @@ nav #logo {
     font-weight: 600;
     line-height: normal;
     letter-spacing: -1.12px;
+
+    padding-bottom: 32px;
+    margin-bottom: 0;
 }
 
 #card-basic {
@@ -1144,6 +1166,8 @@ svg .icon {
     /* 150% */
     letter-spacing: -2.24px;
     text-transform: capitalize;
+    padding-bottom: 32px;
+    margin-bottom: 0;
 }
 
 .card-testi {
@@ -1379,6 +1403,7 @@ svg .icon {
 
 /* End of Responsive Section */
 
+
 /* Start our team section */
 #our-team {
     display: flex;
@@ -1503,4 +1528,241 @@ svg .icon {
     border-radius: 12px;
     border: 2px solid var(--Blue-1, rgba(78, 150, 225, 0.90));
     background: var(--Blue-1-20, rgba(78, 150, 225, 0.20));
+}
+/* mobile responsive */
+@media screen and (max-width:576px) {
+    .navbar{
+        padding: 8px 30px;
+    }
+    .fa-2x{
+        font-size: 1em;
+    }
+    .logo-navbar{
+        width: 79px;
+        height: 16px;
+    }
+
+    #hero h1{
+        color: var(--Black, #333);
+
+        /* [Mobile] Heading 1 */
+        font-family: Open Sans;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 50px; /* 138.889% */
+        letter-spacing: -2.52px;
+        text-transform: capitalize;
+    }
+    #about h2{
+        color: var(--Black, #333);
+
+        /* [Mobile] Heading 2 */
+        font-family: Open Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 36px; /* 128.571% */
+        letter-spacing: -1.96px;
+        text-transform: capitalize;
+    }
+    h3{
+        color: var(--Black, #333);
+
+        /* [Mobile] Heading 3 */
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 32px; /* 160% */
+        letter-spacing: -1.4px;
+        text-transform: capitalize;
+    }
+    .h3-strike{
+        color: var(--Black, #333);
+
+        /* [Mobile] Heading 3 */
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 32px; /* 160% */
+        letter-spacing: -1.4px;
+        text-transform: capitalize;
+    }
+    #hero p{
+        color: var(--Black-80, rgba(51, 51, 51, 0.80));
+
+        /* [Mobile] Body 1 */
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.98px;
+    }
+
+    .hero-title, .hero-subtitle{
+        text-align: start;
+    }
+
+    .px-30{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #about p{
+        color: var(--Black-80, rgba(51, 51, 51, 0.80));
+
+        /* Body 1 */
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -1.12px;
+    }
+
+    .title-port{
+        color: var(--Black, #333);
+        text-align: center;
+        
+        /* [Mobile] Heading 2 */
+        font-family: Open Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 36px; /* 128.571% */
+        letter-spacing: -1.96px;
+        text-transform: capitalize;
+    }
+    
+    .text-card{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 16px;
+        flex-shrink: 0;
+    }
+
+    .card-title {
+        color: var(--Black, #333);
+
+        /* [Mobile] Heading 3 */
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 32px; /* 160% */
+        letter-spacing: -1.4px;
+        text-transform: capitalize;
+    }
+
+    .card-text{
+        color: var(--Black-80, rgba(51, 51, 51, 0.80));
+
+        /* [Mobile] Body 1 */
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.98px;
+
+        text-align: start;
+    }
+
+    .title-price {
+        color: var(--Black, #333);
+        text-align: center;
+        
+        /* [Mobile] Heading 2 */
+        font-family: Open Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 36px; /* 128.571% */
+        letter-spacing: -1.96px;
+        text-transform: capitalize;
+    }
+
+    .sub-price {
+        color: var(--black-80, rgba(51, 51, 51, 0.80));
+        text-align: center;
+    
+        /* Body 1 */
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -1.12px;
+    
+        padding-bottom: 16px;
+        margin-bottom: 0;
+    }
+
+    #card-standard,
+    #card-header,
+    #card-basic {
+        margin-top: 16px;
+    }
+
+    #testimonial{
+        gap: 16px;
+    }
+
+    .card-testi{
+        width: 100%;
+    }
+
+    #contact .card-body p{
+        color: var(--Black-80, rgba(51, 51, 51, 0.80));
+
+        /* [Mobile] Body 1 */
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.98px;
+    }
+
+    #contact .card-body{
+        padding: 0;
+    }
+
+    #contact .card{
+        align-items: start;
+        text-align: start;
+    } 
+
+    #contact h5{
+        color: var(--Black, #333);
+
+        /* [Mobile] Body 1 */
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.98px;
+    }
+
+    #footer p, #footer a{
+        color: var(--Black-80, rgba(51, 51, 51, 0.80));
+
+        /* [Mobile] Navbar */
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.98px;
+        text-transform: capitalize;
+    }
+
 }
