@@ -57,7 +57,7 @@ const Services = ({ onChangeModal, data }) => {
                       id="card-standard"
                       onClick={() => handleModalWebsite(item.id)}
                       key={item.id}>
-                      <img src={item.images} class="card-img-top" alt="..." />{" "}
+                      <img src={item.images} class="card-service" alt="..." />{" "}
                       <div class="card-body">
                         <h5 class="card-title">{item.title}</h5>
                         <div className="collect-benefit">

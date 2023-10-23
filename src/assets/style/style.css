@@ -839,20 +839,11 @@ nav #logo {
     gap: 8px;
 }
 
-.card-img-top {
+.card-service {
     height: 211px;
 
 }
 
-.envi-porto {
-    display: flex;
-    /* padding: 32px 24px; */
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    align-self: stretch;
-    background: var(--Blue-1-20, rgba(78, 150, 225, 0.20));
-}
 
 .title-price {
     color: var(--black, #333);

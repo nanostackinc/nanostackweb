@@ -16,7 +16,7 @@ const Modal = ({data, status, onCloseModal}) => {
         <div className="main-container" onClick={closeModal}>
           <div className="modal-container">
             <div className='modal-body'>
-              <div>
+
               <div className='content-modal'>
                 <img className="modal-image" src={data.images}/>
                 <h3 className="title-heading text-center">{data.title}</h3>
@@ -61,36 +61,36 @@ const Modal = ({data, status, onCloseModal}) => {
                     </p>
                   </div>
                 </div>
-                </div>
-                </div>
-                
-                <div className="envi-porto p-2">
-                <h3 className="title-heading text-start">{data.subtitle_second}</h3>
+              </div>
 
+              <div className="envi-porto">
+                <h3 className="title-heading text-start">{data.subtitle_second}</h3>
                 <div className="content-spec">
-                  <h3 className="title-heading text-start">{data.title_second}</h3>                
+                  <h3 className="title-heading text-start">{data.title_second}</h3>
                   <p className='desc'>{data.description}</p>
+                  <div className="d-flex flex-column justify-content-center" style={{ width:"100%" }}>
                   <img src={data.images} className="modal-image" alt="..."/>
-                  <div className='content-modal'>
+                  </div>
+                  <div className='content-project'>
                     <h3 className='title-desc'>Description</h3>
                     <p className='modal-text'>{data.long_desc}</p>
                   </div>
-                  <div className='content-modal'>
+                  <div className='content-project'>
                     <h3 className='title-desc'>Problem</h3>
                     <p className='modal-text'>{data.problem}</p>
                   </div>
-                  <div className='content-modal'>
+                  <div className='content-project'>
                     <h3 className='title-desc'>Solution</h3>
                     <p className='modal-text'>{data.solution}</p>
                   </div>
-                  <div className='content-modal'>
+                  <div className='content-project'>
                     <h3 className='title-desc'>Tech Stack</h3>
                     <p className='modal-text'>{data.tech_stack}</p>
                   </div>
                 </div>
-                </div>
-                </div>
-          
+              </div>
+            </div>
+
           </div>
         </div>
       )
