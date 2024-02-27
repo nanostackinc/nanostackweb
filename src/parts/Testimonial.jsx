@@ -4,7 +4,7 @@ function Testimonial({data}) {
   return (
     <section className='my-32 py-0' id='testimonial'>
       <h4 className='title-testi'>{data.title}</h4>
-      <div className="card-group justify-content-center">
+      <div className="card-group justify-content-center gap-4">
         {data
           .material
           .map((item, index) => {
