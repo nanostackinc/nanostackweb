@@ -494,7 +494,12 @@
         "content": "“Dicky adalah seorang frontend developer yang sangat baik. Mampu bekerja sama dengan desainer dan sangat teliti terhadap detail, sehingga mampu menciptakan kualitas kode yang baik.“",
         "name": "Victor",
         "job": "UI/UX Designer"
-      }
+      },
+      {
+        "content": "“Desain web toko kami sederhana dan terstruktur, memudahkan pelanggan menemukan produk dengan mudah. Proses pembelian intuitif dan informasi toko yang jelas meningkatkan pengalaman berbelanja secara signifikan.“",
+        "name": "M. Dedi Iswantoro",
+        "job": "Owner Bunda Bakery"
+      },
     ]
   },
   "team": {
