@@ -229,19 +229,19 @@
       {
         "id": 4,
         "title": "E-Commerce",
-        "title_second": "VROM",
+        "title_second": "Bunda Bakery Website",
         "images": "/images/team/commerce.png",
         "timeline_text": "Mulai dari",
         "price_text": "Harga: mulai dari Rp",
         "timeline": "1 bulan",
         "subtitle_second": "Portofolio Kami",
         "price": "3,000,000,-",
-        "description": "Solusi modern untuk manajemen penjualan dan inventaris yang efisien, dengan pengalaman bertransaksi canggih.",
+        "description": "Pesan Kue & Cookies Mudah di Genggaman Anda",
         "image_modal": "/images/team/commerce.png",
-        "long_desc": "Website ini adalah solusi modern untuk mengelola penjualan dan inventaris dengan mudah, memberikan pengalaman bertransaksi yang canggih dan efisien.",
-        "problem": "Pemilik bisnis kesulitan dalam melacak penjualan dan mengelola inventaris secara efisien",
-        "solution": "Kami memberikan solusi melalui website POS yang intuitif, membantu bisnis mengoptimalkan proses penjualan dan manajemen inventaris.",
-        "tech_stack": "Laravel, Postman API, PHP, midtrans"
+        "long_desc": "Toko kue & cookies yang menjangkau lebih banyak pelanggan melalui web modern. Nikmati kue & cookies khas Indonesia melalui penemuan digital. Dapatkan rasa favorit Anda dengan mudah!",
+        "problem": "Toko roti yang ingin memperluas pasar mereka, serta memberikan pengalaman pelanggan yang lebih baik untuk meningkatkan penjualan bisnis.",
+        "solution": "Kami membuat website yang menampilkan produk secara 24/7, memberikan informasi yang lengkap kepada pelanggan, dan mengotomatisasi proses pemesanan dan pembayaran.",
+        "tech_stack": "Vite, React, Bootstrap"
       },
       {
         "id": 5,
