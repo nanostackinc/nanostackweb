@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-const About = ({data}) => {
+const About = ({data,section}) => {
   return (
-    <section id="about"  className="d-flex flex-column my-md-5">
+    <section id={section}  className="about d-flex flex-column my-md-5">
         <div className="row d-flex justify-content-between">
           <div className="col-12 col-lg-5 position-relative">
             <img src={data.image} className="img-about" alt={data.image}/>

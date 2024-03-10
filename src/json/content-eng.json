@@ -1,11 +1,13 @@
 {
-  "navbar": {
-    "link": "Home",
-    "link1": "About Us",
-    "link2": "Portofolio",
-    "link3": "Testimonial",
-    "link4": "Contact"
-  },
+  "navbar": [
+    {"link": "Home"},
+    {"link": "About Us"},
+    {"link": "Pricing"},
+    {"link": "Portfolio"},
+    {"link": "Team"},
+    {"link": "Testimonial"},
+    {"link": "Contact"}
+  ],
   "hero": {
     "title": "Kickstart Your Ideas Through Digital Product Development",
     "subtitle": "Our Software Development team is ready to build your Ideas within weeks ⚡️",
@@ -170,9 +172,31 @@
     ]
   },
   "services": {
-    "title": "Our Services",
-    "subtitle_website": "We accept discussions for any type of your projects.",
-    "subtitle_second": "Look at What we’ve done",
+    "latest_service":{
+      "title":"Our Latest Project",
+      "description":"Various innovative solutions we have delivered. Our portfolio reflects our commitment to providing modern technology solutions that meet the needs of our clients.",
+      "cta_text":"Explore More",
+      "website":  {
+        "id": 1,
+        "title": "E-Commerce",
+        "title_second": "Bunda Bakery Website",
+        "images": "/images/team/bunda_bakery.png",
+        "timeline_text": "Starting from",
+        "price_text": "Price: starting from Rp",
+        "timeline": "1 month",
+        "subtitle_second": "Our Portfolio",
+        "price": "3,000,000,-",
+        "description": "Order Cakes & Cookies Easily in Your Hand",
+        "image_modal": "/images/team/commerce.png",
+        "long_desc": "A bakery shop that reaches more customers through modern web. Enjoy Indonesian cakes & cookies through digital discovery. Get your favorite taste easily!",
+        "problem": "A bakery shop that wants to expand their market, as well as provide a better customer experience to increase business sales.",
+        "solution": "We create a website that showcases products 24/7, provides comprehensive information to customers, and automates the ordering and payment process.",
+        "tech_stack": "Vite, React, Bootstrap"
+      }
+    },
+    "detail_service":{    
+    "title": "Projects",
+    "description": "Each project reflects our ability to deliver the latest and innovative technological solutions for our clients. We always strive to deliver the best results and meet our customers' expectations.",
     "website": [
       {
         "id": 1,
@@ -327,7 +351,7 @@
         "solution": "Our solution comes in the form of a website that simplifies the selection and tracking of logistics deliveries efficiently.",
         "tech_stack": "Laravel, Postman API, PHP, midtrans"
       }
-    ],
+    ]},
     "android": [
       {
         "id": 1,

@@ -12,7 +12,7 @@ import Footer from "../parts/Footer";
 import Meta from "../parts/Meta";
 import Modal from "../components/Modal";
 import Team from "../parts/Team";
-import Services from "../parts/Services";
+// import Services from "../parts/Services";
 import Pricing from "../parts/Pricing";
 
 
@@ -20,12 +20,13 @@ function LandingPage() {
   const [language, setLanguage] = useState(localStorage.getItem("language")); // Initialize language state
   const [itemData, setItem] = useState({});
   const [status, setStatus] = useState("");
+  const [href,setHref]=useState("")
   const [closeModal, setCloseModal] = "";
   const handleLanguageChange = (newLanguage) => {
     setLanguage(newLanguage);
     localStorage.setItem("language", newLanguage); // Update language in local storage
   };
-  // console.log(language)
+  
   const landingPageData =
     language === "Bahasa Indonesia"
       ? landingPageDataIdn
@@ -46,6 +47,13 @@ function LandingPage() {
     setStatus(false);
   };
 
+  const handleHref=(link)=>{
+    setHref(link)
+    
+  }
+
+
+
   return (
     <>
       <div
@@ -64,25 +72,26 @@ function LandingPage() {
         <Navbar
           data={landingPageData.navbar}
           onLanguageChange={handleLanguageChange}
+          onChangeHref={handleHref}
         />
 
         <div
           className="container d-flex flex-column  mx-auto"
           onClick={handleCloseModal}>
-          <Hero data={landingPageData.hero} />
-          <About data={landingPageData.about} />
+          <Hero data={landingPageData.hero} section={href === "home" || href === "beranda"?href:""} />
+          <About data={landingPageData.about} section={href === "about-us" || href === "tentang-kami"?href:""}  />
         </div>
-        <Services data={landingPageData.services} onChangeModal={handleModal} />
-        {/* <Portofolio data={landingPageData.portfolio} onChangeModal={handleModal} /> */}
+        {/* <Services data={landingPageData.services} onChangeModal={handleModal} /> */}
+        <Portofolio data={landingPageData.portfolio} onChangeModal={handleModal} />
         <div
           className="container d-flex flex-column  mx-auto"
           id="content"
           onClick={handleCloseModal}>
-          <Pricing/>
+         <Pricing section={href === "pricing" || href === "harga"?href:""} />
           {/* <Pricelist data={landingPageData.pricelist} /> */}
-          <Team data={landingPageData.team} />
-          <Testimonial data={landingPageData.testimonial} />
-          <Contact data={landingPageData.contact} />
+          <Team data={landingPageData.team} section={href === "team" || href === "tim"?href:""} />
+          <Testimonial data={landingPageData.testimonial} section={href === "testimonial"? href:""} />
+          <Contact data={landingPageData.contact} section={href === "contact" || href === "kontak"?href:""} />
           <Footer
             data={landingPageData.footer}
             value={landingPageData.navbar}

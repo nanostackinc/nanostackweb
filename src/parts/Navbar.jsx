@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Logo, Click} from '../assets';
 import IconFlag from '../assets/images/icon/flag-gb.svg'
 import IconFlagID from '../assets/images/icon/flag-id.svg'
-function Navbar({onLanguageChange, data}) {
+function Navbar({onLanguageChange, data, onChangeHref}) {
   const [isShowed,
     setIsShowed] = useState(false);
   const [lng,
@@ -11,13 +11,19 @@ function Navbar({onLanguageChange, data}) {
     setLanguage] = useState(lng
     ? 'Bahasa Indonesia'
     : 'English');
-
+  const[link,setLink]=useState("")
   const handleToggle = () => {
     setIsShowed(!isShowed);
   };
 
-  const handleLinkClick = () => {
-    setIsShowed(false);
+    const changeToLoweCase=(link)=>{
+      return link.toLowerCase().replace(/\s/g, '-');
+    }
+
+
+  const handleLinkClick = (value) => {
+    setIsShowed(false);  
+    onChangeHref(value)
   };
 
   const handleStatus = (e) => {
@@ -149,35 +155,19 @@ function Navbar({onLanguageChange, data}) {
           </div>
           <div className="list">
             <ul className="navbar-nav">
+              {data.map(({link})=>
               <li className="nav-item">
+              {                  
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="#hero"
-                  onClick={handleLinkClick}>
-                  {data.link}
+                  href={`#${changeToLoweCase(link)}`}             
+                  onClick={()=>handleLinkClick(changeToLoweCase(link))}>
+                  {link}
                 </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#about" onClick={handleLinkClick}>
-                  {data.link1}
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#title-porto" onClick={handleLinkClick}>
-                  {data.link2}
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#testimonial" onClick={handleLinkClick}>
-                  {data.link3}
-                </a>
-              </li>
-              <li className="nav-item order-5 order-md-6">
-                <a className="nav-link" href="#contact" onClick={handleLinkClick}>
-                  {data.link4}
-                </a>
-              </li>
+              }
+              </li>              
+              )}                         
             </ul>
           </div>
           <div

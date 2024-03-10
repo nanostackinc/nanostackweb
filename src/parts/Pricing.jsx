@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Pricing = () => {
+const Pricing = ({section}) => {
+  console.log(section)
+
   return (
-    <section id="pricing" className='my-32'>
+    <section id={section} className='my-32'>
       <div style={{ gap: 16 }}>
         <h3 id="title-team">Pricing</h3>
         <p className="sub-title-team"style={{ marginBottom:"32px" }}>The cost of a web or android app development can vary significantly depending on the specifications (functions) of the application itself. We provide this price range as an estimate or approximation only before providing a detailed offer to you. So, consider this just a guide.</p>

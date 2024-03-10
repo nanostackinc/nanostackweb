@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Testimonial({data}) {
+function Testimonial({data,section}) {
   return (
-    <section className='my-32 py-0' id='testimonial'>
+    <section className='testimonial my-32 py-0' id={section}>
       <h4 className='title-testi'>{data.title}</h4>
       <div className="card-group justify-content-center gap-4">
         {data

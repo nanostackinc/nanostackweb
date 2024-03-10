@@ -2,6 +2,21 @@ import React from 'react';
 import {Logo} from '../assets';
 
 const Footer = ({data,value}) => {
+  const filteredLinks = value.filter(
+    (item) =>
+      item.link === 'Home' ||
+      item.link === 'Pricing' ||
+      item.link === 'Portfolio' ||
+      item.link === 'Contact' || 
+      item.link === 'Beranda' ||
+      item.link === 'Harga' ||
+      item.link === 'Portofolio' ||
+      item.link === 'Kontak' 
+  );
+
+  const changeToLoweCase=(link)=>{
+    return link.toLowerCase().replace(/\s/g, '-');
+  } 
   return (
     <section id="footer" className='my-32'>
 
@@ -18,18 +33,12 @@ const Footer = ({data,value}) => {
           <p>
             <a href="#" className="fw-700 text-black">Menu</a>
           </p>
+          {filteredLinks.map((item)=>
           <p>
-            <a href="#">{value.link1}</a>
+            <a href={`#${changeToLoweCase(item.link)}`}>{item.link}</a>
           </p>
-          <p>
-            <a href="#">{value.link2}</a>
-          </p>
-          <p>
-            <a href="#">{value.link3}</a>
-          </p>
-          <p className='m-0'>
-            <a href="#">{value.link4}</a>
-          </p>
+          )}
+          
         </div>
         <div className="col-12 col-md-3">
           <p>

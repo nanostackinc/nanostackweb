@@ -5,9 +5,9 @@ import Phone from '../assets/images/icon/Phone.svg'
 import Email from '../assets/images/icon/Envelope.svg'
 import Clock from '../assets/images/icon/Clock.svg'
 
-const Contact = ({data}) => {
+const Contact = ({data,section}) => {
   return (
-    <section id="contact" className='my-32'>
+    <section id={section} className='contact my-32'>
         <div className="row">
           <div className="col-12 col-lg-6 my-3 my-lg-0 d-none d-md-block">
             <img src={ContactImage} className="img-fluid" alt="" />
