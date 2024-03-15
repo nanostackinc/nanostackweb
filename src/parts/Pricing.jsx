@@ -15,7 +15,7 @@ const Pricing = ({section}) => {
           </colgroup>
           <thead>
             <tr>
-              <th style={{ border: '2px solid rgba(78, 150, 225, 0.2)', padding: '8px' }}></th>
+              <th style={{ border: '2px solid rgba(78, 150, 225, 0.2)',borderBottom:"none", padding: '8px' }}></th>
               <th style={{ 
                 fontFamily: 'Open Sans',
                 fontSize: '16px',
@@ -30,6 +30,25 @@ const Pricing = ({section}) => {
               }}>
                 Estimated Price
               </th>
+            </tr>
+            <tr>
+              <th style={{ border: '2px solid rgba(78, 150, 225, 0.2)', padding: '8px',borderTop:"none" }}></th>
+              <th style={{
+  fontFamily: 'Open Sans',
+  fontSize: '16px',
+  fontWeight: 600,
+  letterSpacing: '-0.07em',
+  textAlign: 'center',
+  color: '#333333',
+  display: 'flex',
+  justifyContent: 'space-between',
+  padding:0
+}}>
+  <td style={{ width: '50%', borderRight: '2px solid rgba(78, 150, 225, 0.2)', padding: '0', margin: '0' }}>Web</td>
+<td style={{ width: '50%', borderRight: '2px solid rgba(78, 150, 225, 0.2)', paddingRight: '-2px', marginRight: '-1px' }}>Android App</td>
+
+</th>
+              
             </tr>
           </thead>
           <tbody>
@@ -63,18 +82,21 @@ const Pricing = ({section}) => {
                 </div>
               </td>
               <td style={{ 
-                border: '2px solid rgba(78, 150, 225, 0.2)', 
-                padding: '8px', 
-                fontFamily: 'Open Sans', 
-                fontSize: '24px', 
-                fontWeight: 800, 
-                lineHeight: '32px', 
-                letterSpacing: '-0.07em', 
-                textAlign: 'center', 
-                color: '#000000', 
-              }}>
-                Rp 1~25mio
-              </td>
+  border: '2px solid rgba(78, 150, 225, 0.2)', 
+  padding: '0', 
+  fontFamily: 'Open Sans', 
+  fontSize: '24px', 
+  fontWeight: 800, 
+  lineHeight: '32px', 
+  letterSpacing: '-0.07em', 
+  textAlign: 'center', 
+  color: '#000000', 
+  
+}}>
+  <div style={{ display: 'inline-block', width: '50%', borderRight: '2px solid rgba(78, 150, 225, 0.2)', boxSizing: 'border-box', padding: 22,margin:0 }}>Rp 1~25mio</div>
+  <div style={{ display: 'inline-block', width: '50%', boxSizing: 'border-box', padding: '8px',margin:0 }}>Rp 1~25mio</div>
+</td>
+
             </tr>
             <tr>
               <td style={{ border: '2px solid rgba(78, 150, 225, 0.2)', padding: '8px' }}>
@@ -106,18 +128,20 @@ const Pricing = ({section}) => {
                 </div>
               </td>
               <td style={{ 
-                border: '2px solid rgba(78, 150, 225, 0.2)', 
-                padding: '8px', 
-                fontFamily: 'Open Sans', 
-                fontSize: '24px', 
-                fontWeight: 800, 
-                lineHeight: '32px', 
-                letterSpacing: '-0.07em', 
-                textAlign: 'center', 
-                color: '#000000', 
-              }}>
-                Rp 1~25mio
-              </td>
+  border: '2px solid rgba(78, 150, 225, 0.2)', 
+  padding: '0px', 
+  fontFamily: 'Open Sans', 
+  fontSize: '24px', 
+  fontWeight: 800, 
+  lineHeight: '32px', 
+  letterSpacing: '-0.07em', 
+  textAlign: 'center', 
+  color: '#000000',   
+  
+}}>
+  <div style={{ display: 'inline-block', width: '50%', borderRight: '2px solid rgba(78, 150, 225, 0.2)', boxSizing: 'border-box', padding: 22,margin:0 }}>Rp 1~25mio</div>
+  <div style={{ display: 'inline-block', width: '50%', boxSizing: 'border-box', margin:0, padding:0 }}>Rp 1~25mio</div>
+</td>
             </tr>
             <tr>
               <td style={{ border: '2px solid rgba(78, 150, 225, 0.2)', padding: '8px' }}>
@@ -149,18 +173,20 @@ const Pricing = ({section}) => {
                 </div>
               </td>
               <td style={{ 
-                border: '2px solid rgba(78, 150, 225, 0.2)', 
-                padding: '8px', 
-                fontFamily: 'Open Sans', 
-                fontSize: '24px', 
-                fontWeight: 800, 
-                lineHeight: '32px', 
-                letterSpacing: '-0.07em', 
-                textAlign: 'center', 
-                color: '#000000', 
-              }}>
-                Rp 1~25mio
-              </td>
+  border: '2px solid rgba(78, 150, 225, 0.2)', 
+  padding: '0', 
+  fontFamily: 'Open Sans', 
+  fontSize: '24px', 
+  fontWeight: 800, 
+  lineHeight: '32px', 
+  letterSpacing: '-0.07em', 
+  textAlign: 'center', 
+  color: '#000000', 
+  
+}}>
+  <div style={{ display: 'inline-block', width: '50%', borderRight: '2px solid rgba(78, 150, 225, 0.2)', boxSizing: 'border-box', padding: 22,margin:0 }}>Rp 1~25mio</div>
+  <div style={{ display: 'inline-block', width: '50%', boxSizing: 'border-box', padding: '8px',margin:0 }}>Rp 1~25mio</div>
+</td>
             </tr>
             {/* Tambahkan baris lainnya di sini */}
           </tbody>

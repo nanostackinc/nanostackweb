@@ -8,7 +8,7 @@ import landingPageDataIdn from "../json/content-ind.json";
 import landingPageDataEn from "../json/content-eng.json";
 import Testimonial from "../parts/Testimonial";
 import Footer from "../parts/Footer";
-
+import LatestProject from "../parts/LatestProject";
 import Meta from "../parts/Meta";
 import Modal from "../components/Modal";
 import Team from "../parts/Team";
@@ -82,12 +82,13 @@ function LandingPage() {
           <About data={landingPageData.about} section={href === "about-us" || href === "tentang-kami"?href:""}  />
         </div>
         {/* <Services data={landingPageData.services} onChangeModal={handleModal} /> */}
-        <Portofolio data={landingPageData.portfolio} onChangeModal={handleModal} />
+        {/* <Portofolio data={landingPageData.portfolio} onChangeModal={handleModal} /> */}
         <div
           className="container d-flex flex-column  mx-auto"
           id="content"
           onClick={handleCloseModal}>
          <Pricing section={href === "pricing" || href === "harga"?href:""} />
+         <LatestProject />
           {/* <Pricelist data={landingPageData.pricelist} /> */}
           <Team data={landingPageData.team} section={href === "team" || href === "tim"?href:""} />
           <Testimonial data={landingPageData.testimonial} section={href === "testimonial"? href:""} />
