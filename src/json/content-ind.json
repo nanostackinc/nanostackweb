@@ -101,78 +101,100 @@
     ]
   },
   "pricelist": {
-    "title": "Pilih yang terbaik untukmu",
-    "mention": "*anda bisa mendapatkan benefit dari kategori harga yang lebih tinggi dengan biaya tambahan",
-    "top_text": "Paling Banyak Berdampak",
-    "text_start": "mulai dari",
-    "subtitle_website": "termasuk konsultasi solusi bisnis, database dan admin panel (jika dibutuhkan), domain dan SSL (1 th), desain yang kreatif dan responsif, ramah SEO, dan dapat diakses dari perangkat apa saja",
-    "subtitle_android": "termasuk konsultasi solusi bisnis, database dan admin panel (jika dibutuhkan), dedicated VPS hosting (1 th), domain + SSL  (1 th), ikon aplikasi, splash screen, desain yang kreatif dan responsif",
-    "website_basic": [
+    "title": "Harga",
+    "description": "Harga pengembangan web atau aplikasi android sangatlah berbeda tiap project-nya tergantung pada spesifikasi (fungsi) aplikasi itu sendiri. Kami memberikan kisaran harga ini sebagai bayangan atau perkiraan saja sebelum memberikan penawaran terperinci kepada Anda. Jadi anggaplah ini hanya panduan saja.",
+    "categories": [
       {
-        "fake_price": "1,649,000,-",
-        "real_price": "1,499,000,-",
-        "benefit": [
-          {
-            "usability": "Web hosting 1 th",
-            "tech": "~7 hari estimasi durasi pengerjaan",
-            "pages": "Untuk landing page, company profile, personal page"
-          }
-        ]
-      }
-    ],
-    "website_standard": [
+        "name": "Landing Page",
+        "applications": ["Company Profile", "Website Portfolio"],
+        "price": {
+          "web": {
+            "min": 1,
+            "max": 7
+          },
+          "android": null
+        }
+      },
       {
-        "fake_price": "5,499,000,-",
-        "real_price": "4,999,000,-  ",
-        "benefit": [
-          {
-            "usability": "Dedicated VPS hosting 1 th    ",
-            "tech": "~14 hari estimasi durasi pengerjaan",
-            "pages": "Untuk company profile, e-commerce (toko online), LMS, MIS, POS"
+        "name": "WebView",
+        "applications": ["Konversi website menjadi aplikasi android."],
+        "price": {
+          "web": null,
+          "android": {
+            "min": 1,
+            "max": 5
           }
-        ]
-      }
-    ],
-    "website_premium": [
+        }
+      },
       {
-        "fake_price": "10,999,000,-",
-        "real_price": "9,999,000,-",
-        "benefit": [
-          {
-            "usability": "Dedicated VPS hosting 1 th",
-            "tech": "Manual book",
-            "pages": "Source code",
-            "design": "~28 hari estimasi durasi pengerjaan",
-            "hosting": "Untuk e-commerce (toko online), LMS, MIS, POS, HRIS, logistic tracking"
+        "name": "Toko Online / Markeplace / E-Commerce",
+        "applications": ["Toko Online", "Marketplace", "E-Commerce", "Layanan Zakat", "Laundry", "Pulsa dan PPOB (Payment Point Online Banking)"],
+        "price": {
+          "web": {
+            "min": 5,
+            "max": 25
+          },
+          "android": {
+            "min": 5,
+            "max": 30
           }
-        ]
-      }
-    ],
-    "android_standard": [
+        }
+      },
       {
-        "fake_price": "6,599,000,-",
-        "real_price": "5,999,000,-",
-        "benefit": [
-          {
-            "usability": "~14 hari estimasi durasi pengerjaan",
-            "tech": "Untuk presensi, e-commerce (toko online), LMS, MIS, POS, pemesanan layanan online"
+        "name": "Tool System",
+        "applications": ["Point of Sales", "Human Resources Information System", "Management System", "Pembayaran", "Assesment", "Sistem Informasi (Apotek, Bengkel, Masjid, dsb)", "Sekolah / Pondok Pesantren Digital", "Absensi Perusahaan", "Kasir Restoran", "Manajemen Keuangan Perusahaan"],
+        "price": {
+          "web": {
+            "min": 5,
+            "max": 30
+          },
+          "android": {
+            "min": 5,
+            "max": 40
           }
-        ]
-      }
-    ],
-    "android_premium": [
+        }
+      },
       {
-        "fake_price": "13,199,000,-",
-        "real_price": "11,999,000,-",
-        "benefit": [
-          {
-            "usability": "Manual book",
-            "tech": "Source code",
-            "pages": "Deploy ke Play Store",
-            "time": "~28 hari estimasi durasi pengerjaan",
-            "recommend": "Untuk e-commerce (toko online), LMS, MIS, POS, HRIS, pemesanan layanan online, ERP, pemesanan hotel/travel"
+        "name": "Travel & Local",
+        "applications": ["Travel", "Pelacakan Transportasi", "Logistik", "Delivery", "Aplikasi Marketplace Makanan", "Booking (Gedung, Studio, Kendaraan Travel, dsb)"],
+        "price": {
+          "web": {
+            "min": 7,
+            "max": 35
+          },
+          "android": {
+            "min": 7,
+            "max": 50
           }
-        ]
+        }
+      },
+      {
+        "name": "Finance",
+        "applications": ["Aplikasi Investasi", "Top Up Game", "Donasi", "Tabungan dan Pinjaman Online"],
+        "price": {
+          "web": {
+            "min": 7,
+            "max": 35
+          },
+          "android": {
+            "min": 7,
+            "max": 50
+          }
+        }
+      },
+      {
+        "name": "Health / Fitness / Medical",
+        "applications": ["Konsultasi Online", "Health Tracker", "Gym Membership", "Rekam Medis"],
+        "price": {
+          "web": {
+            "min": 7,
+            "max": 30
+          },
+          "android": {
+            "min": 7,
+            "max": 40
+          }
+        }
       }
     ]
   },
