@@ -13,7 +13,7 @@ const Services = ({ onChangeModal, data }) => {
   const [dataItem, setData] = useState({});
   const handleModalWebsite = (target) => {
     setModal(true);
-    const itemData = data.website.find((item) => item.id === target);
+    const itemData = data.detail_service.website.find((item) => item.id === target);
     setData(itemData);
     onChangeModal(itemData, true);
   };
@@ -48,7 +48,7 @@ const Services = ({ onChangeModal, data }) => {
       content: (
         <>
           <div className="row  g-4">
-            {data.website.map((item) => {
+            {data.detail_service.website.map((item) => {
               return (
                 <>
                   <div className="d-flex flex-column  col-lg-4 col-md-12 col-sm-12">
@@ -60,70 +60,7 @@ const Services = ({ onChangeModal, data }) => {
                       <img src={item.images} class="card-service" alt="..." />{" "}
                       <div class="card-body">
                         <h5 class="card-title">{item.title}</h5>
-                        <div className="collect-benefit">
-                          <div id="benefit">
-                            <svg
-                              className="icon"
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="20"
-                              height="20"
-                              viewBox="0 0 20 20"
-                              fill="none">
-                              <circle
-                                cx="10"
-                                cy="10"
-                                r="10"
-                                fill="#4E96E1"
-                                fill-opacity="0.9"
-                              />
-                              <path
-                                d="M5.83337 10L8.46495 12.5L14.1667 7.5"
-                                stroke="white"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              />
-                            </svg>
-                            <p className="subtext-price ms-2">
-                             Timeline: {item.timeline_text} {item.timeline}
-                            </p>
-                          </div>
-                          <div id="benefit">
-                            <svg
-                              className="icon"
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="20"
-                              height="20"
-                              viewBox="0 0 20 20"
-                              fill="none">
-                              <circle
-                                cx="10"
-                                cy="10"
-                                r="10"
-                                fill="#4E96E1"
-                                fill-opacity="0.9"
-                              />
-                              <path
-                                d="M5.83337 10L8.46495 12.5L14.1667 7.5"
-                                stroke="white"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              />
-                            </svg>
-                            <p className="subtext-price ms-2">
-                              {item.price_text}
-                              <span>{item.price}</span>
-                            </p>
-                          </div>
-
-                          <a
-                            href="https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website%20untuk%20bisnis%20saya%20dengan%20paket%20standard"
-                            style={{
-                              width: "100%",
-                            }}
-                            target="_blank"></a>
-                        </div>
+                      
                       </div>{" "}
                     </div>
                   </div>{" "}
@@ -169,68 +106,7 @@ const Services = ({ onChangeModal, data }) => {
                     <img src={item.images} class="card-img-top" alt="..." />{" "}
                     <div class="card-body">
                       <h5 class="card-title">{item.title}</h5>
-                      <div className="collect-benefit">
-                        <div id="benefit">
-                          <svg
-                            className="icon"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            viewBox="0 0 20 20"
-                            fill="none">
-                            <circle
-                              cx="10"
-                              cy="10"
-                              r="10"
-                              fill="#4E96E1"
-                              fill-opacity="0.9"
-                            />
-                            <path
-                              d="M5.83337 10L8.46495 12.5L14.1667 7.5"
-                              stroke="white"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                          <p className="subtext-price ms-2">Timeline: {item.timeline}</p>
-                        </div>
-                        <div id="benefit">
-                          <svg
-                            className="icon"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            viewBox="0 0 20 20"
-                            fill="none">
-                            <circle
-                              cx="10"
-                              cy="10"
-                              r="10"
-                              fill="#4E96E1"
-                              fill-opacity="0.9"
-                            />
-                            <path
-                              d="M5.83337 10L8.46495 12.5L14.1667 7.5"
-                              stroke="white"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                          <p className="subtext-price ms-2">
-                            {item.price_text}
-                            <span>{item.price}</span>
-                          </p>
-                        </div>
-
-                        <a
-                          href="https://api.whatsapp.com/send?phone=62895366423269&text=Hai,%20saya%20tertarik%20untuk%20membuat%20website%20untuk%20bisnis%20saya%20dengan%20paket%20standard"
-                          style={{
-                            width: "100%",
-                          }}
-                          target="_blank"></a>
-                      </div>
+                   
                     </div>{" "}
                   </div>
                 </div>

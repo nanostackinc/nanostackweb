@@ -1,15 +1,22 @@
 import React from 'react'
 import './assets/style/style.css'
 import LandingPage from './pages/landingPage'
-import Example from './pages/example'
-// import Assets from './pages/Assets'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Projects from './pages/projects';
+
 
 export default class App extends React.Component{
 
   render(){
     return(
-      
-      <LandingPage/>
+        
+      <Router>
+        <Switch>
+          <Route exact path="/" component={LandingPage} />
+          <Route path="/portofolio" component={Projects} />
+        </Switch>
+      </Router>
+
         // <Example/>
       
     )

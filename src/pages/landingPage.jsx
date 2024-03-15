@@ -17,14 +17,14 @@ import Pricing from "../parts/Pricing";
 
 
 function LandingPage() {
-  const [language, setLanguage] = useState(localStorage.getItem("language")); // Initialize language state
+  const [language, setLanguage] = useState(localStorage.getItem("language")); 
   const [itemData, setItem] = useState({});
   const [status, setStatus] = useState("");
   const [href,setHref]=useState("")
-  const [closeModal, setCloseModal] = "";
+  // const [closeModal, setCloseModal] = "";
   const handleLanguageChange = (newLanguage) => {
     setLanguage(newLanguage);
-    localStorage.setItem("language", newLanguage); // Update language in local storage
+    localStorage.setItem("language", newLanguage);
   };
   
   const landingPageData =

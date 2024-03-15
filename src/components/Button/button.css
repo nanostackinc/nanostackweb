@@ -75,6 +75,23 @@
     transition: transform 0.2s ease-in-out;
     letter-spacing: -0.98px;
 }
+.btn-light-latest {
+    display: inline-flex;
+    padding: 12px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 12px;
+    border: 2px solid var(--blue-1, rgba(78, 150, 225, 0.90));
+    background: rgba(255, 255, 255, 0.90);
+    color: var(--blue-1, rgba(78, 150, 225, 0.90));
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+}
 
 .btn-light:hover {
     display: inline-flex;
@@ -127,6 +144,16 @@
     }
 
     .btn-light{
+        display: flex;
+        padding: 8px 18px;
+        align-items: flex-start;
+        gap: 8px;
+
+        border-radius: 12px;
+        border: 2px solid var(--Blue-1, rgba(78, 150, 225, 0.90));
+        background: rgba(255, 255, 255, 0.90);
+    }
+    .btn-light-latest{
         display: flex;
         padding: 8px 18px;
         align-items: flex-start;

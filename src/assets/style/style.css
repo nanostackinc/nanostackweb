@@ -739,16 +739,15 @@ nav #logo {
 
 .card-portofolio {
     display: flex;
-    width: 816px;
-    padding: 16px;
+    width: 100%;
+    height: 100%;
+    /* padding: 16px; */
     justify-content: space-between;
     align-items: center;
     align-items: center;
     text-align: center;
     margin: 0 auto;
     border-radius: 24px;
-    background: #FFF;
-    border: #FFFF;
     box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
 }
 
@@ -826,15 +825,18 @@ nav #logo {
     box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
 }
 
-.card-text {
-    align-self: stretch;
-    color: var(--black-80, rgba(51, 51, 51, 0.80));
+.card-text{
+    color: var(--Black-80, rgba(51, 51, 51, 0.80));
+
+    /* [Mobile] Body 1 */
     font-family: Open Sans;
-    font-size: 24px;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 600;
     line-height: normal;
-    letter-spacing: -1.12px;
+    letter-spacing: -0.98px;
+
+    text-align: start;
 }
 
 @media screen and (max-width:992px) {
@@ -1399,15 +1401,14 @@ svg .icon {
     .card-portofolio {
         display: flex;
         width: 100%;
-        padding: 16px;
+      
         justify-content: space-between;
         align-items: center;
         align-items: center;
         text-align: center;
         margin: 0 auto;
         border-radius: 24px;
-        background: #FFF;
-        border: #FFFF;
+     
         box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
     }
 
@@ -1600,7 +1601,21 @@ svg .icon {
         width: 79px;
         height: 16px;
     }
-
+    .card-portofolio-latest {
+        display: flex;
+        width:auto;
+        height: auto;
+        padding: 16px;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 24px;
+        background: #FFF;
+        border: #FFFF;
+        box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
+    }
     .hero h1{
         color: var(--Black, #333);
 
@@ -1833,4 +1848,114 @@ svg .icon {
         text-transform: capitalize;
     }
 
+   
+
 }
+
+.latest-project{
+    display: flex;
+    background-color: #4E96E1;   
+}
+.latest-project-porto{
+    display: flex;
+    background-color: #4E96E1;   
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 132px;
+    padding-bottom: 32px;
+}
+.title-latest-project{
+    font-family: Open Sans;
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 900;
+    text-align: left;
+    }
+.subtitle-latest-project{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Open Sans;
+    color: #FFFFFF;
+}
+.headline-latest-project{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+}
+.headline-latest-project-porto{
+    display: flex;
+    flex-direction: column;
+   
+    gap:32px;
+}
+.text-content-latest-project{   
+    gap:64px
+}
+.card-content{
+    padding-right: 100px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+.card-text-latest{
+    color: var(--Black-80, rgba(51, 51, 51, 0.80));
+
+    /* [Mobile] Body 1 */
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.98px;
+
+    text-align: start;
+}
+
+.image-card{
+    height: 484.79px;
+    width: 651px;
+}
+
+@media screen and (max-width:576px){
+    .headline-latest-project{
+        display: flex;
+        flex-direction: column;
+        gap:16px;
+        /* padding: 32px; */
+    }
+    .title-latest-project{
+        font-family: Open Sans;
+        font-size: 28px;
+        color: #FFF;
+        font-weight: 900;
+        text-align: center;
+    }
+    .subtitle-latest-project{
+        font-size: 14px;
+        letter-spacing: -7%;
+        font-weight: 500;
+        text-align: left;
+        font-family: Open Sans;
+        color: #FFFFFF;
+    }
+    .text-content-latest-project{
+        padding: 32px;
+        gap:32px
+    }
+    .text-content-latest-project-porto{
+        /* padding: 32px; */
+        gap:32px
+    }
+    .card-content{
+        padding: 32px;
+    }
+
+    .latest-project-porto{
+        display: flex;
+        background-color: #4E96E1;   
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
