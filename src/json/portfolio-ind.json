@@ -1,0 +1,30 @@
+{
+    "website": [
+      {
+          "id": 1,
+          "title": "Bunda Bakery Shop",
+          "category": "E-Commerce",
+          "images": "/images/lp_web.png",
+          "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
+          "image_modal": "/images/lp_web.png",
+          "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
+          "problem": "The increasing demand for remote learning is on the rise.",
+          "solution": "An online class website that enables learning to take place anytime, anywhere.",
+          "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+        }
+    ],
+    "android": [
+      {
+          "id": 1,
+          "title": "Bunda Bakery Shop",
+          "category": "E-Commerce",
+          "images": "/images/lp_web.png",
+          "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
+          "image_modal": "/images/lp_web.png",
+          "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
+          "problem": "The increasing demand for remote learning is on the rise.",
+          "solution": "An online class website that enables learning to take place anytime, anywhere.",
+          "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+        }
+    ]
+  }

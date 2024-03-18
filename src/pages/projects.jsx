@@ -2,6 +2,8 @@ import React,{useState} from 'react'
 import Navbar from '../parts/Navbar';
 import landingPageDataIdn from "../json/content-ind.json";
 import landingPageDataEn from "../json/content-eng.json";
+import PortofolioDataEng from '../json/portfolio-eng.json'
+import PortofolioDataInd from '../json/portfolio-ind.json'
 import BrandPortofolio from './BrandPortofolio';
 import Services from "../parts/Services";
 import Footer from '../parts/Footer';
@@ -26,6 +28,19 @@ const Projects=()=>{
     : language === null
     ? landingPageDataEn
     : "";
+
+    const portofolioData =
+  language === "Bahasa Indonesia"
+    ? PortofolioDataInd
+    : language === "English"
+    ? PortofolioDataEng
+    : language === "undefined"
+    ? PortofolioDataEng
+    : language === null
+    ? PortofolioDataEng
+    : "";
+
+
   const handleModal = (item, modalStatus) => {
     setItem(item);
     console.log(modalStatus);
@@ -62,7 +77,7 @@ return(
         />
 
         <BrandPortofolio/>
-         <Services data={landingPageData.services} onChangeModal={handleModal} />
+         <Services data={portofolioData} onChangeModal={handleModal} />
          <Footer
             data={landingPageData.footer}
             value={landingPageData.navbar}
