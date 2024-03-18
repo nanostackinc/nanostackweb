@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Team = ({ data }) => {
+const Team = ({ data,section }) => {
   return (
-    <section id="our-team">
+    <section id={section} className='team'>
       <div style={{gap:16}}>
       <h3 id="title-team">{data.title}</h3>
       <p className="sub-title-team">{data.sub_title}</p>

@@ -42,8 +42,8 @@
 }
 
 /* Hero Section */
-#hero h1,
-#about h2 {
+.hero h1,
+.about h2 {
     color: var(--black, #333);
     font-family: var(--main-font);
     font-size: 40px;
@@ -70,8 +70,8 @@
     justify-content: start;
 }
 
-#hero p,
-#about p {
+.hero p,
+.about p {
     color: var(--black-80, rgba(51, 51, 51, 0.80));
     font-family: var(--main-font);
     font-size: 16px;
@@ -238,8 +238,8 @@
     /* border-radius: 20%; */
 }
 
-#hero .card-body p,
-#about .card-body p {
+.hero .card-body p,
+.about .card-body p {
     color: var(--black, #333);
     font-family: Open Sans;
     font-size: 14px;
@@ -417,7 +417,7 @@
 /* End of About Section */
 
 /* Contact Section */
-#contact h1 {
+.contact h1 {
     color: var(--black);
     text-align: center;
 
@@ -432,7 +432,7 @@
     text-transform: capitalize;
 }
 
-#contact h5 {
+.contact h5 {
     color: var(--black, #333);
     font-family: Open Sans;
     font-size: 16px;
@@ -442,7 +442,7 @@
     letter-spacing: -1.12px;
 }
 
-#contact p {
+.contact p {
     color: var(--black-80, rgba(51, 51, 51, 0.80));
     font-family: Open Sans;
     font-size: 16px;
@@ -452,16 +452,16 @@
     letter-spacing: -1.12px;
 }
 
-#contact img {
+.contact img {
     border-radius: 24px;
 }
 
 
-#contact .card-body {
+.contact .card-body {
     padding: 0px;
 }
 
-#contact .card {
+.contact .card {
     display: flex;
     padding: 16px 32px;
     flex-direction: column;
@@ -479,11 +479,11 @@
 }
 
 @media screen and (max-width:768px) {
-    #contact .card {
+    .contact .card {
         align-items: center;
     }
 
-    #contact .card-body {
+    .contact .card-body {
         padding: 14px;
 
     }
@@ -739,7 +739,22 @@ nav #logo {
 
 .card-portofolio {
     display: flex;
-    width: 816px;
+    width: 100%;
+    height: 100%;
+    /* padding: 16px; */
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 24px;
+    box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
+}
+
+.card-portofolio-latest {
+    display: flex;
+    width: 472px;
+    height: 456px;
     padding: 16px;
     justify-content: space-between;
     align-items: center;
@@ -787,6 +802,15 @@ nav #logo {
     gap: 32px;
     flex-shrink: 0;
 }
+.text-card-latest {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
 
 .card-image {
     width: 100%;
@@ -801,15 +825,18 @@ nav #logo {
     box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
 }
 
-.card-text {
-    align-self: stretch;
-    color: var(--black-80, rgba(51, 51, 51, 0.80));
+.card-text{
+    color: var(--Black-80, rgba(51, 51, 51, 0.80));
+
+    /* [Mobile] Body 1 */
     font-family: Open Sans;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: -1.12px;
+    letter-spacing: -0.98px;
+
+    text-align: start;
 }
 
 @media screen and (max-width:992px) {
@@ -818,8 +845,8 @@ nav #logo {
         line-height: 36px;
     }
 
-    #testimonial .title-testi,
-    #contact h1 {
+    .testimonial .title-testi,
+    .contact h1 {
         line-height: 36px;
     }
 }
@@ -1155,7 +1182,7 @@ svg .icon {
 }
 
 /* Start testimonial style */
-#testimonial {
+.testimonial {
     display: flex;
     width: 100%;
     padding: 32px 0px;
@@ -1300,15 +1327,15 @@ svg .icon {
 
 @media screen and (max-width:992px) {
 
-    #hero h1,
-    #about h1 {
+    .hero h1,
+    .about h1 {
         line-height: 52px;
     }
 
-    #hero p,
-    #about p,
-    #contact p,
-    #contact h5 {
+    .hero p,
+    .about p,
+    .contact p,
+    .contact h5 {
         font-size: 20px;
     }
 
@@ -1321,10 +1348,10 @@ svg .icon {
 
 @media screen and (max-width:900px) {
 
-    #hero p,
-    #about p,
-    #contact p,
-    #contact h5 {
+    .hero p,
+    .about p,
+    .contact p,
+    .contact h5 {
 
         font-size: 20px;
     }
@@ -1361,19 +1388,27 @@ svg .icon {
         gap: 32px;
         flex-shrink: 0;
     }
+    .text-card-latest {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
 
     .card-portofolio {
         display: flex;
         width: 100%;
-        padding: 16px;
+      
         justify-content: space-between;
         align-items: center;
         align-items: center;
         text-align: center;
         margin: 0 auto;
         border-radius: 24px;
-        background: #FFF;
-        border: #FFFF;
+     
         box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
     }
 
@@ -1384,10 +1419,10 @@ svg .icon {
 
 @media screen and (max-width:1030px) {
 
-    #hero p,
-    #about p,
-    #contact p,
-    #contact h5 {
+    .hero p,
+    .about p,
+    .contact p,
+    .contact h5 {
         font-size: 20px;
     }
 
@@ -1407,6 +1442,15 @@ svg .icon {
         gap: 32px;
         flex-shrink: 0;
     }
+    .text-card-latest {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
 
     .navbar {
         padding: 32px;
@@ -1421,7 +1465,7 @@ svg .icon {
 
 
 /* Start our team section */
-#our-team {
+.team {
     display: flex;
     width: 100%;
     padding: 32px 0px;
@@ -1557,8 +1601,22 @@ svg .icon {
         width: 79px;
         height: 16px;
     }
-
-    #hero h1{
+    .card-portofolio-latest {
+        display: flex;
+        width:auto;
+        height: auto;
+        padding: 16px;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 24px;
+        background: #FFF;
+        border: #FFFF;
+        box-shadow: 0px 6px 60px 0px rgba(51, 51, 51, 0.06);
+    }
+    .hero h1{
         color: var(--Black, #333);
 
         /* [Mobile] Heading 1 */
@@ -1570,7 +1628,7 @@ svg .icon {
         letter-spacing: -2.52px;
         text-transform: capitalize;
     }
-    #about h2{
+    .about h2{
         color: var(--Black, #333);
 
         /* [Mobile] Heading 2 */
@@ -1606,7 +1664,7 @@ svg .icon {
         letter-spacing: -1.4px;
         text-transform: capitalize;
     }
-    #hero p{
+    .hero p{
         color: var(--Black-80, rgba(51, 51, 51, 0.80));
 
         /* [Mobile] Body 1 */
@@ -1627,7 +1685,7 @@ svg .icon {
         padding-right: 30px;
     }
 
-    #about p{
+    .about p{
         color: var(--Black-80, rgba(51, 51, 51, 0.80));
 
         /* Body 1 */
@@ -1661,6 +1719,15 @@ svg .icon {
         text-align: center;
         justify-content: center;
         gap: 16px;
+        flex-shrink: 0;
+    }
+    .text-card-latest {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
         flex-shrink: 0;
     }
 
@@ -1727,7 +1794,7 @@ svg .icon {
         margin-top: 16px;
     }
 
-    #testimonial{
+    .testimonial{
         gap: 16px;
     }
 
@@ -1735,7 +1802,7 @@ svg .icon {
         width: 100%;
     }
 
-    #contact .card-body p{
+    .contact .card-body p{
         color: var(--Black-80, rgba(51, 51, 51, 0.80));
 
         /* [Mobile] Body 1 */
@@ -1747,16 +1814,16 @@ svg .icon {
         letter-spacing: -0.98px;
     }
 
-    #contact .card-body{
+    .contact .card-body{
         padding: 0;
     }
 
-    #contact .card{
+    .contact .card{
         align-items: start;
         text-align: start;
     } 
 
-    #contact h5{
+    .contact h5{
         color: var(--Black, #333);
 
         /* [Mobile] Body 1 */
@@ -1781,4 +1848,114 @@ svg .icon {
         text-transform: capitalize;
     }
 
+   
+
 }
+
+.latest-project{
+    display: flex;
+    background-color: #4E96E1;   
+}
+.latest-project-porto{
+    display: flex;
+    background-color: #4E96E1;   
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 132px;
+    padding-bottom: 32px;
+}
+.title-latest-project{
+    font-family: Open Sans;
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 900;
+    text-align: left;
+    }
+.subtitle-latest-project{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Open Sans;
+    color: #FFFFFF;
+}
+.headline-latest-project{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+}
+.headline-latest-project-porto{
+    display: flex;
+    flex-direction: column;
+   
+    gap:32px;
+}
+.text-content-latest-project{   
+    gap:64px
+}
+.card-content{
+    padding-right: 100px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+.card-text-latest{
+    color: var(--Black-80, rgba(51, 51, 51, 0.80));
+
+    /* [Mobile] Body 1 */
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.98px;
+
+    text-align: start;
+}
+
+.image-card{
+    height: 484.79px;
+    width: 651px;
+}
+
+@media screen and (max-width:576px){
+    .headline-latest-project{
+        display: flex;
+        flex-direction: column;
+        gap:16px;
+        /* padding: 32px; */
+    }
+    .title-latest-project{
+        font-family: Open Sans;
+        font-size: 28px;
+        color: #FFF;
+        font-weight: 900;
+        text-align: center;
+    }
+    .subtitle-latest-project{
+        font-size: 14px;
+        letter-spacing: -7%;
+        font-weight: 500;
+        text-align: left;
+        font-family: Open Sans;
+        color: #FFFFFF;
+    }
+    .text-content-latest-project{
+        padding: 32px;
+        gap:32px
+    }
+    .text-content-latest-project-porto{
+        /* padding: 32px; */
+        gap:32px
+    }
+    .card-content{
+        padding: 32px;
+    }
+
+    .latest-project-porto{
+        display: flex;
+        background-color: #4E96E1;   
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
