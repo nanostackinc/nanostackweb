@@ -2,29 +2,57 @@
   "website": [
     {
         "id": 1,
-        "title": "Bunda Bakery Shop",
+        "name": "Bunda Bakery",
+        "title": "Bakery Shop Website",
         "category": "E-Commerce",
         "images": "/images/lp_web.png",
         "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
         "image_modal": "/images/lp_web.png",
-        "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
         "problem": "The increasing demand for remote learning is on the rise.",
         "solution": "An online class website that enables learning to take place anytime, anywhere.",
-        "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+        "highlights": [
+          {
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        ],
+        "tech_stack": [
+          "/images/react-original.svg",
+          "/images/bootstrap-original.svg"
+        ],
+        "testimonial": {
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "name": "Moch. Iskandar Zulqornaen",
+          "job": "Product Owner of Hyponic"
+        }
       }
   ],
   "android": [
     {
-        "id": 1,
-        "title": "Bunda Bakery Shop",
-        "category": "E-Commerce",
-        "images": "/images/lp_web.png",
-        "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
-        "image_modal": "/images/lp_web.png",
-        "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
-        "problem": "The increasing demand for remote learning is on the rise.",
-        "solution": "An online class website that enables learning to take place anytime, anywhere.",
-        "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+      "id": 1,
+      "name": "Bunda Bakery",
+      "title": "Bakery Shop Website",
+      "category": "E-Commerce",
+      "images": "/images/lp_web.png",
+      "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
+      "image_modal": "/images/lp_web.png",
+      "problem": "The increasing demand for remote learning is on the rise.",
+      "solution": "An online class website that enables learning to take place anytime, anywhere.",
+      "highlights": [
+        {
+          "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ],
+      "tech_stack": [
+        "/images/react-original.svg",
+        "/images/bootstrap-original.svg"
+      ],
+      "testimonial": {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Moch. Iskandar Zulqornaen",
+        "job": "Product Owner of Hyponic"
       }
+    }
   ]
 }
