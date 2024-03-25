@@ -77,11 +77,15 @@ return(
         />
 
         <BrandPortofolio/>
+        <div
+          className="container d-flex flex-column  mx-auto">
+
          <Services data={portofolioData} onChangeModal={handleModal} />
          <Footer
             data={landingPageData.footer}
             value={landingPageData.navbar}
           />
+          </div>
         </div>
         <Modal data={itemData} status={status} onCloseModal={handleCloseModal} />
   

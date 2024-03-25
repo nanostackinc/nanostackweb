@@ -87,11 +87,28 @@ function LandingPage() {
           className="container d-flex flex-column  mx-auto"
           id="content"
           onClick={handleCloseModal}>
-         <Pricing section={href === "pricing" || href === "harga"?href:""} />
-         <LatestProject />
-          {/* <Pricelist data={landingPageData.pricelist} /> */}
+         <Pricing section={href === "pricing" || href === "harga"?href:""} data={landingPageData.pricelist}/>
+        </div>
+         <LatestProject data={landingPageData.services.latest_service} section={href === "portfolio"? href:""} />
+         <div
+          className="container d-flex flex-column  mx-auto"
+          id="content"
+         >
+         
           <Team data={landingPageData.team} section={href === "team" || href === "tim"?href:""} />
-          <Testimonial data={landingPageData.testimonial} section={href === "testimonial"? href:""} />
+         </div>
+          <div
+          id="content-blue"
+          onClick={handleCloseModal}>
+        
+            <Testimonial data={landingPageData.testimonial} section={href === "testimonial"? href:""} />
+            
+          </div>
+          <div
+          className="container d-flex flex-column  mx-auto"
+          id="content"
+         >
+         
           <Contact data={landingPageData.contact} section={href === "contact" || href === "kontak"?href:""} />
           <Footer
             data={landingPageData.footer}
@@ -99,7 +116,6 @@ function LandingPage() {
           />
         </div>
       </div>
-
       <WhatsAppButton />
       <Modal data={itemData} status={status} onCloseModal={handleCloseModal} />
     </>

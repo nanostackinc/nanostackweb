@@ -2,7 +2,9 @@ import React from 'react'
 
 const BrandPortofolio=()=>{
     return(
-<div
+      <section  style={{ backgroundColor:"#4E96E1" }}>
+ <div className="container px-0">
+      <div
         className='latest-project-porto row'>
         <div
           className='col-lg-6 text-content-latest-project-porto d-flex flex-column justify-content-center align-items-center px-md-5 px-sm-2'>
@@ -10,8 +12,7 @@ const BrandPortofolio=()=>{
             <h4 className='title-latest-project'>Projects</h4>
             <p className='subtitle-latest-project'>Each project reflects our ability to deliver the latest and innovative technological solutions for our clients. We always strive to deliver the best results and meet our customers' expectations.</p>
           </div>
-          <div className="d-flex justify-content-start">
-        
+          <div className="d-flex justify-content-start">        
           </div>
         </div>
         <div
@@ -21,6 +22,8 @@ const BrandPortofolio=()=>{
           </div>
         </div>
       </div>
+      </div>
+      </section>
     )
 }
 
