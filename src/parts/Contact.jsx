@@ -17,7 +17,7 @@ const Contact = ({data}) => {
               <h1 className="text-center mb-3">{data.title}</h1>
               <div className="row px-0">
                 <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
-                  <a href={data.addresshref} class="d-flex flex-fill border-0 text-decoration-none text-mainblack" target="_blank">
+                  <a href={data.addresshref} className="d-flex flex-fill border-0 text-decoration-none text-mainblack" target="_blank">
                     <div className="card d-flex flex-fill border-0">
                         <div className="card-body">
                           <h5 className="card-tagline">
@@ -32,7 +32,7 @@ const Contact = ({data}) => {
                   </a>
                 </div>
                 <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
-                  <a href={data.phonehref} class="d-flex flex-fill border-0 text-decoration-none text-mainblack" target="_blank">
+                  <a href={data.phonehref} className="d-flex flex-fill border-0 text-decoration-none text-mainblack" target="_blank">
                     <div className="card d-flex flex-fill border-0">
                         <div className="card-body">
                           <h5 className="card-tagline">
@@ -50,7 +50,7 @@ const Contact = ({data}) => {
               <div className="row px-0">
                 <div className="col-12 col-md-6 d-flex text-center text-lg-start align-items-stretch">
                   <div className="card d-flex flex-fill border-0">
-                    <a href={data.emailhref} class="text-decoration-none text-mainblack" target="_blank">
+                    <a href={data.emailhref} className="text-decoration-none text-mainblack" target="_blank">
                       <div className="card-body">
                         <h5 className="card-tagline">
                           <span>

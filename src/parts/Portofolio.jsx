@@ -25,7 +25,7 @@ const Portofolio = ({onChangeModal,data}) => {
       content: (
         <>
         {/* <h3 className='title-port justify-content-center'>{data.title}</h3> */}
-      <div class="porto-body card-body py-0 py-md-4 my-md-2">
+      <div className="porto-body card-body py-0 py-md-4 my-md-2">
         {data
           .website
           .map((item) => {
@@ -68,7 +68,7 @@ const Portofolio = ({onChangeModal,data}) => {
       content: (
         <>
         
-      <div class="card-body">
+      <div className="card-body">
         {data
           .android
           .map((item) => {
@@ -111,7 +111,7 @@ const Portofolio = ({onChangeModal,data}) => {
       content: (
         <>
         {/* <h3 className='title-port text-center'>{data.title}</h3> */}
-      <div class="card-body">
+      <div className="card-body">
         {data
           .product
           .map((item) => {

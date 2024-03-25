@@ -38,9 +38,9 @@ const Pricelist = ({ data }) => {
             className="card-group justify-content-center mx-auto"
             style={{ gap: 16 }}>
             <div id="card-basic">
-              <div class="card-body">
-                <h5 class="card-title-price">Basic</h5>
-                <p class="card-text-price">{data.text_start}</p>
+              <div className="card-body">
+                <h5 className="card-title-price">Basic</h5>
+                <p className="card-text-price">{data.text_start}</p>
                 {data.website_basic.map((item) => {
                   return (
                     <>
@@ -149,9 +149,9 @@ const Pricelist = ({ data }) => {
             </div>
 
             <div id="card-standard">
-              <div class="card-body">
-                <h5 class="card-title-price">Standard</h5>
-                <p class="card-text-price">{data.text_start}</p>
+              <div className="card-body">
+                <h5 className="card-title-price">Standard</h5>
+                <p className="card-text-price">{data.text_start}</p>
                 {data.website_standard.map((item) => {
                   return (
                     <>
@@ -262,9 +262,9 @@ const Pricelist = ({ data }) => {
                 <p className="tagline">{data.top_text}</p>
               </div>
               <div id="card-premium">
-                <div class="card-body">
-                  <h5 class="card-title-price">Premium</h5>
-                  <p class="card-text-premium">{data.text_start}</p>
+                <div className="card-body">
+                  <h5 className="card-title-price">Premium</h5>
+                  <p className="card-text-premium">{data.text_start}</p>
                   {data.website_premium.map((item) => {
                     return (
                       <>
@@ -465,9 +465,9 @@ const Pricelist = ({ data }) => {
             className="card-group justify-content-center mx-auto"
             style={{ gap: 16 }}>
             <div id="card-standard">
-              <div class="card-body">
-                <h5 class="card-title-price">Standard</h5>
-                <p class="card-text-price">{data.text_start}</p>
+              <div className="card-body">
+                <h5 className="card-title-price">Standard</h5>
+                <p className="card-text-price">{data.text_start}</p>
                 {data.android_standard.map((item) => {
                   return (
                     <>
@@ -554,9 +554,9 @@ const Pricelist = ({ data }) => {
                 <p className="tagline">{data.top_text}</p>
               </div>
               <div id="card-premium">
-                <div class="card-body">
-                  <h5 class="card-title-price">Premium</h5>
-                  <p class="card-text-premium">{data.text_start}</p>
+                <div className="card-body">
+                  <h5 className="card-title-price">Premium</h5>
+                  <p className="card-text-premium">{data.text_start}</p>
                   {data.android_premium.map((item) => {
                     return (
                       <>

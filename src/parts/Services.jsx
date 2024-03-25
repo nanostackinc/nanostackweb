@@ -53,13 +53,13 @@ const Services = ({ onChangeModal, data }) => {
                 <>
                   <div className="d-flex flex-column  col-lg-4 col-md-12 col-sm-12">
                     <div
-                      class="card"
+                      className="card"
                       id="card-standard"
                       onClick={() => handleModalWebsite(item.id)}
                       key={item.id}>
-                      <img src={item.images} class="card-service" alt="..." />{" "}
-                      <div class="card-body">
-                        <h5 class="card-title">{item.title}</h5>
+                      <img src={item.images} className="card-service" alt="..." />{" "}
+                      <div className="card-body">
+                        <h5 className="card-title">{item.title}</h5>
                         <div className="collect-benefit">
                           <div id="benefit">
                             <svg
@@ -162,13 +162,13 @@ const Services = ({ onChangeModal, data }) => {
               return (
                 <div className="col">
                   <div
-                    class="card"
+                    className="card"
                     id="card-standard"
                     onClick={() => handleModalAndroid(item.id)}
                     key={item.id}>
-                    <img src={item.images} class="card-img-top" alt="..." />{" "}
-                    <div class="card-body">
-                      <h5 class="card-title">{item.title}</h5>
+                    <img src={item.images} className="card-img-top" alt="..." />{" "}
+                    <div className="card-body">
+                      <h5 className="card-title">{item.title}</h5>
                       <div className="collect-benefit">
                         <div id="benefit">
                           <svg

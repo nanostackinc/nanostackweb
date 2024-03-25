@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Navbar from "../parts/Navbar";
 import Hero from "../parts/Hero";
 import About from "../parts/About";
@@ -18,7 +18,7 @@ function LandingPage() {
   const [language, setLanguage] = useState(localStorage.getItem("language")); // Initialize language state
   const [itemData, setItem] = useState({});
   const [status, setStatus] = useState("");
-  const [closeModal, setCloseModal] = "";
+  // const [closeModal, setCloseModal] = "";
   const handleLanguageChange = (newLanguage) => {
     setLanguage(newLanguage);
     localStorage.setItem("language", newLanguage); // Update language in local storage
@@ -78,7 +78,18 @@ function LandingPage() {
           onClick={handleCloseModal}>
           {/* <Pricelist data={landingPageData.pricelist} /> */}
           <Team data={landingPageData.team} />
-          <Testimonial data={landingPageData.testimonial} />
+        </div>
+        <div
+          id="content-blue"
+          onClick={handleCloseModal}>
+            <div className="container">
+              <Testimonial data={landingPageData.testimonial} />
+            </div>
+          </div>
+        <div
+          className="container d-flex flex-column  mx-auto"
+          id="content"
+          onClick={handleCloseModal}>
           <Contact data={landingPageData.contact} />
           <Footer
             data={landingPageData.footer}

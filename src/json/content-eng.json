@@ -476,8 +476,9 @@
     ]
   },
   "testimonial": {
-    "title": "Customer Love: What People Are Saying",
-    "material": [
+    "title": "What People Are Saying",
+    "desc": "Positive experiences and feedback from our satisfied clients. It is a reflection of our dedication to providing high-quality services and effective solutions."
+,    "material": [
       {
         "content": "“ Very cool of anything has been done, exceeded my expectations. Has a fast progress in delivering the APIs, and until now the result is still safe when the API is consumed.“",
         "name": "Moch. Iskandar Zulqornaen",

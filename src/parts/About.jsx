@@ -9,13 +9,13 @@ const About = ({data}) => {
             <img src={data.image} className="img-about" alt={data.image}/>
           </div>
           <div className="col-12 col-lg-6 offset-lg-1 justify-content-center justify-content-lg-start">
-            <h2 class="text-start text-md-center text-lg-start py-4 py-md-0 my-2 my-md-0">
+            <h2 className="text-start text-md-center text-lg-start py-4 py-md-0 my-2 my-md-0">
               {data.title}{' '}
             </h2>
-            <p class="text-start">
+            <p className="text-start">
               {data.description_primary}
             </p>
-            <p class="text-start">
+            <p className="text-start">
               {data.description_secondary}
             </p>
           </div>

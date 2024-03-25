@@ -479,6 +479,7 @@
   },
   "testimonial": {
     "title": "Apa yang Mereka Katakan",
+    "desc":"Pengalaman dan feedbak baik dari klien kami yang puas. Ini adalah cerminan dari dedikasi kami untuk memberikan layanan berkualitas tinggi dan solusi yang efektif.",
     "material": [
       {
         "content": "“Sangat baik apa yang telah dikerjakan, melebihi ekspektasi saya. Pengembangan API yang sangat cepat dan dapat diandalkan.“",
