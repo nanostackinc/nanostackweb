@@ -161,7 +161,7 @@ function Navbar({onLanguageChange, data, onChangeHref}) {
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href={`#${changeToLoweCase(link)}`}             
+                  href={`/#${changeToLoweCase(link)}`}             
                   onClick={()=>handleLinkClick(changeToLoweCase(link))}>
                   {link}
                 </a>

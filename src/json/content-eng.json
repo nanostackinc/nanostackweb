@@ -32,78 +32,100 @@
     }
   },
   "pricelist": {
-    "title": "Choose the best plan for you",
-    "top_text": "Impact The Most",
-    "text_start": "start from",
-    "mention": "*you can get benefits from higher price categories at an additional cost",
-    "subtitle_website": "includes business solution consultation, database and admin panel (if needed), domain + SSL (1 yr), creative and responsive design,  SEO friendly, and accessible from any devices",
-    "subtitle_android": "includes business solution consultation, database and admin panel (if needed), dedicated VPS hosting (1yr), domain + SSL  (1 yr) app icon, splash screen, creative and responsive design",
-    "website_basic": [
+    "title": "Pricing",
+    "description": "The cost of  a web or android app development can vary significantly depending on the specifications (functions) of the application itself. We provide this price range as an estimate or approximation only before providing a detailed offer to you. So, consider this just a guide.",
+    "categories": [
       {
-        "fake_price": "1,649,000,-",
-        "real_price": "1,499,000,-",
-        "benefit": [
-          {
-            "usability": "1 yr web hosting",
-            "tech": "~7 days work duration estimation",
-            "pages": "For landing page, company profile, personal page"
-          }
-        ]
-      }
-    ],
-    "website_standard": [
+        "name": "Landing Page",
+        "applications": ["Company Profile", "Portfolio Website"],
+        "price": {
+          "web": {
+            "min": 1,
+            "max": 7
+          },
+          "android": null
+        }
+      },
       {
-        "fake_price": "5,499,000,-",
-        "real_price": "4,999,000,-  ",
-        "benefit": [
-          {
-            "usability": "1 yr dedicated VPS hosting",
-            "tech": "~14 days work duration estimation",
-            "pages": "For company profile, e-commerce (online shop), LMS, MIS, POS"
+        "name": "WebView",
+        "applications": ["Website to android app conversion"],
+        "price": {
+          "web": null,
+          "android": {
+            "min": 1,
+            "max": 5
           }
-        ]
-      }
-    ],
-    "website_premium": [
+        }
+      },
       {
-        "fake_price": "10,999,000,-",
-        "real_price": "9,999,000,-",
-        "benefit": [
-          {
-            "usability": "1 yr dedicated VPS hosting",
-            "tech": "Manual book",
-            "pages": "Source code",
-            "design": "~28 days work duration estimation",
-            "hosting": "For e-commerce (online shop), LMS, MIS, POS, HRIS, logistic tracking"
+        "name": "Online Shop / Markeplace / E-Commerce",
+        "applications": ["Online Shop", "Marketplace", "E-Commerce", "Zakat Services", "Laundry", "Credits and PPOB (Payment Point Online Banking)"],
+        "price": {
+          "web": {
+            "min": 5,
+            "max": 25
+          },
+          "android": {
+            "min": 5,
+            "max": 30
           }
-        ]
-      }
-    ],
-    "android_standard": [
+        }
+      },
       {
-        "fake_price": "6,599,000,-",
-        "real_price": "5,999,000,-",
-        "benefit": [
-          {
-            "usability": "~14 days work duration estimation",
-            "tech": "For attendance, e-commerce (online shop), LMS, MIS, POS, online service order"
+        "name": "Tool System",
+        "applications": ["Point of Sales", "Human Resources Information System", "Management System", "Payment", "Assesment", "Information System (Pharmacy, Workshop, Mosque, etc)", "Digital Schools / Islamic Boarding Schools", "Company Attendance", "Restaurant Cashier", "Company Financial Management"],
+        "price": {
+          "web": {
+            "min": 5,
+            "max": 30
+          },
+          "android": {
+            "min": 5,
+            "max": 40
           }
-        ]
-      }
-    ],
-    "android_premium": [
+        }
+      },
       {
-        "fake_price": "13,199,000,-",
-        "real_price": "11,999,000,-",
-        "benefit": [
-          {
-            "usability": "Manual book",
-            "tech": "Source code",
-            "pages": "Deploy to Play Store",
-            "time": "~28 days work duration estimation",
-            "recommend": "For e-commerce (online shop), LMS, MIS, POS, HRIS, online service order, ERP, hotel/travel booking"
+        "name": "Travel & Local",
+        "applications": ["Travel", "Transportation Tracker", "Logistic", "Delivery", "Food Marketplace App", "Booking (Buildings, Studios, Travel Transportation, etc)"],
+        "price": {
+          "web": {
+            "min": 7,
+            "max": 35
+          },
+          "android": {
+            "min": 7,
+            "max": 50
           }
-        ]
+        }
+      },
+      {
+        "name": "Finance",
+        "applications": ["Investment App", "Game Top-Up", "Donation", "Online Savings and Loans"],
+        "price": {
+          "web": {
+            "min": 7,
+            "max": 35
+          },
+          "android": {
+            "min": 7,
+            "max": 50
+          }
+        }
+      },
+      {
+        "name": "Health / Fitness / Medical",
+        "applications": ["Online Consultation", "Health Tracker", "Gym Membership", "Medical Record"],
+        "price": {
+          "web": {
+            "min": 7,
+            "max": 30
+          },
+          "android": {
+            "min": 7,
+            "max": 40
+          }
+        }
       }
     ]
   },
@@ -436,8 +458,9 @@
     ]
   },
   "testimonial": {
-    "title": "Customer Love: What People Are Saying",
-    "material": [
+    "title": "What People Are Saying",
+    "desc": "Positive experiences and feedback from our satisfied clients. It is a reflection of our dedication to providing high-quality services and effective solutions."
+,    "material": [
       {
         "content": "“ Very cool of anything has been done, exceeded my expectations. Has a fast progress in delivering the APIs, and until now the result is still safe when the API is consumed.“",
         "name": "Moch. Iskandar Zulqornaen",
