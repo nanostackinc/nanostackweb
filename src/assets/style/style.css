@@ -786,7 +786,7 @@ nav #logo {
     text-align: center;
     /* Heading 3 */
     font-family: Open Sans;
-    font-size: 24px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 800;
     line-height: 32px;
@@ -2041,7 +2041,7 @@ svg .icon {
 
         /* [Mobile] Heading 3 */
         font-family: Open Sans;
-        font-size: 20px;
+        font-size: 28px;
         font-style: normal;
         font-weight: 800;
         line-height: 32px; /* 160% */
@@ -2261,6 +2261,19 @@ svg .icon {
         padding-right: 30px;
         padding-top: 32px;
         padding-bottom: 32px;
+    }
+    .card-text-latest{
+        color: var(--Black-80, rgba(51, 51, 51, 0.80));
+    
+        /* [Mobile] Body 1 */
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: -0.98px;
+    
+        text-align: start;
     }
 }
 
