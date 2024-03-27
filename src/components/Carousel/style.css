@@ -1,0 +1,122 @@
+.carousel-container {
+    position: relative;
+    width: 752px;
+    /* Sesuaikan lebar maksimum sesuai kebutuhan */
+    margin: 0 auto;
+}
+
+.carousel-slides {
+    display: flex;
+    transition: transform 0.5s;
+    justify-content: center;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    width: 800px;
+    border-radius: 24px;
+    height: 322px;
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+.carousel-slide.active {
+    display: block;
+}
+
+.indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.title {
+    color: var(--Black, #333);
+    /* text-align: center; */
+
+    /* Heading 2 */
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+ 
+    /* 150% */
+    letter-spacing: -2.24px;
+    text-transform: capitalize;
+    align-self: stretch;
+}
+
+.highlight{
+    align-self: stretch;
+    color: var(--Black-80, rgba(51, 51, 51, 0.80));
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    margin: 0;
+    font-weight: 600;
+    line-height: auto;
+    letter-spacing: -1.12px;
+}
+
+.indicator {
+    width: 8px;
+    height: 8px;
+    background-color: #4E96E1;
+    opacity: 40%;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: #4E96E1;
+    opacity: 90%;
+}
+
+@media screen and (max-width:768px) {
+    .carousel-slide {
+        flex: 0 0 100%;
+        width: 327px;
+        border-radius: 24px;
+        height: 216px;
+        background-size: cover;
+        background-position: center;
+        display: none;
+    }
+    .carousel-slides {
+        display: flex;
+        transition: transform 0.5s;
+        justify-content: center;
+    }
+    .carousel-container {
+        position: relative;
+        width: 100%;
+        /* Sesuaikan lebar maksimum sesuai kebutuhan */
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .carousel-slide {
+        flex: 0 0 100%;
+        width: 327px;
+        border-radius: 24px;
+        height: 216px;
+        background-size: cover;
+        background-position: center;
+        display: none;
+    }
+    .carousel-slides {
+        display: flex;
+        transition: transform 0.5s;
+        justify-content: center;
+    }
+    .carousel-container {
+        position: relative;
+        width: 100%;
+        /* Sesuaikan lebar maksimum sesuai kebutuhan */
+        margin: 0 auto;
+    }
+
+}

@@ -1,4 +1,8 @@
 {
+  "hero":{
+    "tagline":"Each project reflects our ability to deliver the latest and innovative technological solutions for our clients. We always strive to deliver the best results and meet our customers' expectations.",
+    "images":"/images/ec.png"
+  },
   "website": [
     {
       "id": 1,
@@ -39,8 +43,8 @@
       "title": "Travel",
       "category": "E-Commerce",
       "portfolio_url": "https://www.mountler.com",
-      "images": null,
-      "image_modal": null,
+      "images": "/images/portfolio/mountler-1.png",
+      "image_modal": "/images/portfolio/mountler-1.png",
       "description": "Mountler is a website to help climbers make climbing reservations online.",
       "problem": "The climbing booking system includes registration, payment, and the traditional climbing process which takes time and is less efficient.",
       "solution": "Creation of a climbing booking website that serves from user registration, automatic payment, to a digital ticket system.",
@@ -60,7 +64,7 @@
       ],
       "tech_stack": [
         "/images/icon/tech/react-original.svg",
-        "/images/icon/tech/expressjs-original.svg",
+        "/images/icon/tech/express-original.svg",
         "/images/icon/tech/MongoDB_Logo.svg",
         "/images/icon/tech/bootstrap-original.svg",
         "/images/icon/tech/vercel-original.svg"
@@ -118,7 +122,7 @@
       "testimonial": null
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Laracamp",
       "title": "Bootcamp Website",
       "category": "Learning Management System",
@@ -142,6 +146,7 @@
         "/images/icon/tech/php-original.svg",
         "/images/icon/tech/mysql-original-wordmark.svg",
         "/images/icon/tech/ngrok-seeklogo.svg"
+
       ],
       "testimonial": null
     }

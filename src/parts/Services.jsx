@@ -61,6 +61,7 @@ const Services = ({ onChangeModal, data }) => {
                       <img src={item.images} class="card-service" alt="..." />{" "}
                       <div class="card-body">
                         <h5 class="card-title">{item.title}</h5>
+                        <h5 class="card-category text-center">{item.category}</h5>
                       
                       </div>{" "}
                     </div>
@@ -107,7 +108,7 @@ const Services = ({ onChangeModal, data }) => {
                     <img src={item.images} class="card-img-top" alt="..." />{" "}
                     <div class="card-body">
                       <h5 class="card-title">{item.title}</h5>
-                   
+                      <h5 class="card-category text-center">{item.category}</h5>
                     </div>{" "}
                   </div>
                 </div>

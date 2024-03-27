@@ -76,7 +76,7 @@ return(
           onChangeHref={handleHref}
         />
 
-        <BrandPortofolio/>
+        <BrandPortofolio data={portofolioData.hero}/>
         <div
           className="container d-flex flex-column  mx-auto">
 

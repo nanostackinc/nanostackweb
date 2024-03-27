@@ -23,9 +23,57 @@
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
-    line-height: 48px;
+ 
     /* 150% */
     letter-spacing: -2.24px;
+    text-transform: capitalize;
+    align-self: stretch;
+}
+
+.title-client{
+    color: var(--Black, #333333);
+    opacity: 0.8;
+
+    /* Heading 2 */
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+ 
+    /* 150% */
+    letter-spacing: -2.24px;
+    text-transform: capitalize;
+    align-self: stretch;
+}
+
+
+.link_porto{
+    color: #4E96E1;
+    opacity: 0.9;
+
+    /* Heading 2 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+   
+    /* 150% */
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    align-self: stretch;
+}
+.title-category{
+    color: var(--Black, #333333);
+    opacity: 0.8;
+
+    /* Heading 2 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+   
+    /* 150% */
+    letter-spacing: -1px;
     text-transform: capitalize;
     align-self: stretch;
 }
@@ -33,29 +81,37 @@
 .desc {
     align-self: stretch;
     color: var(--Black-80, rgba(51, 51, 51, 0.80));
-
-    /* Body 1 */
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
+    margin: 0;
     font-weight: 600;
-    line-height: normal;
+    line-height: auto;
     letter-spacing: -1.12px;
-
+}
+.description {
+    align-self: stretch;
+    color: var(--Black, rgba(51, 51, 51, 1));
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    margin: 0;
+    font-weight: 600;
+    line-height: auto;
+    letter-spacing: -1.12px;
 }
 
 .title-desc {
     align-self: stretch;
     color: var(--Black, #333);
-
-    /* Heading 3 */
+    margin: 0;
     font-family: Open Sans;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 800;
-    line-height: 32px;
-    /* 133.333% */
-    letter-spacing: -1.68px;
+    font-weight: 600;
+    line-height: auto;
+
+    letter-spacing: -1px;
     text-transform: capitalize;
 }
 
@@ -80,16 +136,20 @@
     scroll-behavior: smooth;
 
 }
-
+.content-tech{
+    justify-content: center;
+    gap: 28px;
+    height: 224px;
+    display: flex;
+    align-items: center;
+}
 .modal-body {
     display: flex;
-    /* padding: 32px 24px; */
+    padding: 16px 24px;
     width: 800px;
-    margin: 0px auto;
+    margin: 0;
     flex-direction: column;
     gap: 64px;
-    align-items: center;
-    justify-content: center;
     flex-grow: 1;
     /* Memastikan elemen tetap di tengah */
 }
@@ -98,17 +158,15 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    /* align-items: center; */
+    
     justify-content: start;
-
-    padding: 32px 24px 0px 24px;
-    gap: 8px;
+    gap: 32px;
     align-self: stretch;
 }
 
-.envi-porto {
-    display: flex;
+.envi-porto { 
     padding: 32px 24px;
+    width: 800px;
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
@@ -180,16 +238,32 @@
         width: 90%;
         /* Ubah lebar modal menjadi lebih kecil */
     }
-
+    .content-tech{
+        justify-content: center;
+        gap: 28px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
     .modal-body {
         width: 100%;
         gap: 10px;
         /* Gunakan lebar penuh pada layar kecil */
     }
-
-    .title-heading,
+    .title-client{
+        font-size: 20px;
+    }
+    .title-category{
+        font-size: 14px;
+    }
+    .title-heading{
+        font-size: 36px;
+    }
+    .desc,
+    .description,
+    .link_porto,
     .title-desc {
-        font-size: 24px;
+        font-size: 14px;
     }
 
     .modal-image {
@@ -199,6 +273,18 @@
         object-fit: cover;
         /* Gunakan lebar penuh pada gambar */
         /* max-width: none; */
+    }
+    .envi-porto { 
+        padding: 32px 24px;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+        background: var(--Blue-1-20, rgba(78, 150, 225, 0.20));
+    }
+    .content-modal{
+        gap: 16px;
     }
 }
 
@@ -214,11 +300,33 @@
         gap: 40px;
         /* Gunakan lebar penuh pada layar kecil */
     }
-
+    .content-tech{
+        justify-content: center;
+        gap: 28px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .content-modal{
+        gap: 16px;
+    }
     .modal-image {
         width: 100%;
         height: auto;
         object-fit: cover;
         max-width: none;
+    }
+    .title-client{
+        font-size: 20px;
+    }
+    .title-category{
+        font-size: 14px;
+    }
+    .title-heading{
+        font-size: 36px;
+    }
+    .desc,
+    .title-desc {
+        font-size: 14px;
     }
 }
