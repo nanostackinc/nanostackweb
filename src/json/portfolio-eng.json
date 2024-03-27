@@ -1,30 +1,177 @@
 {
-    "website": [
-      {
-          "id": 1,
-          "title": "Bunda Bakery Shop",
-          "category": "E-Commerce",
-          "images": "/images/lp_web.png",
-          "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
-          "image_modal": "/images/lp_web.png",
-          "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
-          "problem": "The increasing demand for remote learning is on the rise.",
-          "solution": "An online class website that enables learning to take place anytime, anywhere.",
-          "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+  "website": [
+    {
+      "id": 1,
+      "name": "Bunda Bakery",
+      "title": "Bakery Shop Website",
+      "category": "Company Profile, E-Commerce, Online Shop",
+      "portfolio_url": "https://www.bundabakery.site/",
+      "images": "/images/portfolio/bunda-bakery-1.png",
+      "image_modal": "/images/portfolio/bunda-bakery-1.png",
+      "description": "Bunda Bakery is a bakery website for \"Bunda Bakery\" which provides information about bakeries and online shops that are integrated with WhatsApp.",
+      "problem": "Limited information on bakeries and their products and traditional ordering processes.",
+      "solution": "Creation of a bakery and bakery company profile website that displays all products and orders integrated with WhatsApp.",
+      "highlights": [
+        {
+          "title": "Online Shop",
+          "description": "Displays all bread variants sold at Bunda Bakery so that customers are aware of all available products."
+        },
+        {
+          "title": "Website integration with WhatsApp",
+          "description": "All orders on the website will be integrated with a WhatsApp CTA directed to the Bunda Bakery contact."
         }
-    ],
-    "android": [
-      {
-          "id": 1,
-          "title": "Bunda Bakery Shop",
-          "category": "E-Commerce",
-          "images": "/images/lp_web.png",
-          "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
-          "image_modal": "/images/lp_web.png",
-          "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
-          "problem": "The increasing demand for remote learning is on the rise.",
-          "solution": "An online class website that enables learning to take place anytime, anywhere.",
-          "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+      ],
+      "tech_stack": [
+        "/images/icon/tech/react-original.svg",
+        "/images/icon/tech/bootstrap-original.svg",
+        "/images/icon/tech/nodejs-original.svg",
+        "/images/icon/tech/netlify-original.svg"
+      ],
+      "testimonial": {
+        "content": "\"Our online store's design is simple and structured, making it easy for customers to find products effortlessly. An intuitive purchasing process and clear store information significantly enhance the shopping experience.\"",
+        "name": "M. Dedi Iswantoro",
+        "job": "Owner Bunda Bakery"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Mountler",
+      "title": "Travel",
+      "category": "E-Commerce",
+      "portfolio_url": "https://www.mountler.com",
+      "images": null,
+      "image_modal": null,
+      "description": "Mountler is a website to help climbers make climbing reservations online.",
+      "problem": "The climbing booking system includes registration, payment, and the traditional climbing process which takes time and is less efficient.",
+      "solution": "Creation of a climbing booking website that serves from user registration, automatic payment, to a digital ticket system.",
+      "highlights": [
+        {
+          "title": "Wherever, Whenever",
+          "description": "Book mountain climbing in Indonesia via our website anywhere and anytime."
+        },
+        {
+          "title": "Climbing Tracking",
+          "description": "Track your climbing timeline from start to descent."
+        },
+        {
+          "title": "Fast and easy payments",
+          "description": "Climbing payments are automatic and integrated with a safe and reliable system."
         }
-    ]
-  }
+      ],
+      "tech_stack": [
+        "/images/icon/tech/react-original.svg",
+        "/images/icon/tech/expressjs-original.svg",
+        "/images/icon/tech/MongoDB_Logo.svg",
+        "/images/icon/tech/bootstrap-original.svg",
+        "/images/icon/tech/vercel-original.svg"
+      ],
+      "testimonial": null
+    },
+    {
+      "id": 3,
+      "name": "Luxspace",
+      "title": "Furniture Marketplace",
+      "category": "E-Commerce",
+      "portfolio_url": "https://luxspace-react-demo.netlify.app/",
+      "images": "/images/portfolio/luxspace-1.png",
+      "image_modal": "/images/portfolio/luxspace-1.png",
+      "description": "Involuntir is a social enterprise that invites young people to become volunteers and participate in humanitarian social activities.",
+      "problem": "Competition is high in the household furniture marketplace.",
+      "solution": "Creation of a website that focuses on the furniture buying and selling process by displaying product details and an integrated payment system.",
+      "highlights": null,
+      "tech_stack": [
+        "/images/icon/tech/react-original.svg",
+        "/images/icon/tech/tailwindcss-original.svg",
+        "/images/icon/tech/nodejs-original.svg",
+        "/images/icon/tech/netlify-original.svg"
+      ],
+      "testimonial": null
+    },
+    {
+      "id": 4,
+      "name": "Involuntir",
+      "title": "Pendaftaran Volunteer Berbayar",
+      "category": "Social Activities, Online Shop",
+      "portfolio_url": "https://www.involuntir.com/",
+      "images": "/images/portfolio/involuntir-1.png",
+      "image_modal": "/images/portfolio/involuntir-1.png",
+      "description": "Involuntir merupakan social enterprise yang mengajak anak muda untuk menjadi volunteer dan berpartisipasi dalam kegiatan sosial kemanusiaan.",
+      "problem": "There is no volunteer registration system that is integrated into one service.",
+      "solution": "Creation of a volunteer registration website that provides information and registration payments in an integrated manner with the organization organizing the activity.",
+      "highlights": [
+        {
+          "title": "Wherever, Whenever",
+          "description": "Register and become a volunteer via the website which can be accessed anywhere and anytime."
+        },
+        {
+          "title": "Fast and easy payments",
+          "description": "Payment for volunteer registration is automatic and integrated with a safe and reliable system."
+        }
+      ],
+      "tech_stack": [
+        "/images/icon/tech/react-original.svg",
+        "/images/icon/tech/laravel-original.svg",
+        "/images/icon/tech/tailwindcss-original.svg",
+        "/images/icon/tech/mysql-original-wordmark.svg",
+        "/images/icon/tech/firebase-original.svg"
+      ],
+      "testimonial": null
+    },
+    {
+      "id": 4,
+      "name": "Laracamp",
+      "title": "Bootcamp Website",
+      "category": "Learning Management System",
+      "portfolio_url": "https://laracamp-html.netlify.app/",
+      "images": "/images/portfolio/laracamp-1.png",
+      "image_modal": "/images/portfolio/laracamp-1.png",
+      "description": "Laracamp is a website that provides online bootcamps for anyone who wants to develop their skills in the field of software development.",
+      "problem": "Bootcamps still use traditional systems from registration to training that are not yet digitally systemized.",
+      "solution": "Creation of a website that provides bootcamp services with an overall digital system.",
+      "highlights": [
+        {
+          "title": "Wherever, Whenever: ",
+          "description": "Follow the bootcamp you want simply via the website which can be accessed anywhere and anytime."
+        },
+        {
+          "title": "Google Authentication",
+          "description": "Simply log in to our website with the Google account you have."
+        }
+      ],
+      "tech_stack": [
+        "/images/icon/tech/php-original.svg",
+        "/images/icon/tech/mysql-original-wordmark.svg",
+        "/images/icon/tech/ngrok-seeklogo.svg"
+      ],
+      "testimonial": null
+    }
+  ],
+  "android": [
+    {
+      "id": 1,
+      "name": "Shamo",
+      "title": "Shoes Store App",
+      "category": "E-Commerce",
+      "portfolio_url": null,
+      "images": "/images/portfolio/shamo-1.png",
+      "image_modal": "/images/portfolio/shamo-1.png",
+      "description": "Shamo is an e-commerce application for an online shoe shop that provides a variety of shoes by ordering via the application.",
+      "problem": "Obstacles in conventional buying and selling of shoes that do not provide a guarantee of the originality of the shoes to be purchased.",
+      "solution": "Creating an e-commerce application for an integrated online shoe store that can bring together customers and sellers in one application.",
+      "highlights": [
+        {
+          "title": "Integrated service",
+          "description": "Check and buy various shoe choices in one application."
+        }
+      ],
+      "tech_stack": [
+        "/images/icon/tech/flutter-original.svg",
+        "/images/icon/tech/laravel-original.svg",
+        "/images/icon/tech/firebase-original.svg",
+        "/images/icon/tech/mysql-original-wordmark.svg",
+        "/images/icon/tech/tailwindcss-original.svg"
+      ],
+      "testimonial": null
+    }
+  ]
+}

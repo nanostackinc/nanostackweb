@@ -1,30 +1,177 @@
 {
-    "website": [
-      {
-          "id": 1,
-          "title": "Bunda Bakery Shop",
-          "category": "E-Commerce",
-          "images": "/images/lp_web.png",
-          "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
-          "image_modal": "/images/lp_web.png",
-          "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
-          "problem": "The increasing demand for remote learning is on the rise.",
-          "solution": "An online class website that enables learning to take place anytime, anywhere.",
-          "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+  "website": [
+    {
+      "id": 1,
+      "name": "Bunda Bakery",
+      "title": "Bakery Shop Website",
+      "category": "Company Profile, E-Commerce, Online Shop",
+      "portfolio_url": "https://www.bundabakery.site/",
+      "images": "/images/portfolio/bunda-bakery-1.png",
+      "image_modal": "/images/portfolio/bunda-bakery-1.png",
+      "description": "Bunda Bakery merupakan website toko roti “Bunda Bakery” yang menyediakan informasi mengenai toko roti dan toko online yang terintegrasi dengan whatsapp.",
+      "problem": "Terbatasnya informasi toko roti beserta produknya dan proses pemesanan secara tradisional.",
+      "solution": "Pembuatan website company profile toko roti dan toko roti yang menampilkan seluruh produk dan pemesanan yang terintegrasi dengan whatsapp.",
+      "highlights": [
+        {
+          "title": "Online Shop",
+          "description": "Menampilkan seluruh varian roti yang dijual di Bunda Bakery agar pelanggan aware dengan seluruh produk yang ada."
+        },
+        {
+          "title": "Integrasi website dengan whatsapp",
+          "description": "Seluruh hasil pesanan yang ada di website akan diintegrasikan dengan cta whatsapp yang diarahkan ke kontak Bunda Bakery."
         }
-    ],
-    "android": [
-      {
-          "id": 1,
-          "title": "Bunda Bakery Shop",
-          "category": "E-Commerce",
-          "images": "/images/lp_web.png",
-          "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
-          "image_modal": "/images/lp_web.png",
-          "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
-          "problem": "The increasing demand for remote learning is on the rise.",
-          "solution": "An online class website that enables learning to take place anytime, anywhere.",
-          "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
+      ],
+      "tech_stack": [
+        "/images/icon/tech/react-original.svg",
+        "/images/icon/tech/bootstrap-original.svg",
+        "/images/icon/tech/nodejs-original.svg",
+        "/images/icon/tech/netlify-original.svg"
+      ],
+      "testimonial": {
+        "content": "\"Desain web toko kami sederhana dan terstruktur, memudahkan pelanggan menemukan produk dengan mudah. Proses pembelian intuitif dan informasi toko yang jelas meningkatkan pengalaman berbelanja signifikan.\"",
+        "name": "M. Dedi Iswantoro",
+        "job": "Owner Bunda Bakery"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Mountler",
+      "title": "Travel",
+      "category": "E-Commerce",
+      "portfolio_url": "https://www.mountler.com",
+      "images": null,
+      "image_modal": null,
+      "description": "Mountler merupakan website untuk membantu pendaki melakukan reservasi pendakian secara online.",
+      "problem": "Sistem booking pendakian baik dari sisi registrasi, pembayaran, hingga proses pendakian secara tradisional yang memakan waktu dan kurang efisien.",
+      "solution": "Pembuatan website booking pendakian yang melayani sejak user registrasi, pembayaran secara otomatis, hingga sistem tiket secara digital.",
+      "highlights": [
+        {
+          "title": "Dimanapun, Kapanpun",
+          "description": "Booking pendakian gunung yang ada di Indonesia lewat website kami dimana saja dan kapan saja."
+        },
+        {
+          "title": "Tracking Pendakian",
+          "description": "Lacak timeline pendakianmu mulai dari start hingga turun pendakian."
+        },
+        {
+          "title": "Pembayaran yang cepat dan mudah",
+          "description": "Pembayaran pendakian secara otomatis dan terintegrasi dengan sistem yang aman dan terpercaya."
         }
-    ]
-  }
+      ],
+      "tech_stack": [
+        "/images/icon/tech/react-original.svg",
+        "/images/icon/tech/expressjs-original.svg",
+        "/images/icon/tech/MongoDB_Logo.svg",
+        "/images/icon/tech/bootstrap-original.svg",
+        "/images/icon/tech/vercel-original.svg"
+      ],
+      "testimonial": null
+    },
+    {
+      "id": 3,
+      "name": "Luxspace",
+      "title": "Furniture Marketplace",
+      "category": "E-Commerce",
+      "portfolio_url": "https://luxspace-react-demo.netlify.app/",
+      "images": "/images/portfolio/luxspace-1.png",
+      "image_modal": "/images/portfolio/luxspace-1.png",
+      "description": "Luxspace merupakan website marketplace berbagai furniture rumah tangga yang terintegrasi.",
+      "problem": "Persaingan tinggi di pasar marketplace furniture rumah tangga.",
+      "solution": "Pembuatan website yang berfokus pada proses jual beli furniture dengan menampilkan detail produk serta sistem pembayaran terintegrasi.",
+      "highlights": null,
+      "tech_stack": [
+        "/images/icon/tech/react-original.svg",
+        "/images/icon/tech/tailwindcss-original.svg",
+        "/images/icon/tech/nodejs-original.svg",
+        "/images/icon/tech/netlify-original.svg"
+      ],
+      "testimonial": null
+    },
+    {
+      "id": 4,
+      "name": "Involuntir",
+      "title": "Pendaftaran Volunteer Berbayar",
+      "category": "Social Activities, Online Shop",
+      "portfolio_url": "https://www.involuntir.com/",
+      "images": "/images/portfolio/involuntir-1.png",
+      "image_modal": "/images/portfolio/involuntir-1.png",
+      "description": "Involuntir merupakan social enterprise yang mengajak anak muda untuk menjadi volunteer dan berpartisipasi dalam kegiatan sosial kemanusiaan.",
+      "problem": "Belum adanya sistem pendaftaran volunteer yang terintegrasi dalam satu layanan.",
+      "solution": "Pembuatan website pendaftaran volunteer yang menyediakan informasi hingga pembayaran pendaftaran secara terintegrasi dengan organisasi yang menyelenggarakan kegiatan.",
+      "highlights": [
+        {
+          "title": "Dimanapun, Kapanpun",
+          "description": "Daftar dan jadi volunteer lewat website yang bisa diakses dimana saja dan kapan saja."
+        },
+        {
+          "title": "Pembayaran yang cepat dan mudah",
+          "description": "Pembayaran pendaftaran volunteer secara otomatis dan terintegrasi dengan sistem yang aman dan terpercaya."
+        }
+      ],
+      "tech_stack": [
+        "/images/icon/tech/react-original.svg",
+        "/images/icon/tech/laravel-original.svg",
+        "/images/icon/tech/tailwindcss-original.svg",
+        "/images/icon/tech/mysql-original-wordmark.svg",
+        "/images/icon/tech/firebase-original.svg"
+      ],
+      "testimonial": null
+    },
+    {
+      "id": 4,
+      "name": "Laracamp",
+      "title": "Bootcamp Website",
+      "category": "Learning Management System",
+      "portfolio_url": "https://laracamp-html.netlify.app/",
+      "images": "/images/portfolio/laracamp-1.png",
+      "image_modal": "/images/portfolio/laracamp-1.png",
+      "description": "Laracamp merupakan website penyedia online bootcamp untuk setiap orang yang ingin mengembangkan skill-nya di bidang software development.",
+      "problem": "Bootcamp yang masih menggunakan sistem tradisional mulai dari pendaftaran hingga pelatihan yang belum tersistem secar digital.",
+      "solution": "Pembuatan website yang menyediakan layanan bootcamp dengan sistem digital secara keseluruhan.",
+      "highlights": [
+        {
+          "title": "Dimanapun, Kapanpun",
+          "description": "Ikuti bootcamp yang kamu inginkan cukup lewat website yang bisa diakses dimana saja dan kapan saja."
+        },
+        {
+          "title": "Autentikasi Google",
+          "description": "Login website kami cukup dengan akun google yang kamu punya."
+        }
+      ],
+      "tech_stack": [
+        "/images/icon/tech/php-original.svg",
+        "/images/icon/tech/mysql-original-wordmark.svg",
+        "/images/icon/tech/ngrok-seeklogo.svg"
+      ],
+      "testimonial": null
+    }
+  ],
+  "android": [
+    {
+      "id": 1,
+      "name": "Shamo",
+      "title": "Shoes Store App",
+      "category": "E-Commerce",
+      "portfolio_url": null,
+      "images": "/images/portfolio/shamo-1.png",
+      "image_modal": "/images/portfolio/shamo-1.png",
+      "description": "Shamo merupakan aplikasi e-commerce toko sepatu online yang menyediakan aneka ragam sepatu dengan pemesanan melalui aplikasi.",
+      "problem": "Hambatan dalam jual beli sepatu secara konvensional yang belum menyediakan jaminan originalitas sepatu yang akan dibeli.",
+      "solution": "Pembuatan aplikasi e-commerce toko online sepatu terintegrasi yang dapat mempertemukan pelanggan dan penjual dalam satu aplikasi.",
+      "highlights": [
+        {
+          "title": "Layanan terintegrasi",
+          "description": "Cek dan beli berbagai pilihan sepatu yang ada dalam satu aplikasi."
+        }
+      ],
+      "tech_stack": [
+        "/images/icon/tech/flutter-original.svg",
+        "/images/icon/tech/laravel-original.svg",
+        "/images/icon/tech/firebase-original.svg",
+        "/images/icon/tech/mysql-original-wordmark.svg",
+        "/images/icon/tech/tailwindcss-original.svg"
+      ],
+      "testimonial": null
+    }
+  ]
+}
