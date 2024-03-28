@@ -9,11 +9,12 @@ const Services = ({ onChangeModal, data }) => {
   const handleStatus = (index) => {
     setStatus(index);
   };
+  console.log(data)
   const [modal, setModal] = useState(false);
   const [dataItem, setData] = useState({});
   const handleModalWebsite = (target) => {
     setModal(true);
-    const itemData = data.detail_service.website.find((item) => item.id === target);
+    const itemData = data.website.find((item) => item.id === target);
     setData(itemData);
     onChangeModal(itemData, true);
   };
@@ -48,7 +49,7 @@ const Services = ({ onChangeModal, data }) => {
       content: (
         <>
           <div className="row  g-4">
-            {data.detail_service.website.map((item) => {
+            {data.website.map((item) => {
               return (
                 <>
                   <div className="d-flex flex-column  col-lg-4 col-md-12 col-sm-12">
@@ -60,6 +61,7 @@ const Services = ({ onChangeModal, data }) => {
                       <img src={item.images} class="card-service" alt="..." />{" "}
                       <div class="card-body">
                         <h5 class="card-title">{item.title}</h5>
+                        <h5 class="card-category text-center">{item.category}</h5>
                       
                       </div>{" "}
                     </div>
@@ -106,7 +108,7 @@ const Services = ({ onChangeModal, data }) => {
                     <img src={item.images} class="card-img-top" alt="..." />{" "}
                     <div class="card-body">
                       <h5 class="card-title">{item.title}</h5>
-                   
+                      <h5 class="card-category text-center">{item.category}</h5>
                     </div>{" "}
                   </div>
                 </div>

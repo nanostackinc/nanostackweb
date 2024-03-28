@@ -1,4 +1,8 @@
 {
+  "hero":{
+    "tagline":"Setiap proyek mencerminkan kemampuan kami untuk memberikan solusi teknologi terbaru dan inovatif bagi klien kami. Kami selalu berusaha memberikan hasil terbaik dan memenuhi ekspektasi pelanggan kami.",
+    "images":"/images/ec.png"
+  },
   "website": [
     {
       "id": 1,
@@ -39,8 +43,8 @@
       "title": "Travel",
       "categories": ["E-Commerce"],
       "portfolio_url": "https://www.mountler.com",
-      "images": null,
-      "image_modal": null,
+      "images": "/images/portfolio/mountler-1.png",
+      "image_modal": "/images/portfolio/mountler-1.png",
       "description": "Mountler merupakan website untuk membantu pendaki melakukan reservasi pendakian secara online.",
       "problem": "Sistem booking pendakian baik dari sisi registrasi, pembayaran, hingga proses pendakian secara tradisional yang memakan waktu dan kurang efisien.",
       "solution": "Pembuatan website booking pendakian yang melayani sejak user registrasi, pembayaran secara otomatis, hingga sistem tiket secara digital.",
