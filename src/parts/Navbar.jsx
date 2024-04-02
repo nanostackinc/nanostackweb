@@ -40,7 +40,7 @@ function Navbar({onLanguageChange, data, onChangeHref}) {
           <img src={Logo} className="me-2 logo-navbar" alt="Nanostack Logo"/>
         </a>
         <button
-          className="toggler"
+        className="toggler d-lg-none"
           type="button"
           onClick={handleToggle}
           data-bs-toggle="collapse"
