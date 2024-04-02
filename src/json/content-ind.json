@@ -467,24 +467,14 @@
     "desc":"Pengalaman dan feedbak baik dari klien kami yang puas. Ini adalah cerminan dari dedikasi kami untuk memberikan layanan berkualitas tinggi dan solusi yang efektif.",
     "material": [
       {
-        "content": "“Sangat baik apa yang telah dikerjakan, melebihi ekspektasi saya. Pengembangan API yang sangat cepat dan dapat diandalkan.“",
-        "name": "Moch. Iskandar Zulqornaen",
-        "job": "Product Owner of Hyponic"
-      },
-      {
-        "content": "“Bekerja dengan cepat dan profesional, mampu memperbaiki masalah di web hosting saya. Saya merekomendasikan layanan disini karena hasilnya sangat memuaskan!“",
-        "name": "Ayu Nurrahima Firdausi",
-        "job": "Student"
-      },
-      {
-        "content": "“Dicky adalah seorang frontend developer yang sangat baik. Mampu bekerja sama dengan desainer dan sangat teliti terhadap detail, sehingga mampu menciptakan kualitas kode yang baik.“",
-        "name": "Victor",
-        "job": "UI/UX Designer"
-      },
-      {
         "content": "“Desain web toko kami sederhana dan terstruktur, memudahkan pelanggan menemukan produk dengan mudah. Proses pembelian intuitif dan informasi toko yang jelas meningkatkan pengalaman berbelanja secara signifikan.“",
         "name": "M. Dedi Iswantoro",
         "job": "Owner Bunda Bakery"
+      },
+      {
+        "content": "“Saya sangat puas dengan website mountler! Desainnya konsisten dan pencampuran warnanya sangat bagus. Fiturnya berjalan dengan lancar, dan saya yakin implementasinya akan menjadi sempurna dan  mampu menampung data dengan baik dan mencegah kesalahan saat diakses oleh banyak orang.“",
+        "name": null,
+        "job": "User Mountler"
       }
     ]
   },
