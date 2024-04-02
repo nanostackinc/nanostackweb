@@ -21,7 +21,7 @@ function Testimonial({section, data}) {
                     return (
                       // eslint-disable-next-line react/jsx-key
                         <div className="card-testi mb-4">
-                          <p className="card-text">
+                          <p className="card-text m-0">
                             {item.content}
                           </p>
                           <div className="d-flex flex-col w-100">
@@ -46,7 +46,7 @@ function Testimonial({section, data}) {
                   return (
                     // eslint-disable-next-line react/jsx-key
                       <div className="card-testi mb-4">
-                        <p className="card-text">
+                        <p className="card-text m-0">
                           {item.content}
                         </p>
                         <div className="d-flex flex-col w-100">
@@ -72,7 +72,7 @@ function Testimonial({section, data}) {
                 return (
                   // eslint-disable-next-line react/jsx-key
                     <div className="card-testi mb-4 mx-2">
-                      <p className="card-text">
+                      <p className="card-text m-0">
                         {item.content}
                       </p>
                       <div className="d-flex flex-col w-100">

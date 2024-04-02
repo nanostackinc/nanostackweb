@@ -69,7 +69,11 @@
         "/images/icon/tech/bootstrap-original.svg",
         "/images/icon/tech/vercel-original.svg"
       ],
-      "testimonial": null
+      "testimonial": {
+        "content": "\"I am very satisfied with the mountler website! The design is consistent and the color blending is very good. The features run smoothly, and I am confident that its implementation will be perfect and capable of handling data well and preventing errors when accessed by many people.\"",
+        "name": "Megawati Aswiya Putri",
+        "job": "User Mountler"
+      }
     },
     {
       "id": 3,
