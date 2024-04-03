@@ -89,7 +89,7 @@ function LandingPage() {
           onClick={handleCloseModal}>
          <Pricing section={href === "pricing" || href === "harga"?href:""} data={landingPageData.pricelist}/>
         </div>
-         <LatestProject data={landingPageData.services.latest_service} section={href === "portfolio"? href:""} />
+         <LatestProject data={landingPageData.services.latest_service} section={href === "portfolio" || href === "portfolio"?href:""} />
          <div
           className="container d-flex flex-column  mx-auto"
           id="content"
