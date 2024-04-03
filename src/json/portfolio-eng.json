@@ -6,6 +6,7 @@
   "website": [
     {
       "id": 1,
+      "cta_text":"View Web",
       "name": "Bunda Bakery",
       "title": "Bakery Shop Website",
       "categories": ["Company Profile", "E-Commerce", "Online Shop"],
@@ -26,6 +27,10 @@
         }
       ],
       "tech_stack": [
+      
+        "/images/icon/tech/react-original.svg",
+        "/images/icon/tech/react-original.svg",
+        "/images/icon/tech/react-original.svg",
         "/images/icon/tech/react-original.svg",
         "/images/icon/tech/bootstrap-original.svg",
         "/images/icon/tech/nodejs-original.svg",
@@ -39,6 +44,7 @@
     },
     {
       "id": 2,
+      "cta_text":"View Web",
       "name": "Mountler",
       "title": "Travel",
       "categories": ["E-Commerce"],
@@ -77,6 +83,7 @@
     },
     {
       "id": 3,
+      "cta_text":"View Web",
       "name": "Luxspace",
       "title": "Furniture Marketplace",
       "categories": ["E-Commerce"],
@@ -97,6 +104,7 @@
     },
     {
       "id": 4,
+      "cta_text":"View Web",
       "name": "Involuntir",
       "title": "Pendaftaran Volunteer Berbayar",
       "categories": ["Social Activities", "Online Shop"],
@@ -127,6 +135,7 @@
     },
     {
       "id": 5,
+      "cta_text":"View Web",
       "name": "Laracamp",
       "title": "Bootcamp Website",
       "categories": ["Learning Management System"],
@@ -158,6 +167,7 @@
   "android": [
     {
       "id": 1,
+      "cta_text":"View Android App",
       "name": "Shamo",
       "title": "Shoes Store App",
       "categories": ["E-Commerce"],

@@ -6,6 +6,7 @@
   "website": [
     {
       "id": 1,
+      "cta_text":"Lihat Web",
       "name": "Bunda Bakery",
       "title": "Bakery Shop Website",
       "categories": ["Company Profile", "E-Commerce", "Online Shop"],
@@ -39,6 +40,7 @@
     },
     {
       "id": 2,
+      "cta_text":"Lihat Web",
       "name": "Mountler",
       "title": "Travel",
       "categories": ["E-Commerce"],
@@ -77,6 +79,7 @@
     },
     {
       "id": 3,
+      "cta_text":"Lihat Web",
       "name": "Luxspace",
       "title": "Furniture Marketplace",
       "categories": ["E-Commerce"],
@@ -97,6 +100,7 @@
     },
     {
       "id": 4,
+      "cta_text":"Lihat Web",
       "name": "Involuntir",
       "title": "Pendaftaran Volunteer Berbayar",
       "categories": ["Social Activities", "Online Shop"],
@@ -126,8 +130,9 @@
       "testimonial": null
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Laracamp",
+      "cta_text":"Lihat Web",
       "title": "Bootcamp Website",
       "categories": ["Learning Management System"],
       "portfolio_url": "https://laracamp-html.netlify.app/",
@@ -158,6 +163,7 @@
     {
       "id": 1,
       "name": "Shamo",
+      "cta_text":"Lihat Android App",
       "title": "Shoes Store App",
       "categories": ["E-Commerce"],
       "portfolio_url": null,

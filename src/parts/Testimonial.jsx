@@ -1,9 +1,8 @@
 import React from 'react';
 
-function Testimonial({section, data}) {
+function Testimonial({section,data}) {
   return (
-    <section className="testimonial" id={section} style={{ backgroundColor:"#4E96E1" }}>
-     <div className="container px-0">
+    <section class="testimonial" id={section}>
       <div className="row">
         <div className="col-12 col-lg-5 d-flex testimonial-section-title flex align-items-start align-items-lg-center">
           <div className=" w-100 px-2 px-lg-0">
@@ -21,7 +20,7 @@ function Testimonial({section, data}) {
                     return (
                       // eslint-disable-next-line react/jsx-key
                         <div className="card-testi mb-4">
-                          <p className="card-text m-0">
+                          <p className="card-text">
                             {item.content}
                           </p>
                           <div className="d-flex flex-col w-100">
@@ -46,7 +45,7 @@ function Testimonial({section, data}) {
                   return (
                     // eslint-disable-next-line react/jsx-key
                       <div className="card-testi mb-4">
-                        <p className="card-text m-0">
+                        <p className="card-text">
                           {item.content}
                         </p>
                         <div className="d-flex flex-col w-100">
@@ -72,7 +71,7 @@ function Testimonial({section, data}) {
                 return (
                   // eslint-disable-next-line react/jsx-key
                     <div className="card-testi mb-4 mx-2">
-                      <p className="card-text m-0">
+                      <p className="card-text">
                         {item.content}
                       </p>
                       <div className="d-flex flex-col w-100">
@@ -89,7 +88,6 @@ function Testimonial({section, data}) {
               })}
           </div>
         </div>
-      </div>
       </div>
 
     </section>

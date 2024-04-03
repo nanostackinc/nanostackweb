@@ -1252,11 +1252,8 @@ svg .icon {
 
 .card-testi {
     display: flex;
-   
-   
         width: 280px !important;
-        height: 220px;
-  
+        height: auto;
     padding: 16px;
     flex-direction: column;
     justify-content: space-between;
@@ -1410,37 +1407,37 @@ svg .icon {
 
 @keyframes move{
     0%{
-        top: 30px
+        top: 20px
     }
     50%{
-        top: -360px;
+        top: -160px;
     }
     100%{
-        top: 30px;
+        top: 20px;
     }
 }
 
 @keyframes move-down{
     0%{
-        bottom: 360px
+        bottom: 160px;
     }
     50%{
-        bottom: -30px;
+        bottom: -20px;
     }
     100%{
-        bottom: 360px;
+        bottom: 160px;
     }
 }
 
 @keyframes move-side{
     0%{
-        right: 410px
+        right: 245px
     }
     50%{
-        right: -420px;
+        right: -250px;
     }
     100%{
-        right: 410px;
+        right: 245px;
     }
 }
 
@@ -2168,7 +2165,7 @@ svg .icon {
     background-color: #4E96E1;   
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 132px;
+    padding-top: 32px;
     padding-bottom: 32px;
 }
 .title-latest-project{
@@ -2177,12 +2174,18 @@ svg .icon {
     color: #FFF;
     font-weight: 900;
     text-align: left;
+      letter-spacing: -1.12px;
     }
 .subtitle-latest-project{
-    font-size: 16px;
-    font-weight: 500;
+    align-self: stretch;
+    color: white;
     font-family: Open Sans;
-    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    margin: 0;
+    font-weight: 500;
+    line-height: auto;
+       letter-spacing: -1.12px;
 }
 .headline-latest-project{
     display: flex;
@@ -2212,7 +2215,7 @@ svg .icon {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    letter-spacing: -0.98px;
+      letter-spacing: -1.12px;
 
     text-align: start;
 }
@@ -2234,15 +2237,18 @@ svg .icon {
         font-size: 28px;
         color: #FFF;
         font-weight: 900;
+        letter-spacing: -1.12px;
         text-align: center;
     }
     .subtitle-latest-project{
+        color:white;
+        font-family: Open Sans;
         font-size: 14px;
-        letter-spacing: -7%;
+        font-style: normal;
         font-weight: 500;
         text-align: left;
-        font-family: Open Sans;
-        color: #FFFFFF;
+        line-height: normal;
+        letter-spacing: -1.12px;
     }
     .text-content-latest-project{
         padding: 32px;
@@ -2273,7 +2279,7 @@ svg .icon {
         font-style: normal;
         font-weight: 900;
         line-height: normal;
-        letter-spacing: -0.98px;
+           letter-spacing: -1.12px;
     
         text-align: start;
     }
@@ -2286,6 +2292,7 @@ svg .icon {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    letter-spacing: -1.12px;
    
    
 }
@@ -2294,7 +2301,7 @@ svg .icon {
     font-size: 24px;
     line-height: 32px;
     font-weight: 900;
-    letter-spacing: -7%;
+      letter-spacing: -1.12px;
     color: #333333;  
 }
 .center-td{
@@ -2316,6 +2323,7 @@ svg .icon {
     /* Body 1 */
     font-family: Open Sans;
     font-size: 16px;
+     letter-spacing: -1.12px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;   
@@ -2327,6 +2335,7 @@ svg .icon {
 
     /* Body 1 */
     font-family: Open Sans;
+     letter-spacing: -1.12px;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -2362,5 +2371,6 @@ svg .icon {
     margin: 0;
     font-weight: 600;
     line-height: auto;
-    letter-spacing: -1.12px;
+       letter-spacing: -1.12px;
 }
+

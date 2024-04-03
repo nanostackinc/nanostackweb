@@ -7,6 +7,7 @@ import PortofolioDataInd from '../json/portfolio-ind.json'
 import BrandPortofolio from './BrandPortofolio';
 import Services from "../parts/Services";
 import Footer from '../parts/Footer';
+import WhatsAppButton from "../parts/wabutton";
 import Modal from "../components/Modal";
 const Projects=()=>{
     const [language, setLanguage] = useState(localStorage.getItem("language")); 
@@ -87,6 +88,7 @@ return(
           />
           </div>
         </div>
+        <WhatsAppButton />
         <Modal data={itemData} status={status} onCloseModal={handleCloseModal} />
   
     </>

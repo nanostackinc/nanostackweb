@@ -58,7 +58,7 @@ const Pricing = ({section,data}) => {
   <tbody>
   {data.categories.map((item) => (
     <tr key={item.name} className='content-table'  id='table-border'>
-        <td className='d-flex flex-column gap-2 px-3 py-2'  id='table-border'>
+        <td  className='gap-2 px-lg-5 py-lg-2'  id='table-border'>
             <h4 className='text-title-product-mobile m-0 p-0' style={{ letterSpacing:"-7%" }}>{item.name}</h4>
             <p className='text-subtitle-product-mobile m-0 p-0'   style={{ letterSpacing:"-7%" }}>{item.applications.join(', ')}</p>
         </td>
@@ -68,7 +68,7 @@ const Pricing = ({section,data}) => {
        
     </tr>
 ))}
-   
+
   </tbody>
 </table>
         </>
@@ -101,13 +101,13 @@ const Pricing = ({section,data}) => {
          <thead id='table-border'>
     <tr id='table-border' >
       <th   style={{width: "50%"}}></th>
-      <th className='title-estimated text-center'  style={{width: "50%",letterSpacing:"-7%"}}>Estimated Price</th>      
+      <th className='title-estimated text-center' id='table-border' style={{width: "50%",letterSpacing:"-7%"}}>Estimated Price</th>      
     </tr>
   </thead>
   <tbody>
   {data.categories.map((item) => (
     <tr key={item.name} className='content-table'  id='table-border'>
-        <td className='d-flex flex-column gap-2 px-3 py-2'  id='table-border'>
+        <td  className='gap-2 px-lg-5 py-lg-2'  id='table-border'>
             <h4 className='text-title-product m-0 p-0' style={{ letterSpacing:"-7%" }}>{item.name}</h4>
             <p className='text-subtitle-product-mobile m-0 p-0'   style={{ letterSpacing:"-7%" }}>{item.applications.join(', ')}</p>
         </td>
@@ -149,7 +149,7 @@ const Pricing = ({section,data}) => {
     </tr>
     {data.categories.map((item) => (
     <tr key={item.name} className='content-table'>
-        <td className='d-flex flex-column gap-2 px-5 py-2'>
+        <td className='gap-2 px-lg-5 py-lg-2'>
             <h4 className='text-title-product m-0 p-0' style={{ letterSpacing:"-7%" }}>{item.name}</h4>
             <p className='text-subtitle-product m-0 p-0' style={{ letterSpacing:"-7%" }}>{item.applications.join(', ')}</p>
         </td>

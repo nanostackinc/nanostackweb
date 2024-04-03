@@ -7,10 +7,10 @@ const BrandPortofolio=({data})=>{
       <div
         className='latest-project-porto row'>
         <div
-          className='col-lg-6 text-content-latest-project-porto d-flex flex-column justify-content-center align-items-center px-md-5 px-sm-2'>
+          className='col-lg-6 text-content-latest-project-porto d-flex flex-column justify-content-center align-items-center  px-sm-2'>
           <div className='headline-latest-project-porto'>
             <h4 className='title-latest-project'>Projects</h4>
-            <p className='subtitle-latest-project'>{data.tagline}</p>
+            <h5 className='subtitle-latest-project'>{data.tagline}</h5>
           </div>
           <div className="d-flex justify-content-start">        
           </div>

@@ -61,7 +61,7 @@ const Services = ({ onChangeModal, data }) => {
                       <img src={item.images} class="card-service" alt="..." />{" "}
                       <div class="card-body">
                         <h5 class="card-title">{item.name}</h5>
-                        <h5 class="card-category text-center">{item.category}</h5>
+                        <h5 class="card-category text-center">{item.categories[0]}</h5>
                       
                       </div>{" "}
                     </div>
@@ -101,14 +101,14 @@ const Services = ({ onChangeModal, data }) => {
               return (
                 <div className="col">
                   <div
-                    class="card"
+                    className="card"
                     id="card-standard"
                     onClick={() => handleModalAndroid(item.id)}
                     key={item.id}>
                     <img src={item.images} class="card-img-top" alt="..." />{" "}
-                    <div class="card-body">
-                      <h5 class="card-title">{item.name}</h5>
-                      <h5 class="card-category text-center">{item.category}</h5>
+                    <div className="card-body">
+                      <h5 className="card-title">{item.name}</h5>
+                      <h5 className="card-category text-center">{item.categories[0]}</h5>
                     </div>{" "}
                   </div>
                 </div>

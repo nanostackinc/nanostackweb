@@ -21,14 +21,15 @@ const Modal = ({data, status, onCloseModal}) => {
                 <div>
                   <h4 className="title-client">{data.name}</h4>
                   <h3 className="title-heading">{data.title}</h3>
-                  <h5 className="title-category">{data.category}</h5>
+                  <h5 className="title-category">{data.categories.join(', ')}</h5>
+
                 </div>
                 <div>
                   <a
                     href={data.portfolio_url}
                     target="_blank"
                     className="link_porto"
-                    rel="noopener noreferrer">Web Demo</a>
+                    rel="noopener noreferrer">{data.cta_text}</a>
                   <p className='description'>{data.description}</p>
                 </div>
                 <div className='p-2'>
@@ -72,29 +73,33 @@ const Modal = ({data, status, onCloseModal}) => {
                 gap: 8
               }}>
                 <p className="title-desc">Tech stack</p>
-                <div
-  className='row content-tech px-5'
-  >
-  {data
-    .tech_stack
-    .map((image, index) => (
-      <div
-        key={index}
-        className={`col-lg-auto d-flex justify-content-center col-sm-12`}
-        style={{
-          alignSelf: index % 2 === 0 ? 'flex-start' : 'flex-end', // Mengatur posisi vertikal elemen-elemen
-        }}>
-        <img
-          src={image}
-          alt={`Tech Stack ${index + 1}`}
-          style={{
-            width: 64,
-            height: 64,
-            margin: 'auto'
-          }}/>
-      </div>
-    ))}
+                <div>
+  {data.tech_stack.reduce((rows, image, index) => {
+    if (index % 4 === 0) rows.push([]);
+    rows[rows.length - 1].push(image);
+    return rows;
+  }, []).map((row, rowIndex) => (
+    <div className="row content-tech px-5" key={rowIndex}>
+      {row.map((image, index) => (
+        <div
+          key={index}
+          className={`col-lg-auto d-flex justify-content-center col-sm-12`}
+        >
+          <img
+            src={image}
+            alt={`Tech Stack ${index + rowIndex * 4 + 1}`}
+            style={{
+              width: 64,
+              height: 64,
+              margin: 'auto'
+            }}
+          />
+        </div>
+      ))}
+    </div>
+  ))}
 </div>
+
 
               </div>
               {data.testimonial && (

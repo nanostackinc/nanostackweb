@@ -100,8 +100,9 @@ function LandingPage() {
           <div
           id="content-blue"
           onClick={handleCloseModal}>
-        
+          <div  className="container d-flex flex-column  mx-auto">
             <Testimonial data={landingPageData.testimonial} section={href === "testimonial"? href:""} />
+          </div>
             
           </div>
           <div
