@@ -1,11 +1,13 @@
 {
-  "navbar": {
-    "link": "Home",
-    "link1": "About Us",
-    "link2": "Portofolio",
-    "link3": "Testimonial",
-    "link4": "Contact"
-  },
+  "navbar": [
+    {"link": "Home"},
+    {"link": "About Us"},
+    {"link": "Pricing"},
+    {"link": "Portfolio"},
+    {"link": "Team"},
+    {"link": "Testimonial"},
+    {"link": "Contact"}
+  ],
   "hero": {
     "title": "Kickstart Your Ideas Through Digital Product Development",
     "subtitle": "Our Software Development team is ready to build your Ideas within weeks ⚡️",
@@ -21,158 +23,138 @@
     "image": " /images/about.png"
   },
   "portfolio": {
-    "title": "Each Project Is A Unique Piece Of Development",
-    "website": [
-      {
-        "id": 1,
-        "title": "Movie Streaming 🍿️",
-        "description": "Watch your favorite movies on our platform with a vast library. Enjoy seamless payments through Midtrans, ensuring convenience and security.",
-        "image": " /images/image_3.png",
-        "image_modal": " /images/image_3_modal.png",
-        "long_desc": "Watch your favorite films on the Movie Streaming platform. Enjoy an automated payment system through Midtrans that guarantees security and convenience.",
-        "problem": "Overcome access barriers and the hassle of downloading films with our streaming solution. Avoid unofficial films that do not provide royalties to film studios.",
-        "solution": "The creation of the Movie Streaming website serves as an official service for watching films securely and comfortably. Movie Streaming provides payment services for each film you want to watch.",
-        "tech_stack": "Laravel, Postman API, PHP, midtrans"
-      },
-      {
-        "id": 2,
-        "title": "Shoes E-Commerce 🥾",
-        "description": "Shop stylish shoes on our app with a creative interface. Get fashion advice and real-time assistance through our live chat service.",
-        "image": " /images/image_6.png",
-        "image_modal": " /images/image_6_modal.png",
-        "long_desc": "Take your stride with the perfect shoe style. Discover our trendy and high-quality collection to walk with confidence. Head straight to our website and explore the unforgettable styles today!",
-        "problem": "Barriers in conventional shoe transactions. Buying and selling shoes through channels that don't guarantee the authenticity of the products.",
-        "solution": "Creating a shoe marketplace website that ensures quality and security for both sellers and buyers.",
-        "tech_stack": "Laravel, firebase, postman API, flutter, tailwind, xampp, mysql"
-      },
-      {
-        "id": 3,
-        "title": "Hiking Booking 🌋",
-        "description": "Enjoy the convenience of climbing! Through effective climbing registration with QR Code-based tickets and tracking climbing status.",
-        "image": " /images/image_1.png",
-        "image_modal": " /images/image_1_modal.png",
-        "long_desc": "Introducing seamless online and integrated mountain trek registration. Say goodbye to the struggles of tracking mountain hikers.",
-        "problem": "Introducing seamless online and integrated mountain trek registration. Say goodbye to the struggles of tracking mountain hikers.",
-        "solution": "An integrated online mountain trek registration platform. Real-time hiking tracking and QR-based trekking tickets for a seamless experience.",
-        "tech_stack": "React, Bootstrap, Vercel, MongoDB, Express Js, Postman"
-      },
-      {
-        "id": 4,
-        "title": "Online Class ✏️",
-        "description": "Access interactive online classes on any device. Enroll hassle-free with Midtrans payment integration, ensuring secure transactions and learning.",
-        "image": " /images/image_4.png",
-        "image_modal": " /images/image_4_modal.png",
-        "long_desc": "A fresh beginning towards better learning. Enhance your knowledge with our online courses, guided by field experts. Join today and unlock your full potential virtually!",
-        "problem": "The increasing demand for remote learning is on the rise.",
-        "solution": "An online class website that enables learning to take place anytime, anywhere.",
-        "tech_stack": "Laravel, reactJS, nodeJS, expressJS, Postman API, tailwind"
-      },
-      {
-        "id": 5,
-        "title": "Car Rent 🚗",
-        "description": "Rent a car effortlessly on our responsive website with a creative touch. Explore a wide range of vehicles and book your ride instantly.",
-        "image": " /images/image_5.png",
-        "image_modal": " /images/image_5_modal.png",
-        "long_desc": "Car rental convenience is at your fingertips. Discover a variety of quality cars for hassle-free travel. Begin your adventure now with easy and quick booking!",
-        "problem": "Car rental services struggling to provide detailed vehicle condition information to customers online.",
-        "solution": "An online car rental website equipped with detailed vehicle conditions for seamless bookings.",
-        "tech_stack": "Laravel, tailwind, mysql, nodeJS"
-      },
-      {
-        "id": 6,
-        "title": "Bootcamp Purchase 📚",
-        "description": "Join our online bootcamps for in-demand skills. Seamlessly enroll with Midtrans integration, guaranteeing secure payments on any device.",
-        "image": " /images/image_2.png",
-        "image_modal": " /images/image_2_modal.png",
-        "long_desc": "Transform your career through our online bootcamp. Gain intensive training from industry experts, all from the comfort of your home. Ready to pursue success? Join our bootcamp now!",
-        "problem": "Many online bootcamps still rely solely on Zoom, resulting in a lack of integrated systems that offer a comprehensive learning platform with integrated bootcamp resources.",
-        "solution": "An integrated bootcamp website offering intensive training from industry practitioners and experts.",
-        "tech_stack": "Laravel, PHP, mysql, ngrok"
-      }
-    ],
-    "android": [{}],
-    "product": [{}]
+    "title": "Our Latest project",
+    "description": "Various innovative solutions we have delivered. Our portfolio reflects our commitment to providing modern technology solutions that meet the needs of our clients.",
+    "item": {
+      "title": "Bunda Bakery",
+      "category": "E-Commerce",
+      "image": " /images/about.png"
+    }
   },
   "pricelist": {
-    "title": "Choose the best plan for you",
-    "top_text": "Impact The Most",
-    "text_start": "start from",
-    "mention": "*you can get benefits from higher price categories at an additional cost",
-    "subtitle_website": "includes business solution consultation, database and admin panel (if needed), domain + SSL (1 yr), creative and responsive design,  SEO friendly, and accessible from any devices",
-    "subtitle_android": "includes business solution consultation, database and admin panel (if needed), dedicated VPS hosting (1yr), domain + SSL  (1 yr) app icon, splash screen, creative and responsive design",
-    "website_basic": [
+    "title": "Pricing",
+    "description": "The cost of  a web or android app development can vary significantly depending on the specifications (functions) of the application itself. We provide this price range as an estimate or approximation only before providing a detailed offer to you. So, consider this just a guide.",
+    "categories": [
       {
-        "fake_price": "1,649,000,-",
-        "real_price": "1,499,000,-",
-        "benefit": [
-          {
-            "usability": "1 yr web hosting",
-            "tech": "~7 days work duration estimation",
-            "pages": "For landing page, company profile, personal page"
-          }
-        ]
-      }
-    ],
-    "website_standard": [
+        "name": "Landing Page",
+        "applications": ["Company Profile", "Portfolio Website"],
+        "price": {
+          "web": {
+            "min": 1,
+            "max": 7
+          },
+          "android": null
+        }
+      },
       {
-        "fake_price": "5,499,000,-",
-        "real_price": "4,999,000,-  ",
-        "benefit": [
-          {
-            "usability": "1 yr dedicated VPS hosting",
-            "tech": "~14 days work duration estimation",
-            "pages": "For company profile, e-commerce (online shop), LMS, MIS, POS"
+        "name": "WebView",
+        "applications": ["Website to android app conversion"],
+        "price": {
+          "web": null,
+          "android": {
+            "min": 1,
+            "max": 5
           }
-        ]
-      }
-    ],
-    "website_premium": [
+        }
+      },
       {
-        "fake_price": "10,999,000,-",
-        "real_price": "9,999,000,-",
-        "benefit": [
-          {
-            "usability": "1 yr dedicated VPS hosting",
-            "tech": "Manual book",
-            "pages": "Source code",
-            "design": "~28 days work duration estimation",
-            "hosting": "For e-commerce (online shop), LMS, MIS, POS, HRIS, logistic tracking"
+        "name": "Online Shop / Markeplace / E-Commerce",
+        "applications": ["Online Shop", "Marketplace", "E-Commerce", "Zakat Services", "Laundry", "Credits and PPOB (Payment Point Online Banking)"],
+        "price": {
+          "web": {
+            "min": 5,
+            "max": 25
+          },
+          "android": {
+            "min": 5,
+            "max": 30
           }
-        ]
-      }
-    ],
-    "android_standard": [
+        }
+      },
       {
-        "fake_price": "6,599,000,-",
-        "real_price": "5,999,000,-",
-        "benefit": [
-          {
-            "usability": "~14 days work duration estimation",
-            "tech": "For attendance, e-commerce (online shop), LMS, MIS, POS, online service order"
+        "name": "Tool System",
+        "applications": ["Point of Sales", "Human Resources Information System", "Management System", "Payment", "Assesment", "Information System (Pharmacy, Workshop, Mosque, etc)", "Digital Schools / Islamic Boarding Schools", "Company Attendance", "Restaurant Cashier", "Company Financial Management"],
+        "price": {
+          "web": {
+            "min": 5,
+            "max": 30
+          },
+          "android": {
+            "min": 5,
+            "max": 40
           }
-        ]
-      }
-    ],
-    "android_premium": [
+        }
+      },
       {
-        "fake_price": "13,199,000,-",
-        "real_price": "11,999,000,-",
-        "benefit": [
-          {
-            "usability": "Manual book",
-            "tech": "Source code",
-            "pages": "Deploy to Play Store",
-            "time": "~28 days work duration estimation",
-            "recommend": "For e-commerce (online shop), LMS, MIS, POS, HRIS, online service order, ERP, hotel/travel booking"
+        "name": "Travel & Local",
+        "applications": ["Travel", "Transportation Tracker", "Logistic", "Delivery", "Food Marketplace App", "Booking (Buildings, Studios, Travel Transportation, etc)"],
+        "price": {
+          "web": {
+            "min": 7,
+            "max": 35
+          },
+          "android": {
+            "min": 7,
+            "max": 50
           }
-        ]
+        }
+      },
+      {
+        "name": "Finance",
+        "applications": ["Investment App", "Game Top-Up", "Donation", "Online Savings and Loans"],
+        "price": {
+          "web": {
+            "min": 7,
+            "max": 35
+          },
+          "android": {
+            "min": 7,
+            "max": 50
+          }
+        }
+      },
+      {
+        "name": "Health / Fitness / Medical",
+        "applications": ["Online Consultation", "Health Tracker", "Gym Membership", "Medical Record"],
+        "price": {
+          "web": {
+            "min": 7,
+            "max": 30
+          },
+          "android": {
+            "min": 7,
+            "max": 40
+          }
+        }
       }
     ]
   },
   "services": {
-    "title": "Our Services",
-    "subtitle_website": "We accept discussions for any type of your projects.",
-    "subtitle_second": "Look at What we’ve done",
+    "latest_service":{
+      "title":"Our Latest Project",
+      "description":"Various innovative solutions we have delivered. Our portfolio reflects our commitment to providing modern technology solutions that meet the needs of our clients.",
+      "cta_text":"Explore More",
+      "website":  {
+        "id": 1,
+        "title": "E-Commerce",
+        "title_second": "Bunda Bakery",
+        "images": "/images/team/bunda_bakery.png",
+        "timeline_text": "Starting from",
+        "price_text": "Price: starting from Rp",
+        "timeline": "1 month",
+        "subtitle_second": "Our Portfolio",
+        "price": "3,000,000,-",
+        "description": "Order Cakes & Cookies Easily in Your Hand",
+        "image_modal": "/images/team/commerce.png",
+        "long_desc": "A bakery shop that reaches more customers through modern web. Enjoy Indonesian cakes & cookies through digital discovery. Get your favorite taste easily!",
+        "problem": "A bakery shop that wants to expand their market, as well as provide a better customer experience to increase business sales.",
+        "solution": "We create a website that showcases products 24/7, provides comprehensive information to customers, and automates the ordering and payment process.",
+        "tech_stack": "Vite, React, Bootstrap"
+      }
+    },
+    "detail_service":{    
+    "title": "Projects",
+    "description": "Each project reflects our ability to deliver the latest and innovative technological solutions for our clients. We always strive to deliver the best results and meet our customers' expectations.",
     "website": [
       {
         "id": 1,
@@ -327,7 +309,7 @@
         "solution": "Our solution comes in the form of a website that simplifies the selection and tracking of logistics deliveries efficiently.",
         "tech_stack": "Laravel, Postman API, PHP, midtrans"
       }
-    ],
+    ]},
     "android": [
       {
         "id": 1,
@@ -476,27 +458,23 @@
     ]
   },
   "testimonial": {
-    "title": "Customer Love: What People Are Saying",
-    "material": [
-      {
-        "content": "“ Very cool of anything has been done, exceeded my expectations. Has a fast progress in delivering the APIs, and until now the result is still safe when the API is consumed.“",
-        "name": "Moch. Iskandar Zulqornaen",
-        "job": "Product Owner of Hyponic"
-      },
-      {
-        "content": "“He worked incredibly fast and professionally! The results were amazing, and they also helped fix my web hosting issues. I'm very satisfied with their service! Highly recommended! “",
-        "name": "Ayu Nurrahima Firdausi",
-        "job": "Student"
-      },
-      {
-        "content": "“Dicky is an impressive frontend developer, collaborating well with designers. He excels in precision, replicating designs across devices. Reliable and detail-oriented, I recommend him for transforming designs into functional products.“",
-        "name": "Victor",
-        "job": "UI/UX Designer"
-      },
+    "title": "What People Are Saying",
+    "desc": "Positive experiences and feedback from our satisfied clients. It is a reflection of our dedication to providing high-quality services and effective solutions."
+,    "material": [
       {
         "content": "“Our online store's design is simple and structured, making it easy for customers to find products effortlessly. An intuitive purchasing process and clear store information significantly enhance the shopping experience.“",
         "name": "M. Dedi Iswantoro",
         "job": "Owner of Bunda Bakery"
+      },
+      {
+        "content": "“I am very satisfied with the mountler website! The design is consistent and the color blending is very good. The features run smoothly, and I am confident that its implementation will be perfect and capable of handling data well and preventing errors when accessed by many people.“",
+        "name": "Megawati Aswiya Putri",
+        "job": "Mountler User"
+      },
+      {
+        "content": "“Proses pendaftaran untuk menjadi relawan sekarang lebih tertata dan sesuai. Kami tidak lagi menggunakan formulir Google (gform). Hal Ini telah sangat membantu dalam meringankan pekerjaan Volunteer Manager (VM) dalam merangkum data relawan.“",
+        "name": "Rr.Nabila Elaine",
+        "job": "User Involuntir"
       }
     ]
   },
