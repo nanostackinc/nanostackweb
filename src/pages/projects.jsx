@@ -44,7 +44,7 @@ const Projects=()=>{
 
   const handleModal = (item, modalStatus) => {
     setItem(item);
-    console.log(modalStatus);
+    // console.log(modalStatus);
     setStatus(modalStatus);
   };
   const handleCloseModal = () => {
@@ -55,7 +55,7 @@ const Projects=()=>{
     setHref(link)
     
   }
-  console.log(landingPageData.services)
+  // console.log(landingPageData.services)
 return(
     <>
       <div

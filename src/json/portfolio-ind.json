@@ -127,7 +127,11 @@
         "/images/icon/tech/mysql-original-wordmark.svg",
         "/images/icon/tech/firebase-original.svg"
       ],
-      "testimonial": null
+      "testimonial":{
+        "content": "“Proses pendaftaran untuk menjadi relawan sekarang lebih tertata dan sesuai. Kami tidak lagi menggunakan formulir Google (gform). Hal Ini telah sangat membantu dalam meringankan pekerjaan Volunteer Manager (VM) dalam merangkum data relawan.“",
+        "name": "Rr.Nabila Elaine",
+        "job": "User Involuntir"
+      }
     },
     {
       "id": 5,

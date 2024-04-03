@@ -26,7 +26,7 @@
     "title": "Our Latest project",
     "description": "Various innovative solutions we have delivered. Our portfolio reflects our commitment to providing modern technology solutions that meet the needs of our clients.",
     "item": {
-      "title": "Bunda Bakery Shop",
+      "title": "Bunda Bakery",
       "category": "E-Commerce",
       "image": " /images/about.png"
     }
@@ -137,7 +137,7 @@
       "website":  {
         "id": 1,
         "title": "E-Commerce",
-        "title_second": "Bunda Bakery Website",
+        "title_second": "Bunda Bakery",
         "images": "/images/team/bunda_bakery.png",
         "timeline_text": "Starting from",
         "price_text": "Price: starting from Rp",
@@ -472,9 +472,9 @@
         "job": "Mountler User"
       },
       {
-        "content": "“I am very satisfied with the mountler website! The design is consistent and the color blending is very good. The features run smoothly, and I am confident that its implementation will be perfect and capable of handling data well and preventing errors when accessed by many people.“",
-        "name": "Megawati Aswiya Putri",
-        "job": "Mountler User"
+        "content": "“Proses pendaftaran untuk menjadi relawan sekarang lebih tertata dan sesuai. Kami tidak lagi menggunakan formulir Google (gform). Hal Ini telah sangat membantu dalam meringankan pekerjaan Volunteer Manager (VM) dalam merangkum data relawan.“",
+        "name": "Rr.Nabila Elaine",
+        "job": "User Involuntir"
       }
     ]
   },

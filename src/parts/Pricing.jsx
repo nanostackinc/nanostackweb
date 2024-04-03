@@ -125,7 +125,7 @@ const Pricing = ({section,data}) => {
      
     },
   ];
-  console.log(data.categories)
+  // console.log(data.categories)
   return (
     <section id={section} className='my-32'>
       <div style={{ gap: 16 }}>

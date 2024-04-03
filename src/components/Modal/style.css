@@ -127,12 +127,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 24px;
     /* background: #FFF; */
-    outline: 0;
-    margin: 0px auto;
-    scrollbar-width: thin; /* Untuk Firefox */
-    scrollbar-gutter: 20px; /* Hanya berlaku di Firefox */
-    scrollbar-color: #555 #ddd; /* Hanya berlaku di Firefox */
-    scroll-behavior: smooth;
+  
 }
 
 
@@ -170,6 +165,7 @@
     flex-direction: column;
     gap: 64px;
     flex-grow: 1;
+   
     /* Memastikan elemen tetap di tengah */
 }
 
@@ -214,6 +210,7 @@
 
 .modal-container::-webkit-scrollbar {
     width: 8px;
+    display: none;
     /* Lebar scrollbar */
 }
 
@@ -255,6 +252,13 @@
 @media (min-width: 100px) and (max-width:768px) {
     .modal-container {
         width: 90%;
+        outline: 0;
+        margin: 0px auto;
+        scrollbar-width: thin; /* Untuk Firefox */
+        scrollbar-gutter: 20px; /* Hanya berlaku di Firefox */
+        scrollbar-color: #555 #ddd; /* Hanya berlaku di Firefox */
+        scroll-behavior: smooth;
+        overflow-y: scroll;
         /* Ubah lebar modal menjadi lebih kecil */
     }
     .content-tech{

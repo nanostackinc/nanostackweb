@@ -9,7 +9,7 @@ const Services = ({ onChangeModal, data }) => {
   const handleStatus = (index) => {
     setStatus(index);
   };
-  console.log(data)
+  // console.log(data)
   const [modal, setModal] = useState(false);
   const [dataItem, setData] = useState({});
   const handleModalWebsite = (target) => {

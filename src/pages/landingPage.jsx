@@ -40,7 +40,7 @@ function LandingPage() {
 
   const handleModal = (item, modalStatus) => {
     setItem(item);
-    console.log(modalStatus);
+    // console.log(modalStatus);
     setStatus(modalStatus);
   };
   const handleCloseModal = () => {

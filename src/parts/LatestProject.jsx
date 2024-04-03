@@ -2,12 +2,12 @@ import React from 'react'
 import Button from '../components/Button';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 const LatestProject = ({section,data}) => {
-  console.log(data)
+  // console.log(data)
   return (
     <section id={section} style={{ backgroundColor:"#4E96E1" }}>
       <div className="container px-0">
       <div
-        className='latest-project row'>
+        className='latest-project row mx-auto'>
         <div
           className='col-lg-6 text-content-latest-project d-flex flex-column justify-content-center py-auto px-md-5 px-sm-2'>
           <div className='headline-latest-project'>
